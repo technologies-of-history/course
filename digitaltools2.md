@@ -1,35 +1,124 @@
 ---
 layout: page
-title: Making a StoryMap
+title: Showing History
 ---
 
-You’ve already explored [StoryMaps](https://storymap.knightlab.com/) in our recent Digital Lab.
+Now that you've mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you're ready to begin to create digital historical scholarship incorporating other digital tools.
 
-Now, for your first Digital Tools Assignment, you will create your own StoryMaps project in order to express a particular historical and spatial narrative. You may map a historical narrative of your choice, or you may pull from sources we have discussed in class so far. It might be a good idea to choose a historical topic about which you already know a little something, or to begin working with the sources you've selected for your final project. You'll need to think about where you can find images to use within your StoryMap, and the web is a good place to start--especially the digitized resources in Princeton's special collections. Your project should include at least 8 locations, should include relevant short descriptions, should have a clear overarching theme, and should be shareable with others in the class.
+## Step 1: Visit the [Heidelberg Epigraphic Database](https://edh.ub.uni-heidelberg.de/foto/suche)
 
-## Instructions:
+After browsing the examples of surviving Roman epigraphy compiled on the site, choose four to focus on for your second digital tools assignment (these may be the same four you worked with in class). Your post will compare these four examples, describing what each inscription says, where it is found, when it was created, and finally, how each reveals something about the status and function of public writing in Roman society. 
 
-[StoryMaps](https://storymap.knightlab.com/) is a free tool to help you tell stories on the web that highlight the locations of a series of events. It's free to use with a Google drive account (your Princeton account works fine). You simply upload images, or link to images from the web, that you then connect to points on a map. You can make changes to the map schema, fonts, and color and layout. Before beginning your StoryMap, you may want to take a look at the gallery of [examples](https://storymap.knightlab.com/#examples) on the StoryMaps site. When you complete your StoryMap you'll embed your StoryMap into a blog post using Markdown and GitHub, as usual.
-
-As you create your project, you may wish to consider:
-
-- What historical narrative are you trying to express?
-- Which sources did you choose to use and why?
-- What dates and places are essential to your narrative and spreadsheet?
-- What do we learn by seeing this historical narrative unfold in space and time simultaneously?
-- What text or images will be helpful to supplement the results in order to create an engaging visual narrative?
-
-## Instructions for Submission:
-
-Once you've created your StoryMap, it's time to embed it into a post. You've already practiced writing a blog post in Markdown in our first Digital Tools assignment. Now it's time to use those same skills to write up the process of creating your StoryMap. Follow these steps:
-
-1. Create your StoryMap.
-2. Either directly in our GitHub repository in the branch draft-posts or in your text editor create a new Markdown file with the naming conventions we've practiced in your first Digital Tools Assignment (YYYY-MM-DD-Post Title.md).
-3. Write a 4–5 paragraph post answering the questions listed above. Write well and clearly! Think of this as equivalent to a 1-2 page response paper.
-4. Copy the HTML embed code that appears when you "share" your Story Map or TimeMapper.
-5. Paste the HTML embed code into your Markdown file at a point in your writing that makes sense.
-6. Create a **New Branch** in our course repository. Click the arrow to the right of **master** in the branch menu, and in the search box type in the name of the new branch you'll create: **yourname-storymaps**. Click the option that appears that says **Create branch: yourname-storymaps**.
-7. Upload your post into the **_posts** folder of the new branch, **Commit** your changes, and create a **Pull Request** to merge it with the **master** branch of our repository. **Pay attention** and be sure you select the right **head** for your request.
+## Step 2: Create your Google MyMaps
 
 
-Ok, that's it! You've done it!
+
+## Step 3: Create a new blog post
+
+1. Draft a post following our course protocols (create a new branch in **spring-2026** called **lastname-dt2**, navigate to **_posts** and create a new .md file titled **yyyy-mm-dd-your title.md**.) 
+2. Be sure your .md includes the following header:
+
+ ```
+ ---
+ layout: post
+ title: [Your title here]
+ ---
+ ```
+
+3. Draft a 3-4 paragraph post that introduces your four examples of epigraphic inscriptions, including their date, their location, a transcription, and their significance. Reflect on how these surviving examples of public writing shed light on the social fabric and culture of the vast Roman empire. You may wish to think about the distance or time separating some of the inscriptions; or you may wish to reflect on the permanence of this sort of writing; or you may wish to reflect on differences you see in style or content of your inscriptions.
+
+## Step 5: Embed the Mirador IIIF viewer to show your inscriptions
+
+Your blog post should include images of the four inscriptions you've chosen to analyze. To include those images in your post, we're not going to host those images in our site repository, as that would lead to . We're going to embed a IIIF viewer to load the JSON manifests of those images and enable manipulation of the images on our site. The easiest way to do this is to embed a Mirador Viewer in to your blog post by copying the following code into your blog post. 
+
+```
+< html >
+<div style="margin: 2rem 0;">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css">
+  
+  <div id="my-mirador" style="position: relative; height: 600px; width: 100%;"></div>
+  
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <script type="text/javascript">
+  (function() {
+    if (typeof Mirador !== 'undefined') {
+      var mirador = Mirador.viewer({
+        id: "my-mirador",
+        manifests: {
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+        },
+        windows: [
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+        ]
+      });
+    }
+  })();
+</script>
+</div>
+< /html >
+```
+**Important**: Be sure that both the `< html >` and `< /html >` tags at the top and bottom lines of this code are wrapped in double curly brackets like this `{{` and `}}`. This is how the Hugo workflow knows to recognize this as a snippet of html to run. I can't include the double curly brackets in this code for you to copy, because Hugo tries to render the whole thing as html and it breaks the site!
+
+## Step 6: Change out the IIIF Manifests to *Your* Images
+
+1. Each image in the Epigraphic Heidelberg Database includes a link (just below the image viewer) to a IIIF manifest. Click the link, and you'll see a webpage that looks like nothing but Javascript code.
+2. Copy the URL to that webpage with nothing but text. It will end with **...manifest.json**
+3. Paste that URL so that it replaces the first URL within quotations under both `manifests:` and `windows:`. Make sure your URL is bracketed by double quotations, just as you see in the example above.
+4. Continue the process for the next three IIIF manifests, eventually replacing all of the URLS to IIIF manifests in the example above to your own images.
+
+If you've done it correctly, your post will include a viewer that looks like this, with all four of your images visiable.
+
+<html>
+<div style="margin: 2rem 0;">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+  <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css">
+  
+  <div id="my-mirador" style="position: relative; height: 600px; width: 100%;"></div>
+  
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <script type="text/javascript">
+  (function() {
+    if (typeof Mirador !== 'undefined') {
+      var mirador = Mirador.viewer({
+        id: "my-mirador",
+        manifests: {
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+        },
+        windows: [
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+        ]
+      });
+    }
+  })();
+</script>
+</div>
+</html>
+
+
+## Step 6: Embed your Google MyMaps to demonstrate their location
+
+
+## Step 7: Submit your post
+
+1. After you create this Markdown file and fill it with your content, **Commit changes...** to save the file to your branch. Every time you do something in the file, you'll write up a brief description of what you changed and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
+1. Click **spring-2026** to return to the main repository.
+2. Be sure to check and make sure you're in your **lastname-dt1** branch.
+3. In the menu at the top of the page, click **Pull requests**. 
+2. Click the green button **New pull request**. 
+3. You'll now see a gray box at the top that shows you the **base** repository you'll be sending your changes to and the **head** repository, which is yours. NOTE: Be sure that yours is the **head** and the main branch is the **base**.
+4. Name your pull request **LastName_dt2** and then click **Create pull request**.
+
+Ok, that's it! You're done!

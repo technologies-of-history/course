@@ -2,37 +2,38 @@
 layout: default
 ---
 ## Syllabus
-Use the menu at the top left to navigate through the course syllabus, or click these links to view the course [schedule](https://hum-331-princeton.github.io/course/schedule/), details on [assignments](https://hum-331-princeton.github.io/course/assignments/), [course policies](https://hum-331-princeton.github.io/course/policies/), and a link to our course [blog](https://hum-331-princeton.github.io).
+Use the menu at the top left to navigate through the course syllabus, or click these links to view the course [schedule]({{ site.baseurl }}/schedule), details on [assignments]({{ site.baseurl }}/assignments), [course policies]({{ site.baseurl }}/policies), and a link to our course [blog]({{ site.baseurl }}/studentwork).
 
-## About this Course
-![Cuneiform tablet]({{ site.baseurl }}/images/cuneiform.jpg){: width="200px" .left-image} How do the methods, materials, and technologies of human communication shape religion,
-politics, popular culture, and the circulation of knowledge? Can we tie the invention of
-writing to the origins of cities? Would the ‘religions of the book’ have flourished in
-the Middle Ages without the invention of the codex? Is it true that the printing press
-made the Reformation and the Scientific Revolution possible? And did newspapers really
-encourage the Age of Revolutions? We will tackle these questions as we trace the
-history of human communication from its origins in the ancient Near East to its diffusion
-over the World Wide Web.
+### __Course Description__
+![Cuneiform tablet]({{ site.baseurl }}/images/cuneiform.jpg){: width="200px" .left-image} This course will ask how the ways that humans communicate—via inscription, graffito, letter, or Tweet—have the power to affect society and make history. We will explore the history of communications technologies from the invention of writing to the printing press to social media, and each week, we will pair these topics with analysis of a cutting-edge digital archive or project. Students will then learn how to use the “digital tools” reflected in these projects, building the skills necessary to produce their own works of digital historical scholarship.  
 
-In addition to weekly thematic lectures and readings on the history of communication,
-you will try your hands at new digital methods of historical research and archival
-preservation. Together, and with visits from digital humanists working on projects in and around Princeton, we'll examine how our latest revolution in communication--the emergence
-of digital languages, interfaces, and platforms--has transformed how historians and
-archivists preserve and interact with the material evidence of communication in the past.
-
-__The course has multiple goals:__
-1. Students will learn the broad chronology of the history of human communication. Special attention will be given to moments of ‘rupture’ when new methods of communication displaced the old, often inciting broader cultural and societal change.
-2. Close engagement with digital archives will allow students to view and appreciate the material texts of the past.
-3. Students will learn to analyze how digital archives make historical arguments through the representation and presentation of sources. Likewise, students will learn to recognize the limitations of digital archives, both as representations of material objects and as ephemeral—and often fragile—sources in their own right.
-4. Finally, students will gain competency in a variety of “digital tools” which will allow them to communicate their own historical research to a broader public in digital format.
+This course has two interconnected aims: to introduce students to the history of communications technology from the ancient Near East to the modern U.S. and to interrogate how contemporary digital communications technology shapes our study of the creation, circulation, and transmission of historical knowledge. Close engagement with digital archives will allow students to view and appreciate the material texts of the past, but it will also allow students to analyze how digital archives make historical arguments through the representation and presentation of sources. Students will learn about the limitations of digital archives, both as representations of material objects and as ephemeral—and often fragile—sources in their own right, while also developing the digital skills to create their own works of historical scholarship for publication. 
 
 
-### Course Meetings
-Course meetings will alternate between sessions labeled “Lecture/Discussion” and sessions labeled “Digital Humanities Lab.” On “Lecture/Discussion” days, we will read articles or book chapters and watch lectures that relate the history of communications technologies. On these days, we will meet on Zoom for 50 minutes of discussion. Prior to each meeting, students will be expected to complete the readings on the syllabus and watch a pre-recorded lecture from Professor Reynolds. In our Zoom meetings, students should make every effort to contribute to discussion, either via the chat window or in real time conversation. Participation is a critical component of this course.
+### __Course Learning Outcomes__
 
-On “Digital Humanities Lab” days, we will explore digital humanities projects that relate to that week’s readings and lecture. On these days, we will meet on Zoom for the full 80 minutes of class time, and these sessions will often feature guest speakers with specific expertise about the archives or digital methods under study that week. These course sessions will also frequently incorporate “demos” of digital tools which students may then use in their “Digital Tools Assignments” or in their digital final project. Prior to each of these course meetings, students should complete the short “Pre-Lab Assignments” related to that week’s digital archive listed in the syllabus. All Pre-Lab Assignments are due to our course Canvas site by noon on the day of class.
+By the end of the semester, you will:  
+ 
+1. Build historical knowledge:  
+   - Identify the most significant trends and figures within the history of the communications technology.
+   - Connect and synthesize historical examples to develop conclusions about the nature, causes, and consequences of communications “revolutions.” 
+2. Develop digital historical methods:  
+   - Evaluate evidence from primary sources as presented in various digital archives.  
+   - Recognize archives as an interpretive presentation of evidence from the human past, created by historians and archivists in the present. 
+3.	Apply digital historical skills:  
+    - Use digital tools to analyze primary sources and communicate historical knowledge.
+    - Create a piece of digital scholarship that meets accessibility and durability standards as developed by digital humanists.  
+    
 
-### Contact
-Professor Melissa Reynolds [melissa.reynolds@princeton.edu](mailto:melissa.reynolds@princeton.edu)
+### __Course Meetings__
+Our course will meet twice per week: Tuesdays will begin with a short lecture, followed by 
+discussion of secondary scholarship. Thursdays are our “digital lab” days, in which we will 
+discuss a particular digital archive or project relevant to that week's topic, and learn about a particular digital tool and explore its applicability for presenting historical 
+knowledge to a wider public.
 
-Office Hours: Wednesdays from 10:00 - 12:00. Please make an appointment ahead of time on [Wase](https://wase.princeton.edu/princeton/views/pages/makeappt.php?calid=3958).
+### __Contact__
+My preferred method of contact is email: [m.reynolds1(at)tcu.edu](mailto:m.reynolds1@tcu.edu).
+I will do my best to return emails received M-F within 24 hours; emails received after 6 pm
+on Fridays may not receive a response until Monday morning.
+
+Students are also welcome to discuss our course in office hours (T/Th, 2:00 to 3:00 pm), or to schedule an appointment outside of those times.

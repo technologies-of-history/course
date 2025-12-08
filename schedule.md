@@ -4,250 +4,182 @@ title: Schedule
 permalink: /schedule/
 ---
 
-__Lecture/Discussion__: Mondays, 2:00–2:50 pm (with a prerecorded asynchronous lecture)
+__Lecture/Discussion__: Tuesdays, 11:00 am - 12:20 pm 
 
-__Digital Lab__: Wednesdays, 1:30–2:50 pm
+__Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
-## Week 1: Introduction to Digital Humanities
----
-### Feb. 1:	Lecture/Discussion
-Watch Part I and Part II of the lecture, posted on Canvas
-
-#### Pre-Discussion Readings:
-- Eileen Gardiner and Ronald G. Musto, _The Digital Humanities: A Primer for Students and Scholars_, (New York: Cambridge University Press, 2015). pp. 1–14. [posted on canvas]
-- Ann Burdick et al., “A Short Guide to Digital_Humanities,” in _Digital_Humanities_ (Cambridge, 2012). [posted on canvas]
-
-### Feb. 3:	Digital Humanities Lab (Guest: Special Collections Librarian)
-#### Pre-lab Assignments:
-- Please complete this [Google form](https://forms.gle/hkeoLkaY8Muya4pV6) so the instructors can gauge archival and digital expertise.
-- Register for a [GitHub account](http://www.github.com) if you don’t already have one; if you’ve never worked in GitHub before, complete the [Hello World](https://guides.github.com/activities/hello-world/) intro lesson to learn basic functionality of GitHub.
-- Visit [Digital PUL](https://dpul.princeton.edu/), Princeton Library’s digital repository, and spend some time looking around at the various kinds of sources available in digital facsimile
-- In-class discussion with Emma Sarconi from Special Collections to discuss the variety of digital sources available to you via Firestone Library’s digital collections and discussion of the final project
-
-## Week 2: The ABCs of Philosophy
+## Week 1: Introduction to Digital Humanities & Markdown
 ---
 
-### Feb. 8: Lecture/Discussion
-- Watch Part I and Part II of the lecture posted on Canvas
+### Readings
+- Watch this [video](https://youtu.be/Ko6J9v1C9zE?si=8xs3kISEhgabayC2) from BBC4 Radio explaining the Canadian communication theorist Marshall McLuhan's theory: "The medium is the message."
+- Next, watch this [video](https://youtu.be/VsZQMaN5pYc?si=pn23R9OPoRpLxp0o) from the MIT Media Lab explaining how a research team used big data scraped from Wikipedia to test McLuhan's theory.
 
-#### Pre-Discussion Readings:
-- Jack Goody and Ian Watt, “The Consequences of Literacy,” _Comparative Studies in Society and History_ 5 (April 1963), pp. 304–332. (You don’t need to read section IV.) [posted on canvas]
-- Marc Van De Mieroop, _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. Preface, Ch 1. and Ch 9. [posted on canvas]
+### Digital Assignments
+- Intro to Markdown
+- Complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
 
-### Feb. 10: Digital Humanities Lab
-#### Pre-Lab Assignment:
+
+## Week 2: Special Collections and GitHub
+---
+### Readings
+- Special Collections visit to Burnett Library
+
+### Digital Assignments
+- Intro to GitHub
+- Register for a [GitHub account](http://www.github.com) if you don’t already have one.
+- In class, we'll complete the [Introduction to GitHub](https://github.cos/introduction-to-github) lesson to learn basic functionality of GitHub.
+- Introduction to [Digital Tools Assignment 1]( {{< relref "/docs/assignments/digitaltools1.md" >}} )
+
+## Week 3: The ABCs of Philosophy
+---
+
+### Readings
+- Jack Goody and Ian Watt, “The Consequences of Literacy,” _Comparative Studies in Society and History_ 5 (April 1963), pp. 311–332. [Available on D2L]
+- Marc Van De Mieroop, _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. 3–31. [Available on D2L]
+
+### Digital Assignments
 - Visit the [Cuneiform Digital Library](https://cdli.ucla.edu/) and view a cuneiform tablet from any one of the digitized tablets accessible on the site. A good way to find a tablet that’s been translated is to run a “Full Search” and type a single word into the “Translation” search box. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet.
 - Visit [Machine Translation and Automated Analyses of Cuneiform Languages](https://cdli-gh.github.io/mtaac/) and read their About page. Think about what it means to make a computer read ‘human’ languages, and what it means for humans to try to ‘read’ computer languages.
-- Complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
-- Post to our Canvas Discussion
-
-__Introduction to [Digital Tools Assignment #1: Markdown Starter Post]({{ site.baseurl }}/digitaltools1)__
 
 
-## Week 3: Romans and their Capitals
+## Week 4: Romans and their Capitals
 ---
 
-### Feb. 15: Lecture/Discussion
+### Readings
+- Alison E. Cooley and Edward Bispham, "Inscriptions" from the *Edinburgh Companion to Ancient Greece and Rome* (Edinburgh, 2010), 262–274 [available on D2L].
+- Rebecca R. Benefiel,  "Urban and Suburban Attitudes to Writing on Walls? Pompei and Environs," from *Writing Matters* (De Gruyter, 2017), 353–374. [Available on D2L]
 
-**Digital Tools Assignment 1 due February 15 at 11:00 pm EST**
-Watch Part I and Part II of the lecture, posted on Canvas
 
-#### Pre-Discussion Readings:
-- Stephanie Ann Frampton, _Empire of Letters: Writing in Roman Literature and Thought from Lucretius to Ovid_ (Oxford, 2018), pp. 1–12, 33–55. [posted on canvas]
-- Rebecca R. Benefiel, “Urban and Suburban Attitudes to Writing on Walls? Pompeii and Environs,” ed. I. Berti, K. Bolle, F. Opdenhoff, and F. Stroth, Berlin: De Gruyter (2017), 353–373. [posted on canvas]
+### Digital Assignments
+- Visit the [Ancient Graffiti Project](https://www.ancientgraffiti.org/Graffiti/) and browse examples of graffiti recovered on the walls of Pompei. Choose two to discuss in class.
+- Visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class. You may want to search the [photographic database](https://edh.ub.uni-heidelberg.de/foto/suche) by country or date, but be sure that each inscription that you choose is available to view in a decent photograph.
+- Introduction to [Google MyMaps](https://mymaps.google.com)
+- Introduction to [Digital Tools Assignment 2]( {{< relref "/docs/assignments/digitaltools2.md" >}} )
 
-### Feb. 17: Digital Humanities Lab
-__Special Guest:__ Matthew Larsen, Cotsen Postdoctoral Fellow in the Society of Fellows and Lecturer in Religion, who will discuss his project to digitally recreate carceral spaces in the ancient world
 
-#### Pre-Lab Assignment:
-- Read Rebecca Benefiel et. al, “The Herculaneum Graffiti Project: Initial Field Season, 2014,” [The Journal of Fasti Online](http://www.fastionline.org/docs/FOLDER-it-2016-361.pdf). FOLD&R 361 (2016), 1–23.
-- Visit [_The Ancient Graffiti Project_](http://www.ancientgraffiti.org) website, read the About page, and browse some of the graffiti at Herculaneum with Rebecca Benefiel’s “Urban and Suburban Attitudes Towards Writing on Walls” in mind. Select a graffito to discuss.
-- Post to our Canvas Discussion
-
-__Introduction to [Digital Tools Assignment #2: Story Maps]({{ site.baseurl }}/digitaltools2)__
-
-## Week 4: Sacred Books for Sacred Stories
+## Week 5: Sacred Books for Sacred Stories
 ---
-### Feb. 22: Lecture/Discussion
-Watch Part I and Part II of the lecture posted on Canvas
 
-#### Pre-Discussion Readings:
-- Christopher de Hamel, _Meetings with Remarkable Manuscripts: Twelve Journeys into the Medieval World_ (New York, 2016), pp. 1–7, 52–94. [posted on canvas]
-- Alain George, “Calligraphy, Colour and Light in the Blue Qur'an,” _Journal of Qur’anic Studies_ 11, no. 1 (April 2009): ONLY 95–108. [posted on canvas]
+### Readings
+- Christopher de Hamel, _Meetings with Remarkable Manuscripts: Twelve Journeys into the Medieval World_ (New York, 2016), pp. 52–94. [posted on canvas]
 - OPTIONAL: View the [short series of videos](https://youtu.be/aEPpURAIsW4) demonstrating the preparation of a medieval manuscript from the British Library, linked to our Canvas site
 
-### Feb. 24: Digital Humanities Lab
-__Special Guests:__ Will Noel, John T. Maltsberger III ‘55 Associate University Librarian for Special Collections and Dr. Shirin Fozi, Associate Professor of Medieval European Art and Architecture at the University of Pittsburgh
-
-#### Pre-Lab Assignment:
-- Visit the digital exhibition [A Nostalgic Filter](https://scalar.usc.edu/works/a-nostalgic-filter/index) and click through the exhibit, paying special attention to the “Golden Books” virtual gallery. You’ll want to watch the videos, look closely at the images, and read the gallery notes.
-- Read about International Image Interoperability Framework, or [IIIF](https://iiif.io/about/). Then visit the webpage for [Project Mirador](https://mirador-dev.netlify.app/__tests__/integration/mirador/). On the Mirador website, try a live demo.
-- Watch Dr. Noel’s TEDTalk, [“Revealing the Lost Codex of Archimedes”](https://www.ted.com/talks/william_noel_revealing_the_lost_codex_of_archimedes?language=en)
+### Digital Assignments
+- Visit the British Library and Bibliothèque nationale de France's [__Polonsky Project__](https://manuscrits-france-angleterre.org/polonsky/en/content/themes) and select one illuminated liturgical or biblical manuscript to work with in class.
+- Introduction to International Image Interoperability Framework, or [IIIF](https://iiif.io/about/), as well as its necessity for the [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/realised-iiif-technology)
+- Introduction to [IIIF Viewers](https://iiif.io/get-started/iiif-viewers/)
 
 
-## Week 5: Writing to Rule
+## Week 6: Writing to Rule
 ---
-### March 1: Lecture/Discussion
-Watch Part I and Part II of the lecture, posted on Canvas
 
-#### Pre-Discussion Readings:
-- M. T. Clanchy, _From Memory to Written Record, 1066–1307_ (New York, 2012), pp. 44–73, 294–317. [posted on canvas]
-- Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 1–8, 247–273. [posted on canvas]
+### Readings
+- M. T. Clanchy, _From Memory to Written Record, 1066–1307_ (New York, 2012), pp. 44–73.
+- Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 247–273.
 
-### March 3: Digital Humanities Lab
-__Special Guest:__ Marina Rustow, Khedouri A. Zillkha Professor of Jewish Civilization in the Near East; Professor of Near Eastern Studies and History
-
-#### Pre-Lab Assignment:
+### Digital Assignments
 - Visit the [Princeton Geniza Project](https://geniza.princeton.edu/) and explore the project by searching the Project’s Digital Document Library and JTS Image Collection.
-- Visit the crowd-sourced transcription platform [From the Page](https://fromthepage.com/) and look through this [manuscript](https://fromthepage.com/upenn/kislak-center-recipe-books/arts-and-sciences-manuscript-chemistry). We’ll try to transcribe one of the recipes from this manuscript together as a class.
-- Post to our Canvas Discussion
+- Visit the crowd-sourced transcription platform [From the Page](https://fromthepage.com/). 
+- Introduction to Digital Tools Assignment #3
 
-## Week 6: Writing Embodied Knowledge
+## Week 7: Writing Embodied Knowledge
 ---
-**Digital Tools Assignment 2 due March 8 at 11:00 pm EST**
 
-### March 8: Lecture/Discussion
-Watch Part I and Part II of the lecture, posted on Canvas
+### Readings
+- Pamela H. Smith, “In the Workshop of History: Making, Writing, and Meaning.” _West 86th_ 19, no. 1 (2012): 4–31.
+- Introductory essay from [Secrets of Craft and Nature in Renaissance France](https://edition640.makingandknowing.org/)
 
-#### Pre-Discussion Readings:
-- Pamela O. Long, _Openness, Secrecy, Authorship: Technical Arts and the Culture of Knowledge from Antiquity to the Renaissance_ (Baltimore, 2001), pp. 102–142. [posted on canvas]
-- Pamela H. Smith, “In the Workshop of History: Making, Writing, and Meaning.” _West 86th_ 19, no. 1 (2012): 4–31. [posted on canvas]
-
-### March 10: Digital Humanities Lab
-#### Pre-Lab Assignment:
- - Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
-- Click through the Women Writers Project’s [Overview of Text Encoding](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/overview/overview_newer_tutorial_00.xhtml) and [Basic Tagging tutorials](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
-- Visit the [Secrets of Craft and Nature in Renaissance France](https://edition640.makingandknowing.org/) from the Making and Knowing Project. Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe and view the digital facsimile of the manuscript page.
-- Post on our Canvas discussion.
-
-__Introduction to [Digital Tools Assignment #3: XML and TEI]({{ site.baseurl }}/digitaltools3)__
+### Digital Assignments
+- Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
+- Visit the [Secrets of Craft and Nature in Renaissance France](https://edition640.makingandknowing.org/) from the Making and Knowing Project. 
+- Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe and view the digital facsimile of the manuscript page.
 
 
-## March 15 and 17: Spring Break NO CLASS
-
-## Week 7: The Print Revolution
+## Week 8: The Print Revolution
 ---
-### March 22: Lecture/Discussion
-Watch Part I and Part II of the lecture, posted on Canvas
 
-#### Pre-discussion readings:
-- Anthony Grafton, “Humanists with Inky Fingers,” in _Inky Fingers: The Making of Books in Early Modern Europe_ (Cambridge: Harvard UP, 2020), pp. 29–55. [posted on canvas]
-- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [posted on canvas]
+### Readings
+- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192.
+- Elizabeth Eisenstein, _The Print Revolution_, TBD
 
-### March 24: Digital Humanities Lab
-__Special Guest:__ Professor Tony Grafton, Henry Putnam University Professor of History
+### Digital Assignments
+- View Thomas Tusser, Points of Good husbandrie (STC 24380) [The Archaeology of Reading](https://archaeologyofreading.org/)
+- Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
 
-#### Pre-Lab Assignment:
-- View Thomas Tusser, Points of Good husbandrie (STC 24380) on [Early English Books Online](http://gateway.proquest.com/openurl?ctx_ver=Z39.88-2003&res_id=xri:eebo&rft_id=)
-- View the same work on [The Archaeology of Reading](https://archaeologyofreading.org/)
-- Post to our Canvas Discussion
 
-## Week 8: Technologies of Empire: Maps and Ethnography
+## Week 9: Maps & Ethnography
 ---
-**Digital Tools Assignment 2 due March 29 at 11:00 pm**
+### Readings
+- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, Its Sources and Meanings,” _Imago Mundi_ 50 (1999): 11–33.
 
-### March 29: Lecture/Discussion
-Watch Part I and Part II of the lecture, posted on Canvas
+### Digital Assignments
+- Explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
+- Read the _Programming Historian_'s [Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper) and [Displaying a Georeferenced Map in Story Map JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
 
-#### Pre-Discussion readings:
-- Daniela Bleichmar, “Painting the Aztec Past in Early Colonial Mexico: Translation and Knowledge Production in the Codex Mendoza,” _Renaissance Quarterly_ 72 (Winter 2019): 1362–1415. [posted on canvas]
-- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, Its Sources and Meanings,” _Imago Mundi_ 50 (1999): 11–33. [posted on canvas]
-
-### March 31: Digital Humanities Lab
-#### Pre-Lab Assignment:
-- Visit [The Map of Early Modern London](https://mapoflondon.uvic.ca/index.htm), explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
-- Read the lessons on [“Geocoding Part I: Introduction to Geocoding”](https://schoolofdata.org/2013/02/19/geocoding-part-i-introduction-to-geocoding/) and [“Geocoding Part II: Geocoding Data in a Google Docs Spreadsheet”](https://schoolofdata.org/2013/02/19/geocoding-part-ii-geocoding-data-in-a-google-docs-spreadsheet/) on School of Data
-- Read the tutorial, [Getting Ready for our Final Project]({{ site.baseurl }}/gettingreadyfinalproject), and complete the first section before class
-
-__Introduction to your [Final Project]({{ site.baseurl }}/finalproject)__
-
-
-## Week 9: The Enlightened Correspondent
+## Week 10: Maps & Navigation
 ---
-### April 5: Lecture/Discussion
-Watch the Week 9 Lecture, posted on Canvas
 
-#### Pre-discussion readings:
-- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21. [posted on canvas]
-- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), pp. 1–15, 133–57. [posted on canvas]
+### Readings
+- Sara Caputo, _Tracks on the Ocean_ (Chicago, 2024), pp. TBD.
 
-### April 7: Digital Humanities Lab
-__Special Guest:__ Kristen Starkowski on her work with Cytoscape
+### Digital Assignments
+- Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
+- Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
+- Introduction to Digital Tools Assignment #4
 
-#### Pre-Lab Assignment:
-- Visit [Networking the Republic of Letters, 1550–1750](http://www.culturesofknowledge.org) and read about the problems of [networking correspondence](http://www.culturesofknowledge.org/?page_id=28) (you can also read about the [New Metadata](http://www.culturesofknowledge.org/?page_id=86) and [New Features](http://www.culturesofknowledge.org/?page_id=88) added to the project).
-- Next, visit [EMLO](http://emlo.bodleian.ox.ac.uk/), and try to find your favorite Humanist or Enlightenment thinker’s letters with the traditional [database search function](http://emlo.bodleian.ox.ac.uk/home). Then Browse the catalogue by [People](http://emlo.bodleian.ox.ac.uk/browse/people) and find a woman letter writer or recipient. View the graphs and visualizations of their correspondence by clicking on the author’s name. Finally, take a look at the EMLO [Collections](http://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=480) and take a look at the graphic search function by Geography and Chronology.
-- Cytoscape is an open source platform that allows user to create network visualizations. Click through the [Cytoscape tutorial](https://cytoscape.org/cytoscape-tutorials/presentations/network-visualization.html#/5) to learn more about its features and capabilities and be sure to download the software before class on Wednesday.
-- Post to our Canvas discussion
-
-__Introduction to [Digital Tools Assignment #4: Cytoscape]({{ site.baseurl }}/digitaltools4)__
-
-## Week 10: Newspapers in the Age of Revolutions
+## Week 11: The Enlightened Correspondent
 ---
-### April 12: Lecture/Discussion
-Watch the lecture “Newspapers and Nations” posted to Canvas
 
-#### Pre-discussion readings:
+### Readings
+- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21.
+
+### Digital Assignments
+- Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
+- Visit [EMLO](http://emlo.bodleian.ox.ac.uk/), and try to find your favorite Humanist or Enlightenment thinker’s letters with the traditional [database search function](http://emlo.bodleian.ox.ac.uk/home). 
+- Then Browse the catalogue by [People](http://emlo.bodleian.ox.ac.uk/browse/people) and find a woman letter writer or recipient. View the graphs and visualizations of their correspondence by clicking on the author’s name. 
+- Introduction to Digital Tools Assignnment #5
+
+
+## Week 12: Newspapers in the Age of Revolutions
+---
+
+### Readings
 - Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [posted on canvas]
-- Marcus Daniel, “John Fenno and the Constitution of a National Character,” in _Scandal and Civility: Journalism and the Birth of American Democracy_ (Oxford: Oxford University Press, 2010), pp. 19–61. [posted on cavas]
 
-### April 14: Digital Humanities Lab
-__Special Guest:__ Kristen Starkowski on [Voyant Tools](https://voyant-tools.org/) and lexical analysis
-
-#### Pre-Lab Assignment:
-- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the names of any of the historical figures cited in our readings. Choose one article from a newspaper mentioned or related to our secondary readings this week and read it. We will work with the text of this article in class on Wednesday.
+### Digital Assignments
+- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the names of any of the historical figures cited in our Readings. Choose one article from a newspaper mentioned or related to our secondary Readings this week and read it. We will work with the text of this article in class on Wednesday.
 - Visit the [Google Books Ngram Viewer](https://books.google.com/ngrams/) website. This tool allows users to chart word usage over time. Choose three or four seemingly random words or names drawn from the newspaper article you selected from Chronicling America and enter them into the search box, separated by commas. Take a screenshot of the graph generated, and head to our Canvas discussion page.
-- Post to our Canvas discussion
+- [Voyant Tools](https://voyant-tools.org/) and lexical analysisPost to our Canvas discussion
 
 
-## Week 11: Mass Media and Politics
+## Week 13: Mass Media and Politics
 ---
-**Digital Tools Assignment 4 due April 19 at 5 pm**
 
-### April 19: Lecture/Discussion
-In lieu of a pre-recorded lecture, listen to the podcast, [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/), from American RadioWorks
+### Readings
+- Listen to the podcast, [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/), from American RadioWorks
+- Listen to Paul Robeson sing [“Ballad for Americans,”](https://music.youtube.com/watch?v=LHCQGQdeL68&feature=share) broadcast on the radio show Pursuit of Happiness in 1940D. M. Ryfe, “Franklin Roosevelt and the Fireside Chats.” _Journal of Communication_ 49, no. 4 (1999): 80–103. [posted on canvas]
 
-Listen to Paul Robeson sing [“Ballad for Americans,”](https://music.youtube.com/watch?v=LHCQGQdeL68&feature=share) broadcast on the radio show Pursuit of Happiness in 1940
-
-#### Pre-Discussion Readings:
-- D. M. Ryfe, “Franklin Roosevelt and the Fireside Chats.” _Journal of Communication_ 49, no. 4 (1999): 80–103. [posted on canvas]
-- Kate Lacey “Radio in the Great Depression: Promotional Culture, Public Service, and Propaganda,” in Michele Hilmes and Jason Loviglio, eds., _Radio Reader: Essays in the Cultural History of Radio_ (New York: Routledge, 2002), pp. 21–40. [posted on canvas]
-- Judith E. Smith, “Radio’s ‘Cultural Front,’ 1938–1948,” in _Radio Reader: Essays in the Cultural History of Radio_, pp. 209–230. [posted on canvas]
-
-### April 21: Digital Humanities Lab
-__Special Guest:__ Nick Budak, Developer at the Center for Digital Humanities, Princeton
-
-#### Pre-Lab assignment:
+### Digital Assignments
 - Visit [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/) site and listen to FDR’s fireside chat on “The WPA and Social Security,” from April 28, 1935
-- Check out these web platforms that allow you to create sounds for your digital projects.
-1. For free podcast hosting, Spotify has a service called [Anchor](https://anchor.fm/?utm_campaign=SlashApp). Once your podcast is hosted with them, you can easily embed it into your site with HTML embed code.
-2. For studio-level audio creation and manipulation, Spotify has a service called [Soundtrap](https://www.soundtrap.com/). If you’re interested, I can get us a free trial for 30 days with my Princeton email.
-3. For music composition and annotation (with sheet music), there’s a free online service called [Flat.io](https://flat.io/).
+- Read the _Programming Historian_'s [Editing Audio with Audacity](https://programminghistorian.org/en/lessons/editing-audio-with-audacity)
 
-- Post to our canvas discussion
 
-## Week 12: Democracy in the Digital Age
+## Week 14: Democracy in the Digital Age
 ---
-### April 26: Lecture/Discussion AND Digital Humanities Lab
-There is __NO PRERECORDED LECTURE__ this week. We will meet for the full class time, from 1:30–2:50 pm to discuss the readings and our digital archive.
 
-#### Pre-class Readings:
-- Habibul Haque Khondker, “Role of the New Media in the Arab Spring,” _Globalizations_ 8 (October 2011): 675–679. [posted on canvas]
-- Nathaniel Persily, “Can Democracy Survive the Internet?” _Journal of Democracy_ 28 (April 2017): 63–76. [posted on canvas]
-- Matthew Hindman, _The Internet Trap: How the Digital Economy Builds Monopolies and Undermines Democracy_ (Princeton: Princeton University Press, 2018), Ch. 8. [posted on canvas]
+### Readings
+- Zachary Gershberg and Sean Illing, _The Paradox of Democracy: Free Speech, Open Media, and Perilous Persuasion_ (Chicago: University of Chicago Press, 2022), TBD.
 
-#### Pre-Lab assignments:
+### Digital Assignments
 - Read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
 - Visit [TweetSets](https://tweetsets.library.gwu.edu/) from George Washington University. Select an election-related dataset (from 2016 or 2018) and run a few searches through the set. Depending on what you search for (i.e. “electionfraud” or Russia, for example) you’ll be able to see the top accounts that used your search terms and the top websites linked to that language. Pay particular attention to the websites, and notice how many of them are social media posts.
-- No Canvas discussion post this week!
 
-## Reading Week (April 28–May 4)
+## Week 15: History in the Age of AI
 ---
-Office hours meetings with Professor Reynolds and Kristen Starkowski to consult on final digital projects & DH response paper
 
-## May 10: Dean’s Date
-__Final Response paper due at 11:59 pm__
-__Final projects due to GitHub repository at 11:59 pm__
+### Readings
+- Bill Wasik, ["A.I. is Poised to Rewrite History. Literally."](https://www.nytimes.com/2025/06/16/magazine/ai-history-historians-scholarship.html) _The New York Times_ June 16, 2025 
 
-## May 6 - May 14: Final Exam Week
-You have three hours to take the exam and you may choose when to do so anytime over the course of exam week. The exam will go live at 12:01 am on May 6 and will remain accessible until 11:59 pm on May 14.
+### Digital Assignments
+- Use Google's [NotebookLM](https://notebooklm.google.com) to brainstorm ideas for your final paper
