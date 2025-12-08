@@ -29,7 +29,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Intro to GitHub
 - Register for a [GitHub account](http://www.github.com) if you don’t already have one.
 - In class, we'll complete the [Introduction to GitHub](https://github.cos/introduction-to-github) lesson to learn basic functionality of GitHub.
-- Introduction to [Digital Tools Assignment 1]( {{< relref "/docs/assignments/digitaltools1.md" >}} )
+- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/docs/assignments/digitaltools1.md)
 
 ## Week 3: The ABCs of Philosophy
 ---
@@ -55,7 +55,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Visit the [Ancient Graffiti Project](https://www.ancientgraffiti.org/Graffiti/) and browse examples of graffiti recovered on the walls of Pompei. Choose two to discuss in class.
 - Visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class. You may want to search the [photographic database](https://edh.ub.uni-heidelberg.de/foto/suche) by country or date, but be sure that each inscription that you choose is available to view in a decent photograph.
 - Introduction to [Google MyMaps](https://mymaps.google.com)
-- Introduction to [Digital Tools Assignment 2]( {{< relref "/docs/assignments/digitaltools2.md" >}} )
+- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/docs/assignments/digitaltools2.md)
 
 
 ## Week 5: Sacred Books for Sacred Stories

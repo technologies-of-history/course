@@ -64,7 +64,6 @@ Your blog post should include images of the four inscriptions you've chosen to a
 </div>
 < /html >
 ```
-**Important**: Be sure that both the `< html >` and `< /html >` tags at the top and bottom lines of this code are wrapped in double curly brackets like this `{{` and `}}`. This is how the Hugo workflow knows to recognize this as a snippet of html to run. I can't include the double curly brackets in this code for you to copy, because Hugo tries to render the whole thing as html and it breaks the site!
 
 ## Step 6: Change out the IIIF Manifests to *Your* Images
 

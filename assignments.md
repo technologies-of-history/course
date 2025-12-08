@@ -4,19 +4,16 @@ title: Assignments
 permalink: /assignments/
 ---
 
-All digital tools assignments will be submitted via a pull request in our course GitHub repository. Your final response paper and in-class reading responses will be submitted to our course D2L.
+## Course Requirements
+Our course will meet twice per week: Tuesdays will begin with a short lecture, followed by discussion of secondary scholarship; Thursdays are our “digital lab” days, in which we will learn about a particular digital tool and explore its applicability for presenting historical knowledge to a wider public. 
 
-| **Assignments** | **Percentage** | 
-| :---- | :----: | 
-| Participation | 15% | 
-| In-Class Reading Responses | 15% | 
-| Digital Tools Assignments: | 55% total |
-| Assignment #1 | 5% | 
-| Assignment #2 | 10% |
-| Assignment #3 | 10% | 
-| Assignment #4 | 15% | 
-| Assignment #5 | 15% | 
-| Final Reflection Paper | 15% | 
+### In-Class Reading Responses
+Students will be expected to complete 30–50 pages of reading of historical scholarship every week. At the instructor’s discretion, students will be asked to respond to these readings in brief in-class writings assignments, which will assess the student’s completion and comprehension of the readings and challenge the student to think critically about their historical arguments. Responses will be graded as Fail/Pass/Excel according to the following criteria:  
+- Fail (50%): The assignment was completed with no evidence of student engagement with the readings.
+- Pass (80%): The assignment was completed, with some evidence of student engagement with the reading.
+- Excel (100%): The assignment was completed, with evidence of considerable student engagement with the reading.  
+
+In-class writing assignments may not be made up. If an assignment is missed due to an excused absence, you will receive an “NG” (No Grade). If an assignment is missed due to an unexcused absence, you will receive a zero. Your lowest grade on these assignments will be dropped at the end of the semester.
 
 ## Digital Tools Assignment #1: Communicating Simply
 
@@ -47,3 +44,29 @@ In this assignment, students will produce a blog post reflecting on how maps are
 In this assignment, students will produce a blog post analyzing the communications network of an early modern correspondent, selected from the database Early Modern Letters online. This post will include a visualization of their letter writer’s communications network using Palladio, a network analysis and data visualization tool produced by the Stanford Humanities + Design Lab. The blog post should also contain a description and historical contextualization of at least three of the correspondent’s letters, accessed through Early Modern Letters Online. Finally, students should articulate how these historical documents illustrate the extent to which the history of Enlightenment ideas is also a history of social interaction and exchange.
 
 [Instructions for the Digital Tools 5 Assignment]({{ site.baseurl }}/digitaltools5)
+
+**Note:** All digital tools assignments will be submitted via a pull request in our course GitHub repository. Your final response paper and in-class reading responses will be submitted to our course D2L.
+
+## Course Assignments and Final Grade
+
+### Weighted Percentages
+
+| **Assignments** | **Percentage** | 
+| :---- | :----: | 
+| Participation | 15% | 
+| In-Class Reading Responses | 15% | 
+| Digital Tools Assignments: | 55% total |
+| Assignment #1 | 5% | 
+| Assignment #2 | 10% |
+| Assignment #3 | 10% | 
+| Assignment #4 | 15% | 
+| Assignment #5 | 15% | 
+| Final Reflection Paper | 15% | 
+
+### Course Grading Scale
+
+| **Letter Grade** | **Numerical Value** | **Letter Grade** | **Numerical Value** |
+| A | 93–100 | C | 74–76.99 |
+| A- | 90-92.99 | C- | 70-73.99 |
+| B+ | 87-89.99 | D+ | 67–69.99 |
+| B | 84-86.99 |

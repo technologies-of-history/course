@@ -3,44 +3,9 @@ layout: page
 title: Course Policies
 ---
 
-## Course & Instructor Information
- ### Course
- __Course Title and Number__: Technologies of History from Cuneiform to Coding (HIST 30693)  
- __Semester__: Spring 2026 
- __Number of Credits__: 3  
- __Course Component Type__: SEM  
- __Class Location__: TBD  
- __Class Meeting Day(s) & Time(s)__: TBD
- 
- ### Instructor
-__Instructor Name__: Dr. Melissa Reynolds  
-__Office Location__: Reed Hall 330  
-__Office Hours__: Wednesdays, 1:00 – 3:00 pm  
-__Preferred Method of Contact__: Email  
-__Email__: [m.reynolds1(at)tcu.edu](mailto:m.reynolds1@tcu.edu)
- 
-
-## Final Evaluative Exercise & Important Dates
-Reflection paper due in lieu of final exam
-
-## Student Resources & Policy Information
 __Note for students__: The syllabus is your first course reading. It provides an orientation to, overview of the flow, and expectations of the course. You should turn to the syllabus for details on assignments and course policies.  
 
 Click [here](https://cte.tcu.edu/tcu-syllabus-policies/) for resources to support you as a student. Please note the section on [Student Access and Accomodation,](https://cte.tcu.edu/tcu-syllabus-policies/#access) [Academic Conduct & Course Materials Policies,](https://cte.tcu.edu/tcu-syllabus-policies/#academicmisconduct) and [Emergency Response & TCU Alert](https://cte.tcu.edu/tcu-syllabus-policies/#emergency).
-
-## Course Description
-### Catalogue Description
-This course will ask how the ways that humans communicate—via inscription, graffito, letter, or Tweet—have the power to affect society and make history. We will explore the history of communications technologies from the invention of writing to the printing press to social media, and each week, we will pair these topics with analysis of a cutting-edge digital archive or project. Students will then learn how to use the “digital tools” reflected in these projects, building the skills necessary to produce their own works of digital historical scholarship.  
-
-This course has two interconnected aims: to introduce students to the history of communications technology from the ancient Near East to the modern U.S. and to interrogate how contemporary digital communications technology shapes our study of the creation, circulation, and transmission of historical knowledge. Close engagement with digital archives will allow students to view and appreciate the material texts of the past, but it will also allow students to analyze how digital archives make historical arguments through the representation and presentation of sources. Students will learn about the limitations of digital archives, both as representations of material objects and as ephemeral—and often fragile—sources in their own right, while also developing the digital skills to create their own works of historical scholarship for publication. 
-
-### Prerequisites & Concurrent Enrollment
-None.
-
-## Course Materials
-
-### Required Materials
-All of our course readings will be available via links from this site, or as PDFs on our course D2L site.
 
 ## Teaching Philosophy and Methodology
 My primary goal within the classroom is to teach historical contingency. People in the past didn’t know that things would turn out the way they did! We look back and see one event following the other in what looks to us like a coherent narrative, but in fact, we (historians) are the ones who made that narrative seem so coherent. As we learn about the events and ideas that contributed to various “communications revolutions,” you should be on the lookout for all the ways history might have turned out differently.  
@@ -48,55 +13,6 @@ My primary goal within the classroom is to teach historical contingency. People 
 Once you begin to think of history as contingent, you can begin to develop the critical methods historians use in their work. In this course, we will analyze primary sources (sources created by historical actors rather than by contemporary historians) as they are presented in digital archives created by contemporary historians. Not only will we assess how this primary source evidence inform our understanding of the past, we will also explore how the presentation of that evidence shapes the narratives we tell about the past.  
 
 Whether history majors or computer scientists, mathematicians or business majors, you will leave our classroom with analytical and interpretive skills that will serve you throughout your life. These include the ability to recognize that ideas emerge in a context that is unique to its time and place; the ability to recognize a reputable and relevant source; the ability to analyze those sources; and the ability to use those sources to support a historical argument.  
-
-## Learning Outcomes
- ### Course Learning Outcomes
- By the end of the semester, you will:  
- 
-1. Build historical knowledge:  
-   - Identify the most significant trends and figures within the history of the communications technology. (HT)  
-   - Connect and synthesize historical examples to develop conclusions about the nature, causes, and consequences of communications “revolutions.” (GA)  
-2. Develop digital historical methods:  
-   - Evaluate evidence from primary sources as presented in various digital archives. (HT)  
-   - Recognize archives as an interpretive presentation of evidence from the human past, created by historians and archivists in the present. (HT)  
-3.	Apply digital historical skills:  
-    - Use digital tools to analyze primary sources and communicate historical knowledge. (GA, HT)
-    - Create a piece of digital scholarship that meets accessibility and durability standards as developed by digital humanists.  
-    
-### TCU Outcomes
-__HT (Historical Traditions)__: Examine the processes that create change over time in the human experience.  
-__GA (Global Awareness)__: Analyze the dynamics, processes, or legacies of global systems.  
-
-## Course Requirements
-Our course will meet twice per week: Tuesdays will begin with a short lecture, followed by discussion of secondary scholarship; Thursdays are our “digital lab” days, in which we will learn about a particular digital tool and explore its applicability for presenting historical knowledge to a wider public.  
-
-### In-Class Reading Responses
-Students will be expected to complete 30–50 pages of reading of historical scholarship every week. At the instructor’s discretion, students will be asked to respond to these readings in brief in-class writings assignments, which will assess the student’s completion and comprehension of the readings and challenge the student to think critically about their historical arguments. Responses will be graded as Fail/Pass/Excel according to the following criteria:  
-- Fail (50%): The assignment was completed with no evidence of student engagement with the readings.
-- Pass (80%): The assignment was completed, with some evidence of student engagement with the reading.
-- Excel (100%): The assignment was completed, with evidence of considerable student engagement with the reading.  
-
-In-class writing assignments may not be made up. If an assignment is missed due to an excused absence, you will receive an “NG” (No Grade). If an assignment is missed due to an unexcused absence, you will receive a zero. Your lowest grade on these assignments will be dropped at the end of the semester.
-
-### Digital Tools Assignments
-
-[__Digital Tools Assignment #1: Communicating Simply__](/assignments/digitaltools1.md)  
-In this assignment, students will produce a blog post reflecting on how the nature of a communication technology informs the structures of knowledge that it can communicate. Students will write about the emergence of writing systems in the ancient world in relation to the development of “simple” or “static” communications technologies for digital scholarship. Students will produce this assignment using those simple digital tools: in Markdown syntax, for publication on our Hugo-run course site, hosted through our course GitHub, thus demonstrating mastery of foundational digital skills.  
-
-[__Digital Tools Assignment #2: Showing History__](/assignments/digitaltools2.md)    
-In this assignment, students will produce a blog post that reflects on the presence of public writing—in this case, Roman epigraphy—as a marker of complex civilization. Using epigraphic data from the Heidelberg database, students will create a static post discussing the at least four surviving artifacts of Roman epigraphy. This post will include an embedded Google MyMaps with the modern location of these artifacts, as well as an embedded IIIF viewer so that users can compare epigraphic images side-by-side.  
-
-[__Digital Tools Assignment #3: Making Text into Data__](/assignments/digitaltools3.md)    
-In this assignment, students will produce a TEI-encoded transcription of a medical recipe from a fifteenth-century manuscript as a means of understanding the relationship between writing and doing in the early modern world. Students will contribute their transcription to an XML file in our course GitHub repository, which the class will then publish using the digital publication tool, EditionCrafter. Each student will also be responsible for producing a brief blog post describing the materials and methods represented in their medical recipe.  
-
-[__Digital Tools Assignment #4: Mapping History__](/assignments/digitaltools4.md)  
-In this assignment, students will produce a blog post reflecting on how maps are interpretive pieces of communication that reflect cultural assumptions, much like travel narratives or ethnographies. Students will produce a blog post featuring an interactive StoryMap made with a geocoded and “warped” 1569 map of the world by Gerard Mercator. This StoryMap should present geospatial data on one of the major late fifteenth- or sixteenth-century voyages of European exploration drawn from the Age of Exploration database.  
-
-[__Digital Tools Assignment #5: Networks and Knowledge__](/assignments/digitaltools5.md)  
-In this assignment, students will produce a blog post analyzing the communications network of an early modern correspondent, selected from the database Early Modern Letters online. This post will include a visualization of their letter writer’s communications network using Palladio, a network analysis and data visualization tool produced by the Stanford Humanities + Design Lab. The blog post should also contain a description and historical contextualization of at least three of the correspondent’s letters, accessed through Early Modern Letters Online.  
-
-### Final Evaluative Exercise
-In lieu of a final exam, in the final week of the semester, you will write a 5- to 7-page reflection paper responding to the following question: How has the advent of digital communications technologies changed the way historians approach their work? Do you think the digital revolution is more or less significant than previous communications revolutions examined in this class?  Papers should not summarize the course curriculum but will instead advance a clear and specific historical argument with a thesis statement supported by evidence from our course readings, both primary and secondary. 
 
 ## Grading Philosophy and Policy
 I believe that all students should be rewarded for hard work and demonstrated progress. If you come to class regularly and show me that you are doing your best, I will take that into account when grading papers and exams. Effort will always be rewarded. Your grades reflect the degree to which you show competency in the content and skills taught in this class, ideally in a way that will let you maintain them beyond this semester. A ‘C’ means you have demonstrated the skills and knowledge relevant to a particular assignment, but at a minimum level of proficiency. ‘B’s correspond to ‘good’ – they indicate competence in all areas relevant to the assignment. An ‘A’ means ‘excellent’: it doesn’t just mean you have demonstrated the relevant skills and knowledge, but that you have done so with extra attention and polish, in a manner superior to the majority of students.  
@@ -186,7 +102,3 @@ This course is supplemented by our site on D2L, available via [my.tcu.edu](https
 Office hours are time dedicated to you that I hold available to meet without an appointment. You can ask questions about the course, or about life, or just drop by to say hi. I’ll be in the office (Reed 330) in person Mondays, Wednesdays & Fridays after our class, as well as on Tuesday mornings from 10 am to noon. I can meet during those or other times by Zoom (let me know in advance if you want to use Zoom; I won’t automatically have it on). Outside of class and office hours, it’s easiest to reach me by email ([m.reynolds1(at)tcu.edu](mailto:m.reynolds1@tcu.edu)).  
 
 All members of the class are expected to follow rules of common courtesy in all classroom discussions, email messages, and online discussion threads or chats. Be respectful of each other. Constructive disagreement is a good part of any discussion, but foul or threatening discourse will not be tolerated.
-
-## Course Schedule
-
-Please visit the [Course Schedule](/schedule) page for the calendar of assignments this semester.
