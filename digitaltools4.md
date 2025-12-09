@@ -1,45 +1,37 @@
 ---
 layout: page
-title: Visualizing a Network with Cytoscape
+bookTOC: false
+draft: false
+title: Digital Tools 4
 ---
 
-As with the previous three Digital Tools Assignments, your task is to demonstrate your mastery of social network analysis using [Cytoscape](https://cytoscape.org/). This assignment has six discrete parts.
+## Mapping the History of Navigation with MapWarper and ArcGIS StoryMaps
 
-## Overview of Steps:
+You’ve already explored [Google MyMaps](https://storymap.knightlab.com/) in your second Digital Tools assignment.
 
-1. Formulating a research question that can be investigated by creating an edge list and network graph.
-2. Generating and organizing your data in a Google Sheet.
-3. Clean your data using OpenRefine.
-4. Generating a network visualization using Cytoscape.
-5. Change the layout and style of your network to suit the information you are representing.
-6. Reflecting on your process and analyzing your results in a blog post (4-5 paragraphs).
+Now, for your fourth Digital Tools Assignment, you will use a different mapping tool to create 
+a visual and spatial historical narrative. You will use a sixteenth-century map that has
+been "warped" to match contemporary longitude and latitude to tell this story. This will involve using 
+"MapWarper," a digital tool for enabling GIS manipulation of historical maps. You'll also use a dataset pulled from 
+the Age of Exploration database.
 
-Before you begin, review Miriam Posner’s [Cytoscape glossary](https://github.com/miriamposner/network_analysis_workshop/blob/master/social-network-glossary.md), which defines key terms that you will encounter as you navigate the platform.
+## Instructions:
 
-## Step 1: Formulating a Research Question and Structuring Your Data
+[StoryMaps](https://storymap.knightlab.com/) is a free tool to help you tell stories on the web that highlight the locations of a series of events. It's free to use with a Google drive account. You simply upload images, or link to images from the web, that you then connect to points on a map. You can make changes to the map schema, fonts, and color and layout. Before beginning your StoryMap, you may want to take a look at the gallery of [examples](https://storymap.knightlab.com/#examples) on the StoryMaps site. When you complete your StoryMap you'll embed your StoryMap into a blog post using Markdown and GitHub, as usual.
 
-The most important thing to understand about Cytoscape is that you need to structure your data in two-column format, called an “edge list.” Column A and Column B should indicate a consistent relationship (for example, in the image below, the actors listed in Column A appear in the films listed in Column B). Below, you will notice that Option B walks you through performing the assignment using data related to films and actors, but you may use any two-column format you wish for this assignment.
+The StoryMap element of this assignment is just the beginning. For this project, you'll use 
 
-![Sample edge list in Excel]({{ site.baseurl }}/images/Edge List.png){:width="500px" .center-image}
+## Instructions for Submission:
 
-**Option A:** Create an edge list and network graph based on a consistent relationship between any two entities that you believe are connected in a meaningful way. Be sure to specify the relationship you are exploring in your write-up.
+Once you've created your StoryMap, it's time to embed it into a post. You've already practiced writing a blog post in Markdown in our first Digital Tools assignment. Now it's time to use those same skills to write up the process of creating your StoryMap. Follow these steps:
 
-**Option B:** The above screenshot of an edge list shows how to structure data for a visualization showing the connectedness between actors and films from the silent era of American race film. Select another genre or era of film and create an Edge list and network graph on the basis of this model.
+1. Create your StoryMap.
+2. Either directly in our GitHub repository in the branch draft-posts or in your text editor create a new Markdown file with the naming conventions we've practiced in your first Digital Tools Assignment (YYYY-MM-DD-Post Title.md).
+3. Write a 4–5 paragraph post answering the questions listed above. Write well and clearly! Think of this as equivalent to a 1-2 page response paper.
+4. Copy the HTML embed code that appears when you "share" your Story Map or TimeMapper.
+5. Paste the HTML embed code into your Markdown file at a point in your writing that makes sense.
+6. Create a **New Branch** in our course repository. Click the arrow to the right of **master** in the branch menu, and in the search box type in the name of the new branch you'll create: **yourname-storymaps**. Click the option that appears that says **Create branch: yourname-storymaps**.
+7. Upload your post into the **posts** folder of the new branch, **Commit** your changes, and create a **Pull Request** to merge it with the **master** branch of our repository. **Pay attention** and be sure you select the right **head** for your request.
 
-## Step 2: Importing Your Data
 
-1. After you create your edge list, clean your data using [OpenRefine](https://openrefine.org/) and import your data into Cytoscape.
-2. Remember to specify Sources and Targets, and to tell Cytoscape to analyze the network (it won’t do it automatically!).
-3. Lastly, play around with layout and style (color, size, border width, etc.) and choose a layout that best tells a narrative about the relationship you are exploring.
-4. Embed your network analysis graphic into your blog post by saving the image to your personal GitHub repository. Also be sure to include a link to your Google Sheet with your original data set.
-
-## Step 3: Explain Yourself
-
-1. How did you go about formulating a research question?
-2. Which nodes or edges of the network seem most significant for your research topic?
-3. What narrative does your network express?
-4. Does anything surprise you about the network?
-
-## Step 4: Submission
-
-Once again, you're going to submit your post in a new branch in our class repository that you will creat and name: **yourname-cytoscape**. Finish by submitting a pull request to the **_master** branch of our class repository.
+Ok, that's it! You've done it!

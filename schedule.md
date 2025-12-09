@@ -18,6 +18,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments
 - Intro to Markdown
 - Complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
+- In class we'll discuss text editors and go over Markdown syntax and draft your **author.md** files for the course blog
 
 
 ## Week 2: Special Collections and GitHub
@@ -28,8 +29,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments
 - Intro to GitHub
 - Register for a [GitHub account](http://www.github.com) if you don’t already have one.
-- In class, we'll complete the [Introduction to GitHub](https://github.cos/introduction-to-github) lesson to learn basic functionality of GitHub.
-- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/docs/assignments/digitaltools1.md)
+- In class, we'll complete the [Introduction to GitHub](https://github.com/skills/introduction-to-github) lesson to learn basic functionality of GitHub.
+- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1.md)
 
 ## Week 3: The ABCs of Philosophy
 ---
@@ -47,15 +48,15 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Alison E. Cooley and Edward Bispham, "Inscriptions" from the *Edinburgh Companion to Ancient Greece and Rome* (Edinburgh, 2010), 262–274 [available on D2L].
+- Alison E. Cooley and Edward Bispham, "Inscriptions" from the *Edinburgh Companion to Ancient Greece and Rome* (Edinburgh, 2010), 262–274 [Available on D2L].
 - Rebecca R. Benefiel,  "Urban and Suburban Attitudes to Writing on Walls? Pompei and Environs," from *Writing Matters* (De Gruyter, 2017), 353–374. [Available on D2L]
 
 
 ### Digital Assignments
-- Visit the [Ancient Graffiti Project](https://www.ancientgraffiti.org/Graffiti/) and browse examples of graffiti recovered on the walls of Pompei. Choose two to discuss in class.
-- Visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class. You may want to search the [photographic database](https://edh.ub.uni-heidelberg.de/foto/suche) by country or date, but be sure that each inscription that you choose is available to view in a decent photograph.
+- Visit the [Ancient Graffiti Project](https://www.ancientgraffiti.org/Graffiti/) and select two examples of graffiti recovered on the walls of Pompei to discuss in class.
+- Visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
 - Introduction to [Google MyMaps](https://mymaps.google.com)
-- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/docs/assignments/digitaltools2.md)
+- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2.md)
 
 
 ## Week 5: Sacred Books for Sacred Stories
@@ -63,10 +64,10 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings
 - Christopher de Hamel, _Meetings with Remarkable Manuscripts: Twelve Journeys into the Medieval World_ (New York, 2016), pp. 52–94. [posted on canvas]
-- OPTIONAL: View the [short series of videos](https://youtu.be/aEPpURAIsW4) demonstrating the preparation of a medieval manuscript from the British Library, linked to our Canvas site
+- View the [short series of videos](https://youtu.be/aEPpURAIsW4) demonstrating the preparation of a medieval manuscript from the British Library
 
 ### Digital Assignments
-- Visit the British Library and Bibliothèque nationale de France's [__Polonsky Project__](https://manuscrits-france-angleterre.org/polonsky/en/content/themes) and select one illuminated liturgical or biblical manuscript to work with in class.
+- Visit the British Library and Bibliothèque nationale de France's [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/themes) and select one illuminated liturgical or biblical manuscript to work with in class
 - Introduction to International Image Interoperability Framework, or [IIIF](https://iiif.io/about/), as well as its necessity for the [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/realised-iiif-technology)
 - Introduction to [IIIF Viewers](https://iiif.io/get-started/iiif-viewers/)
 
@@ -80,20 +81,19 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Visit the [Princeton Geniza Project](https://geniza.princeton.edu/) and explore the project by searching the Project’s Digital Document Library and JTS Image Collection.
-- Visit the crowd-sourced transcription platform [From the Page](https://fromthepage.com/). 
-- Introduction to Digital Tools Assignment #3
+- In class we'll look at these [calendar fragments](https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/projects/calendar-fragments-tool) selected to aid in paleographical training
+- Introduction to [Digital Tools Assignment #3]( {{ site.baseurl }}/digitaltoolds3.md)
 
 ## Week 7: Writing Embodied Knowledge
 ---
 
 ### Readings
 - Pamela H. Smith, “In the Workshop of History: Making, Writing, and Meaning.” _West 86th_ 19, no. 1 (2012): 4–31.
-- Introductory essay from [Secrets of Craft and Nature in Renaissance France](https://edition640.makingandknowing.org/)
+- Browse [Edition 640](https://edition640.makingandknowing.org), the annotated critical edition of a sixteenth-century French craft manual. Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe
 
 ### Digital Assignments
 - Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
-- Visit the [Secrets of Craft and Nature in Renaissance France](https://edition640.makingandknowing.org/) from the Making and Knowing Project. 
-- Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe and view the digital facsimile of the manuscript page.
+- Browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions
 
 
 ## Week 8: The Print Revolution
@@ -104,14 +104,14 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Elizabeth Eisenstein, _The Print Revolution_, TBD
 
 ### Digital Assignments
-- View Thomas Tusser, Points of Good husbandrie (STC 24380) [The Archaeology of Reading](https://archaeologyofreading.org/)
+- View Thomas Tusser, Points of Good husbandrie (STC 24380) on [The Archaeology of Reading](https://archaeologyofreading.org/)
 - Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
 
 
 ## Week 9: Maps & Ethnography
 ---
 ### Readings
-- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, Its Sources and Meanings,” _Imago Mundi_ 50 (1999): 11–33.
+- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, Its Sources and Meanings,” _Imago Mundi_ 50 (1999): 11–33. [Available on D2L]
 
 ### Digital Assignments
 - Explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
@@ -132,13 +132,13 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21.
+- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21, 78–109.
 
 ### Digital Assignments
 - Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
 - Visit [EMLO](http://emlo.bodleian.ox.ac.uk/), and try to find your favorite Humanist or Enlightenment thinker’s letters with the traditional [database search function](http://emlo.bodleian.ox.ac.uk/home). 
 - Then Browse the catalogue by [People](http://emlo.bodleian.ox.ac.uk/browse/people) and find a woman letter writer or recipient. View the graphs and visualizations of their correspondence by clicking on the author’s name. 
-- Introduction to Digital Tools Assignnment #5
+- [Introduction to Digital Tools Assignnment #5]({{ site.baseurl }}/digitaltools5.md)
 
 
 ## Week 12: Newspapers in the Age of Revolutions
@@ -150,7 +150,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments
 - Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the names of any of the historical figures cited in our Readings. Choose one article from a newspaper mentioned or related to our secondary Readings this week and read it. We will work with the text of this article in class on Wednesday.
 - Visit the [Google Books Ngram Viewer](https://books.google.com/ngrams/) website. This tool allows users to chart word usage over time. Choose three or four seemingly random words or names drawn from the newspaper article you selected from Chronicling America and enter them into the search box, separated by commas. Take a screenshot of the graph generated, and head to our Canvas discussion page.
-- [Voyant Tools](https://voyant-tools.org/) and lexical analysisPost to our Canvas discussion
+- [Voyant Tools](https://voyant-tools.org/) and lexical analysis
 
 
 ## Week 13: Mass Media and Politics

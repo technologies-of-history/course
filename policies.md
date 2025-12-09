@@ -3,8 +3,6 @@ layout: page
 title: Course Policies
 ---
 
-__Note for students__: The syllabus is your first course reading. It provides an orientation to, overview of the flow, and expectations of the course. You should turn to the syllabus for details on assignments and course policies.  
-
 Click [here](https://cte.tcu.edu/tcu-syllabus-policies/) for resources to support you as a student. Please note the section on [Student Access and Accomodation,](https://cte.tcu.edu/tcu-syllabus-policies/#access) [Academic Conduct & Course Materials Policies,](https://cte.tcu.edu/tcu-syllabus-policies/#academicmisconduct) and [Emergency Response & TCU Alert](https://cte.tcu.edu/tcu-syllabus-policies/#emergency).
 
 ## Teaching Philosophy and Methodology
@@ -42,33 +40,6 @@ Because it is considered an infringement on student privacy for me to have acces
 Excused Absences or Official University Absences are absences described in the Official University Absence Policy and include the following: Title IX related issues, military leave, holy days, and university related absences. As faculty we may not penalize students for these absences and must allow for the completion of assignments and exams within a reasonable amount of time after the absences. Beyond these, faculty retain all discretion for consideration of a student’s absence, including verified absences.  
 
 If you have concerns about your participation or are unsure how to effectively participate in during class, please reach out to me during office hours or by email.  
-
-## Course Assignments and Final Grade
-
-### Weighted Percentages
-
-| Assignments | Percentage | Learning Outcome |
-| :---- | :----: | ----: |
-| Participation | 10% | 1a & b; 2a & b |
-| In-Class Reading Responses | 15% | 1a & b; 2a & b |
-| Digital Tools Assignments: | 60% total | |
-| Assignment #1 | 5% | 2a & b; 3a & b |
-| Assignment #2 | 10% | 2a & b; 3a & b |
-| Assignment #3 | 15% | 2a & b; 3a & b |
-| Assignment #4 | 15% | 2a & b; 3a & b |
-| Assignment #5 | 15% | 2a & b; 3a & b |
-| Final Reflection Paper | 15% | 1a & b; 2a & b |
-
-### Grading Scales
-
-| Grade | Points | Grade | Points |
-| :---- | :----: | :---- | :----: |
-| A | 90–100 | C- | 70–72.99 |
-| B+ | 87–89.99 | D+ | 67–69.99 |
-| B | 83–86.99 | D | 63–66.99 |
-| B- | 80–82.99 | D- | 60–62.99 |
-| C+ | 77–79.99 | F | 0–59.99 |
-| C | 73–76.99 | | |
 
 ## Course Policies
 

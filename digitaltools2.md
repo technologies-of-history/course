@@ -1,7 +1,8 @@
 ---
 layout: page
-title: Showing History
+title: Digital Tools Assignment 2
 ---
+## Showing History
 
 Now that you've mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you're ready to begin to create digital historical scholarship incorporating other digital tools.
 
