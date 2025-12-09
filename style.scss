@@ -180,7 +180,8 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  background-color: $darkGray;
+  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
@@ -189,6 +190,7 @@ img {
 
 .banner-container {
   margin: 0px auto;
+  background-color: $darkGray;
   width: 100%
 }
 
@@ -214,16 +216,18 @@ img {
 
 .site-name {
   margin: 0;
-  color: $darkGray;
+  color: $white;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-size: 36px;
+  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $gray;
+  color: $white;
+  text-align: right;
   font-size: 16px;
   font-weight: lighter;
 
@@ -269,8 +273,8 @@ img {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid $darkGray;
+  border-bottom: 1px solid $darkGray;
   background-color: $lightGray;
 }
 
