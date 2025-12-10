@@ -11,14 +11,12 @@ title: Syllabus
  __Semester__: Spring 2026  
  __Number of Credits__: 3  
  __Course Component Type__: SEM  
- __Class Location__: Reed 421  
  __Class Meeting Day(s) & Time(s)__: T/Th 11:00 am – 12:20 pm  
 
 
 ### Instructor
 
 __Instructor Name__: Dr. Melissa Reynolds  
-__Office Location__: Reed Hall 330  
 __Office Hours__: Tuesdays and Thursdays, 2:00 – 3:00 pm  
 __Preferred Method of Contact__: Email  
 __Email__: [m.reynolds1(at)tcu.edu](mailto:m.reynolds1@tcu.edu)

@@ -10,7 +10,6 @@
   overflow-y: auto;
   font-family: helvetica;
   font-size: .75rem;
-  color: $white;
   background-color: #333;
   -webkit-transition: all .3s ease-in-out;
           transition: all .3s ease-in-out;
@@ -39,6 +38,7 @@
 
 .sidebar-nav-item {
   display: block;
+  color: $white;
   padding: .5rem 1rem;
 }
 .sidebar-nav-item.active,
@@ -77,7 +77,7 @@ a.sidebar-nav-item:focus {
   align-items: center;
   padding: .25rem .75rem;
   color: #505050;
-  background-color: #fff;
+  background-color: $lightGray;
   border-radius: .25rem;
   cursor: pointer;
 }
