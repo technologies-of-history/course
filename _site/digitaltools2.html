@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Digital Tools Assignment 2 – Technologies of History – HIST 30693 at Texas Christian University</title>
+
+        <meta charset="utf-8" />
+    <meta content='text/html; charset=utf-8' http-equiv='Content-Type'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+
+    
+    <meta name="description" content="HIST 30693 at Texas Christian University">
+    <meta property="og:description" content="HIST 30693 at Texas Christian University" />
+    
+    <meta name="author" content="Technologies of History" />
+
+    
+    <meta property="og:title" content="Digital Tools Assignment 2" />
+    <meta property="twitter:title" content="Digital Tools Assignment 2" />
+    
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="/course/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="Technologies of History - HIST 30693 at Texas Christian University" href="http://localhost:4000/feed.xml" />
+
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+  </head>
+
+  <body>
+
+    <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox">
+
+<!-- Toggleable sidebar -->
+<div class="sidebar" id="sidebar">
+
+  <nav class="sidebar-nav">
+    <h2>
+    <a class="sidebar-nav-item" href="/course/">Home</a>
+    <a class="sidebar-nav-item" href="/course/schedule">Schedule</a>
+    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
+    <a class="sidebar-nav-item" href="/course/policies">Policies</a>
+    <a class="sidebar-nav-item" href="https://technologies-of-history.github.io/spring-2026">Student Work</a>
+    </h2>
+  </nav>
+
+</div>
+
+
+    <div class="wrapper-masthead">
+
+      <div class="banner-container">
+          <a href="/course/" class="site-banner"><img src="" /></a>
+      </div>
+
+      <header class="masthead clearfix">
+        <div class="container">
+          <div class="site-info">
+            <h1 class="site-name"><a href="/course/">Technologies of History</a></h1>
+            <p class="site-description">HIST 30693 at Texas Christian University</p>
+          </div>
+        </div>
+      </header>
+
+    </div>
+
+    <div class="wrap">
+      <div id="main" role="main" class="container">
+      <article class="page">
+
+  <h1>Digital Tools Assignment 2</h1>
+
+  <div class="entry">
+    <h2 id="showing-history">Showing History</h2>
+
+<p>Now that you’ve mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you’re ready to begin to create digital historical scholarship incorporating other digital tools.</p>
+
+<h3 id="step-1-visit-the-heidelberg-epigraphic-database">Step 1: Visit the <a href="https://edh.ub.uni-heidelberg.de/foto/suche">Heidelberg Epigraphic Database</a></h3>
+
+<p>After browsing the examples of surviving Roman epigraphy compiled on the site, choose four to focus on for your second digital tools assignment (these may be the same four you worked with in class). Your post will compare these four examples, describing what each inscription says, where it is found, when it was created, and finally, how each reveals something about the status and function of public writing in Roman society.</p>
+
+<h3 id="step-2-create-your-google-mymaps">Step 2: Create your Google MyMaps</h3>
+
+<h3 id="step-3-create-a-new-blog-post">Step 3: Create a new blog post</h3>
+
+<ol>
+  <li>Draft a post following our course protocols (create a new branch in <strong>spring-2026</strong> called <strong>lastname-dt2</strong>, navigate to <strong>_posts</strong> and create a new .md file titled <strong>yyyy-mm-dd-your title.md</strong>.)</li>
+  <li>Be sure your .md includes the following header:</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
+ layout: post
+ title: [Your title here]
+ ---
+</code></pre></div></div>
+
+<ol>
+  <li>Draft a 3-4 paragraph post that introduces your four examples of epigraphic inscriptions, including their date, their location, a transcription, and their significance. Reflect on how these surviving examples of public writing shed light on the social fabric and culture of the vast Roman empire. You may wish to think about the distance or time separating some of the inscriptions; or you may wish to reflect on the permanence of this sort of writing; or you may wish to reflect on differences you see in style or content of your inscriptions.</li>
+</ol>
+
+<h3 id="step-5-embed-the-mirador-iiif-viewer-to-show-your-inscriptions">Step 5: Embed the Mirador IIIF viewer to show your inscriptions</h3>
+
+<p>Your blog post should include images of the four inscriptions you’ve chosen to analyze. To include those images in your post, we’re not going to host those images in our site repository, as that would lead to . We’re going to embed a IIIF viewer to load the JSON manifests of those images and enable manipulation of the images on our site. The easiest way to do this is to embed a Mirador Viewer in to your blog post by copying the following code into your blog post.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt; html &gt;
+&lt;div style="margin: 2rem 0;"&gt;
+  &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"&gt;
+  &lt;link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css"&gt;
+  
+  &lt;div id="my-mirador" style="position: relative; height: 600px; width: 100%;"&gt;&lt;/div&gt;
+  
+  &lt;script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript"&gt;
+  (function() {
+    if (typeof Mirador !== 'undefined') {
+      var mirador = Mirador.viewer({
+        id: "my-mirador",
+        manifests: {
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+        },
+        windows: [
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+        ]
+      });
+    }
+  })();
+&lt;/script&gt;
+&lt;/div&gt;
+&lt; /html &gt;
+</code></pre></div></div>
+
+<h3 id="step-6-change-out-the-iiif-manifests-to-your-images">Step 6: Change out the IIIF Manifests to <em>Your</em> Images</h3>
+
+<ol>
+  <li>Each image in the Epigraphic Heidelberg Database includes a link (just below the image viewer) to a IIIF manifest. Click the link, and you’ll see a webpage that looks like nothing but Javascript code.</li>
+  <li>Copy the URL to that webpage with nothing but text. It will end with <strong>…manifest.json</strong></li>
+  <li>Paste that URL so that it replaces the first URL within quotations under both <code class="language-plaintext highlighter-rouge">manifests:</code> and <code class="language-plaintext highlighter-rouge">windows:</code>. Make sure your URL is bracketed by double quotations, just as you see in the example above.</li>
+  <li>Continue the process for the next three IIIF manifests, eventually replacing all of the URLS to IIIF manifests in the example above to your own images.</li>
+</ol>
+
+<p>If you’ve done it correctly, your post will include a viewer that looks like this, with all four of your images visiable.</p>
+
+<html>
+<div style="margin: 2rem 0;">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
+  <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css" />
+  
+  <div id="my-mirador" style="position: relative; height: 600px; width: 100%;"></div>
+  
+  <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
+    <script type="text/javascript">
+  (function() {
+    if (typeof Mirador !== 'undefined') {
+      var mirador = Mirador.viewer({
+        id: "my-mirador",
+        manifests: {
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+        },
+        windows: [
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+        ]
+      });
+    }
+  })();
+</script>
+</div>
+</html>
+
+<h3 id="step-6-embed-your-google-mymaps-to-demonstrate-their-location">Step 6: Embed your Google MyMaps to demonstrate their location</h3>
+
+<h3 id="step-7-submit-your-post">Step 7: Submit your post</h3>
+
+<ol>
+  <li>After you create this Markdown file and fill it with your content, <strong>Commit changes…</strong> to save the file to your branch. Every time you do something in the file, you’ll write up a brief description of what you changed and click, <strong>Commit</strong> to save. Be sure to select the option to commit to <strong>your</strong> new branch, <strong>lastname-dt1</strong>.</li>
+  <li>Click <strong>spring-2026</strong> to return to the main repository.</li>
+  <li>Be sure to check and make sure you’re in your <strong>lastname-dt1</strong> branch.</li>
+  <li>In the menu at the top of the page, click <strong>Pull requests</strong>.</li>
+  <li>Click the green button <strong>New pull request</strong>.</li>
+  <li>You’ll now see a gray box at the top that shows you the <strong>base</strong> repository you’ll be sending your changes to and the <strong>head</strong> repository, which is yours. NOTE: Be sure that yours is the <strong>head</strong> and the main branch is the <strong>base</strong>.</li>
+  <li>Name your pull request <strong>LastName_dt2</strong> and then click <strong>Create pull request</strong>.</li>
+</ol>
+
+<p>Ok, that’s it! You’re done!</p>
+
+  </div>
+</article>
+
+      </div>
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          
+
+
+
+<a href="https://github.com/technologies-of-history"><i class="svg-icon github"></i></a>
+
+
+
+
+
+
+
+
+    <p> &copy; 2025. All rights reserved.</p>
+        </footer>
+      </div>
+    </div>
+
+    
+
+    <label for="sidebar-checkbox" class="sidebar-toggle"></label>
+
+    <script src='/course/script.js'></script>
+  </body>
+</html>
