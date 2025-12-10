@@ -8,11 +8,11 @@ title: Syllabus
 ### Course Information
 
  __Course Title and Number__: Technologies of History from Cuneiform to Coding (HIST 30693)  
- __Semester__: Spring 2026 
+ __Semester__: Spring 2026  
  __Number of Credits__: 3  
  __Course Component Type__: SEM  
- __Class Location__: Reed 421 
- __Class Meeting Day(s) & Time(s)__: T/Th 11:00 am – 12:20 pm
+ __Class Location__: Reed 421  
+ __Class Meeting Day(s) & Time(s)__: T/Th 11:00 am – 12:20 pm  
 
 
 ### Instructor
