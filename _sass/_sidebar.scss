@@ -9,7 +9,7 @@
   visibility: hidden;
   overflow-y: auto;
   font-family: helvetica;
-  font-size: .750rem;
+  font-size: .75rem;
   color: $white;
   background-color: #333;
   -webkit-transition: all .3s ease-in-out;
@@ -17,7 +17,7 @@
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem; /* 14px */
+    font-size: .5rem;
   }
 }
 
