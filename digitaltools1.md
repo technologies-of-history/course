@@ -1,12 +1,13 @@
 ---
 layout: page
 title: Digital Tools Assignment 1
+permalink: /digitaltools1
 ---
 ## Communicating Simply
 
 By now you've created a [GitHub](https://github.com) account, practiced opening a repository, making changes to a file, making a pull request, and merging branches with GitHub's [Hello World](https://guides.github.com/activities/hello-world/) tutorial. You've followed the [Markdown lesson](https://programminghistorian.org/en/lessons/getting-started-with-markdown) on the Programming Historian, so you know how to style your text files with Markdown syntax. We've practiced authoring Markdown files in class, but now it's time to do it on your own and create content for our course blog. You'll be following these same steps to create and submit the rest of your Digital Tools assignments, so it's very important for you to get the hang of these basic steps now.
 
-## Step 1: Think about downloading a text editor
+### Step 1: Think about downloading a text editor
 
 All of your digital assignments this semester will be authored in Markdown, which means 
 you can't use Google Docs or Microsoft word to create them. As you know, you can always 
@@ -15,7 +16,7 @@ your assignments offline, save your work on your own machine, and preview your w
 local development environment on the developer, then you will want to use a text editing program to write and save your .md files. If you've done some programming/coding 
 before, you likely already have a favorite text editor, and you should keep using it. If not, I really like [Visual Studio Code](https://code.visualstudio.com/) which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It's become the standard text editor in the field as it incorporates GitHub's AI help for coding.
 
-## Step 2: Take a look at an existing post
+### Step 2: Take a look at an existing post
 
 1. Open the **spring-2026** repository in our course GitHub organization. 
 2. Find the **_posts** folder and open it. 
@@ -39,7 +40,7 @@ excerpt_separator: <!--more-->
 - `excerpt_separator: <!--more-->`: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code `<!--more-->` just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a **READ MORE** link at that point on the blog's homepage.
 
 
-## Step 3: Create a new Markdown file in which to compose your assignment
+### Step 3: Create a new Markdown file in which to compose your assignment
 
 (Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. This is the *most basic* way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)
 
@@ -66,7 +67,7 @@ __If you're writing your posts in a text editor rather than on GitHub:__
 2. Create your YAML header as specified above and continue to **Step 4** below.
 3. When you've finished drafting your post, follow create a new branch in the **spring-2026** repository as described above, but instead of clicking **Create New File** within the **_posts** folder in your new branch, you'll click **Upload files** to add your post to the repository.
 
-## Step 4: Write your post
+### Step 4: Write your post
 
 Using appropriate Markdown syntax, Write a 2–3 paragraph post reflecting on the relationship between the
 nature or format of a communication technology and the kind of knowledge that technology can
@@ -78,7 +79,7 @@ arguments constrained or shaped by the digital tools available to them? How migh
 
 To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.
 
-## Step 5: Commit your post
+### Step 5: Commit your post
 
 1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch (the green button on the upper right).
 2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
@@ -86,7 +87,7 @@ To receive full credit for this assignment, be sure to draw comparisons between 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
 5. **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until your submit a **Pull request.**
 
-## Step 6: Submit a pull request
+### Step 6: Submit a pull request
 
 Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of the site so that it can be served to the website. 
 

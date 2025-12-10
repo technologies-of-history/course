@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Digital Tools Assignment 5
+permalink: /digitaltools5
 ---
 
-## Visualizing a Network of Correspondence with Palladio
+## Networks and Knowledge
 
 ## Overview of Steps:
 

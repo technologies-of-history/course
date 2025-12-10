@@ -1,14 +1,15 @@
 ---
 layout: page
 title: Digital Tools Assignment 3
+permalink: /digitaltools3
 ---
-## Turning texts into data with XML and EditionCrafter
+## Making Text into Data
 
 As you know from class, XML is a metalanguage (a language used to describe or markup another language) used in order to process and store texts in digital format. Markup languages are valuable as means of helping digital archivists and instructional technologists do two things: first, markup creates a rich data set from the text in question which can then be converted into a number of formats; second, markup encodes how a particular text should be presented on a webpage, digital publication, data set, etc. Markup languages thus guide our interpretations of those texts. Considerations like spacing, bolding, and headings are all aspects of the markup process—which is often also referred to as “encoding.” Marking up a document in XML is a matter of directing a person as to how the manuscript’s content should be presented and interpreted.
 
 For this assignment, you will select a Middle English medical recipe from [Trinity College Cambridge MS O.8.35](https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35) in order to create your own TEI markup.
 
-## Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library
+### Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library
 
 <html>
 <div style="margin: 2rem 0;">
@@ -36,7 +37,7 @@ For this assignment, you will select a Middle English medical recipe from [Trini
 </div>
 </html>
 
-## Step 1: Transcribe a page of text
+### Step 1: Transcribe a page of text
 
 1. Click through the images of TCC MS O.8.35 and select a single page of text to transcribe. Make note of the folio number for your page, indicated at the bottom of the Mirador viewer (i.e. f001r or f014v).
 2. Once you've located the folio number, visit our GitHub organization and navigate to the repository **dyngley_data**. Open the file named **dyngley.xml**.
@@ -51,7 +52,7 @@ That's because this is the sixteenth image in the manuscript, though it correspo
 Once I've looked over your transcription, I'll merge your file into the larger XML file for the critical edition.
 
 
-## Step 2: Mark-up your transcription using TEI in Markdown
+### Step 2: Mark-up your transcription using TEI in Markdown
 
 1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<div>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, and `<measure>` and other tags within the TEI glossary as necessary. You can refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
@@ -59,7 +60,7 @@ Once I've looked over your transcription, I'll merge your file into the larger X
 4. Upload your .txt file to the **dyngley-data** repository in our GitHub organization, in the folder **transcriptions**, following our GitHub submission protocols. Create a branch in the **dyngley-data** repository named **yourlastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **master** branch of our repository. 
 
 
-## Step 3: Explain yourself
+### Step 3: Explain yourself
 
 1. Draft a post following our course protocols (make a new branch in **spring-2026** called **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**.) 
 2. Be sure your .md includes the following header:
@@ -82,7 +83,7 @@ Once I've looked over your transcription, I'll merge your file into the larger X
 - How does encoding the text transform its utility?
 - What questions about the relationship between technical writing and making emerged in this process?
 
-## Step 4: Submission
+### Step 4: Submission
 
 Finish by submitting a **pull request** to the **master** branch of our class repository.
 

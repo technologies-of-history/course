@@ -1,20 +1,21 @@
 ---
 layout: page
 title: Digital Tools Assignment 2
+permalink: /digitaltools2
 ---
 ## Showing History
 
 Now that you've mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you're ready to begin to create digital historical scholarship incorporating other digital tools.
 
-## Step 1: Visit the [Heidelberg Epigraphic Database](https://edh.ub.uni-heidelberg.de/foto/suche)
+### Step 1: Visit the [Heidelberg Epigraphic Database](https://edh.ub.uni-heidelberg.de/foto/suche)
 
 After browsing the examples of surviving Roman epigraphy compiled on the site, choose four to focus on for your second digital tools assignment (these may be the same four you worked with in class). Your post will compare these four examples, describing what each inscription says, where it is found, when it was created, and finally, how each reveals something about the status and function of public writing in Roman society. 
 
-## Step 2: Create your Google MyMaps
+### Step 2: Create your Google MyMaps
 
 
 
-## Step 3: Create a new blog post
+### Step 3: Create a new blog post
 
 1. Draft a post following our course protocols (create a new branch in **spring-2026** called **lastname-dt2**, navigate to **_posts** and create a new .md file titled **yyyy-mm-dd-your title.md**.) 
 2. Be sure your .md includes the following header:
@@ -28,7 +29,7 @@ After browsing the examples of surviving Roman epigraphy compiled on the site, c
 
 3. Draft a 3-4 paragraph post that introduces your four examples of epigraphic inscriptions, including their date, their location, a transcription, and their significance. Reflect on how these surviving examples of public writing shed light on the social fabric and culture of the vast Roman empire. You may wish to think about the distance or time separating some of the inscriptions; or you may wish to reflect on the permanence of this sort of writing; or you may wish to reflect on differences you see in style or content of your inscriptions.
 
-## Step 5: Embed the Mirador IIIF viewer to show your inscriptions
+### Step 5: Embed the Mirador IIIF viewer to show your inscriptions
 
 Your blog post should include images of the four inscriptions you've chosen to analyze. To include those images in your post, we're not going to host those images in our site repository, as that would lead to . We're going to embed a IIIF viewer to load the JSON manifests of those images and enable manipulation of the images on our site. The easiest way to do this is to embed a Mirador Viewer in to your blog post by copying the following code into your blog post. 
 
@@ -66,7 +67,7 @@ Your blog post should include images of the four inscriptions you've chosen to a
 < /html >
 ```
 
-## Step 6: Change out the IIIF Manifests to *Your* Images
+### Step 6: Change out the IIIF Manifests to *Your* Images
 
 1. Each image in the Epigraphic Heidelberg Database includes a link (just below the image viewer) to a IIIF manifest. Click the link, and you'll see a webpage that looks like nothing but Javascript code.
 2. Copy the URL to that webpage with nothing but text. It will end with **...manifest.json**
@@ -108,10 +109,10 @@ If you've done it correctly, your post will include a viewer that looks like thi
 </html>
 
 
-## Step 6: Embed your Google MyMaps to demonstrate their location
+### Step 6: Embed your Google MyMaps to demonstrate their location
 
 
-## Step 7: Submit your post
+### Step 7: Submit your post
 
 1. After you create this Markdown file and fill it with your content, **Commit changes...** to save the file to your branch. Every time you do something in the file, you'll write up a brief description of what you changed and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
 1. Click **spring-2026** to return to the main repository.

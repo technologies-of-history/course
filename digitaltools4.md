@@ -1,19 +1,17 @@
 ---
 layout: page
-bookTOC: false
-draft: false
 title: Digital Tools 4
+permalink: /digitaltools4
 ---
 
-## Mapping the History of Navigation with MapWarper and ArcGIS StoryMaps
+## Mapping History
 
-You’ve already explored [Google MyMaps](https://storymap.knightlab.com/) in your second Digital Tools assignment.
+You’ve already explored [Google MyMaps](https://www.google.com/maps) in your second Digital Tools assignment.
 
 Now, for your fourth Digital Tools Assignment, you will use a different mapping tool to create 
 a visual and spatial historical narrative. You will use a sixteenth-century map that has
 been "warped" to match contemporary longitude and latitude to tell this story. This will involve using 
-"MapWarper," a digital tool for enabling GIS manipulation of historical maps. You'll also use a dataset pulled from 
-the Age of Exploration database.
+"MapWarper," a digital tool for enabling GIS manipulation of historical maps. You'll also use a dataset pulled from the Age of Exploration database.
 
 ## Instructions:
 

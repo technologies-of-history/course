@@ -29,6 +29,10 @@ body {
   font: 18px/1.4 $helvetica;
   color: $darkGray;
   font-weight: 300;
+
+  @include mobile {
+    font-size: 14px;
+  }
 }
 
 .container {
@@ -36,6 +40,10 @@ body {
   max-width: 900px;
   padding: 0 10px;
   width: 100%;
+
+  @include mobile {
+    padding: 0 20px;
+  }
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -176,31 +184,15 @@ img {
 
 .wrapper-masthead {
   margin-bottom: 50px;
+  background-color: $lightGray;
+  border-bottom: 1px solid $darkGray;
 }
 
 .masthead {
   padding: 20px 0;
-  background-color: $darkGray;
-  border-bottom: 1px solid $darkGray;
 
   @include mobile {
     text-align: center;
-  }
-}
-
-.banner-container {
-  margin: 0px auto;
-  background-color: $darkGray;
-  width: 100%
-}
-
-.site-banner {
-  float: none;
-
-  @include mobile {
-    float: none;
-    display: block;
-    margin: 0 auto;
   }
 }
 
@@ -216,19 +208,27 @@ img {
 
 .site-name {
   margin: 0;
-  color: $white;
+  color: $blue;
+  text-decoration-line: $darkGray 1px solid;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-size: 36px;
   text-transform: uppercase;
   letter-spacing: 1px;
+
+  @include mobile {
+    font-size: 28px;
+    font-weight: 300;
+    text-align: right;
+  }
 }
 
 .site-description {
+  position: relative;
   margin: -5px 0 0 0;
-  color: $white;
+  color: $darkGray;
   text-align: right;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: lighter;
 
   @include mobile {
