@@ -12,6 +12,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
+- Read Ann Burdick, _A Short Guide to Digital Humanities_ (MIT Press, 2012) [Available on D2L.]
 - Watch this [video](https://youtu.be/Ko6J9v1C9zE?si=8xs3kISEhgabayC2) from BBC4 Radio explaining the Canadian communication theorist Marshall McLuhan's theory: "The medium is the message."
 - Next, watch this [video](https://youtu.be/VsZQMaN5pYc?si=pn23R9OPoRpLxp0o) from the MIT Media Lab explaining how a research team used big data scraped from Wikipedia to test McLuhan's theory.
 
@@ -28,8 +29,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Intro to GitHub
-- Register for a [GitHub account](http://www.github.com) if you don’t already have one.
-- In class, we'll complete the [Introduction to GitHub](https://github.com/skills/introduction-to-github) lesson to learn basic functionality of GitHub.
+- Before class, register for a [GitHub account](http://www.github.com) if you don’t already have one.
+- In class, we'll get you all added to the course organization and we'll complete the [Introduction to GitHub](https://github.com/skills/introduction-to-github) lesson to learn basic functionality of GitHub.
 - Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1.md)
 
 ## Week 3: The ABCs of Philosophy
@@ -40,8 +41,10 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Marc Van De Mieroop, _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. 3–31. [Available on D2L]
 
 ### Digital Assignments
-- Visit the [Cuneiform Digital Library](https://cdli.ucla.edu/) and view a cuneiform tablet from any one of the digitized tablets accessible on the site. A good way to find a tablet that’s been translated is to run a “Full Search” and type a single word into the “Translation” search box. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet.
+- Visit the [Cuneiform Digital Library](https://cdli.earth) and view a cuneiform tablet from any one of the digitized tablets accessible on the site. A good way to find a tablet that’s been translated is to run a “Full Search” and type a single word into the “Translation” search box. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet.
 - Visit [Machine Translation and Automated Analyses of Cuneiform Languages](https://cdli-gh.github.io/mtaac/) and read their About page. Think about what it means to make a computer read ‘human’ languages, and what it means for humans to try to ‘read’ computer languages.
+
+**Digital Tools 1 Assignment due Friday by 11:59 pm**
 
 
 ## Week 4: Romans and their Capitals
@@ -84,6 +87,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - In class we'll look at these [calendar fragments](https://www.lib.cam.ac.uk/collections/departments/taylor-schechter-genizah-research-unit/projects/calendar-fragments-tool) selected to aid in paleographical training
 - Introduction to [Digital Tools Assignment #3]( {{ site.baseurl }}/digitaltoolds3.md)
 
+**Digital Tools 2 Assignment due Friday by 11:59 pm**
+
 ## Week 7: Writing Embodied Knowledge
 ---
 
@@ -111,11 +116,13 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ## Week 9: Maps & Ethnography
 ---
 ### Readings
-- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, Its Sources and Meanings,” _Imago Mundi_ 50 (1999): 11–33. [Available on D2L]
+- Barbara E. Mundy, “Mesoamerican Cartography,”from _The History of Cartography, Vol. II_ (Chicago, 1998), 183–240. [Available on D2L]
 
 ### Digital Assignments
 - Explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
-- Read the _Programming Historian_'s [Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper) and [Displaying a Georeferenced Map in Story Map JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- Introduction to Digital Tools Assignment #4
+
+**Digital Tools 3 Assignment due Friday by 11:59 pm**
 
 ## Week 10: Maps & Navigation
 ---
@@ -126,13 +133,14 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments
 - Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
 - Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
-- Introduction to Digital Tools Assignment #4
+- Read the _Programming Historian_'s [Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper) and [Displaying a Georeferenced Map in Story Map JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
 
 ## Week 11: The Enlightened Correspondent
 ---
 
 ### Readings
-- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21, 78–109.
+- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21.
+- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15.
 
 ### Digital Assignments
 - Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
@@ -145,10 +153,11 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [posted on canvas]
+- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [Available on D2L]
+- Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available on D2L]
 
 ### Digital Assignments
-- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the names of any of the historical figures cited in our Readings. Choose one article from a newspaper mentioned or related to our secondary Readings this week and read it. We will work with the text of this article in class on Wednesday.
+- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1770–1779. Locate one news story 
 - Visit the [Google Books Ngram Viewer](https://books.google.com/ngrams/) website. This tool allows users to chart word usage over time. Choose three or four seemingly random words or names drawn from the newspaper article you selected from Chronicling America and enter them into the search box, separated by commas. Take a screenshot of the graph generated, and head to our Canvas discussion page.
 - [Voyant Tools](https://voyant-tools.org/) and lexical analysis
 
@@ -174,6 +183,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments
 - Read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
 - Visit [TweetSets](https://tweetsets.library.gwu.edu/) from George Washington University. Select an election-related dataset (from 2016 or 2018) and run a few searches through the set. Depending on what you search for (i.e. “electionfraud” or Russia, for example) you’ll be able to see the top accounts that used your search terms and the top websites linked to that language. Pay particular attention to the websites, and notice how many of them are social media posts.
+
+**Digital Tools 5 Assignment due by Friday at 11:59 pm**
 
 ## Week 15: History in the Age of AI
 ---

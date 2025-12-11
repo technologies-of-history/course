@@ -40,34 +40,7 @@ excerpt_separator: <!--more-->
 - `excerpt_separator: <!--more-->`: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code `<!--more-->` just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a **READ MORE** link at that point on the blog's homepage.
 
 
-### Step 3: Create a new Markdown file in which to compose your assignment
-
-(Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. This is the *most basic* way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)
-
-__If you're working directly in GitHub:__
-1. Navigate into the **spring-2026** repository in our GitHub organization.
-2. Create a new branch in the **spring-2026** repository by clicking the arrow to the right of **master** in the branch menu. In the text box that appears, type in the name of the new branch you'll create using the following naming convention: **lastname-dt1**.
-3. Below that text box, click the option that appears that says **Create branch: lastname-dt1**.
-4. Within in this new branch, open the **_posts** folder. 
-5. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
-6. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
-7. Create your YAML header following these conventions:
-
- ```
- ----
-layout: post
-author: Your Name Here
-title: Your Title Here
-excerpt_separator: <!--more-->
----
- ```
-
-__If you're writing your posts in a text editor rather than on GitHub:__
-1. Open your text editor of choice and create a new create a new Markdown file with the appropriate naming conventions: **yyyy-mm-dd-your title.md**. 
-2. Create your YAML header as specified above and continue to **Step 4** below.
-3. When you've finished drafting your post, follow create a new branch in the **spring-2026** repository as described above, but instead of clicking **Create New File** within the **_posts** folder in your new branch, you'll click **Upload files** to add your post to the repository.
-
-### Step 4: Write your post
+### Step 3: Composing your assignment in Markdown
 
 Using appropriate Markdown syntax, Write a 2–3 paragraph post reflecting on the relationship between the
 nature or format of a communication technology and the kind of knowledge that technology can
@@ -79,7 +52,26 @@ arguments constrained or shaped by the digital tools available to them? How migh
 
 To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.
 
-### Step 5: Commit your post
+(Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. This is the *most basic* way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)
+
+__If you're working directly in GitHub:__
+1. Navigate into the **spring-2026** repository in our GitHub organization.
+2. Create a new branch in the **spring-2026** repository by clicking the arrow to the right of **master** in the branch menu. In the text box that appears, type in the name of the new branch you'll create using the following naming convention: **lastname-dt1**.
+3. Below that text box, click the option that appears that says **Create branch: lastname-dt1**.
+4. Within in this new branch, open the **_posts** folder. 
+5. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
+6. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
+7. Create your YAML header as specified above and compose your post.
+
+
+__If you're writing your posts in a text editoror on Google docs rather than on GitHub:__
+1. Open your text editor or Google docs. 
+2. Create your YAML header as specified above and compose your post.
+3. When you've finished drafting your post, save the file (or download the file as a .md) with the following naming convention: **yyyy-mm-dd-your title.md**
+4. In our GitHub organization, navigate to the **spring-2026** repository as described above, but instead of clicking **Create New File** within the **_posts** folder in your new branch, you'll click **Upload files** to add your **.md file** to the repository.
+
+
+### Step 4: Commit your post
 
 1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch (the green button on the upper right).
 2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
@@ -87,7 +79,7 @@ To receive full credit for this assignment, be sure to draw comparisons between 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
 5. **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until your submit a **Pull request.**
 
-### Step 6: Submit a pull request
+### Step 5: Submit a pull request
 
 Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of the site so that it can be served to the website. 
 
