@@ -42,16 +42,6 @@ excerpt_separator: <!--more-->
 
 ### Step 3: Composing your assignment in Markdown
 
-Using appropriate Markdown syntax, Write a 2–3 paragraph post reflecting on the relationship between the
-nature or format of a communication technology and the kind of knowledge that technology can
-produce. Historians have suggested, for example, that alphabetic writing enabled 
-the development of philosophical thought in Greece that was markedly different from that of ancient
-Mesopotamia, with its cuneiform syllabary. In what ways do we see a similar relationship between
-the principles of static computing and the production of digital scholarship? Are historians
-arguments constrained or shaped by the digital tools available to them? How might the digital environment transform historians' scholarship?
-
-To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.
-
 (Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. This is the *most basic* way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)
 
 __If you're working directly in GitHub:__
@@ -62,6 +52,19 @@ __If you're working directly in GitHub:__
 5. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
 6. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
 7. Create your YAML header as specified above and compose your post.
+
+Using appropriate Markdown syntax, write 4-5 paragraphs responding to the following prompt:
+
+Historians have suggested that alphabetic writing enabled the development of philosophical thought in Greece that was markedly different from that of ancient Mesopotamia, with its cuneiform syllabary. Does the same relationship between the form and structure of digital languages affect how we engage with the past? In other words, has digital access to archival materials like cuneiform tablets or ancient Greek epigraphic inscriptions changed how we view history? Do digital format allow for different engagements than the kind we experienced in the Special Collections room at Burnett Library?
+
+To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.
+
+Your post should include the following elements of Markdown code:
+- At least one heading
+- At least one link
+- At least one image 
+
+(Note: I've added a little extra CSS to our course site so you can style the pictures you embed by adding `{: width="270px" .right-image}`immediately after the ordinary syntax for embedding an image. In the code above, you can edit the size of the photo by updating `"270px"` to a larger or smaller number, or position the image by specifying `.right-image`, `.left-image`, or `.center-image`)
 
 
 __If you're writing your posts in a text editoror on Google docs rather than on GitHub:__

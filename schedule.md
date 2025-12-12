@@ -71,7 +71,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Visit the British Library and Bibliothèque nationale de France's [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/themes) and select one illuminated liturgical or biblical manuscript to work with in class
-- Introduction to International Image Interoperability Framework, or [IIIF](https://iiif.io/about/), as well as its necessity for the [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/realised-iiif-technology)
+- Introduction to International Image Interoperability Framework, or [IIIF](https://iiif.io/get-started/how-iiif-works/), as well as its necessity for the [Polonsky Project](https://manuscrits-france-angleterre.org/polonsky/en/content/realised-iiif-technology)
 - Introduction to [IIIF Viewers](https://iiif.io/get-started/iiif-viewers/)
 
 
@@ -89,16 +89,17 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 **Digital Tools 2 Assignment due Friday by 11:59 pm**
 
-## Week 7: Writing Embodied Knowledge
+## Week 7: Writing, Making, and Knowing
 ---
 
 ### Readings
 - Pamela H. Smith, “In the Workshop of History: Making, Writing, and Meaning.” _West 86th_ 19, no. 1 (2012): 4–31.
-- Browse [Edition 640](https://edition640.makingandknowing.org), the annotated critical edition of a sixteenth-century French craft manual. Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe
+- Browse [_Secrets of Craft and Nature_](https://edition640.makingandknowing.org), the annotated critical edition of a sixteenth-century French craft manual. Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe
 
 ### Digital Assignments
-- Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
-- Browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions
+- Browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions for an XML-encoded digital edition. Choose which page of the manuscript you want to transcribe (folio 6r or later).
+- In class, we'll return to the recipe for [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15) in _Secrets of Craft and Nature_ to see how that recipe is encoded with XML
+- Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
 
 
 ## Week 8: The Print Revolution
@@ -106,11 +107,12 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings
 - Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192.
-- Elizabeth Eisenstein, _The Print Revolution_, TBD
+- Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available on D2L]
 
 ### Digital Assignments
-- View Thomas Tusser, Points of Good husbandrie (STC 24380) on [The Archaeology of Reading](https://archaeologyofreading.org/)
-- Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
+- Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
+- View the copy of Thomas Tusser's _Points of Good husbandrie_ held at Princeton University Library and annotated by Gabriel Harvey at [The Archaeology of Reading](https://archaeologyofreading.org/bibliography/Harvey-corpus/Tusser)
+- In class, we'll view the XML data for each of the pages of the book annotated by Harvey, downloaded from the AOR, as well as the XML file generated for the Dyngley edition, in the [dyngley-data repository](https://github.com/technologies-of-history/dyngley-data) in our course GitHub organization
 
 
 ## Week 9: Maps & Ethnography
@@ -120,7 +122,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
-- Introduction to Digital Tools Assignment #4
+- Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
 
 **Digital Tools 3 Assignment due Friday by 11:59 pm**
 
@@ -132,8 +134,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
-- Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
 - Read the _Programming Historian_'s [Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper) and [Displaying a Georeferenced Map in Story Map JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
+- Introduction to Digital Tools Assignment #4
 
 ## Week 11: The Enlightened Correspondent
 ---
@@ -143,10 +145,11 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15.
 
 ### Digital Assignments
+
 - Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
-- Visit [EMLO](http://emlo.bodleian.ox.ac.uk/), and try to find your favorite Humanist or Enlightenment thinker’s letters with the traditional [database search function](http://emlo.bodleian.ox.ac.uk/home). 
+- Visit the [About page](https://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=913) of Early Modern Letters Online, [EMLO](http://emlo.bodleian.ox.ac.uk/) 
+- Next, search [EMLO](http://emlo.bodleian.ox.ac.uk/home) for women writers who wrote in English between 1650 and 1750. Choose 
 - Then Browse the catalogue by [People](http://emlo.bodleian.ox.ac.uk/browse/people) and find a woman letter writer or recipient. View the graphs and visualizations of their correspondence by clicking on the author’s name. 
-- [Introduction to Digital Tools Assignnment #5]({{ site.baseurl }}/digitaltools5.md)
 
 
 ## Week 12: Newspapers in the Age of Revolutions
@@ -157,9 +160,11 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available on D2L]
 
 ### Digital Assignments
-- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1770–1779. Locate one news story 
-- Visit the [Google Books Ngram Viewer](https://books.google.com/ngrams/) website. This tool allows users to chart word usage over time. Choose three or four seemingly random words or names drawn from the newspaper article you selected from Chronicling America and enter them into the search box, separated by commas. Take a screenshot of the graph generated, and head to our Canvas discussion page.
-- [Voyant Tools](https://voyant-tools.org/) and lexical analysis
+- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
+- In class, we'll practice loading a newspaper dataset from Jordan Taylor into Palladio to visualize a network of correspondence
+- Introduction to [Digital Tools Assignnment #5]({{ site.baseurl }}/digitaltools5.md)
+
+**Digital Tools Assignment #4 due Friday by 11:59 pm**
 
 
 ## Week 13: Mass Media and Politics
@@ -167,10 +172,10 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings
 - Listen to the podcast, [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/), from American RadioWorks
-- Listen to Paul Robeson sing [“Ballad for Americans,”](https://music.youtube.com/watch?v=LHCQGQdeL68&feature=share) broadcast on the radio show Pursuit of Happiness in 1940D. M. Ryfe, “Franklin Roosevelt and the Fireside Chats.” _Journal of Communication_ 49, no. 4 (1999): 80–103. [posted on canvas]
+- Listen to Paul Robeson sing [“Ballad for Americans,”](https://music.youtube.com/watch?v=LHCQGQdeL68&feature=share) broadcast on the radio show Pursuit of Happiness in 1940D. 
+- Listen to FDR’s fireside chat on “The WPA and Social Security,” from April 28, 1935 on the [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/) site
 
 ### Digital Assignments
-- Visit [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/) site and listen to FDR’s fireside chat on “The WPA and Social Security,” from April 28, 1935
 - Read the _Programming Historian_'s [Editing Audio with Audacity](https://programminghistorian.org/en/lessons/editing-audio-with-audacity)
 
 
