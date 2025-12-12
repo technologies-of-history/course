@@ -109,10 +109,10 @@ If you've done it correctly, your post will include a viewer that looks like thi
 1. Open the **.csv file** that you downloaded from the Heidelberg Epigraphy Database. Sort the data according to **modern find spot** so that the same places are grouped together. 
 2. Open a new spreadsheet on your computer. Copy-and-paste the **modern find spots** column from the original file into the first column of the new spreadsheet, followed by the **country** column in the next column, and finally, in the fhird column, paste in the column **ancient find spot**. Double check that the appropriate ancient name matches the modern name in this new spreadsheet by cross-referencing against the original file. Save the spreadsheet on your computer as a **.csv file.**
 3. Next, navigate to [Google My Maps](https://mymaps.google.com). Log in if you haven't, and click **Create New Map.**
-4. Name your map, and then click **Import**. Drag and drop your new **.csv file** with the three columns of place names. Select the **modern find spot** and **country** as the two columns MyMaps should use to generate places on the map. Select **ancient find spots** as the column MyMaps should use to name the places.
-5. Play around with the styling and background until the map looks the way you'd like.
-6. Click **share** in the My Maps menu, and share the map via your Google drive. No need to email it to anyone. Once your map is public, you can click the three dots at the top right of the MyMaps menu and select **Embed on my site.**
-7. Copy and paste the code that is generated into the body of your post, making sure you wrap the code in `<html> </html>` tags.
+4. Name your map something like **Romen epigraphy in X province,** and then click **Import**. Drag and drop your new **.csv file** with the four columns of place names. Select **modern find spot** and **country** as the columns MyMaps should use to generate places on the map. Select **ancient find spots** as the column MyMaps should use to name the places.
+6. Play around with the styling and background until the map looks the way you'd like.
+7. Click **share** in the My Maps menu, and share the map via your Google drive. No need to email it to anyone. Once your map is public, you can click the three dots at the top right of the MyMaps menu and select **Embed on my site.**
+8. Copy and paste the code that is generated into the body of your post, making sure you wrap the code in `<html> </html>` tags.
 
 ### Step 6: Draft your post
 

@@ -97,7 +97,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Browse [_Secrets of Craft and Nature_](https://edition640.makingandknowing.org), the annotated critical edition of a sixteenth-century French craft manual. Read the essay on [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15); watch the [Video](https://vimeo.com/384066429) of lab researchers describing their efforts to reconstruct the recipe; and finally, read the [translation](https://edition640.makingandknowing.org/#/folios/3r/f/3r/tl) of the recipe
 
 ### Digital Assignments
-- Browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions for an XML-encoded digital edition. Choose which page of the manuscript you want to transcribe (folio 6r or later).
+- Browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions for an XML-encoded digital edition. Choose which page from the manuscript you want to transcribe (folio 6r or later).
 - In class, we'll return to the recipe for [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15) in _Secrets of Craft and Nature_ to see how that recipe is encoded with XML
 - Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
 
