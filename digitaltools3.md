@@ -37,41 +37,6 @@ For this assignment, you will select a page from a Middle English medical recipe
 </div>
 </html>
 
-## An example of the TEI markup for the first folio of the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec):
-
-
-```
-<pb facs="#f016" />
-<ab>
-<div>
-	<head>
-	<handShift/>
-	<title>of all maner of Infyrmytes</title>
- 	<handShift/>
- 	</head>
- 	<p>Here begynneth a tretys of al manere of infirmitees of mannys body. 
- 	bothe withinne as touchyng to phisyke and withoute as touching to surgerie 
- 	from the croune of the heed to the sool of the foot. And the remedies therwith 
- 	if god wol. And furst we wol at heer of the hed how it shulde be norisshede &amp; kepte &amp;c.</p>
-</div>
-<div>
-	<head>
-	<title>For to make heer to growe.</title>
-	</head>
-	<p>Take withien leves and sethe hem in oyle and hony and anoynte the heede 
-	therwith. and it shal make the heer to growe and waxe. 
-	<title>Another.</title> Take beer &amp; drie hem in a furneys or in a panne
-	and make therof a pouder. and sethe it in hony and anoynt the pacient therwith and it schal 
-	make the heer to growe. <title>Another.</title> forto make heer to growe after scalles. 
-	There is an oynement that is cleped <term>unguentum <persName>aristotilis</persName></term>. 
-	thus it must be made. Take the sewet of a dere either fresshe shepys talu and 
-	pich that is fletyng. oyle olyf and gret salt. of iche of these <measure>iii. unces</measure> 
-	or <measure>half a quartron</measure> of white waxe <measure>half an unce</measure>. 
-	than first take the sewt. or </p>
-  </div>
-  </ab>
-```
-
 ### Step 1: Transcribe a page from the manuscript
 
 1. Click through the images of TCC MS O.8.35 and select a single page of text to transcribe. Make note of the folio number for your page, indicated at the bottom of the Mirador viewer (i.e. f001r or f014v).
@@ -87,17 +52,10 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 
 ### Step 2: Mark-up your transcription using TEI in Markdown
 
-1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<div>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, and `<measure>` and other tags within the TEI glossary as necessary. You can refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
+1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<ab>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, `<term>`, `<supplied>`,`<measure>`, and other tags within the TEI glossary as necessary. Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
 3. Finally, once you're sure you've got the TEI right, link to the actual folio in the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec) that features your transcription!
-4. Upload your .txt file to the **dyngley-data** repository in our GitHub organization, in the folder **transcriptions**, following our GitHub submission protocols. Create a branch in the **dyngley-data** repository named **yourlastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **master** branch of our repository. 
-
-### Step 3: Create a pull request to merge your .txt file into the dyngley-data repository
-
-1. In our GitHub organization, open the **dyngley-data** repository.
-2. Create a new branch called **lastname-transcription**. 
-3. While in that branch, open the **transcriptions** folder and upload your **.txt** file with your individual transcription. **IMPORTANT:** it _must_ be named **xml_id.txt** for EditionCrafter to work!
-4. Open a **pull request** to merge your branch into the **main** branch of the repository.
+4. Create a branch in the **dyngley-data** repository named **lastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **master** branch of our repository.
 5. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
 **Note**: If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest).

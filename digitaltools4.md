@@ -21,8 +21,6 @@ The StoryMap element of this assignment is just the beginning. For this project,
 
 ## Instructions for Submission:
 
-Once you've created your StoryMap, it's time to embed it into a post. You've already practiced writing a blog post in Markdown in our first Digital Tools assignment. Now it's time to use those same skills to write up the process of creating your StoryMap. Follow these steps:
-
 1. Create your StoryMap.
 2. Either directly in our GitHub repository in the branch draft-posts or in your text editor create a new Markdown file with the naming conventions we've practiced in your first Digital Tools Assignment (YYYY-MM-DD-Post Title.md).
 3. Write a 4–5 paragraph post answering the questions listed above. Write well and clearly! Think of this as equivalent to a 1-2 page response paper.
