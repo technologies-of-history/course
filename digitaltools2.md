@@ -14,21 +14,23 @@ Now that you've mastered the work flow of forking from our repository, creating 
 3. Once you've selected your province and generated the search results, you'll see a link at the top of the page (above the list of results) with a link to download the results as a **.csv file.** Click the link to download the file, then save it on your computer.
 4. Next, select four inscriptions from the results that appear for your chosen Roman province, making sure that the inscriptions you pick have good quality images and that the have an **HD number** link. I'd suggest picking a range of inscriptions that include both formal epigraphy and informal graffiti-style carving. For each of the inscriptions you've chosen, click the **HD number** link and keep the page open on your browser. You'll need it in a few steps.
 
-### Step 2: Create a new Markdown file for your post
+### Step 2: Create your Google MyMaps
+1. Open the **.csv file** that you downloaded from the Heidelberg Epigraphy Database and sort the data according to **modern find spot** so that the same places are grouped together. 
+2. Create a new spreadsheet on your computer that just contains the location information for the inscriptions compiled in the **.csv file** you've downloaded from the EDH. You'll want to be sure to include both ancient and modern location information.
+3. Next, navigate to [Google My Maps](https://mymaps.google.com). Log in if you haven't, and click **Create New Map.**
+4. Name your map and then click **Import**. Drag and drop the new **.csv file** with just the location information for the inscriptions. Adjust the settings in Google MyMaps so that locations on your map are labeled with ancient placenames, but appear in the appropriate modern location.
+6. Play around with the styling and background until the map looks the way you'd like.
+7. Click **share** in the My Maps menu, and share the map via your Google drive. No need to email it to anyone. Once your map is public, you can click the three dots at the top right of the MyMaps menu and select **Embed on my site.**
 
-1. Draft a post following our course protocols (create a new branch in **spring-2026** called **lastname-dt2**, navigate to **_posts** and create a new .md file titled **yyyy-mm-dd-your title.md**.) 
-2. Be sure your .md includes the following header:
+### Step 3: Create your post
 
- ```
- ---
- layout: post
- title: [Your title here]
- ---
- ```
+1. Create a new Markdown file for your post following our course protocols (create a new branch in **spring-2026** called **lastname-dt2**, navigate to **_posts** and create a new .md file titled **yyyy-mm-dd-your title.md** with the appropriate YAML header.) 
+2. Compose a 3-4 paragraph post responding to the following prompt. Your blog post must also include the Google MyMaps you've created, as well as images of the four inscriptions you've chosen to analyze.
 
-### Step 3: Embed the Mirador IIIF viewer to show your inscriptions
+Referencing the transcriptions and images for your four inscriptions on the Heidelberg Epigraphic Database, Cooley and Bispham's chapter, and your map illustrating the geographic distribution of epigraphic writing in your chosen province, what do these pieces of evidence tell us about Roman attitudes toward public writing? In what ways do you think digital archives and repositories may have changed how we understand writing in Roman culture?
 
-Your blog post should include images of the four inscriptions you've chosen to analyze. To include those images in your post, we're going to embed a IIIF viewer to load the JSON manifests of those images and enable manipulation of the images on our site. The easiest way to do this is to embed a Mirador Viewer in to your blog post by copying the following code into your blog post. 
+4. To embed, your Google MyMaps somewhere in the post, copy the code that appears when you click **Embed on my site** somewhere in your post, making sure that you wrap the code in `<html> </html>` tags. 
+5. To embed a Mirador viewer into your blog post, you'll cut and pase the following code into your post somewhere. After you've pasted the code into your Markdown file, you'll copy-and-paste the URL for each of the IIIF manifests of your chosen inscriptions into the appropriate spot indicated in the code snippet below. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** link on the EDH website.
 
 ```
 <html>
@@ -45,16 +47,16 @@ Your blog post should include images of the four inscriptions you've chosen to a
       var mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/HD005758.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/HD046143.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/HD011165.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F005848.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+          "URL for the first image manifest here": { provider: "Epigraphic Database Heidelberg" },
+          "URL for the second image manifest here": { provider: "Epigraphic Database Heidelberg" },
+          "URL for the third image manifest here": { provider: "Epigraphic Database Heidelberg" },
+          "URL for the fourth image manifest here": { provider: "Epigraphic Database Heidelberg" }
         },
         windows: [
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/HD005758.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/HD046143.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/HD011165.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F005848.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+          { loadedManifest: "URL for the first image manifest here", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "URL for the second image manifest here", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "URL for the third image manifest here", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "URL for the fourth image manifest here", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
       });
     }
@@ -64,12 +66,6 @@ Your blog post should include images of the four inscriptions you've chosen to a
 </html>
 ```
 
-### Step 4: Change out the IIIF Manifests to *Your* Images
-
-1. Each image in the Epigraphic Heidelberg Database includes a link to a IIIF manifest. In the four browser windows you still have open for the four images you've chosen, click the **IIIF Manifest** link to view the JSON manifest. 
-2. Copy the URL to the webpage that opens with the Javascript code. It will end with **...manifest.json**
-3. Paste that URL so that it replaces the first URL within quotations under both `manifests:` and `windows:`. Make sure your URL is bracketed by double quotations, just as you see in the example above.
-4. Continue the process for the next three IIIF manifests, eventually replacing all of the URLS to IIIF manifests in the example above to your own images.
 
 If you've done it correctly, your post will include a viewer that looks like this, with all four of your images visible.
 
@@ -105,22 +101,8 @@ If you've done it correctly, your post will include a viewer that looks like thi
 </div>
 </html>
 
-### Step 5: Create your Google MyMaps
-1. Open the **.csv file** that you downloaded from the Heidelberg Epigraphy Database. Sort the data according to **modern find spot** so that the same places are grouped together. 
-2. Open a new spreadsheet on your computer. Copy-and-paste the **modern find spots** column from the original file into the first column of the new spreadsheet, followed by the **country** column in the next column, and finally, in the fhird column, paste in the column **ancient find spot**. Double check that the appropriate ancient name matches the modern name in this new spreadsheet by cross-referencing against the original file. Save the spreadsheet on your computer as a **.csv file.**
-3. Next, navigate to [Google My Maps](https://mymaps.google.com). Log in if you haven't, and click **Create New Map.**
-4. Name your map something like **Romen epigraphy in X province,** and then click **Import**. Drag and drop your new **.csv file** with the four columns of place names. Select **modern find spot** and **country** as the columns MyMaps should use to generate places on the map. Select **ancient find spots** as the column MyMaps should use to name the places.
-6. Play around with the styling and background until the map looks the way you'd like.
-7. Click **share** in the My Maps menu, and share the map via your Google drive. No need to email it to anyone. Once your map is public, you can click the three dots at the top right of the MyMaps menu and select **Embed on my site.**
-8. Copy and paste the code that is generated into the body of your post, making sure you wrap the code in `<html> </html>` tags.
 
-### Step 6: Draft your post
-
-Now that you've got the code for a Mirador viewer and Google MyMaps copied into your post, it's time to compose a 3-4 paragraph post responding to the following prompt: (Note: you can add Markdown language before and after your embedded code, so please do use your own words to introduce the images and map.)
-
-Referencing the transcriptions and images for your four inscriptions on the Heidelberg Epigraphic Database, Cooley and Bispham's chapter, and your map illustrating the geographic distribution of epigraphic writing in your chosen province, what do these pieces of evidence tell us about Roman attitudes toward public writing? In what ways do you think digital archives and repositories may have changed how we understand writing in Roman culture?
-
-### Step 7: Submit your post
+### Step 4: Submit your post
 
 1. After you create this Markdown file and fill it with your content, **Commit changes...** to save the file to your branch. Every time you do something in the file, you'll write up a brief description of what you changed and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
 1. Click **spring-2026** to return to the main repository.

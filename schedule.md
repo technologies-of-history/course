@@ -12,7 +12,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Read Ann Burdick, _A Short Guide to Digital Humanities_ (MIT Press, 2012) [Available on D2L.]
+- Read Ann Burdick, _A Short Guide to Digital Humanities_ (MIT Press, 2012) [Available on D2L]
 - Watch this [video](https://youtu.be/Ko6J9v1C9zE?si=8xs3kISEhgabayC2) from BBC4 Radio explaining the Canadian communication theorist Marshall McLuhan's theory: "The medium is the message."
 - Next, watch this [video](https://youtu.be/VsZQMaN5pYc?si=pn23R9OPoRpLxp0o) from the MIT Media Lab explaining how a research team used big data scraped from Wikipedia to test McLuhan's theory.
 
@@ -37,8 +37,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Jack Goody and Ian Watt, “The Consequences of Literacy,” _Comparative Studies in Society and History_ 5 (April 1963), pp. 311–332. [Available on D2L]
-- Marc Van De Mieroop, _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. 3–31. [Available on D2L]
+- Jack Goody and Ian Watt, “The Consequences of Literacy,” _Comparative Studies in Society and History_ 5 (April 1963), pp. 311–332. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_miscellaneous_60579216) catalogue.] **Note**: You should STOP reading at page 332.
+- Marc Van De Mieroop, Chapter 1: "At the Time of Creation" from _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. 3–31. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975070723908721).]
 
 ### Digital Assignments
 - Visit the [Cuneiform Digital Library](https://cdli.earth) and view a cuneiform tablet from any one of the digitized tablets accessible on the site. A good way to find a tablet that’s been translated is to run a “Full Search” and type a single word into the “Translation” search box. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet.
@@ -51,14 +51,14 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Alison E. Cooley and Edward Bispham, "Inscriptions" from the *Edinburgh Companion to Ancient Greece and Rome* (Edinburgh, 2010), 262–274 [Available on D2L].
-- Rebecca R. Benefiel,  "Urban and Suburban Attitudes to Writing on Walls? Pompei and Environs," from *Writing Matters* (De Gruyter, 2017), 353–374. [Available on D2L]
+- Alison E. Cooley and Edward Bispham, Chapter 34: "Inscriptions," from the *Edinburgh Companion to Ancient Greece and Rome* (Edinburgh, 2010), 262–274 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975045635008721)].
+- Ramsay MacMullen, "The Epigraphic Habit in the Roman Empire," _American Journal of Philology_ Vol. 103, no. 3 (1982): 233–246. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_journals_1289730083).]
 
 
 ### Digital Assignments
-- Visit the [Ancient Graffiti Project](https://www.ancientgraffiti.org/Graffiti/) and select two examples of graffiti recovered on the walls of Pompei to discuss in class.
+- Read Section 3.1 "A technical guide to Latin epigraphy," from Alison E. Cooley, _The Cambridge Manual of Latin Epigraphy_ (Cambridge: Cambridge University Press, 2012), pp. 327–335 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975014790808721).]
 - Visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
-- Introduction to [Google MyMaps](https://mymaps.google.com)
+- In-class introduction to [Google MyMaps](https://mymaps.google.com)
 - Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2.md)
 
 
@@ -79,8 +79,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- M. T. Clanchy, _From Memory to Written Record, 1066–1307_ (New York, 2012), pp. 44–73.
-- Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 247–273.
+- M. T. Clanchy, _From Memory to Written Record, 1066–1307_ (New York, 2012), pp. 44–73. [Available on D2L]
+- Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 1–13 [**Note**: you do not need to read the remaining pages of the Introduction], 55–82. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_jstor_books_10_2307_j_ctvhn0bwn).]
 
 ### Digital Assignments
 - Visit the [Princeton Geniza Project](https://geniza.princeton.edu/) and explore the project by searching the Project’s Digital Document Library and JTS Image Collection.
@@ -106,7 +106,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192.
+- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [Available on D2L]
 - Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available on D2L]
 
 ### Digital Assignments
@@ -121,7 +121,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 - Barbara E. Mundy, “Mesoamerican Cartography,”from _The History of Cartography, Vol. II_ (Chicago, 1998), 183–240. [Available on D2L]
 
 ### Digital Assignments
-- Explore the [Agas Map](https://mapoflondon.uvic.ca/agas.htm), and compare the spatial representation of that city to the Nahuatl Maps of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
+- Explore the various Mesoamerican maps collected and annotated as part of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
 - Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
 
 **Digital Tools 3 Assignment due Friday by 11:59 pm**
@@ -130,7 +130,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Sara Caputo, _Tracks on the Ocean_ (Chicago, 2024), pp. TBD.
+- Sara Caputo, "Trailblazers" and "Writing on Water," from _Tracks on the Ocean_ (Chicago, 2024), pp. 42–103. [Available on D2L]
 
 ### Digital Assignments
 - Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
@@ -141,8 +141,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21.
-- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15.
+- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21. [Available as an eBook in the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma990018472210208721).]
+- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15, 100–132. [Available on D2L]
 
 ### Digital Assignments
 
@@ -191,11 +191,5 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 **Digital Tools 5 Assignment due by Friday at 11:59 pm**
 
-## Week 15: History in the Age of AI
+## Week 15: End-of-Semester Wrap-Up Discussion
 ---
-
-### Readings
-- Bill Wasik, ["A.I. is Poised to Rewrite History. Literally."](https://www.nytimes.com/2025/06/16/magazine/ai-history-historians-scholarship.html) _The New York Times_ June 16, 2025 
-
-### Digital Assignments
-- Use Google's [NotebookLM](https://notebooklm.google.com) to brainstorm ideas for your final paper
