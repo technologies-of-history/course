@@ -130,7 +130,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Sara Caputo, "Trailblazers" and "Writing on Water," from _Tracks on the Ocean_ (Chicago, 2024), pp. 42–103. [Available on D2L]
+- Sara Caputo, "Trailblazers" and "Writing on Water," from _Tracks on the Ocean_ (Chicago, 2024), pp. 42–103. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975182356708721).]
 
 ### Digital Assignments
 - Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
@@ -148,8 +148,7 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 - Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
 - Visit the [About page](https://emlo-portal.bodleian.ox.ac.uk/collections/?page_id=913) of Early Modern Letters Online, [EMLO](http://emlo.bodleian.ox.ac.uk/) 
-- Next, search [EMLO](http://emlo.bodleian.ox.ac.uk/home) for women writers who wrote in English between 1650 and 1750. Choose 
-- Then Browse the catalogue by [People](http://emlo.bodleian.ox.ac.uk/browse/people) and find a woman letter writer or recipient. View the graphs and visualizations of their correspondence by clicking on the author’s name. 
+- Next, search [EMLO](http://emlo.bodleian.ox.ac.uk/home) for women writers who wrote in English between 1650 and 1750. Choose one woman writer and  
 
 
 ## Week 12: Newspapers in the Age of Revolutions
@@ -187,7 +186,8 @@ __Digital Lab__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments
 - Read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
-- Visit [TweetSets](https://tweetsets.library.gwu.edu/) from George Washington University. Select an election-related dataset (from 2016 or 2018) and run a few searches through the set. Depending on what you search for (i.e. “electionfraud” or Russia, for example) you’ll be able to see the top accounts that used your search terms and the top websites linked to that language. Pay particular attention to the websites, and notice how many of them are social media posts.
+- Read "
+- Visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Read the README file.
 
 **Digital Tools 5 Assignment due by Friday at 11:59 pm**
 
