@@ -1,0 +1,1018 @@
+voyage,arrival,departure,port,longitude,latitude
+Columbus' First Voyage,8/3/1492,8/3/1492,"Palos de la Frontera, Castille",-6.8929,37.2298
+Columbus' First Voyage,8/9/1492,9/13/1492,Canary Islands,-16.62913,28.291564
+Columbus' First Voyage,10/13/1492,10/14/1492,San Salvador,-73.51,22.6
+Columbus' First Voyage,10/16/1492,10/17/1492,Ferdinanda,-75.1,23.18
+Columbus' First Voyage,10/19/1492,10/19/1492,Isabela,-74.35,22.59
+Columbus' First Voyage,10/20/1492,10/20/1492,"Rio St. Salvador, Cuba",-76.04,21.08
+Columbus' First Voyage,10/24/1492,10/25/1492,Islas de Arena,-75.77,22.33
+Columbus' First Voyage,10/28/1492,11/24/1492,"Cayo Cruz, Cuba",-77.76,22.18
+Columbus' First Voyage,12/5/1492,12/16/1492,Hispaniola (north),-73.38,19.66
+Columbus' First Voyage,12/24/1492,12/28/1492,"La Navidad, Hispaniola",-72.21,19.74
+Columbus' First Voyage,1/1/1493,1/1/1493,"Samana Bay, Hispaniola",-69.14,19.14
+Columbus' First Voyage,3/4/1493,3/4/1493,"Lisbon, Portugal",-9.14,38.72
+Captain Cook's First Voyage,8/14/1768,8/25/1768,"Plymouth, England",-4.14,50.38
+Captain Cook's First Voyage,9/12/1768,9/13/1768,"Funchal, Madeira",-16.96,32.76
+Captain Cook's First Voyage,11/13/1768,12/5/1768,"Rio de Janeiro, Brazil",-43.17,-22.91
+Captain Cook's First Voyage,1/15/1769,1/21/1769,"Bay of Good Success, Tierra del Fuego",-65.263,-54.8
+Captain Cook's First Voyage,4/13/1769,7/13/1769,"Matavai Bay, Tahiti",-149.51,-17.52
+Captain Cook's First Voyage,7/17/1769,7/20/1769,"Huahine, French Polynesia",-150.99,-16.79
+Captain Cook's First Voyage,7/21/1769,7/25/1769,"Ulietea, French Polynesia",-151.46,-16.82
+Captain Cook's First Voyage,7/28/1769,7/29/1769,"Ha'amene Bay, Tahaa, French Polynesia",-151.47,-16.64
+Captain Cook's First Voyage,7/30/1769,7/31/1769,"Hurepiti Bay, Tahaa, French Polynesia",-151.53,-16.65
+Captain Cook's First Voyage,8/2/1769,8/9/1769,"Ulietea, French Polynesia",-151.46,-16.82
+Captain Cook's First Voyage,10/9/1769,10/11/1769,"Poverty Bay, New Zealand",177.98,-38.71
+Captain Cook's First Voyage,10/23/1769,10/29/1769,"Tolaga Bay, New Zealand",178.3,-38.37
+Captain Cook's First Voyage,11/4/1769,11/15/1769,"Mercury Bay, New Zealand",175.74,-36.81
+Captain Cook's First Voyage,11/19/1769,11/24/1769,"Firth of Thames, New Zealand",175.4,-37.08
+Captain Cook's First Voyage,11/25/1769,11/25/1769,"Bream Bay, New Zealand",174.46,-35.88
+Captain Cook's First Voyage,11/29/1769,12/5/1769,"Motuarohia Island, New Zealand",174.14,-35.23
+Captain Cook's First Voyage,1/14/1770,2/7/1770,"Queen Charlotte Sound, New Zealand",174.33,-41.08
+Captain Cook's First Voyage,4/29/1770,5/5/1770,"Botany Bay, New South Wales, Australia",151.18,-34
+Captain Cook's First Voyage,5/23/1770,5/24/1770,"Bustard Bay, Australia",151.89,-24.16
+Captain Cook's First Voyage,5/29/1770,5/31/1770,"Broad Sound, Australia",149.75,-22.17
+Captain Cook's First Voyage,6/7/1770,6/9/1770,"Halifax Bay, Australia",146.5,-18.83
+Captain Cook's First Voyage,6/10/1770,6/10/1770,"Mission Bay, Australia",145.88,-16.89
+Captain Cook's First Voyage,8/12/1770,8/13/1770,"Lizard Island, Australia",145.47,-14.66
+Captain Cook's First Voyage,8/22/1770,8/22/1770,"Possession Island, Australia",142.4,-10.72
+Captain Cook's First Voyage,9/18/1770,9/21/1770,Savu,121.88,-10.5
+Captain Cook's First Voyage,10/11/1770,11/27/1770,"Batavia, Dutch East Indies",106.8,-6.17
+Captain Cook's First Voyage,3/16/1771,4/15/1771,"Cape Town, Cape of Good Hope",18.42,-33.92
+Captain Cook's First Voyage,5/1/1771,5/5/1771,"Jamestown, Saint Helena",-15.93,-5.71
+Franklin's Lost Expedition,5/19/1845,5/19/1845,"Greenhithe, England",0.28,51.45
+Franklin's Lost Expedition,7/4/1845,7/4/1845,"Whale Fish Islands, Greenland",-53.3166,69.0166
+Franklin's Lost Expedition,7/25/1845,7/25/1845,"Disko Bay, Greenland",-52.04,69.03
+Franklin's Lost Expedition,12/26/1845,7/3/1846,Beechey Island (Winter Quarters),-91.8,74.71
+Franklin's Lost Expedition,9/3/1846,12/2/1847,King William Island (Trapped in ice),-87.65,68.93
+Vasco da Gama's First Voyage,7/8/1497,7/8/1497,"Lisbon, Portugal",-9.14,38.72
+Vasco da Gama's First Voyage,7/15/1497,7/15/1497,Canary Islands,-16.62913,28.291564
+Vasco da Gama's First Voyage,11/7/1497,11/7/1497,"St Helena Bay, South Africa",18,-32.75
+Vasco da Gama's First Voyage,11/20/1497,11/20/1497,"Mossel Bay, South Africa",22.12,-34.16
+Vasco da Gama's First Voyage,12/25/1497,12/25/1497,"Natal, South Africa",31.24,-29.8
+Vasco da Gama's First Voyage,3/2/1498,3/2/1498,Mozambique,35.53,-18.67
+Vasco da Gama's First Voyage,4/7/1498,4/7/1498,"Mombassa, Kenya",39.67,-4.04
+Vasco da Gama's First Voyage,4/14/1498,4/14/1498,"Malindi, Kenya",40.12,-3.22
+Vasco da Gama's First Voyage,5/20/1498,5/20/1498,"Calicut, India",75.78041,11.258753
+Vasco da Gama's First Voyage,1/7/1499,1/7/1499,"Malindi, Kenya",40.12,-3.22
+Vasco da Gama's First Voyage,3/20/1499,3/20/1499,Cape of Good Hope,18.47,-34.36
+Vasco da Gama's First Voyage,6/15/1499,6/15/1499,Azores,-26.06,37.96
+Captain Cook's Second Voyage,7/13/1772,7/13/1772,"Plymouth, England",-4.14,50.38
+Captain Cook's Second Voyage,7/29/1772,8/2/1772,Madeira,-16.96,32.76
+Captain Cook's Second Voyage,8/13/1772,8/15/1772,"Porto Prayo, Santiago, Cape Verde",-23.62,15.09
+Captain Cook's Second Voyage,10/30/1772,11/22/1772,"Table Bay, South Africa",18.42,-33.92
+Captain Cook's Second Voyage,1/17/1773,1/18/1773,Antarctic Circle,52.7139,-65.7378
+Captain Cook's Second Voyage,3/27/1773,3/27/1773,"Anchor Island, New Zealand",166.51,-45.76
+Captain Cook's Second Voyage,3/28/1773,4/30/1773,Pickersgill Harbour,166.5797,-45.7948
+Captain Cook's Second Voyage,5/18/1773,6/7/1773,"Ship Cove, New Zealand",174.24,-41.09
+Captain Cook's Second Voyage,8/17/1773,8/24/1773,"Vaitepiha Bay, Tahiti",-149.426,-17.6509
+Captain Cook's Second Voyage,8/26/1773,9/1/1773,"Matavai Bay, Tahiti",-149.51,-17.52
+Captain Cook's Second Voyage,9/2/1773,9/7/1773,"Huahine, French Polynesia",-150.99,-16.79
+Captain Cook's Second Voyage,9/8/1773,9/17/1773,"Ulietea, French Polynesia",-151.46,-16.82
+Captain Cook's Second Voyage,10/2/1773,10/3/1773,"Eua, Tonga",-174.93,-21.39
+Captain Cook's Second Voyage,11/3/1773,11/25/1773,"Ship Cove, New Zealand",174.24,-41.09
+Captain Cook's Second Voyage,1/26/1774,1/26/1774,Antarctic Circle,109.53,-62.6
+Captain Cook's Second Voyage,3/14/1774,3/17/1774,"Hanga Roa Bay, Easter Island",-109.43,-27.15
+Captain Cook's Second Voyage,4/8/1774,4/12/1774,"Tahuata, French Polynesia",-139.09,-9.95
+Captain Cook's Second Voyage,4/22/1774,5/14/1774,"Matavai Bay, Tahiti",-149.51,-17.52
+Captain Cook's Second Voyage,5/15/1774,5/23/1774,"Huahine, French Polynesia",-150.99,-16.79
+Captain Cook's Second Voyage,5/24/1774,6/4/1774,"Ulietea, French Polynesia",-151.46,-16.82
+Captain Cook's Second Voyage,6/27/1774,6/30/1774,"Nomuka, Tonga",-174.79,-20.25
+Captain Cook's Second Voyage,8/5/1774,8/20/1774,"Tanna, Vanuatu",-169.87,-19.52
+Captain Cook's Second Voyage,9/5/1774,9/13/1774,New Caledonia,165.62,-20.9
+Captain Cook's Second Voyage,10/11/1774,10/11/1774,Norfolk Island,167.9547,-29.0408
+Captain Cook's Second Voyage,10/18/1774,11/26/1774,"Ship Cove, New Zealand",174.24,-41.09
+Captain Cook's Second Voyage,12/17/1774,12/17/1774,Tierra del Fuego,-70,-54
+Captain Cook's Second Voyage,12/21/1774,12/28/1774,Hoste Island,-69,-55.25
+Captain Cook's Second Voyage,1/17/1775,1/17/1775,"Possession Bay, South Georgia",-36.5879,-54.4295
+Captain Cook's Second Voyage,3/22/1775,4/27/1775,"Table Bay, South Africa",18.42,-33.92
+Captain Cook's Second Voyage,5/15/1775,5/21/1775,St Helena,-5.71,-15.97
+Captain Cook's Second Voyage,7/14/1775,7/19/1775,Fayal Island,-28.7,38.59
+Captain Cook's Third Voyage,7/12/1776,7/12/1776,"Plymouth, England",-4.14,50.38
+Captain Cook's Third Voyage,8/1/1776,8/4/1776,"Tenerife, Spain",-16.63,28.29
+Captain Cook's Third Voyage,9/18/1776,12/2/1776,Cape of Good Hope,18.47,-34.36
+Captain Cook's Third Voyage,12/29/1776,12/30/1776,Deception Island,-60.56,-62.94
+Captain Cook's Third Voyage,1/26/1777,1/26/1777,"Adventure Bay, Van Dieman's Land",147.33,-43.37
+Captain Cook's Third Voyage,2/12/1777,2/25/1777,"Ship Cove, New Zealand",174.24,-41.09
+Captain Cook's Third Voyage,6/5/1777,6/8/1777,"Anamocka [Nomuka], Tonga",-174.79,-20.25
+Captain Cook's Third Voyage,6/10/1777,7/10/1777,"Nukualofa, Tonga",-175.2,-21.14
+Captain Cook's Third Voyage,8/12/1777,8/22/1777,"Vaitepiha Bay, Tahiti",-149.426,-17.6509
+Captain Cook's Third Voyage,8/23/1777,8/29/1777,"Matavai Bay, Tahiti",-149.51,-17.52
+Captain Cook's Third Voyage,9/30/1777,10/11/1777,"Papetoai, French Polynesia",-149.426,-17.6509
+Captain Cook's Third Voyage,10/12/1777,11/2/1777,"Fare, Huahine, French Polynesia",-150.99,-16.79
+Captain Cook's Third Voyage,11/3/1777,11/3/1777,"Raiatea, French Polynesia",-151.46,-16.82
+Captain Cook's Third Voyage,12/24/1777,1/2/1778,Christmas Island,105.69,-10.45
+Captain Cook's Third Voyage,1/20/1778,1/23/1778,"Waimea Bay, Kauai, Hawaii",-159.68,21.95
+Captain Cook's Third Voyage,1/29/1778,2/2/1778,"Niihau, Hawaii",-160.16,21.9
+Captain Cook's Third Voyage,3/30/1778,4/26/1778,"Resolution Cove, Bligh Island, Nootka Sound",-126.54,49.62
+Captain Cook's Third Voyage,5/11/1778,5/11/1778,"Wingham Island, Alaska",-144.38,60
+Captain Cook's Third Voyage,5/12/1778,5/13/1778,Prince William Sound,-147.097,60.6905
+Captain Cook's Third Voyage,5/27/1778,5/29/1778,"Anchor Point, Alaska",-151.83,59.78
+Captain Cook's Third Voyage,6/1/1778,6/2/1778,"Point Possession, Kenai Peninsula Borough, Alaska",-150.37,61.04
+Captain Cook's Third Voyage,6/28/1778,6/28/1778,"English Bay, Alaska",-166.25,53.92
+Captain Cook's Third Voyage,7/15/1778,7/16/1778,"High Island, Alaska",-162.32,54.81
+Captain Cook's Third Voyage,8/5/1778,8/7/1778,"Sledge Island, Bering Sea",-166.21,64.48
+Captain Cook's Third Voyage,8/8/1778,8/9/1778,Bering Strait,-168.39,65.89
+Captain Cook's Third Voyage,8/10/1778,8/11/1778,"Saint Lawrence Bay, Chukotka",-170.93,65.61
+Captain Cook's Third Voyage,8/18/1778,8/18/1778,"Icy Cape, Alaska",-161.87,70.33
+Captain Cook's Third Voyage,8/30/1778,8/31/1778,"Kolyuchin Island, Alaska",-174.62,67.47
+Captain Cook's Third Voyage,9/2/1778,9/3/1778,"Cape Dezhnev, Russia",-169.65,66.083333
+Captain Cook's Third Voyage,9/12/1778,9/17/1778,"Besboro Island, Alaska",-161.3,64.12
+Captain Cook's Third Voyage,10/3/1778,10/26/1778,"Unalaska Bay, Alaska",-166.5,53.95
+Captain Cook's Third Voyage,1/17/1779,2/4/1779,"Kealakekua Bay, Hawaii",-155.93,19.48
+Captain Cook's Third Voyage,2/6/1779,2/8/1779,Kawaihae Bay,-155.83,19.99
+Captain Cook's Third Voyage,2/11/1779,2/22/1779,"Kealakekua Bay, Hawaii",-155.93,19.48
+Captain Cook's Third Voyage,2/27/1779,2/28/1779,"Waimea Bay, Kauai, Hawaii",-159.68,21.95
+Captain Cook's Third Voyage,3/1/1779,3/15/1779,Kawai,-159.52,22.096
+Captain Cook's Third Voyage,4/29/1779,5/2/1779,"Avacha Bay, Kamchatka Peninsula",158.6,52.93
+Captain Cook's Third Voyage,7/5/1779,7/10/1779,Diomede Islands,-168.98,65.78
+Captain Cook's Third Voyage,8/8/1779,10/9/1779,"Avacha Bay, Kamchatka Peninsula",158.6,52.93
+Captain Cook's Third Voyage,12/1/1779,12/1/1779,Macao,113.54,22.2
+Mutiny on the Bounty,11/28/1787,12/23/1787,"Spithead, England",-3.5779,50.3512
+Mutiny on the Bounty,5/24/1788,5/25/1788,"False Bay, Cape Town, Cape of Good Hope",18.665068,-34.243303
+Mutiny on the Bounty,8/21/1788,8/22/1788,"Adventure Bay, Van Dieman's Land",147.33,-43.37
+Mutiny on the Bounty,10/26/1788,4/5/1789,"Matavai Bay, Tahiti",-149.51,-17.52
+Mutiny on the Bounty,4/22/1789,4/24/1789,"Nomuka, Tonga",-174.79,-20.25
+Mutiny on the Bounty,4/28/1789,4/29/1789,Tofua,-175.0752,-19.7512
+Mutiny on the Bounty,5/28/1789,5/31/1789,Tubuai,-150,-23
+Mutiny on the Bounty,6/6/1789,6/7/1789,Tahiti,-149.426,-17.6509
+Mutiny on the Bounty,6/16/1789,8/16/1789,Tubuai,-150,-23
+Mutiny on the Bounty,9/21/1789,9/22/1789,Tahiti,-149.426,-17.6509
+Bounty Launch,4/28/1789,4/29/1789,Tofua,-175.0752,-19.7512
+Bounty Launch,5/28/1789,5/29/1789,"Restoration Island, Australia (Ma’alpiku Island National Park)",143.449,-12.6196
+Bounty Launch,6/14/1789,8/20/1789,"Coupang, Timor",123.607033,-10.1772
+Amundsen's South Pole Expedition,8/9/1910,8/10/1910,Kristiansand,8.03,58.16
+Amundsen's South Pole Expedition,9/6/1910,9/7/1910,"Funchal, Madeira",-16.96,32.76
+Amundsen's South Pole Expedition,1/14/1911,10/19/1911,"Bay of Whales, Antarctica",-164.3333,-78.5
+Amundsen's South Pole Expedition,10/20/1911,10/21/1911,Ross Ice Shelf,-178.8,-77.35
+Amundsen's South Pole Expedition,10/23/1911,10/24/1911,80° S,-179.9,-80
+Amundsen's South Pole Expedition,10/31/1911,11/1/1911,81° S,-179.9,-81
+Amundsen's South Pole Expedition,11/5/1911,11/6/1911,82° S,-179.9,-82
+Amundsen's South Pole Expedition,11/9/1911,11/10/1911,83° S,-179.9,-83
+Amundsen's South Pole Expedition,11/13/1911,11/14/1911,84° S,-179.9,-84
+Amundsen's South Pole Expedition,11/17/1911,11/18/1911,85° S,-179.9,-85
+Amundsen's South Pole Expedition,11/27/1911,11/28/1911,86° S,-179.9,-86
+Amundsen's South Pole Expedition,12/4/1911,12/5/1911,87° S,-179.9,-87
+Amundsen's South Pole Expedition,12/6/1911,12/7/1911,88° S,-179.9,-88
+Amundsen's South Pole Expedition,12/8/1911,12/9/1911,88° 23' S,-179.9,-88.3833
+Amundsen's South Pole Expedition,12/10/1911,12/11/1911,89° S,-179.9,-89
+Amundsen's South Pole Expedition,12/12/1911,12/13/1911,89° 46' S,-179.9,-89.7666
+Amundsen's South Pole Expedition,12/13/1911,12/14/1911,"South Pole, 90° S",0,-90
+Amundsen's South Pole Expedition,1/25/1912,1/30/1912,"Bay of Whales, Antarctica",-164.3333,-78.5
+Matthew Flinders’ Circumnavigation of Australia,7/18/1801,7/18/1801,"Spithead, England",-3.5779,50.3512
+Matthew Flinders’ Circumnavigation of Australia,10/16/1801,11/4/1801,"Simon's Bay, Cape of Good Hope",18.4739,-34.3568
+Matthew Flinders’ Circumnavigation of Australia,12/6/1801,12/6/1801,Cape Leeuwin,115.133333,-34.366667
+Matthew Flinders’ Circumnavigation of Australia,2/7/1802,2/11/1802,"Cape Catastrophe, Australia",136,-34.983333
+Matthew Flinders’ Circumnavigation of Australia,2/15/1802,2/16/1802,Port Lincoln,135.8504,-34.7301
+Matthew Flinders’ Circumnavigation of Australia,2/18/1802,2/25/1802,Kangaroo Island,137.21,-35.77
+Matthew Flinders’ Circumnavigation of Australia,3/5/1802,3/12/1802,Yorke Peninsula,137.6166,-34.35
+Matthew Flinders’ Circumnavigation of Australia,3/19/1802,3/23/1802,St. Vincent Gulf,138.239,-35.1324
+Matthew Flinders’ Circumnavigation of Australia,4/8/1802,4/15/1802,"Encounter Bay, Australia",138.5963,-35.575302
+Matthew Flinders’ Circumnavigation of Australia,4/24/1802,4/25/1802,King Island,143.98,-39.87
+Matthew Flinders’ Circumnavigation of Australia,4/26/1802,5/3/1802,"Port Philip, Melbourne",144.9666,-37.8464
+Matthew Flinders’ Circumnavigation of Australia,5/9/1802,7/22/1802,"Port Jackson, New South Wales",151.2335,-33.8442
+Matthew Flinders’ Circumnavigation of Australia,10/29/1802,11/1/1802,Torres Strait,141.9368,-10.2199
+Matthew Flinders’ Circumnavigation of Australia,11/3/1802,11/4/1802,Gulf of Carpentaria,139.13,-13.18
+Matthew Flinders’ Circumnavigation of Australia,3/31/1803,4/8/1803,Kupang Bay,123.59,-10.15
+Magellan–Elcano Circumnavigation,9/20/1519,9/20/1519,"Sanlúcar de Barrameda, Spain",-6.3529,36.7725
+Magellan–Elcano Circumnavigation,9/26/1519,10/3/1519,"Tenerife, Spain",-16.63,28.29
+Magellan–Elcano Circumnavigation,12/13/1519,12/26/1519,Santa Lucia Bay (Rio de Janeiro Bay),-43.1544,-22.8115
+Magellan–Elcano Circumnavigation,1/12/1520,1/12/1520,Rio de Solis (Rio de la Plata),-65.9,-47.75
+Magellan–Elcano Circumnavigation,3/31/1520,9/1/1520,Puerto San Julian,-67.7298,-49.3068
+Magellan–Elcano Circumnavigation,11/28/1520,11/28/1520,Cabo Deseado,-74.728,-52.7304
+Magellan–Elcano Circumnavigation,1/21/1521,2/4/1521,Unfortunate Islands,-165.8388,-10.8499
+Magellan–Elcano Circumnavigation,3/6/1521,3/13/1521,Ladrones Islands (Mariana Islands),145.84,17.31
+Magellan–Elcano Circumnavigation,3/17/1521,3/22/1521,"Homonhon, Philippines",125.73,10.73
+Magellan–Elcano Circumnavigation,3/28/1521,4/4/1521,"Limasawa, Philippines",125.07,9.93
+Magellan–Elcano Circumnavigation,4/7/1521,4/26/1521,"Cebu, Philippines",123.885775,10.607936
+Magellan–Elcano Circumnavigation,4/27/1521,4/27/1521,"Mactan, Philippines",123.97,10.29
+Magellan–Elcano Circumnavigation,11/8/1521,11/21/1521,Tidore,127.404,0.674
+Magellan–Elcano Circumnavigation,12/29/1521,12/29/1521,Ambon,128.1054,-3.6255
+Magellan–Elcano Circumnavigation,1/25/1522,2/11/1522,Timor,124.331,-9.8627
+Magellan–Elcano Circumnavigation,5/6/1522,5/6/1522,Cape of Good Hope,18.47,-34.36
+Francis Drake's Circumnavigation,12/12/1577,12/13/1577,"Plymouth, England",-4.14,50.38
+Francis Drake's Circumnavigation,1/30/1578,2/1/1578,"Santiago, Cape Verde Islands",-23.6204,15.0852
+Francis Drake's Circumnavigation,6/18/1578,6/25/1578,"Port St Julian, Rio de la Plata",-65.9,-47.75
+Francis Drake's Circumnavigation,8/20/1578,8/27/1578,Straits of Magellan,-68.49,-52.51
+Francis Drake's Circumnavigation,8/29/1578,9/3/1578,"Mocha Island, Chile",-73.91,-38.37
+Francis Drake's Circumnavigation,9/5/1578,9/10/1578,"Valparaíso, Chile",-71.6126,-33.0472
+Francis Drake's Circumnavigation,2/15/1579,2/22/1579,Huatulco,-96.33,15.85
+Francis Drake's Circumnavigation,6/17/1579,6/24/1579,New Albion (North America),-122.94,38.03
+Francis Drake's Circumnavigation,7/1/1579,7/8/1579,Oregon [Disputed],-123.93,45.69
+Francis Drake's Circumnavigation,12/4/1579,12/4/1579,Ternate,127.361,0.7958
+Francis Drake's Circumnavigation,3/11/1580,3/11/1580,Java,110.42,-7.46
+Francis Drake's Circumnavigation,6/15/1580,6/15/1580,Cape of Good Hope,18.47,-34.36
+Francis Drake's Circumnavigation,9/9/1580,9/11/1580,Azores,-26.06,37.96
+Alexander von Humboldt’s Spanish American Expedition,6/4/1799,6/5/1799,"A Coruña, Spain",-8.4115,43.3623
+Alexander von Humboldt’s Spanish American Expedition,6/19/1799,6/25/1799,"Santa Cruz, Tenerife",-16.2518,28.4636
+Alexander von Humboldt’s Spanish American Expedition,7/16/1799,11/18/1799,"Cumana, Venezuela",-64.183316,10.431916
+Alexander von Humboldt’s Spanish American Expedition,12/1/1799,2/7/1800,"Caracas, Venezuela",-66.903606,10.480594
+Alexander von Humboldt’s Spanish American Expedition,3/27/1800,3/28/1800,"San Fernando, Los Llanos, Venezuela",-62.7079,8.314
+Alexander von Humboldt’s Spanish American Expedition,4/24/1800,4/25/1800,"San Fernando de Atabapo, Venezuela",-67.6838,4.0241
+Alexander von Humboldt’s Spanish American Expedition,5/6/1800,5/7/1800,Pimichin,-67.5331,2.865
+Alexander von Humboldt’s Spanish American Expedition,5/12/1800,5/13/1800,Casiquiare,-65.880961,3.116168
+Alexander von Humboldt’s Spanish American Expedition,6/13/1800,7/10/1800,"Angostura [Ciudad Bolivar], Venezuela",-63.5536,8.0883
+Alexander von Humboldt’s Spanish American Expedition,8/1/1800,11/16/1800,"Cumana, Venezuela",-64.183316,10.431916
+Alexander von Humboldt’s Spanish American Expedition,11/24/1800,11/24/1800,"Barcelona, Venezuela",-64.677868,10.144569
+Alexander von Humboldt’s Spanish American Expedition,12/19/1800,3/5/1801,"Havana, Cuba",-82.34,23.14
+Alexander von Humboldt’s Spanish American Expedition,3/30/1801,3/31/1801,"Cartagena, Colombia",-75.479426,10.391049
+Alexander von Humboldt’s Spanish American Expedition,7/6/1801,9/8/1801,"Bogota, Colombia",-74.0721,4.711
+Alexander von Humboldt’s Spanish American Expedition,1/6/1802,6/9/1802,"Quito, Ecuador",-78.4678,-0.1806
+Alexander von Humboldt’s Spanish American Expedition,9/2/1802,9/23/1802,"Lima, Peru",-77.14,-12.08
+Alexander von Humboldt’s Spanish American Expedition,1/1/1803,1/3/1803,"Guayaquil, Ecuador",-79.91,-2.19
+Alexander von Humboldt’s Spanish American Expedition,2/15/1803,2/21/1803,"Acapulco, Mexico",-99.8237,16.8531
+Alexander von Humboldt’s Spanish American Expedition,3/11/1803,5/13/1803,Mexico City,-99.13,19.43
+Alexander von Humboldt’s Spanish American Expedition,1/7/1804,2/29/1804,"Veracruz, Mexico",-96.1342,19.1737
+Alexander von Humboldt’s Spanish American Expedition,3/29/1804,4/29/1804,"Havana, Cuba",-82.34,23.14
+Alexander von Humboldt’s Spanish American Expedition,5/20/1804,5/26/1804,"Philadelphia, United States",-75.1652,39.9525
+Alexander von Humboldt’s Spanish American Expedition,5/31/1804,6/16/1804,"Washington D.C., United States",-77.036871,38.907192
+Alexander von Humboldt’s Spanish American Expedition,6/24/1804,6/30/1804,"Philadelphia, United States",-75.1652,39.9525
+Second Portuguese India Armada,3/9/1500,3/9/1500,"Lisbon, Portugal",-9.14,38.72
+Second Portuguese India Armada,4/23/1500,4/23/1500,"Mouth of Do Frade River, Brazil",-39.1,-16.69
+Second Portuguese India Armada,4/24/1500,5/3/1500,"Cabralia Bay [north of Porto Seguro], Brazil",-39.088236,-16.415298
+Second Portuguese India Armada,5/30/1500,5/30/1500,Cape of Good Hope,18.47,-34.36
+Second Portuguese India Armada,6/16/1500,6/16/1500,Primeiras Islands,39.4552,-16.7937
+Second Portuguese India Armada,6/22/1500,6/29/1500,Mozambique Island,40.73,-15.04
+Second Portuguese India Armada,7/26/1500,7/28/1500,Kilwa,39.5,-8.97
+Second Portuguese India Armada,8/2/1500,8/7/1500,"Malindi, Kenya",40.12,-3.22
+Second Portuguese India Armada,8/22/1500,8/29/1500,"Anjediva Island, India",74.113,14.7563
+Second Portuguese India Armada,9/13/1500,12/24/1500,"Calicut, India",75.78041,11.258753
+Second Portuguese India Armada,12/27/1500,1/3/1501,"Cochin, India",76.267304,9.931233
+Second Portuguese India Armada,1/6/1501,1/16/1501,"Cranganore, India",76.1977,10.2244
+Second Portuguese India Armada,1/20/1501,1/30/1501,"Cannonore, India",75.370366,11.874477
+Second Portuguese India Armada,2/1/1501,2/2/1501,"Malindi, Kenya",40.12,-3.22
+Second Portuguese India Armada,3/1/1501,4/1/1501,Mozambique Island,40.73,-15.04
+Martin Frobisher’s First Journey in Search of the Northwest Passage,6/12/1576,6/12/1576,"Gravesend, England",0.37,51.45
+Martin Frobisher’s First Journey in Search of the Northwest Passage,6/13/1576,6/14/1576,"Harwich, England",1.3,51.94
+Martin Frobisher’s First Journey in Search of the Northwest Passage,6/18/1576,6/19/1576,"Great Yarmouth, England",1.74,52.59
+Martin Frobisher’s First Journey in Search of the Northwest Passage,6/26/1576,6/26/1576,"Shetland Islands, Scotland",-0.98,60.19
+Martin Frobisher’s First Journey in Search of the Northwest Passage,7/26/1576,7/26/1576,Queen Elizabeth's Foreland,-64.95,61.51
+Martin Frobisher’s First Journey in Search of the Northwest Passage,8/18/1576,8/18/1576,Frobisher Bay,-66.35,62.5
+Martin Frobisher’s First Journey in Search of the Northwest Passage,8/27/1576,8/27/1576,Queen Elizabeth's Foreland,-64.95,61.51
+Martin Frobisher’s First Journey in Search of the Northwest Passage,10/2/1576,10/2/1576,"Harwich, England",1.3,51.94
+Abel Tasman's First Pacific Voyage,8/14/1642,8/14/1642,"Batavia, Dutch East Indies",106.8,-6.17
+Abel Tasman's First Pacific Voyage,9/5/1642,10/8/1642,Mauritius,57.62,-20.01
+Abel Tasman's First Pacific Voyage,11/22/1642,11/23/1642,Van Diemen's Land,146.63,-44.1
+Abel Tasman's First Pacific Voyage,11/24/1642,11/25/1642,"Adventure Bay, Van Dieman's Land",147.33,-43.37
+Abel Tasman's First Pacific Voyage,11/26/1642,11/27/1642,Storm Bay,147.44,-43.17
+Abel Tasman's First Pacific Voyage,11/28/1642,11/29/1642,Cape Frederick Hendrick,147.969444,-42.868333
+Abel Tasman's First Pacific Voyage,11/30/1642,12/1/1642,Blackman Bay,147.32,-43
+Abel Tasman's First Pacific Voyage,12/2/1642,12/9/1642,North Bay,147.93,-42.86
+Abel Tasman's First Pacific Voyage,12/10/1642,12/16/1642,Murderers' Bay,172.5,-40.4
+Abel Tasman's First Pacific Voyage,12/17/1642,12/23/1642,Zeehaen's Bay,173.2522,-41.292
+Abel Tasman's First Pacific Voyage,1/4/1643,1/18/1643,Cape Maria van Diemen,172.65,-34.47
+Abel Tasman's First Pacific Voyage,1/21/1643,1/22/1643,Tongatapu,175.09,-21.14
+Abel Tasman's First Pacific Voyage,2/8/1643,2/15/1643,Vana Levu,179.11,-16.35
+Abel Tasman's First Pacific Voyage,3/22/1643,3/29/1643,Otong Java,159.21,-5.16
+Abel Tasman's First Pacific Voyage,4/1/1643,4/2/1643,New Ireland,152.5,-4
+Abel Tasman's First Pacific Voyage,5/27/1643,5/28/1643,Celebes,122.64,-5.34
+Louis Antoine de Bougainville's Circumnavigation of the Globe,11/15/1766,11/15/1766,"Nantes, France",-1.58,47.19
+Louis Antoine de Bougainville's Circumnavigation of the Globe,11/21/1766,11/21/1766,"Brest, France",-4.486,48.39
+Louis Antoine de Bougainville's Circumnavigation of the Globe,12/19/1766,1/4/1767,Canary Islands,-16.62913,28.291564
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/30/1767,1/30/1767,"Maldonado, Rio de la Plata",-55.7833,-35.1944
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/31/1767,2/28/1767,"Montevideo, Rio de la Plata",-56.22,-34.9
+Louis Antoine de Bougainville's Circumnavigation of the Globe,3/24/1767,6/2/1767,"Port Louis, East Falkland Island",-59.523613,-51.796253
+Louis Antoine de Bougainville's Circumnavigation of the Globe,6/21/1767,7/14/1767,"Rio de Janeiro, Brazil",-43.17,-22.91
+Louis Antoine de Bougainville's Circumnavigation of the Globe,7/29/1767,10/30/1767,"Montevideo, Rio de la Plata",-56.22,-34.9
+Louis Antoine de Bougainville's Circumnavigation of the Globe,11/27/1767,11/27/1767,Cape Virgenes,-68.35,-52.33
+Louis Antoine de Bougainville's Circumnavigation of the Globe,12/3/1767,12/3/1767,Straits of Magellan,-68.49,-52.51
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/1/1768,1/1/1768,Port Galant,-73.1,-53.34
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/6/1768,1/6/1768,"Fortescue Bay, Chile",-71.2,-53.94
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/25/1768,1/25/1768,Cape Quade,-73.44,-53.1
+Louis Antoine de Bougainville's Circumnavigation of the Globe,3/23/1768,3/23/1768,Harp Island (Hao),-140.91,-18.22
+Louis Antoine de Bougainville's Circumnavigation of the Globe,4/1/1768,4/1/1768,Arutua,-146.79,-15.29
+Louis Antoine de Bougainville's Circumnavigation of the Globe,4/2/1768,4/2/1768,Peak of the Boudeuse (Mehetia),-148.06,-17.88
+Louis Antoine de Bougainville's Circumnavigation of the Globe,4/6/1768,4/15/1768,"Hitiaa, Tahiti",-149.426,-17.6509
+Louis Antoine de Bougainville's Circumnavigation of the Globe,4/16/1768,4/16/1768,Niau,-146.32,-16.18
+Louis Antoine de Bougainville's Circumnavigation of the Globe,5/3/1768,5/3/1768,Isles des Navigateurs (American Samoa),-170.13,-14.27
+Louis Antoine de Bougainville's Circumnavigation of the Globe,5/22/1768,5/22/1768,Pentecost Islands,168.18,-15.71
+Louis Antoine de Bougainville's Circumnavigation of the Globe,6/17/1768,6/17/1768,Tariwerwi,151.26,-11.15
+Louis Antoine de Bougainville's Circumnavigation of the Globe,6/25/1768,6/25/1768,Cape Deliverance,154.18,-11.41
+Louis Antoine de Bougainville's Circumnavigation of the Globe,8/7/1768,8/7/1768,Isle des Anchorets (Kaniet),145.42,-0.83
+Louis Antoine de Bougainville's Circumnavigation of the Globe,8/15/1768,8/15/1768,Moulineau,135.19,-1.5
+Louis Antoine de Bougainville's Circumnavigation of the Globe,8/30/1768,8/30/1768,Ceram,129.48,-2.7
+Louis Antoine de Bougainville's Circumnavigation of the Globe,9/7/1768,9/7/1768,"Boero, Dutch East Indies",127.06,-3.26
+Louis Antoine de Bougainville's Circumnavigation of the Globe,9/28/1768,10/16/1768,"Batavia, Dutch East Indies",106.8,-6.17
+Louis Antoine de Bougainville's Circumnavigation of the Globe,10/19/1768,10/19/1768,Straits of Sunda,104,-6.35
+Louis Antoine de Bougainville's Circumnavigation of the Globe,11/5/1768,11/5/1768,Rodrigues,63.78,-19.97
+Louis Antoine de Bougainville's Circumnavigation of the Globe,11/7/1768,12/12/1768,Île de France (Mauritius),57.49,-20.15
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/17/1769,1/25/1769,Cape of Good Hope,18.47,-34.36
+Louis Antoine de Bougainville's Circumnavigation of the Globe,1/29/1769,1/29/1769,St Helena,-5.71,-15.97
+Louis Antoine de Bougainville's Circumnavigation of the Globe,2/4/1769,2/4/1769,Ascension,-7.95,-14.36
+Louis Antoine de Bougainville's Circumnavigation of the Globe,3/4/1769,3/4/1769,Azores,-26.06,37.96
+Amerigo Vespucci's Third Voyage,5/12/1501,5/13/1501,"Lisbon, Portugal",-9.14,38.72
+Amerigo Vespucci's Third Voyage,6/10/1501,6/24/1501,Gorée,-17.4,14.67
+Amerigo Vespucci's Third Voyage,8/17/1501,8/24/1501,"Cape St. Roque, Brazil",-35.27,-5.49
+Amerigo Vespucci's Third Voyage,8/28/1501,8/28/1501,"Cape St. Augustine, Brazil",-34.94,-8.28
+Amerigo Vespucci's Third Voyage,11/1/1501,11/29/1501,"Bay of All Saints, Brazil",-38.632009,-12.847793
+Amerigo Vespucci's Third Voyage,1/1/1502,1/29/1502,"Rio de Janeiro, Brazil",-43.17,-22.91
+Amerigo Vespucci's Third Voyage,2/15/1502,2/15/1502,"Rio Grande, Uruguay",-52.04,-32.14
+Amerigo Vespucci's Third Voyage,4/7/1502,4/7/1502,Ilha do Trinidade,-29.33,-20.51
+Amerigo Vespucci's Third Voyage,5/10/1502,6/24/1502,Sierra Leone,-12.85,7.7
+Amerigo Vespucci's Third Voyage,7/1/1502,8/15/1502,Azores,-26.06,37.96
+Second Grinnell Expedition,5/30/1853,5/30/1853,"New York, United States",-74.03,40.68
+Second Grinnell Expedition,6/17/1853,6/19/1853,"St John's, Newfoundland",-52.7125,47.5615
+Second Grinnell Expedition,7/1/1853,7/1/1853,"Fiskenaesset, Greenland",-50.67,63.09
+Second Grinnell Expedition,7/20/1853,7/20/1853,"Upernavik, Greenland",-56.14,72.79
+Second Grinnell Expedition,8/7/1853,8/7/1853,"Littleton Island, Greenland",-72.85,78.37
+Second Grinnell Expedition,9/8/1853,5/20/1855,"Rensselaer Bay, Greenland",-71.57,78.68
+Second Grinnell Expedition,6/12/1855,6/12/1855,"Littleton Island, Greenland",-72.85,78.37
+Second Grinnell Expedition,6/19/1855,6/19/1855,Hakluyt Island,-72.67,77.43
+Second Grinnell Expedition,6/22/1855,6/22/1855,"Northumberland Island, British North America",-71.93,77.39
+Second Grinnell Expedition,7/11/1855,7/11/1855,"Cape Dudley Digges, Greenland",-68.78,76.16
+Second Grinnell Expedition,7/21/1855,7/21/1855,"Cape York, Greenland",-66.45,75.91
+Second Grinnell Expedition,8/6/1855,8/8/1855,"Upernavik, Greenland",-56.14,72.79
+John Cabot's Voyage of 1497,5/20/1497,5/20/1497,"Bristol, England",-2.5879,51.4545
+John Cabot's Voyage of 1497,6/24/1497,6/24/1497,"Cape Bonavista, Newfoundland",-53.083333,48.7
+Bartolomeu Dias Sails Around the Cape of Good Hope,7/31/1487,8/1/1487,"Lisbon, Portugal",-9.14,38.72
+Bartolomeu Dias Sails Around the Cape of Good Hope,10/1/1487,10/2/1487,"São Jorge da Mina Castle, Gold Coast",-1.3479,5.0827
+Bartolomeu Dias Sails Around the Cape of Good Hope,12/8/1487,12/9/1487,"Golfo da Conceicão [Walvis Bay], Namibia",14.49,-22.87
+Bartolomeu Dias Sails Around the Cape of Good Hope,12/14/1487,12/15/1487,"Gulf of St Thomas [Spencer Bay], Namibia",14.84,-25.72
+Bartolomeu Dias Sails Around the Cape of Good Hope,12/16/1487,12/17/1487,"Angra das Voltas [Luderitz], Namibia",15.1639,-26.642
+Bartolomeu Dias Sails Around the Cape of Good Hope,2/4/1488,2/5/1488,"Aguada de São Brás [Mossel Bay], South Africa",22.0834,-34.1747
+Bartolomeu Dias Sails Around the Cape of Good Hope,2/15/1488,2/16/1488,"Algoa Bay, South Africa",25.6435,-33.9765
+Bartolomeu Dias Sails Around the Cape of Good Hope,3/1/1488,3/2/1488,"Rio de Infante [Great Fish River], South Africa",27.0499,-33.3929
+Bartolomeu Dias Sails Around the Cape of Good Hope,3/12/1488,3/13/1488,"Kwaaihoek, Algoa Bay, South Africa",25.65,-33.98
+Bartolomeu Dias Sails Around the Cape of Good Hope,4/23/1488,4/24/1488,"Aguada de San Jorgy [Struisbaai], South Africa",20.0469,-34.8068
+Bartolomeu Dias Sails Around the Cape of Good Hope,4/30/1488,5/1/1488,"Cape Agulhas, South Africa",20.01519,-34.8163
+Bartolomeu Dias Sails Around the Cape of Good Hope,5/18/1488,5/19/1488,"Walker Bay, South Africa",19.372,-34.4878
+Bartolomeu Dias Sails Around the Cape of Good Hope,6/1/1488,6/2/1488,"False Bay, Cape Town, Cape of Good Hope",18.665068,-34.243303
+Bartolomeu Dias Sails Around the Cape of Good Hope,7/1/1488,7/2/1488,"Angra das Voltas [Luderitz], Namibia",15.1639,-26.642
+Columbus' Second Voyage,9/24/1493,10/5/1493,"Cadiz, Spain",-6.288596,36.527061
+Columbus' Second Voyage,10/6/1493,10/13/1493,"Grand Canary, Canary Islands",-15.47,28.14
+Columbus' Second Voyage,11/3/1493,11/4/1493,Dominica,-61.370976,15.414999
+Columbus' Second Voyage,11/5/1493,11/6/1493,Marie-Galante,-61.26,15.92
+Columbus' Second Voyage,11/7/1493,11/8/1493,Santa María de Guadalupe [Guadalupe],-61.5833,16.25
+Columbus' Second Voyage,11/9/1493,11/10/1493,Santa María de Monserate [Monserrat],-62.1874,16.7425
+Columbus' Second Voyage,11/11/1493,11/12/1493,Santa María la Antigua [Antigua],-61.8,17.0833
+Columbus' Second Voyage,11/13/1493,11/14/1493,Santa María la Redonda [Redonda],-62.3455,16.9384
+Columbus' Second Voyage,11/15/1493,11/16/1493,San Martin [Nevis],-62.5677,17.1513
+Columbus' Second Voyage,11/17/1493,11/18/1493,Santa Ursula y las Once Nil Virgines [Virgin Islands],-64.8963,18.3357
+Columbus' Second Voyage,11/19/1493,11/20/1493,Puerto Rico,-66.59,18.22
+Columbus' Second Voyage,11/22/1493,11/22/1493,Hispaniola,-71.065,19.037
+Columbus' Second Voyage,11/25/1493,11/26/1493,"Monte Cristi, Hispaniola",-71.65,19.87
+Columbus' Second Voyage,11/27/1493,12/11/1493,"La Navidad, Hispaniola",-72.21,19.74
+Columbus' Second Voyage,1/1/1494,3/11/1494,"La Isabela, Hispaniola",-71.08,19.89
+Columbus' Second Voyage,4/24/1494,4/25/1494,"Cape Alpha and Omega [Cape Maisi], Cuba",-74.153356,20.225832
+Columbus' Second Voyage,4/30/1494,5/2/1494,Guantanamo Bay,-75.1,19.9
+Columbus' Second Voyage,5/3/1494,5/4/1494,"Cape Cruz, Cuba",-77.719454,19.846968
+Columbus' Second Voyage,5/6/1494,5/13/1494,"Santa Gloria, [St. Ann's Bay], Jamaica",-77.1974,18.4329
+Columbus' Second Voyage,5/14/1494,5/15/1494,"Cape Cruz, Cuba",-77.719454,19.846968
+Columbus' Second Voyage,5/21/1494,5/22/1494,"Jardines de la Reina, Cuba",-78.92,20.82
+Columbus' Second Voyage,5/28/1494,5/29/1494,Gulf of Batabanó,-82.37,22.54
+Columbus' Second Voyage,6/13/1494,6/14/1494,"Isle of Pines, Cuba",-82.85,21.75
+Columbus' Second Voyage,7/1/1494,7/2/1494,Jamaica (southern coast),-77.31,17.8
+Columbus' Second Voyage,8/20/1494,8/21/1494,"Alto Velo Island, Hispaniola",-71.6421,17.4762
+Columbus' Second Voyage,9/29/1494,4/8/1496,"La Isabela, Hispaniola",-71.08,19.89
+Columbus' Second Voyage,4/9/1496,4/10/1496,Santa María de Guadalupe [Guadalupe],-61.5833,16.25
+First Kamchatka Expedition,2/6/1725,2/6/1725,St Petersburg,30.33,59.93
+First Kamchatka Expedition,2/14/1725,2/14/1725,Vologda,39.91,59.22
+First Kamchatka Expedition,3/16/1725,3/16/1725,Tobolsk,68.25,58.2
+First Kamchatka Expedition,5/30/1725,5/30/1725,Surgut,73.38,61.26
+First Kamchatka Expedition,9/26/1725,9/26/1725,Illimsk,103.83,56.77
+First Kamchatka Expedition,6/14/1726,7/7/1726,Yakutsk,129.68,62.04
+First Kamchatka Expedition,10/1/1726,8/19/1727,Okhotsk,143.2,59.36
+First Kamchatka Expedition,9/4/1727,1/14/1728,Bolsheretsk,157.07,52.36
+First Kamchatka Expedition,1/25/1728,7/12/1728,Lower Kamtchatka Post,162.5,56.23
+First Kamchatka Expedition,8/8/1728,8/8/1728,Cape Chukotsky,-173.1075,64.244444
+First Kamchatka Expedition,8/10/1728,8/10/1728,St Lawrence Island,-170.31,63.24
+First Kamchatka Expedition,8/15/1728,8/15/1728,(Furthest point reached),-168.18,67.18
+First Kamchatka Expedition,9/2/1728,6/5/1729,Lower Kamtchatka Post,162.5,56.23
+First Kamchatka Expedition,7/28/1729,7/29/1729,Okhotsk,143.2,59.36
+First Kamchatka Expedition,1/10/1730,1/25/1730,Tobolsk,68.25,58.2
+British Antarctic Expedition (Nimrod Expedition) - Southern Party,10/29/1908,10/29/1908,Cape Royds,166.168369,-77.552922
+British Antarctic Expedition (Nimrod Expedition) - Southern Party,11/26/1908,11/26/1908,Great Ice Barrier (Ross Ice Shelf),-138.4,-82.28
+British Antarctic Expedition (Nimrod Expedition) - Southern Party,12/3/1908,12/3/1908,Beardmore Glacier,171,-83.75
+British Antarctic Expedition (Nimrod Expedition) - Southern Party,1/1/1909,1/1/1909,Polar Plateau,135,-88.08
+British Antarctic Expedition (Nimrod Expedition) - Southern Party,1/9/1909,1/9/1909,Furthest South,150,-88.38
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,8/7/1907,8/7/1907,"Torquay, United Kingdom",-3.5253,50.4619
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,11/23/1907,1/1/1908,"Lyttelton Harbour, New Zealand",172.72,-43.6
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,1/23/1908,1/23/1908,Great Ice Barrier (Ross Ice Shelf),-138.4,-82.28
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,1/29/1908,1/29/1908,McMurdo Sound,165,-77.5
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,2/3/1908,2/3/1908,Cape Royds,166.168369,-77.552922
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,3/5/1908,3/5/1908,Mount Erebus,167.15,-77.53
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,3/11/1908,10/5/1908,Cape Royds,166.168369,-77.552922
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,11/12/1908,11/13/1908,Nordenskjöld Ice Tongue,162.75,-76.18
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,11/30/1908,12/1/1908,Drygalski Ice Tongue,163.5,-75.4
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,1/16/1909,1/17/1909,Magnetic South Pole,136.59,-64.28
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,2/2/1909,2/2/1909,Harbord Glacier Tongue,162.83,-75.92
+British Antarctic Expedition (Nimrod Expedition) - Main and Northern Parties,3/4/1909,3/4/1909,"Hut Point, Winter Quarters Bay, Ross Island, McMurdo Sound",166.64,-77.85
+Columbus' Third Voyage,5/29/1498,5/30/1498,"Sanlúcar de Barrameda, Spain",-6.3529,36.7725
+Columbus' Third Voyage,6/1/1498,6/2/1498,Porto Santo Island,-16.3346,33.0759
+Columbus' Third Voyage,6/12/1498,6/13/1498,Madeira,-16.96,32.76
+Columbus' Third Voyage,6/19/1498,6/20/1498,"Gomera, Canary Islands",-17.21,28.1
+Columbus' Third Voyage,7/1/1498,7/4/1498,Cape Verde Islands,-23.0418,16.5388
+Columbus' Third Voyage,8/1/1498,8/2/1498,"Erin Point [Erin Bay], Trinidad",-61.721026,10.076515
+Columbus' Third Voyage,8/3/1498,8/4/1498,"Point Arenal [Icacos Point], Serpent's Mouth, Trinidad",-61.5,10
+Columbus' Third Voyage,8/9/1498,8/12/1498,"Paria Peninsula (eastern extremity), Gulf of Paria, Venezuela",-61.9813,10.2852
+Columbus' Third Voyage,8/13/1498,8/14/1498,Boca del Dragon,-61.7064,10.7105
+Columbus' Third Voyage,8/16/1498,8/17/1498,Margarita,-63.98,11.11
+Columbus' Third Voyage,8/19/1498,8/20/1498,"Beata Island, Hispaniola",-71.513,17.5705
+Columbus' Third Voyage,8/31/1498,10/1/1500,"Santa Domingo, Hispaniola",-69.9312,18.486
+Columbus' Fourth Voyage,5/9/1502,5/11/1502,"Cadiz, Spain",-6.288596,36.527061
+Columbus' Fourth Voyage,5/13/1502,5/14/1502,"Arzila, Morocco",-6.0309,35.4646
+Columbus' Fourth Voyage,5/26/1502,5/28/1502,"El Hierro, Canary Islands",-18.024301,27.725499
+Columbus' Fourth Voyage,6/15/1502,6/16/1502,"Carbet, Martinique",-61.169451,14.709948
+Columbus' Fourth Voyage,6/29/1502,6/30/1502,"Santa Domingo, Hispaniola",-69.9312,18.486
+Columbus' Fourth Voyage,7/1/1502,7/13/1502,Jamaica,-77.27,18.22
+Columbus' Fourth Voyage,7/30/1502,8/6/1502,"Isle of Pines, Cuba",-82.85,21.75
+Columbus' Fourth Voyage,8/8/1502,8/10/1502,"Guanaja, Honduras",-85.88,16.48
+Columbus' Fourth Voyage,8/14/1502,8/28/1502,"Puerto Castilla, Cape Honduras",-85.9585,16.0173
+Columbus' Fourth Voyage,9/14/1502,9/21/1502,"Cabo Gracias a Dios, Honduras",-83.15,15
+Columbus' Fourth Voyage,9/25/1502,10/6/1502,"Puerto Limon, Veragua [Costa Rica]",-83.1912,9.9248
+Columbus' Fourth Voyage,10/7/1502,10/14/1502,"Laguna de Chiriquí, Panama",-81.98,9.13
+Columbus' Fourth Voyage,1/9/1503,4/16/1503,"Rio Belen, Panama",-80.87,8.89
+Columbus' Fourth Voyage,5/12/1503,5/13/1503,"Jardines de la Reina, Cuba",-78.92,20.82
+Columbus' Fourth Voyage,6/25/1503,6/29/1504,"St Anne's Bay, Jamaica",-77.1974,18.4329
+Malaspina Expedition,7/29/1789,7/30/1789,"Cadiz, Spain",-6.288596,36.527061
+Malaspina Expedition,8/2/1789,8/3/1789,Canary Islands,-16.62913,28.291564
+Malaspina Expedition,11/18/1789,11/19/1789,"Montevideo, Rio de la Plata",-56.22,-34.9
+Malaspina Expedition,12/2/1789,12/13/1789,"Puerto Deseado, Argentina",-65.901377,-47.751565
+Malaspina Expedition,12/18/1789,12/21/1789,"Port Egmont, Falkland Islands",-60.0818,-51.3634
+Malaspina Expedition,1/1/1790,1/2/1790,Cape Horn,-67.266667,-55.983333
+Malaspina Expedition,2/23/1790,3/10/1790,"Talcahuano, Concepción, Chile",-73.116981,-36.724783
+Malaspina Expedition,3/17/1790,4/14/1790,"Valparaíso, Chile",-70.5785,-33.4569
+Malaspina Expedition,5/9/1790,5/10/1790,Juan Fernández Islands,-80.78,-33.77
+Malaspina Expedition,5/20/1790,9/20/1790,"Callao, Peru",-77.125984,-12.050849
+Malaspina Expedition,11/16/1790,12/15/1790,Panama,-79.51987,8.982379
+Malaspina Expedition,3/24/1791,3/24/1791,"Acapulco, Mexico",-99.8237,16.8531
+Malaspina Expedition,6/27/1791,7/6/1791,"Port Mulgrave [Yakutat Bay], Alaska",-139.7835,59.5669
+Malaspina Expedition,7/27/1791,7/28/1791,"Cape Fairweather, Alaska",-137.944167,58.805556
+Malaspina Expedition,8/13/1791,8/28/1791,Nootka,-124.63,48.46
+Malaspina Expedition,9/13/1791,9/25/1791,"Monterey, California",-121.89,36.6
+Malaspina Expedition,10/18/1791,12/20/1791,"Acapulco, Mexico",-99.8237,16.8531
+Malaspina Expedition,2/13/1792,2/24/1792,Guam,144.79,13.444
+Malaspina Expedition,3/26/1792,11/15/1792,"Manila, Philippines",120.96,14.6
+Malaspina Expedition,2/16/1793,2/27/1793,"Doubtful Sound, New Zealand",166.991067,-45.326023
+Malaspina Expedition,3/12/1793,4/11/1793,"Port Jackson, New South Wales",151.2335,-33.8442
+Malaspina Expedition,5/10/1793,6/1/1793,"Vava'u, Tonga",-173.99,-18.6227
+Malaspina Expedition,7/23/1793,10/16/1793,"Callao, Peru",-77.125984,-12.050849
+Malaspina Expedition,11/4/1793,12/2/1793,"Talcahuano, Concepción, Chile",-73.116981,-36.724783
+Malaspina Expedition,12/20/1793,12/20/1793,Pacific Ocean,-74.78,-52.63
+Malaspina Expedition,12/24/1793,12/25/1793,Cape Horn,-67.266667,-55.983333
+Malaspina Expedition,1/2/1794,1/20/1794,"Port Egmont, Falkland Islands",-60.0818,-51.3634
+Malaspina Expedition,2/15/1794,6/21/1794,"Montevideo, Rio de la Plata",-56.22,-34.9
+William Parry's 1819 Voyage,5/11/1819,5/11/1819,"Yarmouth, United Kingdom",1.728,52.5982
+William Parry's 1819 Voyage,5/20/1819,5/21/1819,Orkney Islands,-3.2,58.8
+William Parry's 1819 Voyage,6/28/1819,6/29/1819,Davis Strait,-58.3804,67.5076
+William Parry's 1819 Voyage,7/30/1819,8/1/1819,Lancaster Sound,-84,74.21
+William Parry's 1819 Voyage,8/6/1819,8/12/1819,Prince Regent Inlet,-90.5,73
+William Parry's 1819 Voyage,8/19/1819,8/20/1819,Barrow Strait,-89.5151,74.0335
+William Parry's 1819 Voyage,8/26/1819,9/1/1819,Barrow Strait,-97.8,74.3833
+William Parry's 1819 Voyage,9/4/1819,9/5/1819,Viscount Melville Sound,-110,74.7389
+William Parry's 1819 Voyage,9/20/1819,8/1/1820,"Winter Harbour, Melville Island",-108.772545,75.07266
+William Parry's 1819 Voyage,8/30/1820,8/30/1820,Prince Regent Inlet,-90.5,73
+British National Antarctic Expedition (Discovery expedition),8/6/1901,8/6/1901,"Cowes, Isle of Wight",-1.300533,50.762785
+British National Antarctic Expedition (Discovery expedition),11/29/1901,11/29/1901,"Lyttelton Harbour, New Zealand",172.72,-43.6
+British National Antarctic Expedition (Discovery expedition),1/9/1902,1/9/1902,"Cape Adare, Victoria Land",169.58,-71.05
+British National Antarctic Expedition (Discovery expedition),1/15/1902,1/15/1902,"Cape Crozier, Ross Island",169.342623,-77.495348
+British National Antarctic Expedition (Discovery expedition),1/30/1902,1/30/1902,King Edward VII Land,-158.262,-77.123433
+British National Antarctic Expedition (Discovery expedition),2/8/1902,11/2/1902,"Hut Point, Winter Quarters Bay, Ross Island, McMurdo Sound",166.64,-77.85
+British National Antarctic Expedition (Discovery expedition),12/30/1902,12/30/1902,End of southward march,163.5,-82.27
+British National Antarctic Expedition (Discovery expedition),2/3/1903,10/26/1903,"Hut Point, Winter Quarters Bay, Ross Island, McMurdo Sound",166.64,-77.85
+British National Antarctic Expedition (Discovery expedition),11/13/1903,11/14/1903,Ferrar Glacier,162.7,-77.816667
+British National Antarctic Expedition (Discovery expedition),11/20/1903,11/21/1903,Antarctic Plateau,135,-82.8628
+British National Antarctic Expedition (Discovery expedition),12/24/1903,2/17/1904,"Hut Point, Winter Quarters Bay, Ross Island, McMurdo Sound",166.64,-77.85
+British National Antarctic Expedition (Discovery expedition),3/1/1904,3/1/1904,"Lyttelton Harbour, New Zealand",172.72,-43.6
+British National Antarctic Expedition (Discovery expedition),6/1/1904,6/1/1904,Falkland Islands,-59.523613,-51.796253
+Loaísa Expedition,7/24/1525,7/24/1525,"Coruña, Spain",-8.4115,43.3623
+Loaísa Expedition,8/2/1525,8/2/1525,"Gomera, Canary Islands",-17.21,28.1
+Loaísa Expedition,10/20/1525,10/20/1525,Gulf of Guinea,3.74,3.74
+Loaísa Expedition,1/18/1526,1/18/1526,Santa Cruz River,-70.1538,-50.0289
+Loaísa Expedition,4/8/1526,4/8/1526,Straits of Magellan,-68.49,-52.51
+Loaísa Expedition,5/26/1526,5/26/1526,Pacific Ocean,-74.78,-52.63
+Loaísa Expedition,8/21/1526,8/21/1526,Marshall Islands ,170.21,7.07
+Loaísa Expedition,9/5/1526,9/10/1526,Guam,144.79,13.444
+Loaísa Expedition,10/22/1526,10/22/1526,Talao,126.7,4.22
+Carteret Circumnavigation,8/22/1766,8/22/1766,"Plymouth, England",-4.14,50.38
+Carteret Circumnavigation,12/17/1766,12/17/1766,Cape Virgenes,-68.35,-52.33
+Carteret Circumnavigation,4/11/1767,4/11/1767,Pacific Ocean,-74.78,-52.63
+Carteret Circumnavigation,5/12/1767,5/22/1767,Alejandro Selkirk Island,-80.799,-33.7761
+Carteret Circumnavigation,7/3/1767,7/3/1767,Pitcairn Island,-128.3242,-24.3767
+Carteret Circumnavigation,8/12/1767,8/12/1767,Solomon Islands,160.1561,-9.6457
+Carteret Circumnavigation,8/20/1767,8/20/1767,Carteret Islands,155.333333,-4.75
+Carteret Circumnavigation,9/9/1767,9/9/1767,St George's Channel,152.4041,-4.1918
+Carteret Circumnavigation,10/26/1767,10/26/1767,"Mindanao, the Philippines",123.29,8.51
+Carteret Circumnavigation,12/15/1767,12/20/1767,Makassar ,119.4,-5.14
+Carteret Circumnavigation,12/21/1767,5/22/1768,Celebes,122.64,-5.34
+Carteret Circumnavigation,6/3/1768,9/15/1768,"Batavia, Dutch East Indies",106.8,-6.17
+Carteret Circumnavigation,11/28/1768,1/7/1769,"Table Bay, South Africa",18.42,-33.9
+Carteret Circumnavigation,3/7/1769,3/7/1769,Azores,-26.06,37.96
+Wallis Circumnavigation,8/22/1766,8/22/1766,"Plymouth, England",-4.14,50.38
+Wallis Circumnavigation,12/17/1766,12/17/1766,Cape Virgenes,-68.35,-52.33
+Wallis Circumnavigation,4/11/1767,4/11/1767,Pacific Ocean,-74.78,-52.63
+Wallis Circumnavigation,6/6/1767,6/6/1767,Pinaki,-138.6749,-19.394
+Wallis Circumnavigation,6/11/1767,6/11/1767,Duke of Gloucester Islands,-144.025708,-20.273366
+Wallis Circumnavigation,6/17/1767,6/17/1767,Maitea,-151.32,-16.65
+Wallis Circumnavigation,6/23/1767,7/26/1767,"Matavai Bay, Tahiti",-149.51,-17.52
+Wallis Circumnavigation,8/16/1767,8/16/1767,Wallis,-178.1165,-14.2938
+Wallis Circumnavigation,9/19/1767,10/16/1767,Tinian,145.6356,15.0043
+Wallis Circumnavigation,11/30/1767,12/9/1767,"Batavia, Dutch East Indies",106.8,-6.17
+Wallis Circumnavigation,2/4/1768,2/28/1768,"Table Bay, South Africa",18.42,-33.9
+Peary's Expedition to the North Pole,7/6/1908,7/6/1908,"New York, United States",-74.03,40.68
+Peary's Expedition to the North Pole,9/5/1908,2/22/1909,"Cape Sheridan, Ellesmere Island",-61.45,82.45
+Peary's Expedition to the North Pole,3/1/1909,3/1/1909,"Cape Columbia, Ellesmere Island",-70.45,83.116667
+Peary's Expedition to the North Pole,4/6/1909,4/7/1909,North Pole (Disputed),0.01,90
+Peary's Expedition to the North Pole,4/23/1909,4/23/1909,"Cape Columbia, Ellesmere Island",-70.45,83.116667
+Peary's Expedition to the North Pole,4/27/1909,8/7/1909,"Cape Sheridan, Ellesmere Island",-61.45,82.45
+Imperial Trans-Antarctic Expedition (Endurance Expedition),8/14/1914,8/14/1914,"Plymouth, England",-4.14,50.38
+Imperial Trans-Antarctic Expedition (Endurance Expedition),10/26/1914,10/26/1914,"Buenos Aires, Argentina",-58.3816,-34.6037
+Imperial Trans-Antarctic Expedition (Endurance Expedition),11/5/1914,12/5/1914,"Grytviken, South Georgia",-36.5879,-54.4295
+Imperial Trans-Antarctic Expedition (Endurance Expedition),1/17/1915,1/17/1915,Caird Coast,-24,-76
+Imperial Trans-Antarctic Expedition (Endurance Expedition),2/14/1915,2/14/1915,(Stuck in ice),-31.5,-76.57
+Imperial Trans-Antarctic Expedition (Endurance Expedition),5/1/1915,5/1/1915,(Drifting in ice),-42.23,-75.38
+Imperial Trans-Antarctic Expedition (Endurance Expedition),10/30/1915,12/23/1915,Ocean Camp,-51.5,-69.08
+Imperial Trans-Antarctic Expedition (Endurance Expedition),4/15/1916,4/24/1916,Elephant Island,-55.140223,-61.112582
+Imperial Trans-Antarctic Expedition (Endurance Expedition),5/10/1916,5/15/1916,"King Haakon Bay, South Georgia",-36.5879,-54.4295
+Imperial Trans-Antarctic Expedition (Endurance Expedition),5/20/1916,5/22/1916,"Stromness, South Georgia",-36.5879,-54.4295
+Imperial Trans-Antarctic Expedition (Endurance Expedition),5/31/1916,7/1/1916,"Stanley, Falkland Islands",-57.8516,-51.6977
+Imperial Trans-Antarctic Expedition (Endurance Expedition),7/4/1916,8/25/1916,"Punta Arenas, Chile",-70.917,-53.1638
+Imperial Trans-Antarctic Expedition (Endurance Expedition),8/30/1916,8/30/1916,Elephant Island,-55.140223,-61.112582
+Second Voyage of the Astrolabe under Dumont D'Urville,9/7/1837,9/7/1837,"Toulon, France",5.928,43.1242
+Second Voyage of the Astrolabe under Dumont D'Urville,10/1/1837,10/7/1837,"Tenerife, Spain",-16.63,28.29
+Second Voyage of the Astrolabe under Dumont D'Urville,11/13/1837,11/13/1837,"Ilha Rasa, Brazil",-43.15,-23.06
+Second Voyage of the Astrolabe under Dumont D'Urville,12/15/1837,12/27/1837,"Port Famine, Rio de la Plata",-70.917,-53.1638
+Second Voyage of the Astrolabe under Dumont D'Urville,12/30/1837,12/30/1837,"Fortescue Bay, Chile",-71.2,-53.94
+Second Voyage of the Astrolabe under Dumont D'Urville,1/4/1838,1/4/1838,Pecket Harbour,-70.8698,-52.7604
+Second Voyage of the Astrolabe under Dumont D'Urville,2/5/1838,2/9/1838,(Trapped in Ice),-58.35,-62.95
+Second Voyage of the Astrolabe under Dumont D'Urville,2/20/1838,2/20/1838,Laurie Island,-44.52,-60.73
+Second Voyage of the Astrolabe under Dumont D'Urville,2/27/1838,2/27/1838,South Shetland Islands,-58,-62
+Second Voyage of the Astrolabe under Dumont D'Urville,4/8/1838,5/23/1838,"Concepción, Chile",-73.04439,-36.820135
+Second Voyage of the Astrolabe under Dumont D'Urville,5/25/1838,5/29/1838,"Valparaíso, Chile",-71.6126,-33.0472
+Second Voyage of the Astrolabe under Dumont D'Urville,8/27/1838,9/2/1838,Mangareva,-134.97,-23.11
+Second Voyage of the Astrolabe under Dumont D'Urville,9/9/1838,9/15/1838,"Matavai Bay, Tahiti",-149.51,-17.52
+Second Voyage of the Astrolabe under Dumont D'Urville,9/16/1838,10/1/1838,"Apia, Samoa",-171.7514,-13.8507
+Second Voyage of the Astrolabe under Dumont D'Urville,10/6/1838,10/8/1838,"Vava'u, Tonga",-173.99,-18.6227
+Second Voyage of the Astrolabe under Dumont D'Urville,10/20/1838,10/25/1838,"Ha'apai Island, Tonga",-174.67,-20
+Second Voyage of the Astrolabe under Dumont D'Urville,11/19/1838,11/25/1838,"Santa Isabel, Solomon Islands",158.6201,-7.6625
+Second Voyage of the Astrolabe under Dumont D'Urville,12/22/1838,12/27/1838,Siis,151.8209,7.295
+Second Voyage of the Astrolabe under Dumont D'Urville,1/1/1839,1/9/1839,Guam,144.79,13.444
+Second Voyage of the Astrolabe under Dumont D'Urville,1/30/1839,2/1/1839,"Ternate, Maluku Islands, Indonesia",127.361,0.7958
+Second Voyage of the Astrolabe under Dumont D'Urville,2/5/1839,2/18/1839,"Ambon Island, Maluku Islands, Indonesia",128.1054,-3.6255
+Second Voyage of the Astrolabe under Dumont D'Urville,2/22/1839,2/24/1839,Banda Islands,129.8576,-4.555
+Second Voyage of the Astrolabe under Dumont D'Urville,3/28/1839,4/5/1839,"Raffles Bay, New Holland",132.395,-11.2472
+Second Voyage of the Astrolabe under Dumont D'Urville,4/17/1839,4/19/1839,"Pulau Wamar, Aru Islands",134.2194,-5.793
+Second Voyage of the Astrolabe under Dumont D'Urville,4/24/1839,4/29/1839,"Fort Du Bus, Dutch East Indies",134.1191,-3.9367
+Second Voyage of the Astrolabe under Dumont D'Urville,6/9/1839,6/18/1839,"Batavia, Dutch East Indies",106.8,-6.17
+Second Voyage of the Astrolabe under Dumont D'Urville,6/28/1839,7/2/1839,Singapore,103.8198,1.352
+Second Voyage of the Astrolabe under Dumont D'Urville,7/22/1839,7/24/1839,"Jolo, The Philippines",121.18,5.98
+Second Voyage of the Astrolabe under Dumont D'Urville,7/28/1839,8/5/1839,"Mindanao, the Philippines",123.29,8.51
+Second Voyage of the Astrolabe under Dumont D'Urville,9/1/1839,9/3/1839,"Samarinda, Borneo",117.1436,-0.4948
+Second Voyage of the Astrolabe under Dumont D'Urville,9/24/1839,9/29/1839,Samarang,110.4381,-7.0051
+Second Voyage of the Astrolabe under Dumont D'Urville,10/5/1839,10/5/1839,"Batavia, Dutch East Indies",106.8,-6.17
+Second Voyage of the Astrolabe under Dumont D'Urville,12/13/1839,1/1/1840,"Hobart, Tasmania",147.34,-42.88
+Second Voyage of the Astrolabe under Dumont D'Urville,1/22/1840,1/22/1840,Dumoulin Islands,140.07,-66.62
+Second Voyage of the Astrolabe under Dumont D'Urville,2/18/1840,2/24/1840,"Hobart, Tasmania",147.34,-42.88
+Second Voyage of the Astrolabe under Dumont D'Urville,3/31/1840,4/3/1840,"Port Douglas, New Zealand",174.7783,-41.302
+Second Voyage of the Astrolabe under Dumont D'Urville,4/24/1840,4/24/1840,"Poverty Bay, New Zealand",177.98,-38.71
+Second Voyage of the Astrolabe under Dumont D'Urville,6/9/1840,6/9/1840,Torres Strait,141.9368,-10.2199
+Second Voyage of the Astrolabe under Dumont D'Urville,6/21/1840,6/25/1840,"Coupang, Timor",123.607033,-10.1772
+Second Voyage of the Astrolabe under Dumont D'Urville,7/21/1840,7/30/1840,"Saint-Denis, Ile Bourbon",55.455,-20.8906
+Second Voyage of the Astrolabe under Dumont D'Urville,9/7/1840,9/9/1840,St Helena,-5.71,-15.97
+Vancouver Expedition,4/1/1791,4/1/1791,"Falmouth, England",-5.06627,50.152571
+Vancouver Expedition,4/28/1791,5/8/1791,"Santa Cruz, Tenerife",-16.2518,28.4636
+Vancouver Expedition,7/9/1791,8/17/1791,"Cape Town, Cape of Good Hope",18.42,-33.92
+Vancouver Expedition,9/27/1791,9/27/1791,"Cape Chatham, Australia",116.497573,-35.031883
+Vancouver Expedition,9/29/1791,10/1/1791,"King George Sound, Western Australia",117.93,-35.03
+Vancouver Expedition,11/9/1791,11/22/1791,"Dusky Sound, New Zealand",166.506521,-45.724633
+Vancouver Expedition,11/24/1791,11/24/1791,Snares Island,166.55,-48.0366
+Vancouver Expedition,11/30/1791,1/24/1792,"Matavai Bay, Tahiti",-149.51,-17.52
+Vancouver Expedition,4/19/1792,4/19/1792,"Cape Mendocino, California",-124.4095,40.440132
+Vancouver Expedition,4/28/1792,4/28/1792,"Point Grenville, Washington",-124.278516,47.304249
+Vancouver Expedition,4/29/1792,4/29/1792,Juan de Fuca Strait,-123.36,48.26
+Vancouver Expedition,5/7/1792,5/8/1792,Discovery Bay,-122.8918,47.99
+Vancouver Expedition,5/19/1792,6/5/1792,Puget Sound,-122.4713,47.7236
+Vancouver Expedition,7/26/1792,7/26/1792,Broughton's Archipelago,-126.695108,50.682803
+Vancouver Expedition,8/10/1792,8/10/1792,Fitz Hugh Sound,-127.88661,51.42981
+Vancouver Expedition,11/14/1792,11/25/1792,"San Francisco, California",-122.4194,37.7749
+Vancouver Expedition,2/22/1793,3/9/1793,"Kealakekua Bay, Hawaii (sailed along North side)",-155.93,19.48
+Vancouver Expedition,5/26/1793,5/26/1793,Fitz Hugh Sound,-127.88661,51.42981
+Vancouver Expedition,5/27/1793,6/11/1793,Restoration Cove,-127.8671,51.5741
+Vancouver Expedition,6/18/1793,6/19/1793,Yeo Island (east),-128.0696,52.3656
+Vancouver Expedition,6/21/1793,6/21/1793,Princess Royal Island (east),-128.9256,52.8882
+Vancouver Expedition,7/24/1793,8/18/1793,"Salmon Cove, Observatory Inlet",-130.1208,55.625
+Vancouver Expedition,8/21/1793,9/6/1793,"Port Stewart, Revillagigedo Island, Alaska",-131.669769,55.595662
+Vancouver Expedition,9/8/1793,9/23/1793,"Port Protection, Prince of Wales Island",-133.5855,56.3244
+Vancouver Expedition,10/19/1793,10/24/1793,"San Francisco, California",-122.4194,37.7749
+Vancouver Expedition,1/9/1794,2/26/1794,"Kealakekua Bay, Hawaii",-155.93,19.48
+Vancouver Expedition,4/30/1794,4/30/1794,"Cook’s Inlet, Alaska",-152.644003,59.372198
+Vancouver Expedition,5/30/1794,5/30/1794,Prince William Sound,-147.097,60.6905
+Vancouver Expedition,7/7/1794,7/28/1794,"Port Althorp, Chichagof Island",-136.3414,58.1544
+Vancouver Expedition,8/2/1794,8/22/1794,"Port Conclusion, Baranof Islands (south-east coast)",-134.6622,56.2669
+Vancouver Expedition,11/6/1794,12/2/1794,"Monterey, California",-121.89,36.6
+Vancouver Expedition,12/17/1794,12/17/1794,Islas Marias,-106.48,21.52
+Vancouver Expedition,1/20/1795,1/20/1795,Cocos Island,-87.05743,5.528228
+Vancouver Expedition,2/3/1795,2/9/1795,Galapagos,-90.36,-0.88
+Vancouver Expedition,3/21/1795,3/21/1795,Juan Fernández Islands,-80.78,-33.77
+Vancouver Expedition,3/25/1795,5/7/1795,"Valparaíso, Chile",-71.6126,-33.0472
+Vancouver Expedition,7/3/1795,7/3/1795,St Helena,-5.71,-15.97
+Vancouver Expedition,9/13/1795,9/13/1795,"Mouth of the River Shannon, Ireland",-9.69,52.56
+The Roebuck Expedition,1/14/1699,1/14/1699,"The Downs, England",-0.6624,50.9279
+The Roebuck Expedition,1/30/1699,2/4/1699,"Santa Cruz, Tenerife",-16.2518,28.4636
+The Roebuck Expedition,2/19/1699,2/22/1699,"Porto Prayo, Santiago, Cape Verde",-23.62,15.09
+The Roebuck Expedition,3/25/1699,4/23/1699,"Bahia, Brazil",-38.48,-12.97
+The Roebuck Expedition,6/3/1699,6/3/1699,Cape of Good Hope,18.47,-34.36
+The Roebuck Expedition,8/6/1699,8/18/1699,"Shark Bay, New Holland",113.7849,-25.9847
+The Roebuck Expedition,9/10/1699,9/10/1699,Lagrange Bay,121.76,-18.62
+The Roebuck Expedition,9/18/1699,9/18/1699,Roti,123.1239,-10.7386
+The Roebuck Expedition,10/12/1699,10/22/1699,Laphao Bay,128.26,2.04
+The Roebuck Expedition,10/27/1699,12/12/1699,"Babao, Timor",124.331,-9.8627
+The Roebuck Expedition,12/20/1699,12/20/1699,Laphao,128.38,2.51
+The Roebuck Expedition,2/27/1700,2/27/1700,New Britain,150.73,-5.73
+The Roebuck Expedition,3/24/1700,3/24/1700,Dampier Strait,130.6,-0.6
+The Roebuck Expedition,4/26/1700,4/26/1700,Ceram,129.48,-2.7
+The Roebuck Expedition,5/19/1700,5/19/1700,"Babao, Timor",124.331,-9.8627
+The Roebuck Expedition,6/29/1700,6/29/1700,Straits of Sunda,104,-6.35
+The Roebuck Expedition,7/2/1700,10/17/1700,"Batavia, Dutch East Indies",106.8,-6.17
+The Roebuck Expedition,12/30/1700,1/11/1701,Cape of Good Hope,18.47,-34.36
+The Roebuck Expedition,2/2/1701,2/13/1701,St Helena,-5.71,-15.97
+James Clark Ross’ Antarctic Expedition,9/30/1839,9/30/1839,"Chatham, England",0.52213,51.380952
+James Clark Ross’ Antarctic Expedition,10/20/1839,11/4/1839,"Funchal, Madeira",-16.96,32.76
+James Clark Ross’ Antarctic Expedition,11/13/1839,11/20/1839,"Port Praya, Cape Verde",-23.4991,14.912
+James Clark Ross’ Antarctic Expedition,11/29/1839,11/29/1839,St Paul's Rocks,-29.3455,0.917
+James Clark Ross’ Antarctic Expedition,12/17/1839,12/17/1839,Ilha do Trinidade,-29.33,-20.51
+James Clark Ross’ Antarctic Expedition,1/31/1840,2/9/1840,St Helena,-5.71,-15.97
+James Clark Ross’ Antarctic Expedition,3/17/1840,4/6/1840,"Simon's Bay, Cape of Good Hope",18.4739,-34.3568
+James Clark Ross’ Antarctic Expedition,5/1/1840,5/1/1840,"America Bay, Possession Island, Crozet Island, Australia",51.7378,-46.4269
+James Clark Ross’ Antarctic Expedition,5/10/1840,5/10/1840,"Cape François, Kerguelen Islands",69.1666,-49.25
+James Clark Ross’ Antarctic Expedition,5/12/1840,7/20/1840,"Christmas Harbour, French Southern and Antarctic Lands",70.8,-48.89
+James Clark Ross’ Antarctic Expedition,8/16/1840,11/12/1840,"Hobart, Tasmania",147.34,-42.88
+James Clark Ross’ Antarctic Expedition,11/20/1840,11/25/1840,"Rendezvous Harbour, Auckland Island",166.0799,-50.6921
+James Clark Ross’ Antarctic Expedition,12/13/1840,12/16/1840,Campbell Island,169.155234,-52.516254
+James Clark Ross’ Antarctic Expedition,1/9/1841,1/9/1841,Ross Sea,176.25,-69.25
+James Clark Ross’ Antarctic Expedition,1/10/1841,1/10/1841,Possession Islands,171.1666,-71.87
+James Clark Ross’ Antarctic Expedition,1/27/1841,1/27/1841,Franklin Island,168.362425,-76.147482
+James Clark Ross’ Antarctic Expedition,1/30/1841,1/30/1841,Ross Ice Shelf,-178.8,-77.35
+James Clark Ross’ Antarctic Expedition,2/21/1841,2/21/1841,"Cape Adare, Victoria Land",169.58,-71.05
+James Clark Ross’ Antarctic Expedition,3/2/1841,3/2/1841,Smyth Island,167.42,-68.27
+James Clark Ross’ Antarctic Expedition,3/4/1841,3/4/1841,Frances Island,165,-67
+James Clark Ross’ Antarctic Expedition,4/6/1841,7/7/1841,"Hobart, Tasmania",147.34,-42.88
+James Clark Ross’ Antarctic Expedition,7/14/1841,8/5/1841,"Port Jackson, New South Wales",151.2335,-33.8442
+James Clark Ross’ Antarctic Expedition,8/17/1841,11/23/1841,"Kawakawa, New Zealand",174.06,-35.38
+James Clark Ross’ Antarctic Expedition,11/30/1841,11/30/1841,"Point Alison, Chatham Islands, New Zealand",-175.930455,-44.023747
+James Clark Ross’ Antarctic Expedition,12/10/1841,12/10/1841,Nimrod Islands,150.74,-34.84
+James Clark Ross’ Antarctic Expedition,2/23/1842,2/23/1842,Ross Ice Shelf,-178.8,-77.35
+James Clark Ross’ Antarctic Expedition,3/5/1842,3/5/1842,Recross the Antarctic Circle,171,-67
+James Clark Ross’ Antarctic Expedition,4/6/1842,8/9/1842,"Port Louis, East Falkland Island",-59.523613,-51.796253
+James Clark Ross’ Antarctic Expedition,9/19/1842,11/7/1842,St. Martin's Cove,-67.266667,-55.983333
+James Clark Ross’ Antarctic Expedition,11/12/1842,12/17/1842,"Port Louis, East Falkland Island",-59.523613,-51.796253
+James Clark Ross’ Antarctic Expedition,12/28/1842,12/28/1842,Danger Islets,-54.68,-63.43
+James Clark Ross’ Antarctic Expedition,1/1/1843,1/1/1843,Cockburn Island,-56.85,-64
+James Clark Ross’ Antarctic Expedition,1/6/1843,1/6/1843,Admiralty Inlet [Admiralty Sound],-57.166,-64.3333
+James Clark Ross’ Antarctic Expedition,2/22/1843,2/22/1843,Line of no variation,-61,-62
+James Clark Ross’ Antarctic Expedition,3/1/1843,3/11/1843,Crossed Antarctic Circle,52.7139,-65.7378
+James Clark Ross’ Antarctic Expedition,4/4/1843,4/30/1843,"Simon's Bay, Cape of Good Hope",18.4739,-34.3568
+James Clark Ross’ Antarctic Expedition,5/13/1843,5/29/1843,St Helena,-5.71,-15.97
+James Clark Ross’ Antarctic Expedition,6/7/1843,6/25/1843,"Rio de Janeiro, Brazil",-43.17,-22.91
+Second Voyage of the Beagle,12/27/1831,12/27/1831,"Plymouth, England",-4.14,50.38
+Second Voyage of the Beagle,2/20/1832,2/20/1832,Fernando de Noronha ,-32.426892,-3.844798
+Second Voyage of the Beagle,2/28/1832,3/18/1832,"Bahia, Brazil",-38.48,-12.97
+Second Voyage of the Beagle,3/29/1832,3/29/1832,Abrolhos Archipelago,-38.7028,-17.9702
+Second Voyage of the Beagle,4/4/1832,4/10/1832,"Rio de Janeiro, Brazil",-43.17,-22.91
+Second Voyage of the Beagle,5/16/1832,5/23/1832,"Bahia, Brazil",-38.48,-12.97
+Second Voyage of the Beagle,6/4/1832,7/5/1832,"Rio de Janeiro, Brazil",-43.17,-22.91
+Second Voyage of the Beagle,7/26/1832,7/31/1832,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,9/6/1832,10/1/1832,"Bahia Blanca, Rio de la Plata",-62.2582,-38.713
+Second Voyage of the Beagle,10/26/1832,10/31/1832,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,11/2/1832,11/10/1832,"Buenos Aires, Rio de la Plata",-58.3816,-34.6037
+Second Voyage of the Beagle,11/14/1832,11/28/1832,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,12/18/1832,12/20/1832,"Good Success Bay, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,12/21/1832,12/21/1832,"Valentyn Bay, Rio de la Plata",-56.7412,-35.1944
+Second Voyage of the Beagle,12/24/1832,12/30/1832,"San Martin Cove, Rio de la Plata",-56.7412,-35.1944
+Second Voyage of the Beagle,1/1/1833,1/1/1833,"Diego Ramírez Islands, Rio de la Plata",-55.7833,-35.1944
+Second Voyage of the Beagle,1/15/1833,2/8/1833,"Goree Roads, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,2/12/1833,2/17/1833,"Packsaddle Bay, Rio de la Plata",-57.1914,-35.8795
+Second Voyage of the Beagle,2/18/1833,2/21/1833,"Gretton Bay, Rio de la Plata",-57.1913,-35.8794
+Second Voyage of the Beagle,2/22/1833,2/25/1833,"Good Success Bay, Rio de la Plata",-57.1912,-35.8793
+Second Voyage of the Beagle,4/13/1833,4/13/1833,"Rio Negro, Rio de la Plata",-58.4256,-34.6329
+Second Voyage of the Beagle,4/26/1833,4/27/1833,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,4/28/1833,5/2/1833,"Maldonado, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,5/3/1833,5/17/1833,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,5/23/1833,7/8/1833,"Maldonado, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,7/10/1833,7/13/1833,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,7/14/1833,7/24/1833,"Maldonado, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,8/3/1833,8/3/1833,"Rio Negro, Rio de la Plata",-58.4256,-34.6329
+Second Voyage of the Beagle,8/12/1833,8/12/1833,Monte-Bahia,-55.67,-39.02
+Second Voyage of the Beagle,8/25/1833,9/7/1833,"Bahia Blanca, Rio de la Plata",-62.2582,-38.713
+Second Voyage of the Beagle,9/12/1833,9/12/1833,Monte-Bahia,-55.67,-39.02
+Second Voyage of the Beagle,9/16/1833,9/17/1833,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,9/19/1833,9/20/1833,"Maldonado, Uruguay",-54.97,-34.92
+Second Voyage of the Beagle,9/22/1833,9/23/1833,"Montevideo, Rio de la Plata",-56.22,-34.9
+Second Voyage of the Beagle,10/1/1833,10/2/1833,"Samborombón Bay, Rio de la Plata",-57.1915,-35.8796
+Second Voyage of the Beagle,10/6/1833,12/5/1833,"Maldonado, Rio de la Plata",-55.7833,-35.1944
+Second Voyage of the Beagle,12/24/1833,1/4/1834,"Port Desire, Rio de la Plata",-65.9,-47.75
+Second Voyage of the Beagle,1/10/1834,1/18/1834,"Port St Julian, Rio de la Plata",-65.901,-47.751
+Second Voyage of the Beagle,1/20/1834,1/21/1834,"Port Desire, Rio de la Plata",-65.9,-47.75
+Second Voyage of the Beagle,2/2/1834,2/10/1834,"Port Famine, Rio de la Plata",-65.902,-47.752
+Second Voyage of the Beagle,2/17/1834,2/18/1834,"San Sebastian Bay, Tierra del Fuego",-67.7588,-53.8025
+Second Voyage of the Beagle,2/25/1834,2/26/1834,Wollaston Island,-67.4572,-55.6657
+Second Voyage of the Beagle,3/1/1834,3/4/1834,Beagle Channel,-67.8349,-54.8899
+Second Voyage of the Beagle,3/13/1834,4/5/1834,"Port Louis, East Falkland Island",-59.523613,-51.796253
+Second Voyage of the Beagle,4/13/1834,5/11/1834,Rio Santa Cruz,-70.1538,-50.0289
+Second Voyage of the Beagle,5/16/1834,5/17/1834,Cape Virgenes,-68.35,-52.33
+Second Voyage of the Beagle,6/1/1834,6/8/1834,"Port Famine, Rio de la Plata",-65.9,-47.75
+Second Voyage of the Beagle,6/29/1834,7/14/1834,"San Carlos, Chilóe",-73.8223,-41.8701
+Second Voyage of the Beagle,7/23/1834,11/11/1834,"Valparaíso, Chile",-71.6126,-33.0472
+Second Voyage of the Beagle,11/22/1834,11/25/1834,"San Carlos, Chilóe",-73.8223,-41.8701
+Second Voyage of the Beagle,12/3/1834,12/3/1834,Chonos Archipelago,-73.95,-45.1333
+Second Voyage of the Beagle,12/7/1834,12/10/1834,San Pedro,-73.7336,-43.3527
+Second Voyage of the Beagle,12/23/1834,12/27/1834,Christmas Cove,-75.3344,-46.8472
+Second Voyage of the Beagle,1/8/1835,1/15/1835,Port Low,-73.9265,-42.6239
+Second Voyage of the Beagle,1/20/1835,2/4/1835,"San Carlos, Chilóe",-73.8223,-41.8701
+Second Voyage of the Beagle,2/9/1835,2/21/1835,"Valdivia, Chile",-73.2425,-39.8173
+Second Voyage of the Beagle,3/4/1835,3/7/1835,"Concepción, Chile",-73.04439,-36.820135
+Second Voyage of the Beagle,3/12/1835,3/17/1835,"Valparaíso, Chile",-71.6126,-33.0472
+Second Voyage of the Beagle,3/28/1835,4/15/1835,"Concepción, Chile",-73.04439,-36.820135
+Second Voyage of the Beagle,5/4/1835,6/7/1835,"Herradura, Chile",-71.35,-29.98
+Second Voyage of the Beagle,6/14/1835,6/29/1835,"Valparaíso, Chile",-71.6126,-33.0472
+Second Voyage of the Beagle,7/13/1835,7/14/1835,"Iquique, Peru (now Chile)",-70.15,-20.23
+Second Voyage of the Beagle,9/17/1835,9/23/1835,"Stephens Bay, Chatham Island",-89.49,-0.8
+Second Voyage of the Beagle,10/4/1835,10/4/1835,Abingdon Island,-90.7628,0.592
+Second Voyage of the Beagle,10/11/1835,10/11/1835,Chatham Island,-89.49,-0.8
+Second Voyage of the Beagle,11/15/1835,11/25/1835,"Matavai Bay, Tahiti",-149.51,-17.52
+Second Voyage of the Beagle,12/21/1835,12/30/1835,"Bay of Islands, New Zealand",174.1646,-35.1844
+Second Voyage of the Beagle,1/12/1836,1/29/1836,"Sydney Cove, New South Wales",151.2198,-33.8685
+Second Voyage of the Beagle,1/30/1836,1/30/1836,"Port Jackson, New South Wales",151.2335,-33.8442
+Second Voyage of the Beagle,2/6/1836,2/17/1836,"Hobart, Tasmania",147.34,-42.88
+Second Voyage of the Beagle,3/6/1836,3/15/1836,"King George Sound, Western Australia",117.93,-35.03
+Second Voyage of the Beagle,4/2/1836,4/12/1836,Keeling Island,96.87,-12.16
+Second Voyage of the Beagle,4/30/1836,5/9/1836,"Port Louis, Mauritius",57.5012,-20.1608
+Second Voyage of the Beagle,6/1/1836,6/18/1836,"Simon's Bay, Cape of Good Hope",18.4739,-34.3568
+Second Voyage of the Beagle,7/8/1836,7/14/1836,St Helena,-5.71,-15.97
+Second Voyage of the Beagle,7/20/1836,7/23/1836,Ascension,-7.95,-14.36
+Second Voyage of the Beagle,8/2/1836,8/6/1836,"Bahia, Brazil",-38.48,-12.97
+Second Voyage of the Beagle,8/13/1836,8/17/1836,"Pernambuco, Brazil",-33.7162,-5.9578
+Second Voyage of the Beagle,8/31/1836,9/4/1836,"Porto Prayo, Santiago, Cape Verde",-23.62,15.09
+Second Voyage of the Beagle,10/2/1836,10/5/1836,"Falmouth, England",-5.06627,50.152571
+Second Voyage of the Beagle,10/6/1836,10/17/1836,"Plymouth, England",-4.14,50.38
+Second Voyage of the Beagle,10/18/1836,11/6/1836,"Greenwich, England",-0.02,51.48
+Barentsz' First Voyage,6/4/1594,6/4/1594,"Texel, the Netherlands",4.7977,53.0547
+Barentsz' First Voyage,6/23/1594,6/23/1594,Kildin Island,34.35,69.32
+Barentsz' First Voyage,7/31/1594,7/31/1594,Orange Islands,66.97,77.05
+Barentsz' First Voyage,8/10/1594,8/10/1594,St Lawrence Bay,63.5,71.75
+William Baffin's Second Voyage for the Company of Merchants of London,3/26/1616,3/26/1616,"Gravesend, England",0.37,51.45
+William Baffin's Second Voyage for the Company of Merchants of London,5/30/1616,5/30/1616,Sandersons Hope,-56.0638,72.7038
+William Baffin's Second Voyage for the Company of Merchants of London,7/2/1616,7/2/1616,"Cape Dudley Digges, Greenland",-68.78,76.16
+William Baffin's Second Voyage for the Company of Merchants of London,7/3/1616,7/3/1616,Wolstenholme Sound,-69.0264,76.6392
+William Baffin's Second Voyage for the Company of Merchants of London,7/5/1616,7/5/1616,Hakluyt Island,-72.67,77.43
+William Baffin's Second Voyage for the Company of Merchants of London,7/10/1616,7/10/1616,Jones Sound,-86,76
+William Baffin's Second Voyage for the Company of Merchants of London,7/12/1616,7/12/1616,Lancaster Sound,-84,74.21
+William Baffin's Second Voyage for the Company of Merchants of London,7/19/1616,7/19/1616,"Desolation [Cape Farewell, Greenland]",-43.911667,59.779167
+William Baffin's Second Voyage for the Company of Merchants of London,7/28/1616,7/28/1616,"Cockin Sound, Greenland",-42.0556,60.739
+William Baffin's Second Voyage for the Company of Merchants of London,8/27/1616,8/27/1616,"Scilly Islands, England",-6.2965,49.9232
+Lapérouse's Expedition to the Pacific,8/1/1785,8/1/1785,"Brest, France",-4.486,48.39
+Lapérouse's Expedition to the Pacific,10/16/1785,10/16/1785,Ilha do Trinidade,-29.33,-20.51
+Lapérouse's Expedition to the Pacific,11/7/1785,11/7/1785,"St Catherine's Island, Brazil",-48.4587,-27.5961
+Lapérouse's Expedition to the Pacific,2/9/1786,2/9/1786,Straits of Magellan,-68.49,-52.51
+Lapérouse's Expedition to the Pacific,2/22/1786,2/22/1786,"Mocha Island, Chile",-73.91,-38.37
+Lapérouse's Expedition to the Pacific,4/8/1786,4/8/1786,Easter Island,-109.349687,-27.112723
+Lapérouse's Expedition to the Pacific,5/30/1786,6/1/1786,"Maui, Sandwich Islands (Hawaii)",-156.33,20.8
+Lapérouse's Expedition to the Pacific,7/3/1786,7/31/1786,Port des Français (Lituya Bay),-137.572,58.6391
+Lapérouse's Expedition to the Pacific,8/5/1786,8/5/1786,Cape Cross (Alaska),-136.561389,57.917222
+Lapérouse's Expedition to the Pacific,8/7/1786,8/7/1786,Cape Edgcumbe (Alaska),-135.834167,57.002778
+Lapérouse's Expedition to the Pacific,8/25/1786,8/25/1786,Nootka,-124.63,48.46
+Lapérouse's Expedition to the Pacific,9/14/1786,9/24/1786,"Monterey, California",-121.89,36.6
+Lapérouse's Expedition to the Pacific,11/4/1786,11/4/1786,Necker Island (Hawaii),-164.7,23.58
+Lapérouse's Expedition to the Pacific,12/28/1786,12/28/1786,Bashee Islands,145.3395,16.8944
+Lapérouse's Expedition to the Pacific,1/3/1787,2/4/1787,Macao,113.54,22.2
+Lapérouse's Expedition to the Pacific,2/28/1787,4/9/1787,"Manila, Philippines",120.96,14.6
+Lapérouse's Expedition to the Pacific,5/21/1787,5/21/1787,"Quelpaert Island, Korea",126.4983,33.489
+Lapérouse's Expedition to the Pacific,6/6/1787,6/6/1787,"Cape Noto, Japan",136.9333,37.35
+Lapérouse's Expedition to the Pacific,7/24/1787,7/24/1787,Baie de Castries,140.588,47.9601
+Lapérouse's Expedition to the Pacific,8/12/1787,8/12/1787,Strait of Lapérouse,142.9505,50.6909
+Lapérouse's Expedition to the Pacific,9/8/1787,10/1/1787,"Petropavlovsk, Russia",158.6777,53.0409
+Lapérouse's Expedition to the Pacific,12/6/1787,12/6/1787,Navigator Islands (Samoa),-172.04,-13.66
+Lapérouse's Expedition to the Pacific,1/24/1788,3/10/1789,"Botany Bay, New South Wales, Australia",151.18,-34
+Voyage of Jacob le Maire and Willem Schouten,6/14/1615,6/14/1615,"Texel, the Netherlands",4.7977,53.0547
+Voyage of Jacob le Maire and Willem Schouten,6/17/1615,6/18/1615,"Dover, England",1.313403,51.127876
+Voyage of Jacob le Maire and Willem Schouten,6/27/1615,6/28/1615,"Plymouth, England",-4.14,50.38
+Voyage of Jacob le Maire and Willem Schouten,7/28/1615,7/28/1615,Cape Verde Islands,-23.0418,16.5388
+Voyage of Jacob le Maire and Willem Schouten,8/30/1615,8/30/1615,Sierra Leone,-12.85,7.7
+Voyage of Jacob le Maire and Willem Schouten,11/3/1615,11/3/1615,Martin Vaz Islands,-29.33,-20.51
+Voyage of Jacob le Maire and Willem Schouten,12/7/1615,1/13/1616,"Port Desire, Rio de la Plata",-65.9,-47.75
+Voyage of Jacob le Maire and Willem Schouten,1/25/1616,1/25/1616,Staten Island,-64.62,-54.82
+Voyage of Jacob le Maire and Willem Schouten,3/1/1616,3/1/1616,Juan Fernández Islands,-80.78,-33.77
+Voyage of Jacob le Maire and Willem Schouten,4/20/1616,4/20/1616,Cocos Eylet (Tafahi),-173.74913,-15.853538
+Voyage of Jacob le Maire and Willem Schouten,4/21/1616,4/21/1616,Traitors Island (Niuatoputapu),-173.7783,-15.9566
+Voyage of Jacob le Maire and Willem Schouten,4/24/1616,4/24/1616,Island of Good Hope (Niuafo'ou),-175.68,-15.61
+Voyage of Jacob le Maire and Willem Schouten,4/28/1616,4/28/1616,Hoorn Islands,-178.06,-14.32
+Voyage of Jacob le Maire and Willem Schouten,7/21/1616,7/24/1616,Schouten Islands,136.0328,-0.4668
+Voyage of Jacob le Maire and Willem Schouten,9/8/1616,9/12/1616,Ternate,127.361,0.7958
+Nansen's Fram Expedition,6/24/1893,6/24/1893,"Christiana, Norway",10.752245,59.913869
+Nansen's Fram Expedition,7/1/1893,7/2/1893,"Bergen, Norway",5.3221,60.3913
+Nansen's Fram Expedition,7/5/1893,7/6/1893,"Trondheim, Norway",10.395,63.4305
+Nansen's Fram Expedition,7/12/1893,7/20/1893,"Tromsø, Norway",18.9553,69.6492
+Nansen's Fram Expedition,8/18/1893,8/18/1893,Sverdrup Island,79.45,74.58
+Nansen's Fram Expedition,9/10/1893,9/10/1893,"Cape Chelyuskin, Russia",104.258055,77.721111
+Nansen's Fram Expedition,10/5/1893,10/5/1893,"(Stuck in ice, 5 October)",132.88,78.82
+Nansen's Fram Expedition,11/8/1893,11/8/1893,"(Stuck in ice, 8 November)",138.13,77.72
+Nansen's Fram Expedition,11/19/1893,11/19/1893,"(Stuck in ice, 19 November)",139.38,78.45
+Nansen's Fram Expedition,12/9/1893,12/9/1893,"(Stuck in ice, 9 December)",139.23,79
+Nansen's Fram Expedition,1/14/1894,1/14/1894,"(Stuck in ice, 14 January)",137.52,79.31
+Nansen's Fram Expedition,1/23/1894,1/23/1894,"(Stuck in ice, 23 January)",135.48,79.68
+Nansen's Fram Expedition,2/2/1894,2/2/1894,"(Stuck in ice, 2 February)",132.17,80.17
+Nansen's Fram Expedition,2/24/1894,2/24/1894,"(Stuck in ice, 24 February)",132.95,79.9
+Nansen's Fram Expedition,5/8/1894,5/8/1894,"(Stuck in ice, 8 May)",129.97,80.92
+Nansen's Fram Expedition,5/21/1894,5/21/1894,"(Stuck in ice, 21 May)",125.75,81.33
+Nansen's Fram Expedition,6/2/1894,6/2/1894,"(Stuck in ice, 2 June)",121.78,81.52
+Nansen's Fram Expedition,7/31/1894,7/31/1894,"(Stuck in ice, 31 July)",126.08,81.03
+Nansen's Fram Expedition,9/5/1894,9/5/1894,"(Stuck in ice, 5 September)",123.6,81.23
+Nansen's Fram Expedition,10/13/1894,10/13/1894,"(Stuck in ice, 13 October)",118.47,81.54
+Nansen's Fram Expedition,10/31/1894,10/31/1894,"(Stuck in ice, 31 October)",114.15,82
+Nansen's Fram Expedition,1/6/1895,1/6/1895,"(Stuck in ice, 6 January)",102.85,83.57
+Nansen's Fram Expedition,3/13/1895,3/13/1895,"(Stuck in ice, 13 March)",101.92,84
+Nansen's Fram Expedition,4/4/1895,4/4/1895,"(Stuck in ice, 4 April)",98.78,86.05
+Nansen's Fram Expedition,8/14/1896,8/15/1896,"Danskøya, Svalbad",10.933333,79.7
+Nansen's Fram Expedition (Nansen and Johansen),4/4/1895,4/4/1895,(Nansen and Johansen travelling by dog sled),98.78,86.05
+Nansen's Fram Expedition (Nansen and Johansen),4/18/1895,4/18/1895,(Nansen and Johansen travelling by dog sled),79.43,85.63
+Nansen's Fram Expedition (Nansen and Johansen),5/5/1895,5/5/1895,(Nansen and Johansen travelling by dog sled),66.25,84.52
+Nansen's Fram Expedition (Nansen and Johansen),5/13/1895,5/13/1895,(Nansen and Johansen travelling by dog sled),59.91,83.6
+Nansen's Fram Expedition (Nansen and Johansen),5/26/1895,5/26/1895,(Nansen and Johansen travelling by dog sled),61.45,82.67
+Nansen's Fram Expedition (Nansen and Johansen),8/10/1895,8/10/1895,"Hvidtenland, Franz Josef Land",63.1,81.63
+Nansen's Fram Expedition (Nansen and Johansen),8/28/1895,5/19/1896,"Jackson Island, Franz Josef Land",56.63,81.23
+Nansen's Fram Expedition (Nansen and Johansen),6/17/1896,6/17/1896,"Cape Flora, Northbrook Island",50.089722,79.947778
+Ross' Second Arctic Expedition,5/22/1829,5/23/1829,"London, England",0.06,51.5
+Ross' Second Arctic Expedition,6/12/1829,6/13/1829,Loch Ryan,-5.03,54.97
+Ross' Second Arctic Expedition,7/5/1829,7/6/1829,Enter Davis Strait,-44.5708,59.4304
+Ross' Second Arctic Expedition,7/23/1829,7/26/1829,"Holsteinborg, Greenland",-53.67,66.94
+Ross' Second Arctic Expedition,7/28/1829,7/29/1829,"Disko Island, Greenland (West)",-55.45,70.12
+Ross' Second Arctic Expedition,8/3/1829,8/4/1829,Furthest North reached,-68.13,74.14
+Ross' Second Arctic Expedition,8/9/1829,8/10/1829,Lancaster Sound,-77,74.0167
+Ross' Second Arctic Expedition,8/13/1829,8/15/1829,Fury Beach,-91.9,72.8
+Ross' Second Arctic Expedition,9/6/1829,9/7/1829,Elizabeth Harbour,-92.2499,70.5999
+Ross' Second Arctic Expedition,9/30/1829,4/5/1830,Felix Harbour,-92.21,70.2
+Ross' Second Arctic Expedition,4/8/1830,4/8/1830,West side of Boothia Peninsular,-94.5,69
+Ross' Second Arctic Expedition,4/10/1830,5/17/1830,Felix Harbour,-92.21,70.2
+Ross' Second Arctic Expedition,5/23/1830,5/24/1830,Matty Island,-95.47,69.46
+Ross' Second Arctic Expedition,5/25/1830,5/26/1830,Tennent Islands,-96.5,69.5
+Ross' Second Arctic Expedition,5/29/1830,5/30/1830,Cape Felix,-98.55,69.77
+Ross' Second Arctic Expedition,6/13/1830,9/17/1830,Felix Harbour,-92.21,70.2
+Ross' Second Arctic Expedition,9/30/1830,5/27/1831,Sheriff Bay,-91,70.6666
+Ross' Second Arctic Expedition,6/1/1831,6/2/1831,Magnetic North Pole,-96.7792,70.0881
+Ross' Second Arctic Expedition,6/13/1831,8/28/1831,Sheriff Bay,-91,70.6666
+Ross' Second Arctic Expedition,7/1/1832,8/1/1832,Fury Beach [ship abandoned en route],-91.9,72.8
+Ross' Second Arctic Expedition,9/20/1832,9/20/1832,Barrow Strait,-90.1225,73.7905
+Ross' Second Arctic Expedition,9/30/1832,9/30/1832,Batty Bay - abandon boats,-91.4166,73.233
+Ross' Second Arctic Expedition,10/7/1832,7/8/1833,Fury Beach,-91.9,72.8
+Ross' Second Arctic Expedition,7/12/1833,8/15/1833,Batty Bay - sail in abandoned boats,-91.4166,73.233
+Ross' Second Arctic Expedition,8/25/1833,8/26/1833,Navy-Board Inlet [join HMS Isabella],-81.078775,73.370582
+Henry Hudson's 1610-1611 Voyage,4/17/1610,4/17/1610,"Gravesend, England",0.37,51.45
+Henry Hudson's 1610-1611 Voyage,5/15/1610,6/1/1610,Iceland,-18.14,63.43
+Henry Hudson's 1610-1611 Voyage,6/4/1610,6/8/1610,Greenland (Groneland),-36.8432,65.5671
+Henry Hudson's 1610-1611 Voyage,6/15/1610,6/20/1610,"Desolation [Cape Farewell, Greenland]",-43.911667,59.779167
+Henry Hudson's 1610-1611 Voyage,6/24/1610,6/28/1610,Resolution Island,-64.947507,61.508673
+Henry Hudson's 1610-1611 Voyage,7/5/1610,7/8/1610,Ungava Bay,-67.7242,59.8067
+Henry Hudson's 1610-1611 Voyage,7/11/1610,7/14/1610,God’s Mercy [Saddleback Islands],-67.9,62.15
+Henry Hudson's 1610-1611 Voyage,7/16/1610,7/24/1610,Ungava Bay,-67.7242,59.8067
+Henry Hudson's 1610-1611 Voyage,8/3/1610,8/4/1610,Cape Wolstenholme and Cape Diggs [Digges Island],-77.641068,62.555215
+Henry Hudson's 1610-1611 Voyage,8/5/1610,8/6/1610,Enters Hudson Bay,-85,60
+Henry Hudson's 1610-1611 Voyage,11/3/1610,6/22/1611,James Bay,-80.58,53.08
+Henry Hudson's 1610-1611 Voyage,7/25/1611,7/29/1611,Cape Wolstenholme and Cape Diggs [Digges Island],-77.641068,62.555215
+Amundsen's Northwest Passage Expedition,6/16/1903,6/16/1903,"Christiana, Norway",10.752245,59.913869
+Amundsen's Northwest Passage Expedition,6/25/1903,6/25/1903,"Fair Isle, Scotland, United Kingdom",-1.633296,59.5339
+Amundsen's Northwest Passage Expedition,7/11/1903,7/11/1903,Cape Farewell,-43.911667,59.779167
+Amundsen's Northwest Passage Expedition,7/24/1903,7/31/1903,"Godhavn, Greenland",-53.54,69.25
+Amundsen's Northwest Passage Expedition,8/14/1903,8/14/1903,Melville Bay,-60.46,75.67
+Amundsen's Northwest Passage Expedition,8/20/1903,8/20/1903,Lancaster Sound,-84,74.21
+Amundsen's Northwest Passage Expedition,8/22/1903,8/24/1903,Beechey Island,-91.8,74.71
+Amundsen's Northwest Passage Expedition,8/25/1903,8/25/1903,De la Roquette Islands,-95.462403,72.166666
+Amundsen's Northwest Passage Expedition,8/31/1903,9/1/1903,Beaufort Islands,-97.39,69.93
+Amundsen's Northwest Passage Expedition,9/12/1903,8/12/1905,Gjøahavn (Gjoa Haven),-95.88,68.62
+Amundsen's Northwest Passage Expedition,8/14/1905,8/15/1905,Douglas Bay,-97.0507,68.551
+Amundsen's Northwest Passage Expedition,8/17/1905,8/17/1905,Cape Colborne,-105.166667,68.966667
+Amundsen's Northwest Passage Expedition,8/20/1905,8/21/1905,Douglas Island,-113.4833,68.4666
+Amundsen's Northwest Passage Expedition,8/26/1905,8/26/1905,"Nelson Head, Baring Land",-122.77,71.07
+Amundsen's Northwest Passage Expedition,8/28/1905,8/28/1905,Franklin Bay,-125.691167,69.635723
+Amundsen's Northwest Passage Expedition,9/3/1905,10/24/1905,King Point,-137.97,69.1
+Amundsen's Northwest Passage Expedition,11/20/1905,11/20/1905,Fort Yukon,-145.25134,66.56735
+Amundsen's Northwest Passage Expedition,11/26/1905,11/26/1905,Circle City,-144.060556,65.825556
+Amundsen's Northwest Passage Expedition,12/5/1905,3/2/1906,Eagle City,-141.2,64.788056
+Amundsen's Northwest Passage Expedition,3/12/1906,4/8/1906,King Point,-137.97,69.1
+Amundsen's Northwest Passage Expedition,8/14/1906,8/14/1906,Manning Point,-143.5,70.118
+Amundsen's Northwest Passage Expedition,8/15/1906,8/15/1906,Cross Island,-147.964952,70.495813
+William Parry’s Attempt at the North Pole,4/4/1827,4/4/1827,"The Nore, England",0.6421,51.5771
+William Parry’s Attempt at the North Pole,4/19/1827,4/29/1827,"Hammerfest, Norway",23.68,70.66
+William Parry’s Attempt at the North Pole,5/14/1827,5/14/1827,Hakluyt's Headland,10.91,79.83
+William Parry’s Attempt at the North Pole,6/4/1827,6/4/1827,"Grey Hook, Norway",14.54,79.8
+William Parry’s Attempt at the North Pole,6/17/1827,6/17/1827,"Little Table Island, Spitzbergen, Norway",20.36,80.82
+William Parry’s Attempt at the North Pole,7/12/1827,7/12/1827,(Travelling on ice),22.07,82.24
+William Parry’s Attempt at the North Pole,7/16/1827,7/16/1827,(Travelling on ice),20.54,82.45
+William Parry’s Attempt at the North Pole,7/27/1827,7/27/1827,(Travelling on ice),19.42,82.67
+William Parry’s Attempt at the North Pole,7/31/1827,7/31/1827,(Travelling on ice),17.31,82.24
+William Parry’s Attempt at the North Pole,8/2/1827,8/2/1827,(Travelling on ice),17.76,82.1
+William Parry’s Attempt at the North Pole,8/21/1827,8/28/1827,"Spitzbergen, Norway",20.9751,77.8749
+William Parry’s Attempt at the North Pole,9/23/1827,9/27/1827,Orkney Islands,-3.2,58.8
+William Parry’s Attempt at the North Pole,9/28/1827,9/28/1827,"Yarmouth, England",1.728,52.5982
+First Russian Antarctic Expedition,7/16/1819,7/16/1819,"Kronstadt, Russia",29.75,59.99
+First Russian Antarctic Expedition,8/1/1819,8/1/1819,"Copenhagen, Denmark",12.568337,55.676097
+First Russian Antarctic Expedition,8/11/1819,9/5/1819,"Portsmouth, England",-1.09,50.82
+First Russian Antarctic Expedition,11/14/1819,12/4/1819,"Rio de Janeiro, Brazil",-43.17,-22.91
+First Russian Antarctic Expedition,12/27/1819,12/27/1819,South Georgia,-36.5879,-54.4295
+First Russian Antarctic Expedition,1/8/1820,1/8/1820,"Candlemas Islands, Sandwich Land",-26.723571,-57.091125
+First Russian Antarctic Expedition,1/16/1820,1/16/1820,Bellingshausen Ice Shelf,2.25,-69.36
+First Russian Antarctic Expedition,2/19/1820,2/19/1820,(Pack ice),16.62,-68.08
+First Russian Antarctic Expedition,4/20/1820,11/1/1820,"Sydney, New South Wales",151.2092,-33.8688
+First Russian Antarctic Expedition,11/25/1820,11/25/1820,Macquarie Island,158.86,-54.62
+First Russian Antarctic Expedition,1/21/1821,1/21/1821,Peter I Island,-90.58,-68.85
+First Russian Antarctic Expedition,1/28/1821,1/28/1821,Alexander Coast (Alexander Island),-69.8869,-71.4607
+First Russian Antarctic Expedition,1/29/1821,1/29/1821,Elephant Island,-55.140223,-61.112582
+First Russian Antarctic Expedition,3/25/1821,4/28/1821,"Rio de Janeiro, Brazil",-43.17,-22.91
+First Russian Antarctic Expedition,6/29/1821,6/29/1821,"Lisbon, Portugal",-9.14,38.72
+First Russian Antarctic Expedition,7/1/1821,7/1/1821,Cape Finisterre,-9.4283,43.0554
+First Russian Antarctic Expedition,7/1/1821,7/1/1821,Cape Finisterre,-9.4283,43.0554
+Vega Expedition,6/22/1878,6/22/1878,"Karlskrona, Sweden",15.59,56.15
+Vega Expedition,6/24/1878,6/25/1878,"Copenhagen, Denmark",12.568337,55.676097
+Vega Expedition,6/27/1878,7/4/1878,"Gothenburg, Sweden",11.96,57.71
+Vega Expedition,7/17/1878,7/21/1878,"Tromsø, Norway",18.9553,69.6492
+Vega Expedition,7/28/1878,7/28/1878,"Gooseland (Gusinaya Zemlya), Russia",51.98,71.78
+Vega Expedition,7/30/1878,7/30/1878,"Chabarova, Novaya Zemlya, Russia",56,74
+Vega Expedition,8/6/1878,8/10/1878,"Port Dickson, Russia",80.5809,73.5048
+Vega Expedition,8/19/1878,8/19/1878,"Cape Chelyuskin, Russia",104.258055,77.721111
+Vega Expedition,8/24/1878,8/24/1878,"Preobrazhenie Island, Russia",95.988,76.225
+Vega Expedition,8/27/1878,8/27/1878,Lena Delta,129.66,72.33
+Vega Expedition,9/28/1878,7/18/1879,"Stuck in ice, Pitlekaj, Russia",-173.386,67.07679
+Vega Expedition,7/22/1879,7/26/1879,"Port Clarence, Alaska",-166.8458,65.2622
+Vega Expedition,7/31/1879,8/2/1879,St Lawrence Island,-170.31,63.24
+Vega Expedition,8/7/1879,8/14/1879,Bering Island,166.2776,55.0078
+Vega Expedition,9/2/1879,10/11/1879,"Yokohama, Japan",139.638,35.4437
+Vega Expedition,10/14/1879,10/18/1879,"Kobe, Japan",135.22,34.68
+Vega Expedition,10/21/1879,10/25/1879,"Nagasaki, Japan",129.87,32.75
+Vega Expedition,11/2/1879,11/9/1879,Hong Kong,114.18,22.28
+Vega Expedition,11/17/1879,11/21/1879,Labuan,115.23,5.31
+Vega Expedition,11/28/1879,12/4/1879,Singapore,103.8198,1.352
+Vega Expedition,12/15/1879,12/22/1879,"Galle, Ceylon",80.22,6.03
+Vega Expedition,1/7/1880,1/9/1880,Aden,45.0187,12.7855
+Vega Expedition,1/27/1880,2/3/1880,"Suez, Egypt",32.5498,29.9668
+Vega Expedition,2/14/1880,2/29/1880,"Naples, Italy",14.27,40.84
+Vega Expedition,3/11/1880,3/16/1880,"Lisbon, Portugal",-9.14,38.72
+Vega Expedition,3/25/1880,4/5/1880,"Falmouth, England",-5.06627,50.152571
+Vega Expedition,4/8/1880,4/10/1880,"Vlissingen, the Netherlands",3.5709,51.4536
+Vega Expedition,4/16/1880,4/20/1880,"Copenhagen, Denmark",12.568337,55.676097
+First voyage of the Astrolabe under Dumont d'Urville,4/22/1826,4/22/1826,"Toulon, France",5.928,43.1242
+First voyage of the Astrolabe under Dumont d'Urville,8/1/1826,8/1/1826,Ilha do Trinidade,-29.33,-20.51
+First voyage of the Astrolabe under Dumont d'Urville,9/21/1826,9/21/1826,Île Saint-Paul,77.52,-38.73
+First voyage of the Astrolabe under Dumont d'Urville,10/7/1826,10/25/1826,"King George Sound, Western Australia",117.93,-35.03
+First voyage of the Astrolabe under Dumont d'Urville,11/12/1826,11/19/1826,Port Western,145.248,-38.3563
+First voyage of the Astrolabe under Dumont d'Urville,12/2/1826,12/18/1826,"Port Jackson, New South Wales",151.2335,-33.8442
+First voyage of the Astrolabe under Dumont d'Urville,1/11/1827,1/11/1827,"Cape Foulwind, New Zealand",171.466667,-41.75
+First voyage of the Astrolabe under Dumont d'Urville,4/20/1827,5/20/1827,Tongatapu,175.09,-21.14
+First voyage of the Astrolabe under Dumont d'Urville,6/5/1827,6/5/1827,D'Urville Channel,178.5333,-18.6833
+First voyage of the Astrolabe under Dumont d'Urville,6/15/1827,6/15/1827,Loyalty Islands,167.39,-20.81
+First voyage of the Astrolabe under Dumont d'Urville,6/29/1827,6/29/1827,Louisiades,152.54,-10.96
+First voyage of the Astrolabe under Dumont d'Urville,7/5/1827,7/5/1827,New Ireland,152.5,-4
+First voyage of the Astrolabe under Dumont d'Urville,8/2/1827,8/2/1827,Dampier Strait,130.6,-0.6
+First voyage of the Astrolabe under Dumont d'Urville,10/1/1827,10/1/1827,Amboina,128.1054,-3.6255
+First voyage of the Astrolabe under Dumont d'Urville,12/16/1827,1/6/1828,"Hobart, Tasmania",147.34,-42.88
+First voyage of the Astrolabe under Dumont d'Urville,2/9/1828,2/9/1828,Tikopia,168.8277,-12.2927
+First voyage of the Astrolabe under Dumont d'Urville,2/14/1828,3/17/1828,"Vanikoro, Santa Cruz Islands",166.9,-11.65
+First voyage of the Astrolabe under Dumont d'Urville,5/2/1828,5/30/1828,Guam,144.79,13.444
+First voyage of the Astrolabe under Dumont d'Urville,8/29/1828,8/29/1828,"Batavia, Dutch East Indies",106.8,-6.17
+First voyage of the Astrolabe under Dumont d'Urville,9/29/1828,11/18/1828,Île de France (Mauritius),57.49,-20.15
+First voyage of the Astrolabe under Dumont d'Urville,12/31/1828,1/2/1829,"Cape Town, Cape of Good Hope",18.42,-33.92
+First voyage of the Astrolabe under Dumont d'Urville,1/15/1829,1/15/1829,St Helena,-5.71,-15.97
+First voyage of the Astrolabe under Dumont d'Urville,1/22/1829,1/22/1829,Ascension,-7.95,-14.36
+McClure Arctic Expedition,1/9/1850,1/10/1850,"Woolwich, England",0.0675,51.4894
+McClure Arctic Expedition,1/10/1850,1/20/1850,"Plymouth, England",-4.14,50.38
+McClure Arctic Expedition,4/17/1850,4/17/1850,"Puerto del Hambre [Port Famine], Punta Arenas",-70.932697,-53.609555
+McClure Arctic Expedition,7/1/1850,7/4/1850,"Honolulu, Oahu",-157.86,21.3
+McClure Arctic Expedition,7/20/1850,7/20/1850,Aleutian Islands,-164.5534,54.48
+McClure Arctic Expedition,7/29/1850,7/29/1850,Arctic Circle crossed,-179.9,66.5608
+McClure Arctic Expedition,8/5/1850,8/5/1850,"Wainwright Inlet, Alaska",-159.9873,70.6124
+McClure Arctic Expedition,8/6/1850,8/6/1850,Round Point Barrow,-156.7886,71.2905
+McClure Arctic Expedition,8/11/1850,8/11/1850,Jones’ Island,-149.57,70.56
+McClure Arctic Expedition,8/31/1850,9/1/1850,Cape Bathurst,-128,70.566667
+McClure Arctic Expedition,9/6/1850,9/6/1850,Cape Parry,-124.583333,70.2
+McClure Arctic Expedition,9/7/1850,9/7/1850,Baring Island [Banks Island],-123.1377,71.0363
+McClure Arctic Expedition,9/17/1850,10/21/1850,Stuck in ice [Prince of Wales Strait],-117.16,73.16
+McClure Arctic Expedition,10/26/1850,10/27/1850,"Mount Observation, Northwest Passage discovered",-114.65,73.51
+McClure Arctic Expedition,10/30/1850,7/17/1851,Stuck in ice [Prince of Wales Strait],-117.16,73.16
+McClure Arctic Expedition,8/15/1851,8/15/1851,Drifts in ice,-115.5,73.72
+McClure Arctic Expedition,8/18/1851,8/18/1851,"Cape Kellett, Banks Island",-126,71.966667
+McClure Arctic Expedition,8/20/1851,9/10/1851,North-west of Banks Land [Stuck in ice],-123.88,73.91
+McClure Arctic Expedition,9/23/1851,4/11/1852,"Mercy Bay, Banks Island",-119,74.07
+McClure Arctic Expedition,4/28/1852,4/28/1852,"Winter Harbour, Melville Island",-108.772545,75.07266
+McClure Arctic Expedition,5/11/1852,4/8/1853,"Mercy Bay, Banks Island",-119,74.07
+McClure Arctic Expedition,4/19/1853,5/18/1853,Dealy Island,-108.715097,74.960781
+McClure Arctic Expedition,5/19/1853,6/3/1853,"Mercy Bay, Banks Island - abandon ship",-119,74.07
+McClure Arctic Expedition,6/17/1853,8/18/1853,Dealy Island - crew join HMS Resolute and HMS Intrepid,-108.715097,74.960781
+McClure Arctic Expedition,11/12/1853,4/14/1854,Stuck in ice,-101.3725,74.6394
+McClure Arctic Expedition,4/23/1854,8/22/1854,HMS North Star [Beechey Island],-91.85,74.71
+McClure Arctic Expedition,9/6/1854,9/6/1854,"Disko Island, Greenland",-53.43338,69.826467
+First Grinnell Expedition,5/22/1850,5/22/1850,"New York, United States",-74.03,40.68
+First Grinnell Expedition,6/8/1850,6/8/1850,"St John's, Newfoundland",-52.7125,47.5615
+First Grinnell Expedition,6/20/1850,6/20/1850,Greenland sighted,-53.08,65.37
+First Grinnell Expedition,7/6/1850,7/6/1850,(Stuck in pack ice),-59.07,74.13
+First Grinnell Expedition,7/27/1850,7/27/1850,(Stuck in pack ice),-60.1,73.9
+First Grinnell Expedition,7/29/1850,8/2/1850,Melville Bay,-60.46,75.67
+First Grinnell Expedition,8/22/1850,8/22/1850,Cape Charles Yorke,-82.833333,73.733333
+First Grinnell Expedition,8/26/1850,9/8/1850,Beechey Island,-91.8,74.71
+First Grinnell Expedition,9/9/1850,9/9/1850,Cape Hotham,-93.583333,74.683333
+First Grinnell Expedition,9/12/1850,9/12/1850,Griffith's Island,-95.5,74.58
+First Grinnell Expedition,9/13/1850,9/13/1850,"Stuck in ice, Wellington Straits",-95.983,69.466
+First Grinnell Expedition,10/8/1850,10/8/1850,"Driting in ice, Barlow's Inlet",-93.4666,74.75
+First Grinnell Expedition,12/19/1850,12/19/1850,"Drifting in ice, Croker's Bay",-83.24,74.7
+First Grinnell Expedition,1/15/1851,1/15/1851,"Drifting in ice, Baffin Bay",-68.4928,74.6932
+First Grinnell Expedition,4/17/1851,4/17/1851,(Drifting in ice),-63.05,69.87
+First Grinnell Expedition,4/26/1851,4/26/1851,(Drifting in ice),-63.15,69.68
+First Grinnell Expedition,5/27/1851,5/27/1851,(Drifting in ice),-60.9,66.71
+First Grinnell Expedition,7/3/1851,8/7/1851,"Proven, Greenland",-55.5571,72.3835
+First Grinnell Expedition,8/23/1851,9/6/1851,"Upernavik, Greenland",-56.14,72.79
