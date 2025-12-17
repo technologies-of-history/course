@@ -45,20 +45,20 @@ For this assignment, you will select a page from a Middle English medical recipe
 Each image of the manuscript has been given an xml id, which then corresponds to a folio number. For example, in this line of code 
 ```<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>```
 the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
-4. Create a **.txt** file using a text editor of Google docs. Use the following naming convention: **xml_id_for_your_page.txt.** For example, the file featuring the transcriptions of f001r of the manuscript would be named **f016.txt.**
+4. Create a **.txt** file using a text editor of Google docs. Use the following naming convention: **xmlid.txt.** For example, the file featuring the transcriptions of f001r of the manuscript would be named **f016.txt.**
 5. Transcribe the entire page in your text file. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript **exactly.** Where there are line breaks in the manuscript, return to the next line in your **.txt** file.
-6. Either the save the file on your computer, or download the file from Google docs as a **.txt** file.
+6. Either save the file on your computer, or download the file from Google docs as a **.txt** file.
 
 
-### Step 2: Mark-up your transcription using TEI in Markdown
+### Step 2: Mark-up your transcription with XML according to TEI heirarchies
 
 1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<ab>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, `<term>`, `<supplied>`,`<measure>`, and other tags within the TEI glossary as necessary. Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
-3. Finally, once you're sure you've got the TEI right, link to the actual folio in the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec) that features your transcription!
-4. Create a branch in the **dyngley-data** repository named **lastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **master** branch of our repository.
+3. Finally, once you're sure you've got the TEI *and* transcription right, it's time to upload your transcription to the repository **dyngley-data** in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec)!
+4. Create a branch in the **dyngley-data** repository named **lastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **main** branch of our repository.
 5. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
-**Note**: If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest).
+**Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
 
 
 ### Step 4: Explain yourself

@@ -197,5 +197,6 @@ No readings this week, but come prepared to discuss your ideas for your final po
 
 <br/>
 <br/>
+
 ## For More Information
 Click the menu at the top left to view general course [information]({{ site.baseurl }}/information) or to read details on [assignments]({{ site.baseurl }}/assignments), or to navigate to our course [blog](https://technologies-of-history.github.io/spring-2026), where students publish their work.
