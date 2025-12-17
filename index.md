@@ -154,13 +154,13 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [Available on D2L]
-- Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available on D2L]
+- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9974992317108721.]
+- Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_crossref_citationtrail_10_1353_jer_2019_0057).]
 
 ### Digital Assignments
 - Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
 - In class, we'll practice loading a newspaper dataset into Cytoscape to view network relationships
-- Introduction to [Digital Tools Assignnment #5]({{ site.baseurl }}/digitaltools5.md)
+- Introduction to Digital Tools Assignnment #5
 
 
 ## Week 13: Mass Media and Politics
@@ -183,9 +183,9 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Zachary Gershberg and Sean Illing, _The Paradox of Democracy: Free Speech, Open Media, and Perilous Persuasion_ (Chicago: University of Chicago Press, 2022), TBD.
 
 ### Digital Assignments
-- Read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
-- Read "
-- Visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Read the README file.
+- Before class, read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
+- Before class, read ["Arab Spring Twitter data now available (sort of)"](https://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/)
+- In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Read the README file.
 - **Digital Tools 5 Assignment due on GitHub on Friday at 11:59 pm**
 
 ## Week 15: Wrap-Up Discussion & Podcast Prep
