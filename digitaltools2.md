@@ -5,7 +5,7 @@ permalink: /digitaltools2
 ---
 ## Showing History
 
-Now that you've mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you're ready to begin to create digital historical scholarship incorporating other digital tools.
+Now that you've mastered the work flow of creating a new branch in our repository, creating a Markdown file, writing a post in Markdown syntax, committing your changes, and creating a pull request, you're ready to begin to create digital historical scholarship incorporating other digital tools. In this assignment, you'll practice embedding `<html>` code so that readers can interact with the product of your digital scholarship right on your site. You'll continue to employ this basic tactic of embedding other digital tools into our static site in later digital tools assignments.
 
 ### Step 1: Visit the Heidelberg Epigraphic Database
 
@@ -102,14 +102,10 @@ If you've done it correctly, your post will include a viewer that looks like thi
 </html>
 
 
-### Step 4: Submit your post
+### Step 4: Initiate a pull request to submit your post
 
-1. After you create this Markdown file and fill it with your content, **Commit changes...** to save the file to your branch. Every time you do something in the file, you'll write up a brief description of what you changed and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
-1. Click **spring-2026** to return to the main repository.
-2. Be sure to check and make sure you're in your **lastname-dt1** branch.
-3. In the menu at the top of the page, click **Pull requests**. 
-2. Click the green button **New pull request**. 
-3. You'll now see a gray box at the top that shows you the **base** repository you'll be sending your changes to and the **head** repository, which is yours. NOTE: Be sure that yours is the **head** and the main branch is the **base**.
+1. Once you've **Committed changes...** to your branch, you'll be prompted by GitHub to initiate a pull request to the **master** branch. Don't do so until you're sure you've got your post exactly as you want it!
+2. When you do initiate a pull request, be sure that your branch is the **head** and the master branch is the **base**.
 4. Name your pull request **LastName_dt2** and then click **Create pull request**.
 
 Ok, that's it! You're done!

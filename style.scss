@@ -37,8 +37,8 @@ body {
 
 .container {
   margin: 0 auto;
-  max-width: 900px;
-  padding: 0 10px;
+  max-width: 1100px;
+  padding: 0 30px;
   width: 100%;
 
   @include mobile {
@@ -273,15 +273,30 @@ img {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid $darkGray;
-  border-bottom: 1px solid $darkGray;
-  background-color: $lightGray;
+  border-top: solid $darkGray 1px;
+  background-color: $white;
+  width: 100%;
 }
 
 footer {
-  padding: 20px 0;
+  padding: 30px 80px 10px 20px;
   text-align: center;
+  font-size: 12px;
+
+  @include mobile {
+    font-size: 9px;
+  }
 }
+
+.logo {
+  display: block;
+  float: left;
+
+  @include mobile {
+    width: 100px;
+  }
+}
+
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

@@ -11,10 +11,11 @@ By now you've created a [GitHub](https://github.com) account, practiced opening 
 
 All of your digital assignments this semester will be authored in Markdown, which means 
 you can't use Google Docs or Microsoft word to create them. As you know, you can always 
-create Markdown files (.md) directly in GitHub, but if you'd like to be able to complete 
+create Markdown files (.md) directly in GitHub or Google docs, but if you'd like to be able to complete 
 your assignments offline, save your work on your own machine, and preview your work in a 
-local development environment on the developer, then you will want to use a text editing program to write and save your .md files. If you've done some programming/coding 
-before, you likely already have a favorite text editor, and you should keep using it. If not, I really like [Visual Studio Code](https://code.visualstudio.com/) which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It's become the standard text editor in the field as it incorporates GitHub's AI help for coding.
+local development environment, then you will want to use a text editing program to write and save your .md files. If you've done some programming/coding before, you likely already have a favorite text editor, and you should keep using it. If not, I really like [Visual Studio Code](https://code.visualstudio.com/) which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It's become the standard text editor in the field as it incorporates GitHub's AI help for coding. 
+
+**Note:** *If you'd like to check your work by serving your branch of our site locally, you'd need to install [Jekyll](https://jekyllrb.com/docs/installation/) on your computer. The process can be tricky, depending on your operating system, and it requires knowledge of the command line. You'd also need to have Ruby and Ruby gems installed, which is where most of the headaches emerge. BUT! If you're an experienced coder, I'm happy to help you install Jekyll. Send me an email or come talk in office hours.*
 
 ### Step 2: Take a look at an existing post
 
@@ -28,7 +29,7 @@ before, you likely already have a favorite text editor, and you should keep usin
  ----
 layout: post
 author: Melissa Reynolds
-title: Welcome to Technologies of History
+title: Welcome to Our Course
 excerpt_separator: <!--more-->
 ---
  ```
@@ -36,13 +37,13 @@ excerpt_separator: <!--more-->
 6. Note the formatting of this file. The heading at the top is very important, and every post you write to submit a Digital Tools Assignment must contain these items:
 - `layout: post` tells the Jekyll developer to use the layout to style the Markdown that follows. Other **.md files** that you see in the **spring-2026** repository, but not in the **_posts** folder, are set to `layout: page`, which tells the developer to use a different style for the Markdown that follows.
 - `author: Melissa Reynolds` tells the Jekyll site builder to publish this name as author in the subheader of the post. It also tells the Jekyll site builder that this post should be linked under the author Melissa Reynolds in the **Contributors** page. 
-- `title: Your title here` is pretty self explanatory. This is the heading that will appear at the top of your post. You should type whatever title you'd like for your post after the colon.
-- `excerpt_separator: <!--more-->`: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code `<!--more-->` just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a **READ MORE** link at that point on the blog's homepage.
+- `title: Welcome to Our Course` is pretty self explanatory. This is the title of your post that will appear at very top, styled as `<h1>`. You should type whatever title you'd like for your post after the colon.
+- `excerpt_separator: <!--more-->`: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code `<!--more-->` just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a **READ MORE** link at that point on the blog's homepage, which will link readers to your full post.
 
 
-### Step 3: Composing your assignment in Markdown
+### Step 3: Creating a Markdown file
 
-(Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. This is the *most basic* way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)
+(Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. These are the *most basic* ways to add a file to your repository, but if you already know how to create a branch in your text editor, commit and push changes, and initiate a pull request via those other platforms, go right ahead.)
 
 __If you're working directly in GitHub:__
 1. Navigate into the **spring-2026** repository in our GitHub organization.
@@ -53,7 +54,14 @@ __If you're working directly in GitHub:__
 6. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
 7. Create your YAML header as specified above and compose your post.
 
-Using appropriate Markdown syntax, write 4-5 paragraphs responding to the following prompt:
+__If you're writing your posts in a text editor or on Google docs rather than on GitHub:__
+1. Open your text editor or Google docs. 
+2. Create your YAML header as specified above and compose your post (see below).
+3. When you've finished drafting your post, download the file as a .md with the following naming convention: **yyyy-mm-dd-your title.md**
+4. Create a new branch in the **spring-2026** repository by clicking the arrow to the right of **master** in the branch menu. In the text box that appears, type in the name of the new branch you'll create using the following naming convention: **lastname-dt1**.
+5. Within your branch, locate the **_posts** folder. Click **Add New File** at top right, and then select **Upload file**. Drag and drop your **.md** file and continue to **Step 4** below.
+
+### Step 4: Compose your assignment using appropriate Markdown syntax 
 
 Historians have suggested that alphabetic writing enabled the development of philosophical thought in Greece that was markedly different from that of ancient Mesopotamia, with its cuneiform syllabary. What does this argument suggest about the structure of a language and what that language makes possible? What are the implications of this argument for the way we think about computer languages?
 
@@ -64,25 +72,18 @@ Your post should include the following elements of Markdown code:
 - At least one link
 - At least one image 
 
-(Note: I've added a little extra CSS to our course site so you can style the pictures you embed by adding `{: width="270px" .right-image}`immediately after the ordinary syntax for embedding an image. In the code above, you can edit the size of the photo by updating `"270px"` to a larger or smaller number, or position the image by specifying `.right-image`, `.left-image`, or `.center-image`)
+**Note:** *I've added a little extra CSS to our course site so you can style the images you embed by adding Liquid code immediately after the ordinary syntax for embedding an image. This brief snippet of [Liquid](https://shopify.github.io/liquid/basics/introduction/) enables you to size and position your image within your text block. Simply designate the width you'd like your image to be (in pixels), and then decide whether you want your image to appear wrapped in text on the right* `.right-image` *or left* `.left-image` *or all by itself in the center of your screen* `.center-image`. *An example of the correct code snippet for an image sized at 270 pixels and wrapped in text on the right, is as follows:*  
+`![Image alt text](link to image url){:width="270px" .right-image}`
 
+### Step 5: Commit your post
 
-__If you're writing your posts in a text editoror on Google docs rather than on GitHub:__
-1. Open your text editor or Google docs. 
-2. Create your YAML header as specified above and compose your post.
-3. When you've finished drafting your post, save the file (or download the file as a .md) with the following naming convention: **yyyy-mm-dd-your title.md**
-4. In our GitHub organization, navigate to the **spring-2026** repository as described above, but instead of clicking **Create New File** within the **_posts** folder in your new branch, you'll click **Upload files** to add your **.md file** to the repository.
-
-
-### Step 4: Commit your post
-
-1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch (the green button on the upper right).
-2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**.
-3. If you're composing your post on the GitHub web interace, you'll **Commit changes...** every time you make a change to the file. You can work on it over several days as long as you **commit** every time before you close out of the interfact. If you draft your post in a text editor, you'll only **Commit Changes...** once, after you upload the file.
+1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch.
+2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**. You can work on your post over several days as long as you **commit** every time before you close out of GitHub interface. Your work will not appear as a published post on the site!
+3. If you draft your post in a text editor, you'll only **Commit Changes...** once, after you upload the file. Be sure to select the option to commit to **your** new branch, **lastname-dt1**. 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
-5. **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until your submit a **Pull request.**
+5. Remember, **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until you submit a **Pull request.**
 
-### Step 5: Submit a pull request
+### Step 6: Submit a pull request
 
 Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of the site so that it can be served to the website. 
 
