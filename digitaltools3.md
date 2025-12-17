@@ -63,19 +63,9 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 
 ### Step 4: Explain yourself
 
-1. Draft a post following our course protocols (make a new branch in **spring-2026** called **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file.) 
-2. Be sure your post includes the following header:
- ```
- ---
- layout: post
- author: Your Name Here
- title: Your title here
- excerpt_separator: <!--more-->
- ---
- ```
- 
-3. Somewhere in your post you should copy your transcription text and TEI encoding from your .txt file. You'll want to set off your mark-up to show up as code on our blog, which means you'll need to use the appropriate Markdown syntax. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson you completed at the start of the semester.)
-4. In the same .md file, write a 4-5 paragraph blog post responding to the following questions:
+1. Draft a post following our course protocols (make a new branch in **spring-2026** called **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
+2. Somewhere in your post you should copy your transcription and TEI encoding from your .txt file. You'll want to set off your mark-up to show up as code on our blog, which means you'll need to use the appropriate Markdown syntax. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson you completed at the start of the semester.)
+3. In the same .md file, write a 4-5 paragraph blog post responding to the following questions:
 
 - Why did you choose the page that you did? What recipes were in your transcription?
 - What was the process of learning to transcribe Middle English like?

@@ -55,7 +55,7 @@ __If you're working directly in GitHub:__
 
 Using appropriate Markdown syntax, write 4-5 paragraphs responding to the following prompt:
 
-Historians have suggested that alphabetic writing enabled the development of philosophical thought in Greece that was markedly different from that of ancient Mesopotamia, with its cuneiform syllabary. Does the same relationship between the form and structure of digital languages affect how we engage with the past? In other words, has digital access to archival materials like cuneiform tablets or ancient Greek epigraphic inscriptions changed how we view history? Do digital format allow for different engagements than the kind we experienced in the Special Collections room at Burnett Library?
+Historians have suggested that alphabetic writing enabled the development of philosophical thought in Greece that was markedly different from that of ancient Mesopotamia, with its cuneiform syllabary. What does this argument suggest about the structure of a language and what that language makes possible? What are the implications of this argument for the way we think about computer languages?
 
 To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.
 
