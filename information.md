@@ -28,7 +28,7 @@ Students are also welcome to discuss our course in office hours (T/Th, 2:00 to 3
 
 
 ## Final Evaluative Exercise & Important Dates
-Reflection paper due in lieu of final exam
+Final podcast due in lieu of final exam.
 
 ## Course Description
 

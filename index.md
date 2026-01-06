@@ -139,7 +139,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21. [Available as an eBook in the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma990018472210208721).]
+- Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma990018472210208721).]
 - Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15, 100–132. [Available on [D2L](https://tcu.brightspace.com)]
 
 ### Digital Assignments
@@ -154,7 +154,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9974992317108721.]
+- Benedict Anderson, “Creole Pioneers,” in _Imagined Communities: Reflections on the Origins and Spread of Nationalism_, 3rd edition (New York: Zone Books, 2006), 47–65. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9974992317108721).]
 - Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_crossref_citationtrail_10_1353_jer_2019_0057).]
 
 ### Digital Assignments
