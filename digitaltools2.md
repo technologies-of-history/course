@@ -83,16 +83,16 @@ If you've done it correctly, your post will include a viewer that looks like thi
       var mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/HD005758.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F030403.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/HD011165.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F005848.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+          "https://technologies-of-history.github.io/course/assets/iiif/manifest1.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://technologies-of-history.github.io/course/assets/iiif/manifest2.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://technologies-of-history.github.io/course/assets/iiif/manifest3.json": { provider: "Epigraphic Database Heidelberg" },
+          "https://technologies-of-history.github.io/course/assets/iiif/manifest4.json": { provider: "Epigraphic Database Heidelberg" }
         },
         windows: [
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/HD005758.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F030403.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/HD011165.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F005848.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+          { loadedManifest: "https://technologies-of-history.github.io/course/assets/iiif/manifest1.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://technologies-of-history.github.io/course/assets/iiif/manifest2.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://technologies-of-history.github.io/course/assets/iiif/manifest3.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
+          { loadedManifest: "https://technologies-of-history.github.io/course/assets/iiif/manifest4.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
       });
     }
