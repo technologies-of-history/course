@@ -29,8 +29,8 @@ Now that you've mastered the work flow of creating a new branch in our repositor
 
 Referencing the transcriptions and images for your four inscriptions on the Heidelberg Epigraphic Database, Cooley and Bispham's chapter, and your map illustrating the geographic distribution of epigraphic writing in your chosen province, what do these pieces of evidence tell us about Roman attitudes toward public writing? In what ways might these digital reproductions of ancient epigraphy change our perception of the role of writing in the ancient world?
 
-4. To embed, your Google MyMaps somewhere in the post, copy the code that appears when you click **Embed on my site** somewhere in your post, making sure that you wrap the code in `<html> </html>` tags. 
-5. To embed a Mirador viewer into your blog post, you'll cut and pase the following code into your post somewhere. After you've pasted the code into your Markdown file, you'll copy-and-paste the URL for each of the IIIF manifests of your chosen inscriptions into the appropriate spot indicated in the code snippet below. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** link on the EDH website.
+3. To embed, your Google MyMaps somewhere in the post, copy the code that appears when you click **Embed on my site** somewhere in your post, making sure that you wrap the code in `<html> </html>` tags. 
+4. To embed a Mirador viewer into your blog post, you'll cut and pase the following code into your post somewhere. After you've pasted the code into your Markdown file, you'll copy-and-paste the URL for each of the IIIF manifests of your chosen inscriptions into the appropriate spot indicated in the code snippet below. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** link on the EDH website.
 
 ```
 <html>
