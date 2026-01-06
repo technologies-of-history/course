@@ -58,7 +58,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read Section 3.1 "A technical guide to Latin epigraphy," from Alison E. Cooley, _The Cambridge Manual of Latin Epigraphy_ (Cambridge: Cambridge University Press, 2012), pp. 327–335 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975014790808721).]
 - Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
 - In class, we'll practice creating a [Google MyMaps](https://mymaps.google.com) from a CSV file of inscription locations 
-- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2.md)
+- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2)
 
 
 ## Week 5: Sacred Books & Illustrated Websites with IIIF
