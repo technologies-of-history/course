@@ -65,7 +65,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Christopher de Hamel, _Meetings with Remarkable Manuscripts: Twelve Journeys into the Medieval World_ (New York, 2016), pp. 52–94. [Available on [D2L](https://tcu.brightspace.com).]
+- Christopher de Hamel, _The Book: A History of the Bible_ (London, 2001), pp. 1–39. [Available on [D2L](https://tcu.brightspace.com).]
 - View the [short series of videos](https://youtu.be/aEPpURAIsW4) demonstrating the preparation of a medieval manuscript from the British Library
 
 ### Digital Assignments
@@ -78,7 +78,6 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- M. T. Clanchy, _From Memory to Written Record, 1066–1307_ (New York, 2012), pp. 44–73. [Available on [D2L](https://tcu.brightspace.com).]
 - Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 1–13, 55–82. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_jstor_books_10_2307_j_ctvhn0bwn).] **Note**: Stop reading the introduction at p.13 and continue on to Chapter 2.
 
 ### Digital Assignments
@@ -104,8 +103,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings
-- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [Available on D2L]
-- Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available on D2L]
+- Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [Available on [D2L](https://tcu.brightspace.com.)]
+- Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available from the [TCU library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_journals_1300202571).]
 
 ### Digital Assignments
 - Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
