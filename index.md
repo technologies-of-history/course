@@ -104,6 +104,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings
 - Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [Available on [D2L](https://tcu.brightspace.com.)]
+- ELizabeth Eisenstein, "In the Wake of the Printing Press" _The Quarterly Journal of the Library of Congress_ Vol. 35, no. 3 (July 1978): 183–197. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_webofscience_primary_A1978FQ22100003CitationCount)]
 - Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available from the [TCU library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_journals_1300202571).]
 
 ### Digital Assignments
