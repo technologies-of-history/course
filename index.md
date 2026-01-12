@@ -18,8 +18,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Next, watch this [video](https://youtu.be/VsZQMaN5pYc?si=pn23R9OPoRpLxp0o) from the MIT Media Lab explaining how a research team used big data scraped from Wikipedia to test McLuhan's theory.
 
 ### Digital Assignments
-- Before class, read and complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
-- In class we'll discuss text editors, go over Markdown syntax, and draft your **author.md** files for the course blog, [https://technologies-of-history.github.io/spring-2026](https://technologies-of-history.github.io/spring-2026)
+- Before class, register for a [GitHub account](http://www.github.com) if you don’t already have one.
+- In class, we'll get you all added to the course organization and we'll complete the [Introduction to GitHub](https://github.com/skills/introduction-to-github) lesson to learn basic functionality of GitHub.
 
 
 ## Week 2: Special Collections and GitHub
@@ -29,8 +29,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Special Collections visit to Burnett Library
 
 ### Digital Assignments
-- Before class, register for a [GitHub account](http://www.github.com) if you don’t already have one.
-- In class, we'll get you all added to the course organization and we'll complete the [Introduction to GitHub](https://github.com/skills/introduction-to-github) lesson to learn basic functionality of GitHub.
+- Before class, read and complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
+- In class we'll discuss text editors, go over Markdown syntax, and draft your **author.md** files for the course blog, [https://technologies-of-history.github.io/spring-2026](https://technologies-of-history.github.io/spring-2026)
 - Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1.md)
 
 ## Week 3: The ABCs of Philosophy & Computer Languages
