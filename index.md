@@ -188,7 +188,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, April 23
 - Before class, read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
 - Before class, read ["Arab Spring Twitter data now available (sort of)"](https://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/)
-- In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Read the README file.
+- In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Please read the README file.
 - **Digital Tools 5 Assignment due on GitHub on Friday, April 24 at 11:59 pm**
 
 ## Week 15: Wrap-Up Discussion & Podcast Prep
