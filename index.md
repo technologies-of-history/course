@@ -65,7 +65,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ## Week 5: Sacred Books & Illustrated Websites with IIIF
 ---
 
-### Readings due Thursday, February 10
+### Readings due Tuesday, February 10
 - Christopher de Hamel, _The Book: A History of the Bible_ (London, 2001), pp. 1–39. [Available on [D2L](https://tcu.brightspace.com).]
 - In class, we'll view the [short series of videos](https://youtu.be/aEPpURAIsW4) demonstrating the preparation of a medieval manuscript from the British Library
 
@@ -183,7 +183,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings due Tuesday, April 21
-- Zachary Gershberg and Sean Illing, _The Paradox of Democracy: Free Speech, Open Media, and Perilous Persuasion_ (Chicago: University of Chicago Press, 2022), TBD.
+- Matthew Hindman, _The Internet Trap: How the Digital Economy Builds Monopolies and Undermines Democracy_ (Princeton: Princeton University Press, 2018), 1–14. [Available from the [TCU Library](https://www.jstor.org/stable/j.ctv36zrf8.5).]
+- Nathaniel Persily, "Can Democracy Survive the Internet?" _Journal of Democracy_ Vol. 28, no. 2 (April 2017): 63–76. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_webofscience_primary_000399519200006).]
 
 ### Digital Assignments due Thursday, April 23
 - Before class, read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
