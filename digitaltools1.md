@@ -18,7 +18,7 @@ local development environment, then you will want to use a text editing program 
 
 ### Step 2: Take a look at an existing post
 
-1. Open the **spring-2026** repository in our course GitHub organization. 
+1. Open (or Fork) the **spring-2026** repository in **your** GitHub account. [NB: You'll know you're in **your** personal repository if you see your user name at the top left and not technologies-of-history.] 
 2. Find the **_posts** folder and open it. 
 3. You'll see a single file in there titled **2024-11-04-Welcome to our course.md**. This is the Markdown file for the blog post that appears on the homepage of our course website. 
 4. Note the file naming conventions. All of the blog posts created for our site must be named in the same way: **yyyy-mm-dd-your title.md**.
@@ -45,7 +45,7 @@ excerpt_separator: <!--more-->
 (Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. These are the *most basic* ways to add a file to your repository, but if you already know how to create a branch in your text editor, commit and push changes, and initiate a pull request via those other platforms, go right ahead.)
 
 __If you're working directly in GitHub:__
-1. Navigate into the **spring-2026** repository in our GitHub organization. 
+1. Navigate into the **spring-2026** repository in your personal account, and then select the **_posts** folder. 
 2. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
 3. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
 4. Create your YAML header as specified above and compose your post.
@@ -54,7 +54,7 @@ __If you're writing your posts in a text editor or on Google docs rather than on
 1. Open your text editor or Google docs. 
 2. Create your YAML header as specified above and compose your post following the directions in **Step 4**, below.
 3. When you've finished drafting your post, download the file as a .md with the following naming convention: **yyyy-mm-dd-your title.md**
-4. In our **spring-2026** repository, locate the **_posts** folder. Click **Add New File** at top right, and then select **Upload file**. Drag and drop your **.md** file and continue to **Step 5** below.
+4. In your **spring-2026** repository, locate the **_posts** folder. Click **Add New File** at top right, and then select **Upload file**. Drag and drop your **.md** file and continue to **Step 5** below.
 
 ### Step 4: Compose your assignment using appropriate Markdown syntax 
 
@@ -73,19 +73,19 @@ Your post should include the following elements of Markdown code:
 ### Step 5: Commit your post
 
 1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch.
-2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. You'll be asked to commit your changes to a **new** branch, which you'll name **lastname-dt1**. You can work on your post over several days as long as you **commit** your changes to the **lastname-dyt** branch every time before you close out of GitHub interface. Your work will not appear as a published post on the site until you submit a pull request and your branch is merged into the master branch.
-3. If you draft your post in a text editor or on Google docs, you'll only **Commit Changes...** once, after you upload the file. Again, you'll be prompted by GitHub to commit your changes to a **new** branch, which you'll name **lastname-dt1**. 
+2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. 
+3. If you draft your post in a text editor or on Google docs, you'll only **Commit Changes...** once, after you upload the file. 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
-5. Remember, **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until you submit a **Pull request.**
+5. Remember, **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like, and nothing will get published until you submit a **Pull request.**
 
 ### Step 6: Submit a pull request
 
-Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of the site so that it can be served to the website. 
+Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of course repository so that it can be served to the website. 
 
-1. Be sure to check and make sure you're in your **lastname-dt1** branch (check the drop down menu at the top left and navigate to your branch if you're in **master**).
-2. Once in your branch, in the menu at the top of the page, click **Pull requests**. 
+1. Be sure to check and make sure you're in your personal **spring-2026** repository (check the user name in the top left).
+2. Then, in the menu at the top of the page, click **Pull requests**. 
 3. Click the green button **New pull request**. 
-4. You'll now see a gray box at the top that shows you the **base** repository you'll be sending your changes to and a drop-down menu to select the branch you want to **compare.** Select your branch **lastname-dt1** as the branch to compare, and be sure the **master** branch is the **base**.
+4. You'll now see a gray box at the top that shows you the **base** repository you'll be sending your changes to [**technologies-of-history/master**] and the **head** branch you want to **compare** [**yourusername/spring-2026**].
 5. Name your pull request **Digital Tools 1 Submission** and then click **Create pull request**.
 
 Ok, that's it! You've written a blog post in Markdown and followed the standard GitHub workflow to send it to our class site. Pat yourself on the back, and know that you'll do it all over again for the next four assignments.
