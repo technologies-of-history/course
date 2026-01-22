@@ -5,12 +5,11 @@ permalink: /digitaltools1
 ---
 ## Communicating Simply
 
-By now you've created a [GitHub](https://github.com) account, practiced opening a repository, making changes to a file, making a pull request, and merging branches with GitHub's [Hello World](https://guides.github.com/activities/hello-world/) tutorial. You've followed the [Markdown lesson](https://programminghistorian.org/en/lessons/getting-started-with-markdown) on the Programming Historian, so you know how to style your text files with Markdown syntax. We've practiced authoring Markdown files in class, but now it's time to do it on your own and create content for our course blog. You'll be following these same steps to create and submit the rest of your Digital Tools assignments, so it's very important for you to get the hang of these basic steps now.
+By now you've created a [GitHub](https://github.com) account, practiced opening a repository, making changes to a file, making a pull request, and merging branches. You've followed the [Markdown lesson](https://programminghistorian.org/en/lessons/getting-started-with-markdown) on the Programming Historian, so you know how to style your text files with Markdown syntax. We've practiced authoring Markdown files in class, but now it's time to do it on your own and create content for our course blog. You'll be following these same steps to create and submit the rest of your Digital Tools assignments, so it's very important for you to get the hang of these basic steps now.
 
 ### Step 1: Think about downloading a text editor
 
-All of your digital assignments this semester will be authored in Markdown, which means 
-you can't use Google Docs or Microsoft word to create them. As you know, you can always 
+All of your digital assignments this semester will be authored in Markdown. As you know, you can always 
 create Markdown files (.md) directly in GitHub or Google docs, but if you'd like to be able to complete 
 your assignments offline, save your work on your own machine, and preview your work in a 
 local development environment, then you will want to use a text editing program to write and save your .md files. If you've done some programming/coding before, you likely already have a favorite text editor, and you should keep using it. If not, I really like [Visual Studio Code](https://code.visualstudio.com/) which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It's become the standard text editor in the field as it incorporates GitHub's AI help for coding. 
@@ -46,20 +45,16 @@ excerpt_separator: <!--more-->
 (Note: the following instructions are for those of you brand new to GitHub, who don't use a text editor. These are the *most basic* ways to add a file to your repository, but if you already know how to create a branch in your text editor, commit and push changes, and initiate a pull request via those other platforms, go right ahead.)
 
 __If you're working directly in GitHub:__
-1. Navigate into the **spring-2026** repository in our GitHub organization.
-2. Create a new branch in the **spring-2026** repository by clicking the arrow to the right of **master** in the branch menu. In the text box that appears, type in the name of the new branch you'll create using the following naming convention: **lastname-dt1**.
-3. Below that text box, click the option that appears that says **Create branch: lastname-dt1**.
-4. Within in this new branch, open the **_posts** folder. 
-5. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
-6. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
-7. Create your YAML header as specified above and compose your post.
+1. Navigate into the **spring-2026** repository in our GitHub organization. 
+2. At the top right, click **Add New File** and select **Create New File** to open GitHub's text editor.
+3. Name this new file according to the following naming conventions: **yyyy-mm-dd-your title.md**. ALL posts you create for this course blog must follow these exact naming conventions.
+4. Create your YAML header as specified above and compose your post.
 
 __If you're writing your posts in a text editor or on Google docs rather than on GitHub:__
 1. Open your text editor or Google docs. 
-2. Create your YAML header as specified above and compose your post (see below).
+2. Create your YAML header as specified above and compose your post following the directions in **Step 4**, below.
 3. When you've finished drafting your post, download the file as a .md with the following naming convention: **yyyy-mm-dd-your title.md**
-4. Create a new branch in the **spring-2026** repository by clicking the arrow to the right of **master** in the branch menu. In the text box that appears, type in the name of the new branch you'll create using the following naming convention: **lastname-dt1**.
-5. Within your branch, locate the **_posts** folder. Click **Add New File** at top right, and then select **Upload file**. Drag and drop your **.md** file and continue to **Step 4** below.
+4. In our **spring-2026** repository, locate the **_posts** folder. Click **Add New File** at top right, and then select **Upload file**. Drag and drop your **.md** file and continue to **Step 5** below.
 
 ### Step 4: Compose your assignment using appropriate Markdown syntax 
 
@@ -78,8 +73,8 @@ Your post should include the following elements of Markdown code:
 ### Step 5: Commit your post
 
 1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch.
-2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. Be sure to select the option to commit to **your** new branch, **lastname-dt1**. You can work on your post over several days as long as you **commit** every time before you close out of GitHub interface. Your work will not appear as a published post on the site!
-3. If you draft your post in a text editor, you'll only **Commit Changes...** once, after you upload the file. Be sure to select the option to commit to **your** new branch, **lastname-dt1**. 
+2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. You'll be asked to commit your changes to a **new** branch, which you'll name **lastname-dt1**. You can work on your post over several days as long as you **commit** your changes to the **lastname-dyt** branch every time before you close out of GitHub interface. Your work will not appear as a published post on the site until you submit a pull request and your branch is merged into the master branch.
+3. If you draft your post in a text editor or on Google docs, you'll only **Commit Changes...** once, after you upload the file. Again, you'll be prompted by GitHub to commit your changes to a **new** branch, which you'll name **lastname-dt1**. 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
 5. Remember, **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your **lastname-dt1** branch, and nothing will get published until you submit a **Pull request.**
 
@@ -87,8 +82,8 @@ Your post should include the following elements of Markdown code:
 
 Once you're happy with your post and have committed your changes, you're ready to submit the assignment. It's time to notify the developer (me) that you'd like the post to be merged into the **master** branch of the site so that it can be served to the website. 
 
-1. Be sure to check and make sure you're in your **lastname-dt1** branch.
-2. In the menu at the top of the page, click **Pull requests**. 
+1. Be sure to check and make sure you're in your **lastname-dt1** branch (check the drop down menu at the top left and navigate to your branch if you're in **master**).
+2. Once in your branch, in the menu at the top of the page, click **Pull requests**. 
 3. Click the green button **New pull request**. 
 4. You'll now see a gray box at the top that shows you the **base** repository you'll be sending your changes to and a drop-down menu to select the branch you want to **compare.** Select your branch **lastname-dt1** as the branch to compare, and be sure the **master** branch is the **base**.
 5. Name your pull request **Digital Tools 1 Submission** and then click **Create pull request**.
