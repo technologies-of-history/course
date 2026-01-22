@@ -31,7 +31,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, January 22
 - Before class, read and complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
 - In class we'll discuss text editors, go over Markdown syntax, and draft your **author.md** files for the course blog, [https://technologies-of-history.github.io/spring-2026](https://technologies-of-history.github.io/spring-2026)
-- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1.md)
+- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1)
 
 ## Week 3: The ABCs of Philosophy & Computer Languages
 ---
