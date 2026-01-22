@@ -42,8 +42,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - In class, we'll view about 20 minutes of this NOVA special on [The First Alphabet](http://library.tcu.edu/PURL/EZproxy_link.asp?url=https://video.alexanderstreet.com/p/463ZWDAJ6)
 
 ### Digital Assignments due Thursday, January 29
-- Before class, visit the [Cuneiform Digital Library](https://cdli.earth) and search for a *translated* cuneiform tablet. A good way to find a tablet that’s been translated is to run a “Full Search” and type a single word into the “Translation” search box. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet, and come to class prepared to discuss your tablet.
-- Before class, visit the [Machine Translation and Automated Analyses of Cuneiform Languages](https://cdli-gh.github.io/mtaac/) and read their About page. Think about what it means to make a computer read ‘human’ languages, and what it means for humans to try to ‘read’ computer languages.
+- Before class, visit the [Cuneiform Digital Library](https://cdli.earth) and search for a *translated* cuneiform tablet. A good way to find a tablet that’s been translated is to run an “Advanced Search” and in the "Translation" search box under "Inscriptional Data," type a single word. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet, and come to class prepared to discuss your tablet.
+- Before class, visit the [Machine Translation and Automated Analyses of Cuneiform Languages](https://cdli-gh.github.io/mtaac/) and read their About page. Think about what it means to make a computer read ‘human’ languages, and what it means for humans to try to ‘read’ computer languages. We'll browse their GitHub repos with code for machine translation in class.
 - **Digital Tools Assignment 1 due on GitHub on Friday, January 30, by 11:59 pm**
 
 
