@@ -37,6 +37,8 @@ For this assignment, you will select a page from a Middle English medical recipe
 </div>
 </html>
 
+### Note: Steps 1 and 2 of this Digital Tools Assignment are due March 6 at 11:59 pm
+
 ### Step 1: Transcribe a page from the manuscript
 
 1. Click through the images of TCC MS O.8.35 and select a single page of text to transcribe. Make note of the folio number for your page, indicated at the bottom of the Mirador viewer (i.e. f001r or f014v).
@@ -55,15 +57,14 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<ab>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, `<term>`, `<supplied>`,`<measure>`, and other tags within the TEI glossary as necessary. Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
 3. Finally, once you're sure you've got the TEI *and* transcription right, it's time to upload your transcription to the repository **dyngley-data** in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec)!
-4. Create a branch in the **dyngley-data** repository named **lastname_transcription**. Upload the file to the **transcriptions** folder within that branch. Finish by submitting a pull request to the **main** branch of our repository.
+4. Fork the **dyngley-data** repository into your own account. Locate the **transcriptions** folder within that forked repository. Click **Add file** and upload your **.txt** file with your transcription and XML. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository.
 5. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
 **Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
 
-
 ### Step 4: Explain yourself
 
-1. Draft a post following our course protocols (make a new branch in **spring-2026** called **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
+1. Draft a post following our course protocols (open or fork the **spring-2026** repository in your account, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
 2. Somewhere in your post you should copy your transcription and TEI encoding from your .txt file. You'll want to set off your mark-up to show up as code on our blog, which means you'll need to use the appropriate Markdown syntax. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson you completed at the start of the semester.)
 3. In the same .md file, write a 4-5 paragraph blog post responding to the following questions:
 
@@ -76,4 +77,4 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 
 ### Step 5: Submission
 
-Finish by submitting a **pull request** to the **master** branch of the **spring-2026**.
+Finish by submitting a **pull request** to the **technologies-of-history/spring-2026** repository. Name the pull request **lastname-dt3**. That's it!

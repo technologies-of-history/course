@@ -73,7 +73,7 @@ Your post should include the following elements of Markdown code:
 ### Step 5: Commit your post
 
 1. After you create (or upload) your Markdown file, you'll need to **Commit changes...** to save the file to your branch.
-2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. 
+2. If you're composing your post online in GitHub's web interface, every time you make a change in the file, you'll write up a brief description of what you changed (the **Commit message**) and click, **Commit** to save. You'll be prompted to either **Commit changes** to a **new branch** or to the **master branch**, and to save yourself an extra step, just go ahead and choose the top option and commit to the **master branch** of your repository.
 3. If you draft your post in a text editor or on Google docs, you'll only **Commit Changes...** once, after you upload the file. 
 4. Git stores each of the versions of your file at every **Commit**, making it possible to revert back to a previous version of the file at any time. You simply click the **History** tab at the top right, and GitHub will show you a page with your entire commit history for that branch.
 5. Remember, **Committing changes...** does NOT publish your post to our course site. You can continue working on your draft post as much as you like, and nothing will get published until you submit a **Pull request.**

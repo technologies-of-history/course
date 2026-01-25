@@ -31,7 +31,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, January 22
 - Before class, read and complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
 - In class we'll discuss text editors, go over Markdown syntax, and draft your **author.md** files for the course blog, [https://technologies-of-history.github.io/spring-2026](https://technologies-of-history.github.io/spring-2026)
-- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1)
+- Introduction to [Digital Tools Assignment 1](/digitaltools1)
 
 ## Week 3: The ABCs of Philosophy & Computer Languages
 ---
@@ -59,7 +59,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read Section 3.1 "A technical guide to Latin epigraphy," from Alison E. Cooley, _The Cambridge Manual of Latin Epigraphy_ (Cambridge: Cambridge University Press, 2012), pp. 327–335 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975014790808721).]
 - Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
 - In class, we'll practice creating a [Google MyMaps](https://mymaps.google.com) from a CSV file of inscription locations 
-- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2)
+- Introduction to [Digital Tools Assignment 2](/digitaltools2)
 
 
 ## Week 5: Sacred Books & Illustrated Websites with IIIF
@@ -112,19 +112,21 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
 - View the copy of Thomas Tusser's _Points of Good husbandrie_ held at Princeton University Library and annotated by Gabriel Harvey at [The Archaeology of Reading](https://archaeologyofreading.org/bibliography/Harvey-corpus/Tusser)
 - In class, we'll view the XML data for each of the pages of the book annotated by Harvey, downloaded from the AOR, as well as the XML file generated for the Dyngley edition, in the [dyngley-data repository](https://github.com/technologies-of-history/dyngley-data) in our course GitHub organization
+- In class, we'll finalize your **.txt** files with your transcriptions and XML tags
+- **Digital Tools 3 Assignment Part I due on GitHub by Friday, March 6 by 11:59 pm**
 
 
 ## Week 9: Maps as Timelines
 ---
 
 ### Readings due Tuesday, March 10
-- Barbara E. Mundy, “Mesoamerican Cartography,”from _The History of Cartography, Vol. II_ (Chicago, 1998), 183–240. [Available on [D2L](https://tcu.brightspace.com).]
+- Barbara E. Mundy, “Mapping the Aztec Capital: The 1524 Nuremburg Map of Tenochtitlan, its Sources and Meanings," _Imago Mundi_ 50, no. 1 (1998): 11-33. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_crossref_primary_10_1080_03085699808592877).]
 
 ### Digital Assignments due Thursday, March 12
 - Explore the various Mesoamerican maps collected and annotated as part of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
-- Play around with [StoryMap](https://storymap.knightlab.com), a digital map and storytelling tool created by the Knightlab at Northwestern University
-- Introduction to [Digital Tools Assignment #4]( {{ site.baseurl }}/assignments)
-- **Digital Tools 3 Assignment due on GitHub on Friday, March 13 by 11:59 pm**
+- In class, we'll get everyone set up with their ArcGIS Online account, and click through a Story Map created on that platform
+- Introduction to [Digital Tools Assignment #4](/digitaltools4)
+- **Digital Tools 3 Assignment Part II due on GitHub by Friday, March 13 by 11:59 pm**
 
 ### Spring Break March 14–22
 
@@ -135,9 +137,9 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Sara Caputo, "Trailblazers" and "Writing on Water," from _Tracks on the Ocean_ (Chicago, 2024), pp. 42–103. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975182356708721).]
 
 ### Digital Assignments due Thursday, March 26
-- Play around with the global map [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/)
-- Read the _Programming Historian_'s [Introduction to Map Warper](https://programminghistorian.org/en/lessons/introduction-map-warper) and [Displaying a Georeferenced Map in Story Map JS](https://programminghistorian.org/en/lessons/displaying-georeferenced-map-knightlab-storymap-js)
-- In-class work on georeferencing the Mercator map
+- Play around with the global map of sea voyages on the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site; select a voyage of exploration from the sixteenth through eighteenth centuries to focus on for your next digital tools assignment.
+- Next, visit [Old Maps Online](https://www.oldmapsonline.org/) and click **Maps** and then **Explore Maps**. You use both the timeline slider and the map function to find a map that roughly coincides with the era and region of the voyage data you're working with. Make sure the map you choose is from the David Rumsey Map Collection. [NB: You can tell it's from that collection because the David Rumsey logo is a little black box that will show up to the left of the map in the listing.]
+- In class, we'll work with that map to create a georeferenced layer in ArcGIS that you'll then use for your [Digital Tools 4 Assignment](/digitaltools4).
 
 ## Week 11: Enlightenment Letters and Relational Databases
 ---
