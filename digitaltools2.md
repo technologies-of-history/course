@@ -53,15 +53,15 @@ var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openP
 
 **Be sure to change the following things in the code:**
 
-`var map = L.map('map').setView([51.505, -0.09], 13);`  
-You'll need to update the latitude and longitude  ([51.505, -0.09] in this example) to the latitude and longitude coordinates that you want to be the center of your map. The number 13 following the lat/long is the scale of the zoom; a higher number would zoom in more and a lower number would zoom out more.
+`var map = L.map('map').setView([46.60, 1.51], 6);`  
+You'll need to update the latitude and longitude  ([46.60, 1.51] in this example) to the latitude and longitude coordinates that you want to be the center of your map. The number 6 following the lat/long is the scale of the zoom; a higher number would zoom in more and a lower number would zoom out more.
 
 `var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();`  
 These lines of code indicate where to put a marker and what to label it. You'll need to change the lat/long coordinates ([46.59, 1.52] in this example), and then change the label you want to display (Argentomagus in this example). 
 
 You'll need to repeat this line of code for every marker you want to display on your map, making sure to update with the new latiture and longitude and the appropriate ancient placename.
 
-**If all goes well, you'll have a map that looks like this:**
+**If all goes well, you'll have a map that looks like this, but centered on your chosen Roman region:**
 
 <html>
 <div style="margin: 2rem 0;">

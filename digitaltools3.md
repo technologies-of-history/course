@@ -62,7 +62,7 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 
 **Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
 
-### Step 4: Explain yourself
+### Step 3: Explain yourself
 
 1. Draft a post following our course protocols (open or fork the **spring-2026** repository in your account, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
 2. Somewhere in your post you should copy your transcription and TEI encoding from your .txt file. You'll want to set off your mark-up to show up as code on our blog, which means you'll need to use the appropriate Markdown syntax. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson you completed at the start of the semester.)
@@ -75,6 +75,6 @@ the folio number of the manuscript is **f001r** (shown at the end of the URL), w
 - How does encoding the text transform its utility?
 - What questions about the relationship between technical writing and making emerged in this process?
 
-### Step 5: Submission
+### Step 4: Submission
 
 Finish by submitting a **pull request** to the **technologies-of-history/spring-2026** repository. Name the pull request **lastname-dt3**. That's it!
