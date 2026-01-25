@@ -26,18 +26,5 @@ a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.ar
 3. Once your image loads, your historical map will appear over the base layer world map. You now have the opportunity to align it with the base map, roughly georeferencing it for future use.
 4. You'll have the option to move the image around, resize it, and even rotate it, if necessary. You can play with the transparency slider so you can see both the historical map and base layer to line them up.
 5. Once you get the map roughly where you want it, at the bottom left, click **Side-by-Side** to create a set of georeferenced points. Essentially, you'll place each of the four points in exactly the same spot on both maps. This will warp the map to more accurately create a georeferenced layer.
-6. 
 
 Once you've got your georeferenced map saved, you can move on to create your StoryMap.
-## Instructions for Submission:
-
-1. Create your StoryMap.
-2. Either directly in our GitHub repository in the branch draft-posts or in your text editor create a new Markdown file with the naming conventions we've practiced in your first Digital Tools Assignment (YYYY-MM-DD-Post Title.md).
-3. Write a 4–5 paragraph post answering the questions listed above. Write well and clearly! Think of this as equivalent to a 1-2 page response paper.
-4. Copy the HTML embed code that appears when you "share" your Story Map or TimeMapper.
-5. Paste the HTML embed code into your Markdown file at a point in your writing that makes sense.
-6. Create a **New Branch** in our course repository. Click the arrow to the right of **master** in the branch menu, and in the search box type in the name of the new branch you'll create: **yourname-storymaps**. Click the option that appears that says **Create branch: yourname-storymaps**.
-7. Upload your post into the **posts** folder of the new branch, **Commit** your changes, and create a **Pull Request** to merge it with the **master** branch of our repository. **Pay attention** and be sure you select the right **head** for your request.
-
-
-Ok, that's it! You've done it!
