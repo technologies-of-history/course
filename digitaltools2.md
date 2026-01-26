@@ -27,7 +27,7 @@ In this assignment, you'll be asked to compose a 3-4 paragraph post reflecting o
 ## Step 3: Create your map with LeafletJS
 
 1. Create a new Markdown file for your post following our course protocols (open or fork the **spring-2026** repository in your **personal** GitHub account, navigate to **_posts** and create a new .md file titled **yyyy-mm-dd-your title.md** with the appropriate YAML header.)
-2. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. Below, you'll find the code you need for your map. The first few lines of code tell the browser to import Leaflet's CSS style sheet and JavaScript code from the web. These lines are all written in HTML. Below those first few lines of HTML, the `<script type="text/javascript">` tag tells your browser that what follows is JavaScript, which you'll customize to render the Leaflet map.
+2. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. Below, you'll find the code you need for your map. The first few lines of code tell the browser to import Leaflet's CSS style sheet and JavaScript code from the web. These lines are all written in HTML. Below those first few lines of HTML, the `<script>` tag tells your browser that what follows is JavaScript, which you'll customize to render the Leaflet map.
 
 ```
 <html>
@@ -36,7 +36,7 @@ In this assignment, you'll be asked to compose a 3-4 paragraph post reflecting o
 
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script type="text/javascript">
+    <script>
     
         var map = L.map('map').setView([46.60, 1.51], 6);
     
@@ -63,7 +63,7 @@ This line of code indicates where to put a marker on your map and what to label 
 
 You'll repeat this line of code (with updated lat/long and placename) for every marker you want to display on your map.
 
-**If all goes well, you'll have a map that looks something like this, but centered on your chosen Roman region:**
+**If all goes well, you'll have a map that looks something like this, but centered on your chosen Roman province:**
 
 <html>
 <div style="margin: 2rem 0;">
@@ -71,7 +71,7 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
 
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
-    <script type="text/javascript">
+    <script>
     
     var map = L.map('map').setView([46.60, 1.51], 6);
     
@@ -96,7 +96,7 @@ var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum')
 
 1. You could obviously use Markdown to include an image in your post, as long as that image has a URL. But we know that IIIF viewers like [Mirador](https://projectmirador.org) enable the display of high-res images, with interactive, zoom capabilities. Mirador also makes the image metadata easily viewable, and allows for the display of multiple images, side-by-side--though we'll just display one here.
 2. First, click the link to open the **IIIF manifest** for your chosen inscription. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** for your inscription.
-2. Next, you'll add the following snippet of code into your Markdown post, again with the `<html>` tags wrapping the code. Again, the first few lines of code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality Below that, following `<script type="text/javascript">`, is the JavaScript code to create the Mirador viewer in your post.
+2. Next, you'll add the following snippet of code into your Markdown post, again with the `<html>` tags wrapping the code. Again, the first few lines of code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality Below that, following the `<script>` tag, is the JavaScript code to create the Mirador viewer in your post.
 
 ```
 <html>
@@ -107,7 +107,7 @@ var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum')
   <div id="my-mirador" style="position: relative; height: 500px; width: 100%;"></div>
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
-    <script type="text/javascript">
+    <script>
   (function() {
     if (typeof Mirador !== 'undefined') {
       var mirador = Mirador.viewer({
@@ -144,7 +144,7 @@ Where you see "URL for the image manifest here," again, copy-and-paste the URL f
   <div id="my-mirador" style="position: relative; height: 500px; width: 100%;"></div>
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
-    <script type="text/javascript">
+    <script>
   (function() {
     if (typeof Mirador !== 'undefined') {
       var mirador = Mirador.viewer({
@@ -165,7 +165,10 @@ Where you see "URL for the image manifest here," again, copy-and-paste the URL f
 
 ## Step 5: Compose your post
 
-Before, after, or in between your map and image viewer, compose 3-4 paragraphs in Markdown describing your chosen inscription, including what we know about what it says, when it was written, where, and by whom. What does your map of surviving inscriptions reveal about Roman attitudes toward public writing? Finally, how do you think digital tools like high-res imaging and digital mapping change how the public understands the role of writing in Roman society?
+Before, after, or in between your map and image viewer, compose 3-4 paragraphs in Markdown responding to the following prompts:
+- Describe your chosen inscription, including what we know about what it says, when it was written, where, and by whom. 
+- What does your map of surviving inscriptions reveal about Roman attitudes toward public writing? 
+- Finally, how do you think digital tools like high-res imaging and digital mapping change how the public understands the role of writing in Roman society?
 
 ## Step 6: Initiate a pull request to submit your post
 
