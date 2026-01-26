@@ -3,13 +3,17 @@ layout: page
 title: Digital Tools Assignment 3
 permalink: /digitaltools3
 ---
-## Making Text into Data
+# Making Text into Data
 
 As you know from class, XML is a metalanguage (a language used to describe or markup another language) used in order to process and store texts in digital format. Markup languages are valuable as means of helping digital archivists and instructional technologists do two things: first, markup creates a rich data set from the text in question which can then be converted into a number of formats; second, markup encodes how a particular text should be presented on a webpage, digital publication, data set, etc. Markup languages thus guide our interpretations of those texts. Considerations like spacing, bolding, and headings are all aspects of the markup process—which is often also referred to as “encoding.” Marking up a document in XML is a matter of directing a computer as to how the manuscript’s content should be presented and interpreted.
 
-For this assignment, you will select a page from a Middle English medical recipe collection, [Trinity College Cambridge MS O.8.35](https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35) to transcribe and encode with TEI/XML
+For this assignment, you'll be adding limited XML to a page of Middle English medical recipes that you'll transcribe from [Trinity College Cambridge MS O.8.35](https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35), a mid-fifteenth-century English compendium of medical knowledge. Your marked-up transcription will then get added to the digital critical edition of the manuscript, [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition), created using [EditionCrafter](https://editioncrafter.org), an open-access tool that marries XML encoded text to images served in IIIF. 
 
-### Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library
+I'll assign your page of text in class on Tuesday, February 17, and you'll work with your classmates on Thursday, February 19 to complete your transcription.
+
+**Note: Steps 1 and 2 of this Digital Tools Assignment are due March 6 at 11:59 pm; Steps 3 and 4 are due by March 13 at 11:59 pm**
+
+## Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library
 
 <html>
 <div style="margin: 2rem 0;">
@@ -37,44 +41,50 @@ For this assignment, you will select a page from a Middle English medical recipe
 </div>
 </html>
 
-### Note: Steps 1 and 2 of this Digital Tools Assignment are due March 6 at 11:59 pm
 
-### Step 1: Transcribe a page from the manuscript
+## Step 1: Transcribe a page of a fifteenth-century manuscript
 
-1. Click through the images of TCC MS O.8.35 and select a single page of text to transcribe. Make note of the folio number for your page, indicated at the bottom of the Mirador viewer (i.e. f001r or f014v).
-2. Once you've located the folio number, visit our GitHub organization and navigate to the repository **dyngley_data**. Open the file named **iiif.xml**.
-3. Scroll through the XML code under `<facsimile sameAs="https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json">` until you find your folio number (at the far right of each line of code). 
-Each image of the manuscript has been given an xml id, which then corresponds to a folio number. For example, in this line of code 
-```<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>```
-the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
-4. Create a **.txt** file using a text editor of Google docs. Use the following naming convention: **xmlid.txt.** For example, the file featuring the transcriptions of f001r of the manuscript would be named **f016.txt.**
-5. Transcribe the entire page in your text file. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript **exactly.** Where there are line breaks in the manuscript, return to the next line in your **.txt** file.
-6. Either save the file on your computer, or download the file from Google docs as a **.txt** file.
+1. First, visit the **dyngley_data** repository in our GitHub organization. Open the file named **iiif.xml**.
+2. You'll notice that each image of the manuscript has been given an xml id, which then corresponds to a folio number in the manuscript. For example, in this line of code 
+`<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>` the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**, right at the beginning of this line of code. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
+3. Locate the line of code that corresponds to the folio number you've been assigned to transcribe (i.e, f007r, f007v, etc.). Note the **xml id** that corresponds to that folio number.
+4. Create a **.txt** file using a text editor or Google docs. In that **.txt file** transcribe the entire page of text you've been assigned. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript *exactly.* Where there are line breaks in the manuscript, return to the next line in your **.txt** file.
+5. Save the file using the following naming convention: **xmlid.txt.** For example, per the code snippet shown above, the .txt file I'd create to transcribe f001r of the manuscript would be named **f016.txt.**
 
 
-### Step 2: Mark-up your transcription with XML according to TEI heirarchies
+## Step 2: Mark-up your transcription with XML according to TEI heirarchies
 
-1. Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new `<ab>` for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, `<title>`, `<PersonName>`, `<term>`, `<supplied>`,`<measure>`, and other tags within the TEI glossary as necessary. Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
+1. The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate .txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
+- `<title>`: denotes the title of a recipe
+- `<PersonName>`: exactly what it sounds like
+- `<term>`: these tags should be wrapped in `<ref>` tags, and they are uncommon. They indicate a word that should be included in an eventual glossary of unusual terms.
+- `<supplied>`: should be used when *you* add something to the transcription that isn't entirely indicated in the manuscript, or is your interpretation. These are uncommon tags, and you do not add then when you simply extend a common abbreviation. 
+- `<measure>`: indicates a unit of measurement in the recipe
+- `<time>`: indicates when a length of time is referenced in the recipe 
+
+Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
-3. Finally, once you're sure you've got the TEI *and* transcription right, it's time to upload your transcription to the repository **dyngley-data** in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec)!
-4. Fork the **dyngley-data** repository into your own account. Locate the **transcriptions** folder within that forked repository. Click **Add file** and upload your **.txt** file with your transcription and XML. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository.
-5. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
+
+
+## Step 3: Submit your transcription with a pull request
+1. Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the repository **dyngley-data** in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
+2. Just as we did with the **spring-2026** repository, you'll fork the **dyngley-data** repository into your own account. Next, locate the **transcriptions** folder within that forked repository. Click **Add file** and upload your **.txt** file with your transcription and XML. 
+3. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository.Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
 **Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
 
-### Step 3: Explain yourself
+## Step 4: Explain yourself
 
-1. Draft a post following our course protocols (open or fork the **spring-2026** repository in your account, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
-2. Somewhere in your post you should copy your transcription and TEI encoding from your .txt file. You'll want to set off your mark-up to show up as code on our blog, which means you'll need to use the appropriate Markdown syntax. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson you completed at the start of the semester.)
-3. In the same .md file, write a 4-5 paragraph blog post responding to the following questions:
+1. Create a Markdown file following our course protocols (open or fork the **spring-2026** repository in your account, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. 
+2. Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Set off your mark-up with triple ticks so that it will show up as code in yout post.
+3. In the same .md file, write a 3-4 paragraph blog post responding to the following questions:
 
-- Why did you choose the page that you did? What recipes were in your transcription?
+- What recipes were in your transcription?
 - What was the process of learning to transcribe Middle English like?
 - What questions do you have about the act of recording this recipe in a manuscript?
-- What aspects of the document does TEI make more visible to a future researcher?
-- How does encoding the text transform its utility?
-- What questions about the relationship between technical writing and making emerged in this process?
+- How might encoding the text with XML mark-up transform its utility?
+- According to Pamela Smith, communicating embodied knowledge in writing required acts of translation: taking tacit knowledge and making it explicit. In what ways does the act of encoding text with XML tags mirror the process of 'translation' decribed by Smith? 
 
-### Step 4: Submission
+## Step 4: Submission
 
 Finish by submitting a **pull request** to the **technologies-of-history/spring-2026** repository. Name the pull request **lastname-dt3**. That's it!

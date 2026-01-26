@@ -26,5 +26,24 @@ a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.ar
 3. Once your image loads, your historical map will appear over the base layer world map. You now have the opportunity to align it with the base map, roughly georeferencing it for future use.
 4. You'll have the option to move the image around, resize it, and even rotate it, if necessary. You can play with the transparency slider so you can see both the historical map and base layer to line them up.
 5. Once you get the map roughly where you want it, at the bottom left, click **Side-by-Side** to create a set of georeferenced points. Essentially, you'll place each of the four points in exactly the same spot on both maps. This will warp the map to more accurately create a georeferenced layer.
+6. Save the map you've created to your account.
 
-Once you've got your georeferenced map saved, you can move on to create your StoryMap.
+## Step 3: Create your Story Map with ArcGIS
+1. Visit [storymaps.arcgis.com](https://storymaps.arcgis.com) and log in using your username and password for ArcGIS. 
+2. Create a new Story Map, titling it whatever seems best for your particular voyage of exploration. Click the plus sign to add an element and scroll down to select **Map Tour**. Select **Start from Scratch** and then select a **Map Focused Guided Tour**, the option on the top left.
+3. Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under **Select basemap** and select **Browse more maps**. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.
+4. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one a slide in the story. You'll add a location for a each slide, and upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage.
+5. Once you're finished with your StoryMap, you'll need to publish it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselct "Allow duplication" and "Show in Web Search Results."
+6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbat menu at the far right. Select **Embed this story** and then copy the code that appears.
+
+## Step 4: Compose your post
+1. Create a Markdown file according to our course protocols (fork or open the **spring-2026** repository in your personal account, locate the **_posts** folder, and create or upload a file named **YYY-MM-DD-Your Title.md.**)
+2. Compose a 4-5 paragraph post responding to the following question:
+- What boyage of exploration did you choose and why?
+- How does your historical map reflect the scope of geographic knowledge, navigational skill, and cartographic expertise at the time of your chosen voyage?
+- How did your particular voyage of exploration transform the way the world was understood and depicted at the time?
+- In your opinion, have digital tools for map-making and geocoding, captured in Geographic Information Systems, transformed the way we understand visualize and understand human interaction with the physical world in the same ways as 'tracks on the ocean' as described by Sara Caputo?
+3. Be sure to paste your embed code somewhere into your post, wrapping the code in `<html>` tags.
+
+## Step 5: Submit your post
+Commit your changes and submit a pull request to **technologies-of-history/spring-2026**, and you're done!
