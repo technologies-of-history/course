@@ -13,7 +13,6 @@ permalink: /information/
  __Course Component Type__: SEM  
  __Class Meeting Day(s) & Time(s)__: T/Th 11:00 am – 12:20 pm  
 
-
 ### Instructor
 
 __Instructor Name__: Dr. Melissa Reynolds  

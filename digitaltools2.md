@@ -37,14 +37,11 @@ In this assignment, you'll be asked to compose a 3-4 paragraph post reflecting o
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
-    
-        var map = L.map('map').setView([46.60, 1.51], 6);
-    
+    var map = L.map('map').setView([46.60, 1.51], 6);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-
 var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
 </script>
 </div>
@@ -54,7 +51,7 @@ var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openP
 **Once you've got this code in your Markdown post, you'll change the following bits:**
 
 `var map = L.map('map').setView([46.60, 1.51], 6);`  
-You'll need to update the `set.view` to the latitude and longitude coordinates that you want to be the center of your map, and designate how zoomed in you want the map to be on loading. In the example here, those coordinates are `[46.60, 1.51]`, and the zoom is set to `6`. Update those coordinates with what you'd like to be the center of your map, and set the zoom (a higher number zooms in more and a lower number zooms out).
+You'll need to update the `set.View` to the latitude and longitude coordinates that you want to be the center of your map, and designate how zoomed in you want the map to be on loading. In the example here, those coordinates are `[46.60, 1.51]`, and the zoom is set to `6`. Update those coordinates with what you'd like to be the center of your map, and set the zoom (a higher number zooms in more and a lower number zooms out).
 
 Ignore the next few lines, as these lines import the base map layer from [OpenStreetMap](https://www.openstreetmap.org/#map=9/47.082/2.398), which provides open-access digital maps.
 
@@ -72,14 +69,11 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
-    
-    var map = L.map('map').setView([46.60, 1.51], 6);
-    
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    maxZoom: 19,
-    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+var map = L.map('map').setView([46.60, 1.51], 6);
+L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+maxZoom: 19,
+attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 }).addTo(map);
-
 var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
 var marker = L.marker([47.08, 2.40]).addTo(map).bindPopup('Avaricum').openPopup();
 var marker = L.marker([44.84, -0.58]).addTo(map).bindPopup('Burdigalia').openPopup();
@@ -96,7 +90,7 @@ var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum')
 
 1. You could obviously use Markdown to include an image in your post, as long as that image has a URL. But we know that IIIF viewers like [Mirador](https://projectmirador.org) enable the display of high-res images, with interactive, zoom capabilities. Mirador also makes the image metadata easily viewable, and allows for the display of multiple images, side-by-side--though we'll just display one here.
 2. First, click the link to open the **IIIF manifest** for your chosen inscription. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** for your inscription.
-2. Next, you'll add the following snippet of code into your Markdown post, again with the `<html>` tags wrapping the code. Again, the first few lines of code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality Below that, following the `<script>` tag, is the JavaScript code to create the Mirador viewer in your post.
+2. Next, you'll add the following snippet of code into your Markdown post, again with the `<html>` tags wrapping the code. Again, the first few lines of code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality Below that, following `<script>`, is the JavaScript code to create the Mirador viewer in your post.
 
 ```
 <html>
@@ -108,30 +102,26 @@ var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum')
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <script>
-  (function() {
-    if (typeof Mirador !== 'undefined') {
       var mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
-          "URL for the image manifest here": { provider: "Epigraphic Database Heidelberg" }
+          "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }
         },
         windows: [
-          { loadedManifest: "URL for the image manifest here", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+          { loadedManifest: "URLforyourmanifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
-      });
-    }
-  })();
+      })();
 </script>
 </div>
 </html>
 ```
 **Once you've got the code in your Markdown post, you'll need to update the following bits:**
 
-`manifests: { "URL for the image manifest here": { provider: "Epigraphic Database Heidelberg" }`  
-Where you see "URL for the image manifest here," copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!
+`manifests: { "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }`  
+Where you see "URLforyourmanifest.json" copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!
 
-`{ loadedManifest: "URL for the image manifest here",`  
-Where you see "URL for the image manifest here," again, copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!
+`{ loadedManifest: "URLforyourmanifest.json",`  
+Where you see "URLforyourmanifest.json" again, copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!
 
 
 **If you've done it correctly, your post will include a viewer that looks like this, with your image and metadata from EDH visible.**
@@ -145,8 +135,6 @@ Where you see "URL for the image manifest here," again, copy-and-paste the URL f
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <script>
-  (function() {
-    if (typeof Mirador !== 'undefined') {
       var mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
@@ -155,9 +143,7 @@ Where you see "URL for the image manifest here," again, copy-and-paste the URL f
         windows: [
           { loadedManifest: "https://technologies-of-history.github.io/course/assets/iiif/manifest3.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
-      });
-    }
-  })();
+      })();
 </script>
 </div>
 </html>

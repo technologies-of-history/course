@@ -43,7 +43,7 @@ a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.ar
 - How does your historical map reflect the scope of geographic knowledge, navigational skill, and cartographic expertise at the time of your chosen voyage?
 - How did your particular voyage of exploration transform the way the world was understood and depicted at the time?
 - In your opinion, have digital tools for map-making and geocoding, captured in Geographic Information Systems, transformed the way we understand visualize and understand human interaction with the physical world in the same ways as 'tracks on the ocean' as described by Sara Caputo?
-3. Be sure to paste your embed code somewhere into your post, wrapping the code in `<html>` tags.
+3. Decide where you'd like your StoryMap to appear in your post, and then paste the embed code you copied from ArcGIS online, making sure to wrap the code in `<html>` tags.
 
 ## Step 5: Submit your post
 Commit your changes and submit a pull request to **technologies-of-history/spring-2026**, and you're done!

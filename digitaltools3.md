@@ -24,8 +24,6 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
   <script type="text/javascript">
-    (function() {
-      if (typeof Mirador !== 'undefined') {
         var mirador = Mirador.viewer({
           id: "my-mirador",
           manifests: {
@@ -34,9 +32,7 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
 					windows: [
 						{ loadedManifest: "https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'far-bottom' },
 					]
-				});
-			}
-		})();
+				})();
 	</script>
 </div>
 </html>
@@ -57,8 +53,8 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
 1. The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate .txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
 - `<title>`: denotes the title of a recipe
 - `<PersonName>`: exactly what it sounds like
-- `<term>`: these tags should be wrapped in `<ref>` tags, and they are uncommon. They indicate a word that should be included in an eventual glossary of unusual terms.
-- `<supplied>`: should be used when *you* add something to the transcription that isn't entirely indicated in the manuscript, or is your interpretation. These are uncommon tags, and you do not add then when you simply extend a common abbreviation. 
+- `<term>`: these tags should be wrapped in `<ref>` tags, and they are uncommon. They indicate a word that should be included in an eventual glossary because they are unusual or unique.
+- `<supplied>`: should be used when *you* add something to the transcription that isn't entirely indicated in the manuscript. These are uncommon tags, and you do not add then when you simply extend a common abbreviation. 
 - `<measure>`: indicates a unit of measurement in the recipe
 - `<time>`: indicates when a length of time is referenced in the recipe 
 
@@ -67,9 +63,9 @@ Please refer to the first sixteen folios of transcribed pages in **dyngley-data/
 
 
 ## Step 3: Submit your transcription with a pull request
-1. Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the repository **dyngley-data** in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
+1. Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the **dyngley-data** repository in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
 2. Just as we did with the **spring-2026** repository, you'll fork the **dyngley-data** repository into your own account. Next, locate the **transcriptions** folder within that forked repository. Click **Add file** and upload your **.txt** file with your transcription and XML. 
-3. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository.Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
+3. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
 **Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
 
