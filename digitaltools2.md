@@ -37,7 +37,7 @@ In this assignment, you'll be asked to compose a 3-4 paragraph post reflecting o
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
-    var map = L.map('map').setView([46.60, 1.51], 6);
+    const map = L.map('map').setView([46.60, 1.51], 6);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -69,7 +69,7 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
-  var map = L.map('map').setView([46.60, 1.51], 6);
+  const map = L.map('map').setView([46.60, 1.51], 6);
   L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
     maxZoom: 19,
     attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
@@ -102,7 +102,7 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <script>
-      var mirador = Mirador.viewer({
+      const mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
           "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }
@@ -135,7 +135,7 @@ Where you see "URLforyourmanifest.json" again, copy-and-paste the URL for the II
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
     <script>
-      var mirador = Mirador.viewer({
+      const mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
           "https://technologies-of-history.github.io/course/assets/iiif/manifest3.json": { provider: "Epigraphic Database Heidelberg" }

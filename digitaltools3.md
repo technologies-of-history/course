@@ -24,7 +24,7 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
   <script type="text/javascript">
-        var mirador = Mirador.viewer({
+        const mirador = Mirador.viewer({
           id: "my-mirador",
           manifests: {
 						"https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json": { provider: "Trinity College Cambridge" },
