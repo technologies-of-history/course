@@ -21,27 +21,27 @@ In-class writing assignments may not be made up. If an assignment is missed due 
 
 In this assignment, students will produce a blog post reflecting on how the nature of a communication technology informs the structures of knowledge that it can communicate. Students will write about the emergence of writing systems in the ancient world in relation to the development of “simple” or “static” communications technologies for digital scholarship. Students will produce this assignment using those simple digital tools: in Markdown syntax, for publication on our course blog, hosted with Jekyll through [GitHub pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll), thus demonstrating mastery of foundational digital skills. In their post, students will reflect on how the structure and form of a writing system--whether it be cuneiform syllabaries, alphabetic ancient Greek, or computer languages like HTML or Markdown--condition what sort of ideas or outcomes can be produced from that language.
 
-Read detailed instructions with tutorials [here](/digitaltools1).
+Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools1).
 
 ### Digital Tools Assignment #2: Showing History
 
 In this assignment, students will produce a blog post that reflects on the presence of public writing across the Roman empire. Using geolocation data and images from the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/foto/suche), students will create a post discussing at least four surviving artifacts of Roman epigraphy and what these surviving artifacts suggest about Roman attitudes toward writing. This post will include an embedded [Google MyMaps](https://mymaps.google.com) depicting the original location of these artifacts, as well as an embedded [Mirador](https://projectmirador.org) IIIF viewer so that users can compare epigraphic images side-by-side.
 
-Read detailed instructions with tutorials [here](/digitaltools2).
+Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools2).
 
 
 ### Digital Tools Assignment #3: Making Text into Data
 
 In this assignment, students will produce a TEI-encoded transcription of a medical recipe from a fifteenth-century manuscript as a means of understanding the relationship between writing and doing in the early modern world. Students will contribute their transcription to an XML file in our course GitHub repository, which the class will then publish using the digital publication tool, [EditionCrafter](https://editioncrafter.org). Each student will also be responsible for producing a brief blog post describing their TEI heirarchy within their transcription, as well as the materials and methods represented in their medical recipe, and the relationship between technical writing and *making*, whether it be a website or a medical ointment.
 
-Read detailed instructions with tutorials [here](/digitaltools3).
+Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools3).
 
 
 ### Digital Tools Assignment #4: Mapping History
 
 In this assignment, students will produce a blog post reflecting on how maps are interpretive pieces of communication that tell a particular story, whether that be a history of Mesoamerican conquest or European 'discovery.' The blog post will feature an interactive StoryMap made with a geocoded and “warped” 1569 map of the world by Gerard Mercator. This StoryMap should present geospatial data on one of the major sixteenth-, seventeenth-, or eighteenth-century voyages of European exploration drawn from the [dataset]( {{ site.baseurl }}/assets/datasets/ageofexploration.csv) made available by the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) project. Students will produce a narrative post explaining how their selected voyage brought different cultures into contact, and how that contact left its imprint on the geopolitical boundaries we see on the contemporary globe today.
 
-DRead detailed instructions with tutorials [here](/digitaltools4).
+DRead detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools4).
 
 
 ### Digital Tools Assignment #5: Networks and Knowledge

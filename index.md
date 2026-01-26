@@ -31,7 +31,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, January 22
 - Before class, read and complete the [Getting Started with Markdown](https://programminghistorian.org/en/lessons/getting-started-with-markdown) lesson on The Programming Historian
 - In class we'll discuss text editors, go over Markdown syntax, and draft your **author.md** files for the course blog, [https://technologies-of-history.github.io/spring-2026](https://technologies-of-history.github.io/spring-2026)
-- Introduction to [Digital Tools Assignment 1](/digitaltools1)
+- Introduction to [Digital Tools Assignment 1]({{ site.baseurl }}/digitaltools1)
 
 ## Week 3: The ABCs of Philosophy & Computer Languages
 ---
@@ -59,7 +59,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read Section 3.1 "A technical guide to Latin epigraphy," from Alison E. Cooley, _The Cambridge Manual of Latin Epigraphy_ (Cambridge: Cambridge University Press, 2012), pp. 327–335 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975014790808721).]
 - Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
 - In class, we'll practice creating a [Google MyMaps](https://mymaps.google.com) from a CSV file of inscription locations 
-- Introduction to [Digital Tools Assignment 2](/digitaltools2)
+- Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2)
 
 
 ## Week 5: Sacred Books & Illustrated Websites with IIIF
@@ -125,7 +125,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, March 12
 - Explore the various Mesoamerican maps collected and annotated as part of the [Mapas Project](https://mapas.uoregon.edu/content/welcome-mapas-project), paying close attention to the [Oztoticpac Lands Map](https://mapas.uoregon.edu/oztoc)
 - In class, we'll get everyone set up with their ArcGIS Online account and discuss Geographic Information Systems and their utility for encoding all sorts of information onto maps
-- Introduction to [Digital Tools Assignment #4](/digitaltools4)
+- Introduction to [Digital Tools Assignment #4]({{ site.baseurl }}/digitaltools4)
 - **Digital Tools 3 Assignment Part II due on GitHub by Friday, March 13 by 11:59 pm**
 
 ### Spring Break March 14–22
@@ -139,7 +139,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, March 26
 - Play around with the global map of sea voyages on the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site; select a voyage of exploration from the sixteenth through eighteenth centuries to focus on for your next digital tools assignment.
 - Next, visit [Old Maps Online](https://www.oldmapsonline.org/) and click **Maps** and then **Explore Maps**. You use both the timeline slider and the map function to find a map that roughly coincides with the era and region of the voyage data you're working with. Make sure the map you choose is from the David Rumsey Map Collection. [NB: You can tell it's from that collection because the David Rumsey logo is a little black box that will show up to the left of the map in the listing.]
-- In class, we'll work with that map to create a georeferenced layer in ArcGIS that you'll then use for your [Digital Tools 4 Assignment](/digitaltools4).
+- In class, we'll work with that map to create a georeferenced layer in ArcGIS that you'll then use for your [Digital Tools 4 Assignment]({{ site.baseurl }}/digitaltools4).
 
 ## Week 11: Enlightenment Letters and Relational Databases
 ---
@@ -165,7 +165,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, April 9
 - Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
 - In class, we'll practice loading a newspaper dataset into Cytoscape to view network relationships
-- Introduction to [Digital Tools Assignnment #5]( {{ site.baseurl }}/assignments)
+- Introduction to [Digital Tools Assignnment #5]({{ site.baseurl }}/assignments)
 
 
 ## Week 13: Mass Media and Politics
