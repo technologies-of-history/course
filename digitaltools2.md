@@ -69,19 +69,19 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
   <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script>
-var map = L.map('map').setView([46.60, 1.51], 6);
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-maxZoom: 19,
-attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
-}).addTo(map);
-var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
-var marker = L.marker([47.08, 2.40]).addTo(map).bindPopup('Avaricum').openPopup();
-var marker = L.marker([44.84, -0.58]).addTo(map).bindPopup('Burdigalia').openPopup();
-var marker = L.marker([46.59, 0.35]).addTo(map).bindPopup('Limonum Pictonum').openPopup();
-var marker = L.marker([45.74, -0.63]).addTo(map).bindPopup('Mediolanum Sanctonum').openPopup();
-var marker = L.marker([43.66, 0.52]).addTo(map).bindPopup('Ausci').openPopup();
-var marker = L.marker([45.54, -0.88]).addTo(map).bindPopup('Tamnum').openPopup();
-var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum').openPopup();
+  var map = L.map('map').setView([46.60, 1.51], 6);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+  var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
+  var marker = L.marker([47.08, 2.40]).addTo(map).bindPopup('Avaricum').openPopup();
+  var marker = L.marker([44.84, -0.58]).addTo(map).bindPopup('Burdigalia').openPopup();
+  var marker = L.marker([46.59, 0.35]).addTo(map).bindPopup('Limonum Pictonum').openPopup();
+  var marker = L.marker([45.74, -0.63]).addTo(map).bindPopup('Mediolanum Sanctonum').openPopup();
+  var marker = L.marker([43.66, 0.52]).addTo(map).bindPopup('Ausci').openPopup();
+  var marker = L.marker([45.54, -0.88]).addTo(map).bindPopup('Tamnum').openPopup();
+  var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum').openPopup();
 </script>
 </div>
 </html>
