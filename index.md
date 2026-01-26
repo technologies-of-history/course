@@ -37,6 +37,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings due Tuesday, January 27
+**Because the university has cancelled classes due to inclement weather on Tuesday, January 27, we'll combine the Tuesday and Thursday assignments for this week**
 - Jack Goody and Ian Watt, “The Consequences of Literacy,” _Comparative Studies in Society and History_ 5 (April 1963), pp. 311–332. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_miscellaneous_60579216).] **Note**: You should STOP reading at page 332.
 - Marc Van De Mieroop, Chapter 1: "At the Time of Creation" from _Philosophy before the Greeks: The Pursuit of Truth in Ancient Babylonia_ (Princeton, 2015), pp. 3–31. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975070723908721).]
 - In class, we'll view about 20 minutes of this NOVA special on [The First Alphabet](http://library.tcu.edu/PURL/EZproxy_link.asp?url=https://video.alexanderstreet.com/p/463ZWDAJ6)
