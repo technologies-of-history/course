@@ -150,9 +150,10 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15, 100–132. [Available on [D2L](https://tcu.brightspace.com)]
 
 ### Digital Assignments due Thursday, April 2
-- Visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
-- Next, search [EMLO](http://emlo.bodleian.ox.ac.uk/home) for women writers and choose one writer to briefly research for discussion in class.
-- In class, we'll discuss how data from the EMLO project is structured using an SQL relational database and use OpenRefine to clean a dataset generated from EMLO's women writer's correspondence catalogue
+- Before class, visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
+- Next, browse the results you see at [Early Modern Letters Online](https://emlo.bodleian.ox.ac.uk/forms/advanced?people_gend=female&start=0), which are filtered here to show only letters sent by, received by, or mentioning women
+- In class, we'll discuss how data from the EMLO project is structured using an SQL relational database and generate datasets for our Digital Tools 5 assignment
+- Introduction to [Digital Tools Assignnment #5]({{ site.baseurl }}/assignments)
 - **Digital Tools Assignment #4 due on GitHub on Friday, April 3 by 11:59 pm**
 
 
@@ -165,8 +166,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments due Thursday, April 9
 - Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
-- In class, we'll practice loading a newspaper dataset into Cytoscape to view network relationships
-- Introduction to [Digital Tools Assignnment #5]({{ site.baseurl }}/assignments)
+- Please download [OpenRefine](https://openrefine.org) and [Cytoscape](https://cytoscape.org) before class
+- In class, we'll practice refining our data scraped from EMLO and creating a simple network analysis using data on newspaper circulation
 
 
 ## Week 13: Mass Media and Politics
@@ -180,6 +181,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, April 16
 - Read the _Programming Historian_'s [Editing Audio with Audacity](https://programminghistorian.org/en/lessons/editing-audio-with-audacity)
 - In-class work with your women's correspondence datasets and Cytoscape
+- **Digital Tools 5 Assignment due on GitHub on Friday, April 17 at 11:59 pm**
 
 
 ## Week 14: Democracy in the Digital Age
@@ -193,7 +195,6 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
 - Before class, read ["Arab Spring Twitter data now available (sort of)"](https://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/)
 - In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Please read the README file.
-- **Digital Tools 5 Assignment due on GitHub on Friday, April 24 at 11:59 pm**
 
 ## Week 15: Wrap-Up Discussion & Podcast Prep
 ---

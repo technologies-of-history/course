@@ -4,10 +4,9 @@ title: Digital Tools 4
 permalink: /digitaltools4
 ---
 
-## Mapping History
+# Mapping History
 
-You’ve already explored [Google MyMaps](https://www.google.com/maps) in your second Digital Tools assignment. Now, for your fourth Digital Tools Assignment, you will use a different mapping tool to create 
-a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.arcgis.com) is a more robust platform for encoding information onto a geographical framework. For this assignment, you'll georeference an early printed map from [Old Maps Online](https://www.oldmapsonline.org/) and link geospatial data on a singular voyage of discovery (gathered from the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site) by creating and sharing your own ArcGIS Story Map.
+You’ve already embedded an interactive map in your second Digital Tools assignment. Now, for your fourth Digital Tools Assignment, you will use a more robust mapping tool to create a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.arcgis.com) is an online interface for creating Geographical Information Systems (GIS). GIS is a means of connecting data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). It does so by presenting data as layers that can be visualized on a base map. For this assignment, you'll create one of those layers by georeferencing an early printed map from [Old Maps Online](https://www.oldmapsonline.org/) to present geospatial data on a singular voyage of discovery (gathered from the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site) by creating and sharing your own ArcGIS Story Map.
 
 ## Step 1: Choose a Voyage Dataset & Find a Historical Map
 
@@ -33,7 +32,7 @@ a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.ar
 2. Create a new Story Map, titling it whatever seems best for your particular voyage of exploration. Click the plus sign to add an element and scroll down to select **Map Tour**. Select **Start from Scratch** and then select a **Map Focused Guided Tour**, the option on the top left.
 3. Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under **Select basemap** and select **Browse more maps**. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.
 4. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one a slide in the story. You'll add a location for a each slide, and upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage.
-5. Once you're finished with your StoryMap, you'll need to publish it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselct "Allow duplication" and "Show in Web Search Results."
+5. Once you're finished with your StoryMap, you'll need to **Publish** it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselct "Allow duplication" and "Show in Web Search Results."
 6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbat menu at the far right. Select **Embed this story** and then copy the code that appears.
 
 ## Step 4: Compose your post
