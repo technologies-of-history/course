@@ -58,8 +58,8 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments due Thursday, February 5
 - Before class, read Section 3.1 "A technical guide to Latin epigraphy," from Alison E. Cooley, _The Cambridge Manual of Latin Epigraphy_ (Cambridge: Cambridge University Press, 2012), pp. 327–335 [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma9975014790808721).]
-- Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select two epigraphic inscriptions to work with in class.
-- In class, we'll practice creating a [Google MyMaps](https://mymaps.google.com) from a CSV file of inscription locations 
+- Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select one epigraphic inscription and one Roman region to focus on for your digital tools assignment
+- In class, we'll generate a csv file of inscription locations in a Roman province and work to add geolocation data from [Pleiades](https://pleiades.stoa.org/places/)
 - Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2)
 
 
@@ -165,9 +165,10 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Jordan E. Taylor, "The Reign of Error: North American Information Politics and the French Revolution, 1789–1795" _The Journal of the Early Republic_ vol. 39, no. 3 (2019): 437–466. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_crossref_citationtrail_10_1353_jer_2019_0057).]
 
 ### Digital Assignments due Thursday, April 9
-- Search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
-- Please download [OpenRefine](https://openrefine.org) and [Cytoscape](https://cytoscape.org) before class
-- In class, we'll practice refining our data scraped from EMLO and creating a simple network analysis using data on newspaper circulation
+- Before class, search the newspapers digitized in the [Chronicling America](https://chroniclingamerica.loc.gov/) archive at the Library of Congress for the period 1789-1795. Find one news story relating to the French Revolution.
+- In class, we'll work with this newspaper [dataset](https://technologies-of-history.github.io/spring-2026-data/datasets/newspapers_revolutions.csv) to generate a network using [Palladio](https://hdlab.stanford.edu/palladio-app/#/upload)
+- Before class, please download [OpenRefine](https://openrefine.org) and [Cytoscape](https://cytoscape.org)
+- In class, we'll practice refining our data scraped from EMLO and structuring our data for import into Cytoscape
 
 
 ## Week 13: Mass Media and Politics

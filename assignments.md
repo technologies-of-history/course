@@ -25,7 +25,7 @@ Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools
 
 ### Digital Tools Assignment #2: Showing History
 
-In this assignment, students will produce a blog post that reflects on the presence of public writing across the Roman empire. Using geolocation data and images from the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/foto/suche), students will create a post discussing at least four surviving artifacts of Roman epigraphy and what these surviving artifacts suggest about Roman attitudes toward writing. This post will include an embedded [Google MyMaps](https://mymaps.google.com) depicting the original location of these artifacts, as well as an embedded [Mirador](https://projectmirador.org) IIIF viewer so that users can compare epigraphic images side-by-side.
+In this assignment, students will produce a blog post that reflects on the presence of public writing across the Roman empire. Using geolocation data and images from the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/foto/suche), students will create a post discussing at least four surviving artifacts of Roman epigraphy and what these surviving artifacts suggest about Roman attitudes toward writing. This post will include an embedded [LeafletJS Map](https://leafletjs.com) depicting the original location of these artifacts, as well as an embedded [Mirador](https://projectmirador.org) IIIF viewer so that users can compare epigraphic images side-by-side.
 
 Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools2).
 
@@ -39,16 +39,16 @@ Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools
 
 ### Digital Tools Assignment #4: Mapping History
 
-In this assignment, students will produce a blog post reflecting on how maps are interpretive pieces of communication that tell a particular story, whether that be a history of Mesoamerican conquest or European 'discovery.' The blog post will feature an interactive StoryMap made with a geocoded and “warped” 1569 map of the world by Gerard Mercator. This StoryMap should present geospatial data on one of the major sixteenth-, seventeenth-, or eighteenth-century voyages of European exploration drawn from the [dataset]( {{ site.baseurl }}/assets/datasets/ageofexploration.csv) made available by the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) project. Students will produce a narrative post explaining how their selected voyage brought different cultures into contact, and how that contact left its imprint on the geopolitical boundaries we see on the contemporary globe today.
+In this assignment, students will produce a blog post reflecting on how maps are interpretive pieces of communication that tell a particular story, whether that be a history of Mesoamerican conquest or European 'discovery.' The blog post will feature an interactive StoryMap made with a geocoded and “warped” 1569 map of the world by Gerard Mercator. This StoryMap should present geospatial data on one of the major sixteenth-, seventeenth-, or eighteenth-century voyages of European exploration drawn from the [dataset](https://technologies-of-history.github.io/spring-2026-data/datasets/ageofexploration.csv) made available by the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) project. Students will produce a narrative post explaining how their selected voyage brought different cultures into contact, and how that contact left its imprint on the geopolitical boundaries we see on the contemporary globe today.
 
-DRead detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools4).
+Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools4).
 
 
 ### Digital Tools Assignment #5: Networks and Knowledge
 
 In this assignment, students will produce a blog post analyzing the centrality of women within the early modern Republic of Letters, using datasets generated from [Early Modern Letters Online](https://emlo.bodleian.ox.ac.uk). This post will include a visualization of one decade's worth of correspondence involving women authors or recipients using Cytoscape, an open-access software for performing network analysis. The blog post should also contain a description and historical contextualization of at least one of the correspondents central to your network. Finally, students should articulate how their network expands our understanding of the materials, methods, actors, and ideas that gave rise to the period known as the Enlightenment.
 
-Detailed instructions and tutorials coming soon.
+Read detailed instructions with tutorials [here]({{ site.baseurl }}/digitaltools5).
 
 ## Final Evaluative Exercise
 

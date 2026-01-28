@@ -8,6 +8,8 @@ permalink: /digitaltools4
 
 You’ve already embedded an interactive map in your second Digital Tools assignment. Now, for your fourth Digital Tools Assignment, you will use a more robust mapping tool to create a visual and spatial historical narrative. [ArcGIS Online](http://tcugis.maps.arcgis.com) is an online interface for creating Geographical Information Systems (GIS). GIS is a means of connecting data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). It does so by presenting data as layers that can be visualized on a base map. For this assignment, you'll create one of those layers by georeferencing an early printed map from [Old Maps Online](https://www.oldmapsonline.org/) to present geospatial data on a singular voyage of discovery (gathered from the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site) by creating and sharing your own ArcGIS Story Map.
 
+We'll work together on Steps 1 and 2 of this assignment in class on Thursday, March 26. This assignment is due on GitHub by 11:59 pm on Friday, April 3.
+
 ## Step 1: Choose a Voyage Dataset & Find a Historical Map
 
 1. Select a dataset of voyage coordinates and dates relating to one early modern voyage (between 1450 and 1800) from the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site. You'll select your dataset from the **.csv** file that appears when you click **Dowload Data** at the top right of the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site.

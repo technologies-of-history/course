@@ -11,7 +11,7 @@ For this assignment, you'll be adding limited XML to a page of Middle English me
 
 I'll assign your page of text in class on Tuesday, February 17, and you'll work with your classmates on Thursday, February 19 to complete your transcription.
 
-**Note: Steps 1 and 2 of this Digital Tools Assignment are due March 6 at 11:59 pm; Steps 3 and 4 are due by March 13 at 11:59 pm**
+We'll work together on Steps 1 and 2 of this assignment on Thursday, February 19 and Thursday, February 26. Steps 1, 2, and 3 are due March 6 at 11:59 pm; Step 4 is due by March 13 at 11:59 pm.
 
 ## Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library
 
@@ -41,16 +41,16 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
 ## Step 1: Transcribe a page of a fifteenth-century manuscript
 
 1. First, visit the **dyngley_data** repository in our GitHub organization. Open the file named **iiif.xml**.
-2. You'll notice that each image of the manuscript has been given an xml id, which then corresponds to a folio number in the manuscript. For example, in this line of code 
+2. You'll notice that each image of the manuscript has been given an **xml id**, which then corresponds to a folio number in the manuscript. For example, in this line of code 
 `<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>` the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**, right at the beginning of this line of code. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
 3. Locate the line of code that corresponds to the folio number you've been assigned to transcribe (i.e, f007r, f007v, etc.). Note the **xml id** that corresponds to that folio number.
-4. Create a **.txt** file using a text editor or Google docs. In that **.txt file** transcribe the entire page of text you've been assigned. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript *exactly.* Where there are line breaks in the manuscript, return to the next line in your **.txt** file.
-5. Save the file using the following naming convention: **xmlid.txt.** For example, per the code snippet shown above, the .txt file I'd create to transcribe f001r of the manuscript would be named **f016.txt.**
+4. Create a **.txt** file using a text editor or Google docs and name the file **xmlid#.txt**. So, for example, the transcription page for f001r of the manuscript would be named **f016.txt**.
+5. In that **.txt file** transcribe the entire page of text you've been assigned. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript *exactly.* Where there are line breaks in the manuscript, return to the next line in your **.txt** file.
 
 
 ## Step 2: Mark-up your transcription with XML according to TEI heirarchies
 
-1. The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate .txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
+The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
 - `<title>`: denotes the title of a recipe
 - `<PersonName>`: exactly what it sounds like
 - `<term>`: these tags should be wrapped in `<ref>` tags, and they are uncommon. They indicate a word that should be included in an eventual glossary because they are unusual or unique.
@@ -59,15 +59,16 @@ I'll assign your page of text in class on Tuesday, February 17, and you'll work 
 - `<time>`: indicates when a length of time is referenced in the recipe 
 
 Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
-2. Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
+
+Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
 
 
 ## Step 3: Submit your transcription with a pull request
 1. Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the **dyngley-data** repository in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
-2. Just as we did with the **spring-2026** repository, you'll fork the **dyngley-data** repository into your own account. Next, locate the **transcriptions** folder within that forked repository. Click **Add file** and upload your **.txt** file with your transcription and XML. 
-3. Finish by submitting a pull request to the **technologies-of-history/dyngley-data** repository. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
+2. Just as we did with the **spring-2026** repository, you'll create a new branch in the **dyngley-data** repository named **lastname-dt3**. Next, locate the **transcriptions** folder within that branch. Click **Add file** and upload your **.txt** file with your transcription and XML. 
+3. Finish by submitting a pull request to the **main** branch of the **dyngley-data** repository. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
-**Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer!*
+**Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer who wrote the program!*
 
 ## Step 4: Explain yourself
 
