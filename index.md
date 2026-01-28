@@ -97,8 +97,9 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments due Thursday, February 26
 - In class, we'll return to the recipe for [Counterfeit Coral](https://edition640.makingandknowing.org/#/essays/ann_015_sp_15) in _Secrets of Craft and Nature_ to see how that recipe is encoded with XML
+- Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
 - Introduction to basic TEI thanks to the [Women Writers Project](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml)
-- In class, we'll work through your transcriptions to add XML tags according to the standards of TEI
+- In class, we'll go over your transcriptions of TCC MS O.8.35 and begin to add XML tags according to TEI standards
 
 
 ## Week 8: Print and XML
@@ -106,14 +107,13 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings due Tuesday, March 3
 - Kai-wing Chow, “Reinventing Gutenberg: Woodblock and Movable-Type Printing in Europe,” in _Agent of Change: Print Culture Studies after Elizabeth L. Eisenstein_ (Amherst: University of Massachusetts Press, 2007), pp. 169–192. [Available on [D2L](https://tcu.brightspace.com.)]
-- ELizabeth Eisenstein, "In the Wake of the Printing Press" _The Quarterly Journal of the Library of Congress_ Vol. 35, no. 3 (July 1978): 183–197. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_webofscience_primary_A1978FQ22100003CitationCount)]
+- Elizabeth Eisenstein, "In the Wake of the Printing Press" _The Quarterly Journal of the Library of Congress_ Vol. 35, no. 3 (July 1978): 183–197. [Available from the [TCU Library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_webofscience_primary_A1978FQ22100003CitationCount)]
 - Anthony Grafton, "The Importance of Being Printed," _Journal of Interdisciplinary Studies_ (Autumn 1980): 265–286. [Available from the [TCU library](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_proquest_journals_1300202571).]
 
 ### Digital Assignments due Thursday, March 5
-- Read David Birnbaum, [“What is XML and why should humanists care? An even gentler introduction to XML.”](http://dh.obdurodon.org/what-is-xml.xhtml) STOP READING at “Entities and numerical character references”
 - View the copy of Thomas Tusser's _Points of Good husbandrie_ held at Princeton University Library and annotated by Gabriel Harvey at [The Archaeology of Reading](https://archaeologyofreading.org/bibliography/Harvey-corpus/Tusser)
 - In class, we'll view the XML data for each of the pages of the book annotated by Harvey, downloaded from the AOR, as well as the XML file generated for the Dyngley edition, in the [dyngley-data repository](https://github.com/technologies-of-history/dyngley-data) in our course GitHub organization
-- In class, we'll finalize your **.txt** files with your transcriptions and XML tags
+- In class, we'll work through the process of merging your transcriptions into the XML file for [Old Books, New Attitudes](https://technologies-of-history.github.io/dyngley-edition)
 - **Digital Tools 3 Assignment Part I due on GitHub by Friday, March 6 by 11:59 pm**
 
 
