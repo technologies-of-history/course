@@ -85,7 +85,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Digital Assignments due Thursday, February 19
 - Visit the [Princeton Geniza Project](https://geniza.princeton.edu/) and explore the project by searching the Project’s Digital Document Library and JTS Image Collection.
-- In class, browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions for an XML-encoded digital edition. Choose which page from the manuscript you want to transcribe (folio 6r or later), and be sure you're not working on the same page as a classmate. Begin to work through your transcription with a partner.
+- In class, browse the EditionCrafter site [Old Books, New Science](https://technologies-of-history.github.io/dyngley-edition) to which you'll be contributing transcriptions for an XML-encoded digital edition. Begin working on the page of the manuscript you're been assigned to transcribe (folio 6r or later), following the directions outlined in your [Digital Tools Assignment #3](/digitaltoolds3). Partner with a classmate so the two of you can check each other's transcriptions. Two sets of eyes is better than one!
 - **Digital Tools 2 Assignment due on GitHub on Friday, February 20, by 11:59 pm**
 
 ## Week 7: Writing and Making with TEI
