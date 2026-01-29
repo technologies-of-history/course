@@ -7,7 +7,7 @@ permalink: /digitaltools1
 
 By now you've created a [GitHub](https://github.com) account, practiced opening a repository, making changes to a file, making a pull request, and merging branches. You've followed the [Markdown lesson](https://programminghistorian.org/en/lessons/getting-started-with-markdown) on the Programming Historian, so you know how to style your text files with Markdown syntax. We've practiced authoring Markdown files in class, but now it's time to do it on your own and create content for our course blog. You'll be following these same steps to create and submit the rest of your Digital Tools assignments, so it's very important for you to get the hang of these basic steps now.
 
-This assignment is due to GitHub by 11:59 pm on Friday, January 30.
+This assignment is due to GitHub by 11:59 pm on Friday, February 6.
 
 ## Step 1: Think about downloading a text editor
 

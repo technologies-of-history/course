@@ -45,7 +45,6 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, January 29
 - Before class, visit the [Cuneiform Digital Library](https://cdli.earth) and search for a *translated* cuneiform tablet. A good way to find a tablet that’s been translated is to run an “Advanced Search” and in the "Translation" search box under "Inscriptional Data," type a single word. Use your imagination to think about what sorts of words or terms might be preserved on a cuneiform tablet, and come to class prepared to discuss your tablet.
 - Before class, visit the [Machine Translation and Automated Analyses of Cuneiform Languages](https://cdli-gh.github.io/mtaac/) and read their About page. Think about what it means to make a computer read ‘human’ languages, and what it means for humans to try to ‘read’ computer languages. We'll browse their GitHub repos with code for machine translation in class.
-- **Digital Tools Assignment 1 due on GitHub on Friday, January 30, by 11:59 pm**
 
 
 ## Week 4: Roman Epigraphy & Geolocation
@@ -61,6 +60,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, visit the [Epigraphic Database Heidelberg](https://edh.ub.uni-heidelberg.de/projekt/konzept) and select one epigraphic inscription and one Roman region to focus on for your digital tools assignment
 - In class, we'll generate a csv file of inscription locations in a Roman province and work to add geolocation data from [Pleiades](https://pleiades.stoa.org/places/)
 - Introduction to [Digital Tools Assignment 2]({{ site.baseurl }}/digitaltools2)
+- **Digital Tools Assignment 1 due on GitHub on Friday, February 6, by 11:59 pm**
 
 
 ## Week 5: Sacred Books & Illustrated Websites with IIIF
