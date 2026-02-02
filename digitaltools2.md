@@ -111,8 +111,8 @@ Where you see "URLforyourmanifest.json" again, copy-and-paste the URL for the II
 
 Before, after, or in between your map and image viewer, compose 3-4 paragraphs in Markdown responding to the following prompts:
 - Describe your chosen inscription, including what we know about what it says, when it was written, where, and by whom. 
-- What does your map of surviving inscriptions reveal about Roman attitudes toward public writing? 
-- Finally, how do you think digital tools like high-res imaging and digital mapping change how the public understands the role of writing in Roman society?
+- What does your map of surviving inscriptions reveal about Roman attitudes toward public writing in stone? 
+- Finally, referring to MacMullen's article on the "epigraphic habit" in Rome, do you think digital tools like high-res imaging and digital mapping change how the public understands the presence of epigraphy in Roman society?
 
 **Commit your changes and move to the next step!**
 
