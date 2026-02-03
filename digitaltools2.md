@@ -188,6 +188,6 @@ If your map doesn't look the way you want it to, or your IIIF isn't loading, you
 
 1. Once you've **Committed changes...** in your **lastname-dt2** branch, you'll need to initiate a pull request to the **master** branch of the **technologies-of-history/spring-2026** repository. Don't do so until you're sure you've got your post exactly as you want it!
 2. When you do initiate a pull request, be sure that your branch is the **head** and the **master** branch is **base**.
-4. Name your pull request **Digital Tools 2** and then click **Create pull request**.
+3. Name your pull request **Digital Tools 2** and then click **Create pull request**.
 
 Ok, that's it! You're done!
