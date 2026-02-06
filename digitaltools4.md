@@ -38,7 +38,7 @@ We'll work together on Steps 1 and 2 of this assignment in class on Thursday, Ma
 6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbat menu at the far right. Select **Embed this story** and then copy the code that appears.
 
 ## Step 4: Compose your post
-1. Create a Markdown file according to our course protocols (fork or open the **spring-2026** repository in your personal account, locate the **_posts** folder, and create or upload a file named **YYY-MM-DD-Your Title.md.**)
+1. Create a Markdown file according to our course protocols (fork or open the **spring-2026** repository in your personal account, locate the **_posts** folder, and create or upload a file named **YYY-MM-DD-Your Title.md.**) *Note: Do not name your file Digital Tools 4. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
 2. Compose a 4-5 paragraph post responding to the following question:
 - What boyage of exploration did you choose and why?
 - How does your historical map reflect the scope of geographic knowledge, navigational skill, and cartographic expertise at the time of your chosen voyage?

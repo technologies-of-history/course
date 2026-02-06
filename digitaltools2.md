@@ -29,9 +29,8 @@ There are a lot of steps here, I know, but we'll work together on Steps 1 and 2 
 
 1. In the previous assignment, you forked our **spring-2026** repository into your **personal** GitHub account to write your assignment and then generate a pull request. For this assignment, you're going to work directly within the **technologies-of-history/spring-2026** repository so that you can try out GitHub's CodeSpaces to check your work.
 2. In our **technologies-of-history/spring-2026** repository, create a new branch called **lastname-dt2**. In that branch, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md** with the appropriate YAML header.
-3. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. 
+3. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. *Note: Do not name your file Digital Tools 2. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
 
-*The first few lines of this code tell the browser to import Leaflet's CSS style sheet and JavaScript code from the web. These lines are all written in HTML. Below those first few lines of HTML, the `<script>` tag tells your browser that what follows is JavaScript, which you'll customize to render the Leaflet map.*
 
 ```
 <html>
@@ -51,6 +50,7 @@ var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openP
 </div>
 </html>
 ```
+*The first few lines of this code tell the browser to import Leaflet's CSS style sheet and JavaScript code from the web. These lines are all written in HTML. Below those first few lines of HTML, the `<script>` tag tells your browser that what follows is JavaScript, which you'll customize to render the Leaflet map.*
 
 **Once you've got this code in your Markdown post, you'll change the following bits:**
 

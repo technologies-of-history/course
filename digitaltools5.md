@@ -102,7 +102,7 @@ From this point on, you'll be on your own to structure the data appropriately. Y
 
 ## Step 9: Embed your network visualization in your post
 
-1. It's now time to create your Markdown file to draft your post. Use our usual workflow: create a new branch named **lastname-dt5** in our **spring-2026** repository, navigate to **_posts**, add a new file with the appropriate naming conventions and YAML header.
+1. It's now time to create your Markdown file to draft your post. Use our usual workflow: create a new branch named **lastname-dt5** in our **spring-2026** repository, navigate to **_posts**, add a new file with the appropriate file naming conventions and YAML header. *Note: Do not name your file Digital Tools 5. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
 2. Go ahead and paste the following code snippet into the body of the Markdown file:
 
 ```
@@ -115,7 +115,7 @@ From this point on, you'll be on your own to structure the data appropriately. Y
 </html>
 ```
 
-You'll need to update the third and fourth lines of code so that `lastname_networks.js` reflects the actual name of your two JavaScript files. Once you do, you're welcome to check that your JavaScript is loading correctly by opening a Codespace and serving the **spring-2026** repository virtually. If all has gone well, your network should look something like this:
+You'll need to update the first and second lines of code so that `lastname_networks.js` reflects the actual name of your two JavaScript files. Once you do, you're welcome to check that your JavaScript is loading correctly by opening a Codespace and serving the **spring-2026** repository virtually. If all has gone well, your network should look something like this:
 
 **A Parisian Republic of Women**
 <html>
