@@ -27,5 +27,4 @@ This repository contains the syllabus, assignments, and policies for HIST 30693:
 - [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/)
 - [Early Modern Letters Online](https://emlo.bodleian.ox.ac.uk/)
 - [Chronicling America](https://chroniclingamerica.loc.gov/)
-- 
 
