@@ -197,10 +197,12 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read ["Arab Spring Twitter data now available (sort of)"](https://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/)
 - In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Please read the README file.
 
-## Week 15: Wrap-Up Discussion & Podcast Prep
+## Week 15: AI, the Final Revolution?
 ---
 ### Peer Review of Final Podcasts due Tuesday, April 28
-No readings this week, but come prepared with an outline of your final podcast script for peer review.
+- Read [AI Slopaggedon and the OSS Maintainers](https://redmonk.com/kholterhoff/2026/02/03/ai-slopageddon-and-the-oss-maintainers/), _RedMonk_, Feb. 3, 2026
+- Read [AI is Coming for the Past, too](https://www.nytimes.com/2024/01/28/opinion/ai-history-deepfake-watermark.html?unlocked_article_code=1.LFA.hy9-.lZxNO0vwBoNd&smid=url-share), _New York Times Opinion_, Jan. 28, 2024
+- Come prepared with an outline of your final podcast script for peer review.
 
 
 
