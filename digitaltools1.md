@@ -27,7 +27,7 @@ local development environment, then you will want to use a text editing program 
 5. Click on the **2025-12-07-welcome-to-technologies-of-history.md** file in your GitHub repository, and then click on the pencil icon in the upper right to edit the file. You should now see the post written in Markdown with a header at the top that looks like this:
 
  ```
-----
+---
 layout: post
 author: Melissa Reynolds
 title: Welcome to Our Course
