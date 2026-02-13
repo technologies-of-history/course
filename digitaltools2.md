@@ -110,9 +110,9 @@ Where you see "URLforyourmanifest.json" again, copy-and-paste the URL for the II
 ## Step 5: Compose your post
 
 Before, after, or in between your map and image viewer, compose 3-4 paragraphs in Markdown responding to the following prompts:
-- Describe your chosen inscription, including what we know about what it says, when it was written, where, and by whom. 
-- What does your map of surviving inscriptions reveal about Roman attitudes toward public writing in stone? 
-- Finally, referring to MacMullen's article on the "epigraphic habit" in Rome, do you think digital tools like high-res imaging and digital mapping change how the public understands the presence of epigraphy in Roman society?
+- Describe your chosen inscription, including what we know about its location and its date. Can you make out any of the letters? 
+- What might your map of surviving inscriptions tell us about the way Roman people practiced the "epigraphic habit"? Do you find inscriptions in towns, villas, or on monuments? (You may want to look again at [Pleiades](https://pleiades.stoa.org/places/) to see what sort of ancient sites you're working with.)
+- Finally, referring to MacMullen's article on the "epigraphic habit" in Rome, do you think digital tools like high-res imaging and digital mapping change how historians might interpret the rise and fall of the "epigraphic habit" in Roman society?
 
 **Commit your changes and move to the next step!**
 
