@@ -69,7 +69,8 @@ In the Google doc you've created, you will transcribe the entire page you've bee
 ## Step 2: Mark-up your transcription with XML according to TEI heirarchies
 
 The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
-- `<title>`: denotes the title of a recipe
+- `<head>`: denotes a title that is *separate* from the block of text
+- `<title>`: denotes a title that is in-line with the block of text
 - `<PersonName>`: exactly what it sounds like
 - `<term>`: these tags should be wrapped in `<ref>` tags, and they are uncommon. They indicate a word that should be included in an eventual glossary because they are unusual or unique.
 - `<supplied>`: should be used when *you* add something to the transcription that isn't entirely indicated in the manuscript. These are uncommon tags, and you do not add then when you simply extend a common abbreviation. 
