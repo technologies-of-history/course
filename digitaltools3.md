@@ -47,8 +47,8 @@ Each of you is assigned one page of the manuscript to transcribe for your this d
 
 In the Google doc you've created, you will transcribe the entire page you've been assigned.  You'll be sure to hit enter to create a line break whenever there's a line break in the manuscript. You'll also be sure to mirror the spelling and punctuation that you see *exactly*. This will be difficult! The best way to get better is to keep trying. I encourage you to try your best to get a rough draft, then swap with a partner and have them read what you've done and offer suggestions.
 
-| **Student** | **Manuscript Page** | **XML ID** |
-| :--- | ---: | ---: |
+| **Student** | **Page** | **XML ID** |
+| :--- | :---: | ---: |
 | Jane Allinger | f. 64r | f142 |
 | Fiona Corrigan | f. 64v | f143 |
 | Camila Erazo | f. 65r | f144 |
