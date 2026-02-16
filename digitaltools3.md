@@ -43,12 +43,12 @@ We'll work together on Steps 1 and 2 of this assignment on Thursday, February 19
 First, visit the **dyngley_data** repository in our GitHub organization. Open the file named **dyngley.xml**. You'll notice that each image of the manuscript has been given an **xml id**, which then corresponds to a folio number in the manuscript. For example, in this line of code 
 `<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>` the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**, right at the beginning of this line of code. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
 
-Each of you is assigned one page of the manuscript to transcribe for your this digital tools assignment. Consult the table below to find your assigned page and the correspinding XML ID that matches that page. To begin transcribing your page of the manuscript, open a Google doc and name your doc **fxmlid** (so, for example, folio 1r of the manuscript, referenced above, would be titled **f016**). 
+Each of you is assigned one page of the manuscript to transcribe for your this digital tools assignment. Consult the table below to find your assigned page and the correspinding XML ID that matches that page. To begin transcribing your page of the manuscript, open a Google doc and name your doc the **xmlid** that appears in the table below. So, for example, referencing the table of assignments below, the first page in the table (f. 64r) would be transcribed in a Google doc named **f142**. 
 
 In the Google doc you've created, you will transcribe the entire page you've been assigned.  You'll be sure to hit enter to create a line break whenever there's a line break in the manuscript. You'll also be sure to mirror the spelling and punctuation that you see *exactly*. This will be difficult! The best way to get better is to keep trying. I encourage you to try your best to get a rough draft, then swap with a partner and have them read what you've done and offer suggestions.
 
-| **Student** | **Page** | **XML ID** |
-| :--- | :---: | ---: |
+| **Student**   | **Page**   | **XML ID** |
+| :--- | :---: | ------: |
 | Jane Allinger | f. 64r | f142 |
 | Fiona Corrigan | f. 64v | f143 |
 | Camila Erazo | f. 65r | f144 |
