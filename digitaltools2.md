@@ -28,8 +28,8 @@ There are a lot of steps here, I know, but we'll work together on Steps 1 and 2 
 ## Step 3: Create your map with LeafletJS
 
 1. In the previous assignment, you forked our **spring-2026** repository into your **personal** GitHub account to write your assignment and then generate a pull request. For this assignment, you're going to work directly within the **technologies-of-history/spring-2026** repository so that you can try out GitHub's CodeSpaces to check your work.
-2. In our **technologies-of-history/spring-2026** repository, create a new branch called **lastname-dt2**. In that branch, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md** with the appropriate YAML header.
-3. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. *Note: Do not name your file Digital Tools 2. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
+2. In our **technologies-of-history/spring-2026** repository, create a new branch called **lastname-dt2**. In that branch, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md** with the appropriate YAML header. *Note: Do not name your file Digital Tools 2. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
+3. To embed a Leaflet map into your post, you'll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in `<html>` tags. 
 
 
 ```
@@ -72,7 +72,6 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
 2. First, click the link to open the **IIIF manifest** for your chosen inscription. You'll find a link to the IIIF manifest for each inscription in the page you opened by clicking the **HD number** for your inscription.
 2. Next, you'll add the following snippet of code into your Markdown post, again with the `<html>` tags wrapping the code. 
 
-*Again, the first few lines of this code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality. Below that, following* `<script>`*, is the JavaScript code to create the Mirador viewer in your post.*
 
 ```
 <html>
@@ -97,6 +96,8 @@ You'll repeat this line of code (with updated lat/long and placename) for every 
 </div>
 </html>
 ```
+*Again, the first few lines of this code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality. Below that, following* `<script>`*, is the JavaScript code to create the Mirador viewer in your post.*
+
 **Once you've got the code in your Markdown post, you'll need to update the following bits:**
 
 `manifests: { "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }`  
