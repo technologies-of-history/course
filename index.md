@@ -81,7 +81,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings due Tuesday, February 17
 - Marina Rustow, _The Lost Archive: Traces of a Caliphate in a Cairo Synagogue_ (Princeton, 2020), 1–13, 55–82. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/89vabc/cdi_jstor_books_10_2307_j_ctvhn0bwn).] **Note**: Stop reading the introduction at p.13 and continue on to Chapter 2.
-- Introduction to [Digital Tools Assignment #3](/digitaltoolds3)
+- Introduction to [Digital Tools Assignment #3]({{ site.baseurl }}/digitaltoolds3)
 
 ### Digital Assignments due Thursday, February 19
 - Visit the [Princeton Geniza Project](https://geniza.princeton.edu/) and explore the project by searching the Project’s Digital Document Library and JTS Image Collection.

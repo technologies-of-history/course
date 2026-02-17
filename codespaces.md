@@ -11,19 +11,23 @@ On the far left of the page, you'll see a vertical menu that contains six icons,
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespace1.jpg){:width="300px" .center-image}
 
+
 Click the **file icon** at the top of this vertical menu, and you'll see the file structure of your branch of the **spring-2026** repository. If you click the **_posts** folder, you'll see your draft of the post for this digital tools assignment. Click on that Markdown file, and you'll see all of your code.
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces2.jpg){:width="300px" .center-image}
 
+## Step 2: Open a virtual terminal & serve the site virtually
 To check to see if you did everything correctly, we're going to bring up the **virtual terminal** to use the **command line**. At the top right, you'll see a series of boxes with dividers, which dictate which menus are showing in your VS Code interface. 
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces3.jpg){:width="800px" .center-image}
 
-If it isn't already selected, click the box divided horizontally down the middle to bring up your terminal. You'll see a new interface appear at the bottom of your browser window with a line of text that reads like this:
+
+If it isn't already selected, click the box divided horizontally across the middle to bring up your terminal. You'll see a new interface appear at the bottom of your browser window with a line of text that reads like this:
 `@yourusername -> /workspaces/spring-2026 (lastname-dt2) $` This line tells you that your terminal is open in the **spring-2026** repository and in your **lastname-dt2** branch, so any commands you execute will be performed in this repository and on this branch. This is what we want! Type the command `jekyll serve` after the dollar sign and hit enter.
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces4.jpg){:width="800px" .center-image}
 
+ 
  You'll get some warnings about deprecated sass (ignore these), but note the **pop-up window** that appears at the bottom right of your browser window. Click **Open in browser**, and you've now been taken you to a url that loads our course blog on locally on your machine.
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces5.jpg){:width="800px" .center-image}
@@ -32,8 +36,34 @@ You may see the 404 page at first, and that's fine. Click the site title and you
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces6.jpg){:width="800px" .center-image}
 
-If it doesn't look the way you want it to, return to the CodeSpace you've got open in another tab. See if you can identify the problem. Tweak your code, then hit **Command+S** (for Mac users) or **Conrtol+S** (Windows users). The server will automatically refresh the site build. You'll just navigate back over the tab where you were viewing the post and click refresh to see your changes appear on the page.
 
-9. Once you're happy with how your post looks, you'll need **Commit** any changes you made to your code. Return to the Codespace that's open in your browswer tab and click the **Network** icon at the far left vertical menu. This will bring up a list of all the files that have changed since you opened the repository. You'll see lots of files with names that just look like strings of numbers; these are the temporary files generated to build the site, and you should **ignore** those. 
-10. Scroll down until you find the filename of your blog post, **YYYY-MM-DD-Your title..md**. Right click that filename and select **Stage changes**. Once you do, you'll see that file move above all the others, underneath a box for you to type in your **Commit message**. Type in your message, and click **Commit.**
-11. Finally, tell the Jekyll site builder to stop serving your site by clicking somewhere in the terminal window at the bottom of your Codespaces window (the cursor should go solid blue when you do) and typing **Control+C**. Jekyll will stop serving your site now. You can close the Codespaces browswer window and the browswer window you were using to view your blog post. Your very last step is to click the green **Code** button at the top of our **spring-2026** repository and select **Codespaces** if it's not already open. Click the three dots to the right and select **Delete codespace.**
+## Step 3: Make any necessary changes in your CodeSpace
+If your post doesn't look the way you want it to, return to the CodeSpace VS Code interface you've got open in another tab. Take a look at your Markdown file for this assignment and see if you can identify the problem. Tweak your code, then key in **Command+S** (for Mac users) or **Conrtol+S** (Windows users). 
+
+The server will automatically refresh the site build every time you save changes to that file. You don't need to commit those changes *yet*, since at this point you're working to see if you can get your code the way you want it. Every time you make a change and save it, you'll just navigate back over to the tab where you are serving our site virtually, and refresh the page to see your changes appear in your post.
+
+![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces7.jpg){:width="800px" .center-image}
+
+## Step 4: Stop serving the site & commit your changes
+Once you're happy with how your post looks, you'll want to stop serving your post virtually to the web. In the Terminal window at the bottom half of your screen, type **Control+C** to stop the `jekyll serve` command.
+
+Finally, you'll need **Commit** any changes you made to your Markdown post file. Click the **Network** icon at the far left vertical menu. This will bring up a list of all the files that have changed since you opened the repository. 
+
+| | |
+| --- | --- |
+|![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces8.jpg){:height="500px" .center-image} | ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces9.jpg){:height="500px" .center-image} |
+
+
+You'll see lots of files with names that just look like strings of numbers; these are the temporary files generated to build the site, and you should **ignore** those. Scroll down to the bottom of that list of files with weird names, and you should see your post file **YYYY-MM-DD-Your title here.md** in the list. Right click the file name, and in the menu that appears, click **Stage Changes.**
+
+| | |
+| --- | --- |
+| ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces10.jpg){:height="500px"} | ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces11.jpg){:height="500px"} |
+
+Now, when you scroll back up to the top of that long list of changed files, you should see your post **YYYY-MM-DD-Your title.md** under the header **Staged Changes.** That means it's **staged** for you to commit the file to your repository. Type your commit message in the blank window above the **Staged Changes** header, and then click the **Commit** button. 
+
+![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces12.jpg){:width="300px" .center-image}
+
+
+
+That's it! You can close out of the virtual CodeSpace browser tab and the one you were using to view your post as you worked on it. Your very last step is to return to the [regular GitHub page](https://github.com/technologies-of-history/spring-2026). Make sure you've got your **lastname** branch selected. Click the green **Code** button at the top right and select **Codespaces** if it's not already open. Finally, click the three dots to the right and select **Delete codespace.**
