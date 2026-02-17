@@ -56,6 +56,10 @@ This course has emphasized how digital tools and technologies facilitate differe
 
 Detailed instructions with tutorials coming soon.
 
+
+**Instructions for using GitHub CodeSpaces to check your work on *most* of these assignments can be found [here]( {{ site.baseurl }}/codespaces).**
+
+
 ## Submission Information
 **Remember**: All ssignments will be submitted via a pull request in our course GitHub repository. Your in-class reading responses will be submitted to our course D2L.
 

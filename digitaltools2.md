@@ -119,7 +119,7 @@ Before, after, or in between your map and image viewer, compose 3-4 paragraphs i
 
 ## Step 6: Check that your post looks the way it should
 
-The beauty of working directly in our GitHub organization repository is that you can use GitHub CodeSpaces to check your JavaScript before you submit your pull request. This is particularly helpful when you're importing bits of code that aren't Markdown into your post, because the default GitHub preview won't read those bits and render them the way a web browswer will. What you want are maps and Mirador viewers that look something like this:
+The beauty of working directly in our GitHub organization repository is that you can use [GitHub CodeSpaces]( {{ site.baseurl }}/codespaces) to check your JavaScript before you submit your pull request. This is particularly helpful when you're importing bits of code that aren't Markdown into your post, because the default GitHub preview won't read those bits and render them the way a web browswer will. What you want are maps and Mirador viewers that look something like this:
 
 **LeafletJS Map of Roman Aquitania**
 <html>
