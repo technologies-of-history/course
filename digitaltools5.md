@@ -115,7 +115,7 @@ From this point on, you'll be on your own to structure the data appropriately. Y
 </html>
 ```
 
-You'll need to update the first and second lines of code so that `lastname_networks.js` reflects the actual name of your two JavaScript files. Once you do, you're welcome to check that your JavaScript is loading correctly by opening a Codespace and serving the **spring-2026** repository virtually. If all has gone well, your network should look something like this:
+You'll need to update the first and second lines of code so that `lastname_networks.js` reflects the actual name of your two JavaScript files. Once you do, you're welcome to check that your JavaScript is loading correctly by opening a Codespace and serving the **spring-2026** repository virtually. Find the instructions for using GitHub codespaces [here]({{ site.baseurl }}/codespaces). If all has gone well, your network should look something like this:
 
 **A Parisian Republic of Women**
 <html>
