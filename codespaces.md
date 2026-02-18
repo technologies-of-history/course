@@ -64,6 +64,12 @@ Now, when you scroll back up to the top of that long list of changed files, you 
 
 ![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces12.jpg){:width="300px" .center-image}
 
+Now that you've committed your changes, you need to sync them with your branch. To do that, run your mouse over the **Changes** menu beneath the blank space for your commit message. A set of icons will appear on the right. Click the icon that looks like an arrow curving to the left to **Discard Changes** (remove all those temporary files you don't need.) You'll see a pop-up menu asking you if you're sure. Click **Discard all [##] files**.
 
+![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces14.jpg){:width="300px" .center-image}
 
-That's it! You can close out of the virtual CodeSpace browser tab and the one you were using to view your post as you worked on it. Your very last step is to return to the [regular GitHub page](https://github.com/technologies-of-history/spring-2026). Make sure you've got your **lastname** branch selected. Click the green **Code** button at the top right and select **Codespaces** if it's not already open. Finally, click the three dots to the right and select **Delete codespace.**
+Now, the blue button that once read **Commit** should read **Sync Changes**. Click that button and you'll see a pop-up menu confirming you want to push/pull to and from your branch. Agree to that, and you're all done!
+
+![Screenshot of virtual VS Code in GitHub Codespaces]( {{ site.baseurl }}/assets/images/codespaces15.jpg){:width="300px" .center-image}
+
+You can close out of the virtual CodeSpace browser tab and the one you were using to view your post as you worked on it. Your very last step is to return to the [regular GitHub page](https://github.com/technologies-of-history/spring-2026). Make sure you've got your **lastname** branch selected. Click the green **Code** button at the top right and select **Codespaces** if it's not already open. Finally, click the three dots to the right and select **Delete codespace.**
