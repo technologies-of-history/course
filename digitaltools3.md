@@ -60,9 +60,9 @@ In the Google doc you've created, you will transcribe the entire page you've bee
 | Aiden Reed | f. 68r | f150|
 | Keilah Scott | f. 68v | f151 |
 | David Smith | f. 69r | f152 |
-| Andrew Stillwell | f. 69v | f153 |
-| Hailey Stuart | f. 70r | f154 |
-| Katie Tovar | f. 70v | f155 |
+| Andrew Stillwell | f. 69v, f. 70v | f153, f155 |
+| Hailey Stuart | f. 71v | f157 |
+| Katie Tovar | f. 72r | f158 |
 | Vivian Velasquez | f. 71r | f156 |
 
 
