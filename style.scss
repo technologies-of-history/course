@@ -26,12 +26,12 @@ html {
 
 body {
 	background: #fff;
-  font: 18px/1.2 Helvetica, Arial, sans-serif;
+  font: 1.2rem/1.4 Helvetica, Arial, sans-serif;
   color: #333;
   font-weight: 300;
 
   @include mobile {
-    font-size: 14px;
+    font-size: 1rem;
   }
 }
 
@@ -61,22 +61,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 2rem;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 1.8rem;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 1.6rem;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 1.2rem;
   color: #666;
 }
 
@@ -220,12 +220,12 @@ img {
   text-decoration-line: #333 1px solid;
   cursor: pointer;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 36px;
+  font-size: 2.1rem;
   text-transform: uppercase;
   letter-spacing: 1px;
 
   @include mobile {
-    font-size: 28px;
+    font-size: 1.9rem;
     font-weight: 300;
     text-align: right;
   }
@@ -236,7 +236,7 @@ img {
   margin: -5px 0 0 0;
   color: #333;
   text-align: right;
-  font-size: 18px;
+  font-size: 1.2rem;
   font-weight: lighter;
 
   @include mobile {
@@ -265,7 +265,7 @@ img {
     border-left: 2px solid #666;
     padding: 0.1em 1em;
     color: #666;
-    font-size: 22px;
+    font-size: 1.2rem;
     font-style: italic;
   }
 
@@ -275,7 +275,7 @@ img {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 1rem;
   }
 }
 
@@ -288,7 +288,7 @@ img {
 footer {
   padding: 30px 80px 10px 20px;
   text-align: center;
-  font-size: 12px;
+  font-size: 0.8rem;
 
   @include mobile {
     font-size: 9px;
