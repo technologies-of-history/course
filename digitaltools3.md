@@ -91,8 +91,9 @@ Check the order and hierarchy of your code. Are all open elements closed again? 
 
 ## Step 4: Explain yourself
 
-1. Create a Markdown file following our course protocols (open or fork the **spring-2026** repository in your account, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header. *Note: Do not name your file Digital Tools 3. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
-2. Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Set off your mark-up with triple ticks so that it will show up as code in yout post.
+1. Create a Markdown file following our course protocols (create a new branch in the **spring-2026** repository named **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header.  
+*Note: Do not name your file Digital Tools 3. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
+2. Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Next, link to the page in the[digital critical edition](https://technologies-of-history.github.io/dyngley-edition) featuring your transcription. You'll want to refer to these when answering the questions below.
 3. In the same .md file, write a 3-4 paragraph blog post responding to the following questions:
 
 - What recipes were in your transcription?
