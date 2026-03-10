@@ -40,12 +40,9 @@ We'll work together on Steps 1 and 2 of this assignment on Thursday, February 19
 
 ## Step 1: Transcribe a page of a fifteenth-century manuscript
 
-First, visit the **dyngley_data** repository in our GitHub organization. Open the file named **dyngley.xml**. You'll notice that each image of the manuscript has been given an **xml id**, which then corresponds to a folio number in the manuscript. For example, in this line of code 
-`<surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" ><label>f001r</label><graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/></surface>` the folio number of the manuscript is **f001r** (shown at the end of the URL), while the xml id that has been assigned to that folio is **f016**, right at the beginning of this line of code. That's because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.
-
 Each of you is assigned one page of the manuscript to transcribe for your this digital tools assignment. Consult the table below to find your assigned page and the correspinding XML ID that matches that page. To begin transcribing your page of the manuscript, open a Google doc and name your doc the **xmlid** that appears in the table below. So, for example, referencing the table of assignments below, the first page in the table (f. 64r) would be transcribed in a Google doc named **f142**. 
 
-In the Google doc you've created, you will transcribe the entire page you've been assigned.  You'll be sure to hit enter to create a line break whenever there's a line break in the manuscript. You'll also be sure to mirror the spelling and punctuation that you see *exactly*. This will be difficult! The best way to get better is to keep trying. I encourage you to try your best to get a rough draft, then swap with a partner and have them read what you've done and offer suggestions.
+In the Google doc you've created, you will transcribe the entire page you've been assigned. Be sure to hit enter to create a line break whenever there's a line break in the manuscript. You'll also be sure to mirror the spelling and punctuation that you see *exactly*. This will be difficult! The best way to get better is to keep trying. I encourage you to try your best to get a rough draft, then swap with a partner and have them read what you've done and offer suggestions.
 
 | **Student**   | **Page**   | **XML ID** |
 | :--- | :---: | ------: |
@@ -68,7 +65,9 @@ In the Google doc you've created, you will transcribe the entire page you've bee
 
 ## Step 2: Mark-up your transcription with XML according to TEI heirarchies
 
-The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate txt files into one XML file, so you don't need to open your transcription with a `<p>` or `<ab>` tag. However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
+The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate txt files into one XML file, so you **don't need** to open your transcription with a `<p>` or `<ab>` tag. 
+
+However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:
 - `<head>`: denotes a title that is *separate* from the block of text
 - `<title>`: denotes a title that is in-line with the block of text
 - `<PersonName>`: exactly what it sounds like
@@ -79,22 +78,27 @@ The EditionCrafter workflow will automatically create a TEI header and a number 
 
 Please refer to the first sixteen folios of transcribed pages in **dyngley-data/transciptions** for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements [here](https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html), or you can review the basic TEI tags in the [Basic Tagging tutorial](https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml) from the Women Writer's Project.
 
-Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into [Code Beautify](https://codebeautify.org/xmlvalidator) if you'd like to check for open tags and broken elements.
-
 
 ## Step 3: Submit your transcription with a pull request
-1. Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the **dyngley-data** repository in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
-2. Just as we did with the **spring-2026** repository, you'll create a new branch in the **dyngley-data** repository named **lastname-dt3**. Next, locate the **transcriptions** folder within that branch. Click **Add file** and upload your **.txt** file with your transcription and XML. 
-3. Finish by submitting a pull request to the **main** branch of the **dyngley-data** repository. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
+
+Once you're sure you've got the TEI *and* transcription right, it's time to add your transcription to the [dyngley-data](https://github.com/technologies-of-history/dyngley-data) repository in our GitHub organization so that I can include your work in the [critical edition of TCC MS O.8.35](https://technologies-of-history.github.io/dyngley-edition).
+
+First, you'll want to download your file from Google docs as a **.txt** file. Be sure it's saved somewhere on your computer as **xmlid.txt**. So, for example, if you were assigned f. 66v in the manuscript, you'd see in the table above that the XML ID for that page is f147. You'd name your transcription file **f147.txt**.
+
+Next, just as we did with the **spring-2026** repository, you'll create a new branch in the **dyngley-data** repository named **lastname-dt3**. Within that branch, locate the **transcriptions** folder. Click **Add file** and upload your **.txt** file with your transcription and XML. 
+
+Finish by submitting a pull request to the **main** branch of the **dyngley-data** repository. Once I've looked over your transcription, I'll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.
 
 **Note**: *If you'd like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that [here](https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest). I'm also happy to explain it in more detail in class, though I'm not the developer who wrote the program!*
 
 ## Step 4: Explain yourself
 
-1. Create a Markdown file following our course protocols (create a new branch in the **spring-2026** repository named **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header.  
+In the [spring-2026](https://github.com/technologies-of-history/spring-2026) repository, create a Markdown file following our course protocols (create a new branch named **lastname-dt3**, navigate to the **_posts** folder and create a new .md file titled **yyyy-mm-dd-your title.md**, or draft the post in Google docs and then download and upload the **.md** file) and include the appropriate YAML header.  
 *Note: Do not name your file Digital Tools 3. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
-2. Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Next, link to the page in the[digital critical edition](https://technologies-of-history.github.io/dyngley-edition) featuring your transcription. You'll want to refer to these when answering the questions below.
-3. In the same .md file, write a 3-4 paragraph blog post responding to the following questions:
+
+Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Next, link to the page in the[digital critical edition](https://technologies-of-history.github.io/dyngley-edition) featuring your transcription. You'll want to refer to these when answering the questions below.
+
+In the same .md file, write a 3-4 paragraph blog post responding to the following questions:
 
 - What recipes were in your transcription?
 - What was the process of learning to transcribe Middle English like?
