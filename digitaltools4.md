@@ -10,7 +10,7 @@ You’ve already embedded an interactive map in your second Digital Tools assign
 
 We'll work together on Steps 1 and 2 of this assignment in class on Thursday, March 26. This assignment is due on GitHub by 11:59 pm on Friday, April 3.
 
-## Step 1: Choose a Voyage Dataset & Find a Historical Map
+## Step 1: Choose a Voyage Dataset
 
 1. Visit the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site and explore the voyages of discovery that are mapped there. Decide which voyage you want to work with for this assignment. 
 2. To access the geo coordinate data for this assignment, you'll click **Dowload Data** at the top right of the [Age of Exploration](https://resources.amdigital.co.uk/aoe/map/) site. The webpage that appears contains *all* the data from this project.
@@ -23,7 +23,7 @@ We'll work together on Steps 1 and 2 of this assignment in class on Thursday, Ma
 3. After finding a map to work with in [Open Maps Online](https://www.oldmapsonline.org/), navigate to [David Rumsey Map Collection](https://www.davidrumsey.com) and copy-and-paste the title of the map you've selected into the search box. You should see it appear in search results.
 4. Once you've located your map on the [David Rumsey Map Collection](https://www.davidrumsey.com), click **Share** in the menu at the top of the page, and then select **IIIF Manifests**. You'll see a URL there to the image manifest. Click the icon to the right to copy it to your clipboard.
 
-## Step 3: Geowarp your Map with AllMaps
+## Step 3: Georeference and Warp your Map with AllMaps
 1. Visit [AllMaps](https://editor.allmaps.org), a site that takes advantage of IIIF format and JavaScript to enable map warping that is easily done browser-side. Paste the URL to your map's IIIF manifest in the input box.
 2. You should see your map image appear with a blue background. You'll see a menu at the top of the page that walks you through the steps to Geowarp your map: Image-->Draw Mask-->Georeference-->Results. Click **Draw Mask.**
 3. Use your mouse to select the area of your image you want to treat as a map. For example, if your map was printed in a book with text and a wide border, you may want to draw your mask to exclude that stuff. Double click your last point when you're satisfied with your mask.
