@@ -45,17 +45,17 @@ We'll work together on Steps 1 and 2 of this assignment in class on Thursday, Ma
 1. Visit [storymaps.arcgis.com](https://storymaps.arcgis.com) and log in using your username and password for ArcGIS. 
 2. Create a new Story Map, titling it whatever seems best for your particular voyage of exploration. Click the plus sign to add an element and scroll down to select **Map Tour**. Select **Start from Scratch** and then select a **Map Focused Guided Tour**, the option on the top left.
 3. Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under **Select basemap** and select **Browse more maps**. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.
-4. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one a slide in the story. You'll add a location for a each slide (type the coordinates into the search bar for that point, then click Add to Map), and upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage.
-5. Once you're finished with your StoryMap, you'll need to **Publish** it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselct "Allow duplication" and "Show in Web Search Results."
-6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbat menu at the far right. Select **Embed this story** and then copy the code that appears.
+4. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one slide in the story. You'll add a location for a each slide (type the coordinates into the search bar for that point, then click Add to Map), and upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage.
+5. Once you're finished with your StoryMap, you'll need to **Publish** it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselect "Allow duplication" and "Show in Web Search Results."
+6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbar menu at the far right. Select **Embed this story** and then copy the code that appears.
 
 ## Step 6: Compose your post
-1. Create a Markdown file according to our course protocols (fork or open the **spring-2026** repository in your personal account, locate the **_posts** folder, and create or upload a file named **YYY-MM-DD-Your Title.md.**) *Note: Do not name your file Digital Tools 4. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
+1. Create a Markdown file according to our course protocols (create a new branch in the **spring-2026** repository named **lastname-dt4**, locate the **_posts** folder, and create or upload a file named **YYYY-MM-DD-Your Title.md.**) *Note: Do not name your file Digital Tools 4. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
 2. Compose a 3-4 paragraph post responding to the following question:
-- What boyage of exploration did you choose and why?
+- What voyage of exploration did you choose and why?
 - How does your historical map reflect the scope of geographic knowledge, navigational skill, and cartographic expertise at the time of your chosen voyage?
-- How did your particular voyage of exploration transform the way the world was understood and depicted at the time?
-- In your opinion, have digital tools for map-making and geocoding, captured in Geographic Information Systems, transformed the way we understand visualize and understand human interaction with the physical world in the same ways as 'tracks on the ocean' as described by Sara Caputo?
+- In what way might the process of georeferencing a historical map and plotting a voyage using accurate geographical coordinates make these voyages more comprehensible to the public? In what ways might this digital presentation obscure the realities of these voyages?
+- In your opinion, have digital tools for map-making and geocoding, captured in Geographic Information Systems, transformed the way we visualize and understand human interaction with the physical world in the same ways as the 'tracks on the ocean' described by Sara Caputo?
 3. Decide where you'd like your StoryMap to appear in your post, and then paste the embed code you copied from ArcGIS online, making sure to wrap the code in `<html>` tags.
 
 ## Step 7: Submit your post
