@@ -43,13 +43,19 @@ We'll work together on Steps 1 and 2 of this assignment in class on Thursday, Ma
 ## Step 5: Create your Story Map with ArcGIS
 
 1. Visit [storymaps.arcgis.com](https://storymaps.arcgis.com) and log in using your username and password for ArcGIS. 
-2. Create a new Story Map, titling it whatever seems best for your particular voyage of exploration. Click the plus sign to add an element and scroll down to select **Map Tour**. Select **Start from Scratch** and then select a **Map Focused Guided Tour**, the option on the top left.
-3. Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under **Select basemap** and select **Browse more maps**. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.
-4. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one slide in the story. You'll add a location for a each slide (type the coordinates into the search bar for that point, then click Add to Map), and upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage.
-5. Once you're finished with your StoryMap, you'll need to **Publish** it so that it can be embedded in your post. Be sure to select **Public** from the dropdown menu, but you can deselect "Allow duplication" and "Show in Web Search Results."
-6. Once your StoryMap is published, open up your StoryMap to view it, and click the three dots in the topbar menu at the far right. Select **Embed this story** and then copy the code that appears.
+2. To create a StoryMap, first click the **Create** button at the top right. Scroll down to select **Story.** 
+3. A new screen will appear with space for a title. Name your Story whatever you'd like, and then click the green plus sign beneath. Scroll all the way to the bottom of the selection menu that appears, and select **Map Tour.** In the pop-up window that appears, select **Start from Scratch**, then select a **Map Focused Guided Tour**, the option on the top left.
+4. Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under **Select basemap** on the far left, and select **Browse more maps**. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.
+5. Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one slide in the story. To add a slide, click the plus sign in the black menu bar at the far right. When the slide appears, click **Add location** and then copy-and-paste your geocoordinates into the search bar at the top left and hit enter. **NB**: *do not select one of the locations suggested by ArcGIS. Your coordinates will be more accurate.* Continue in this way adding all the points you want to plot to your StoryMap.
+6. Next, upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage to each of the StoryMap slides you've created. You can also edit the name of each location on your map, changing it from the coordinates you input to the actual placename as listed in your dataset.
 
-## Step 6: Compose your post
+## Step 6: Publish your StoryMap & Embed in Your Post
+1. Once you're finished with your StoryMap, you'll need to click **Publish** so that it can be embedded in your post. Be sure to select **Public** from the menu page that appears when you click **Publish**, but you can deselect "Allow duplication" and "Show in Web Search Results."
+2. Once your StoryMap is published, open it to view it in action. Check that you like your slides and that your points have mapped accurately. Finally, click the three dots in the topbar menu at the far right. Select **Embed this story** and then copy the code that appears.
+3. In the Markdown file where you'll compose your post, paste the embed code you've copied from StoryMaps. Make sure to wrap the code in `<html>` tags.
+
+## Step 7: Compose your post
+
 1. Create a Markdown file according to our course protocols (create a new branch in the **spring-2026** repository named **lastname-dt4**, locate the **_posts** folder, and create or upload a file named **YYYY-MM-DD-Your Title.md.**) *Note: Do not name your file Digital Tools 4. We can't have multiple files merged with the same filename. They'll overwrite one another once I merge your post into the course repo. Think of something more creative!*
 2. Compose a 3-4 paragraph post responding to the following question:
 - What voyage of exploration did you choose and why?
