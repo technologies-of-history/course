@@ -147,7 +147,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings due Tuesday, March 31
 - Carol Pal, _Republic of Women: Rethinking the Republic of Letters in the Seventeenth Century_ (Cambridge: Cambridge University Press, 2012), 1–21. [Available from the TCU Library as an [eBook](https://tcu.primo.exlibrisgroup.com/permalink/01TCU_INST/5m6o0r/alma990018472210208721).]
-- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 1–15, 100–132. [Available on [D2L](https://tcu.brightspace.com)]
+- Dena Goodman, _Becoming a Woman in the Age of Letters_ (Ithaca: Cornell University Press, 2009), 134–157. [Available on [D2L](https://tcu.brightspace.com)]
 
 ### Digital Assignments due Thursday, April 2
 - Before class, visit [Mapping the Republic of Letters](http://republicofletters.stanford.edu/publications/voltaire/letters/) to view a visualization of Voltaire's correspondence network produced on [Palladio](http://hdlab.stanford.edu/palladio/).
