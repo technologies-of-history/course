@@ -38,12 +38,18 @@
 
   <nav class="sidebar-nav">
     <h2>
-    <a class="sidebar-nav-item" href="/course/">Home</a>
-    <a class="sidebar-nav-item" href="/course/schedule">Schedule</a>
-    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
-    <a class="sidebar-nav-item" href="/course/policies">Policies</a>
+    <a class="sidebar-nav-item" href="/course/">Schedule</a>
+    <a class="sidebar-nav-item" href="/course/information">Information</a>
     <a class="sidebar-nav-item" href="https://technologies-of-history.github.io/spring-2026">Student Work</a>
+    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
     </h2>
+    <h3>
+    <a class="sidebar-sub-item" href="/course/digitaltools1">Digital Tools 1</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools2">Digital Tools 2</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools3">Digital Tools 3</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools4">Digital Tools 4</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools5">Digital Tools 5</a>
+    </h3>
   </nav>
 
 </div>
@@ -73,33 +79,35 @@
   <h1>Digital Tools Assignment 1</h1>
 
   <div class="entry">
-    <h2 id="communicating-simply">Communicating Simply</h2>
+    <h1 id="communicating-simply">Communicating Simply</h1>
 
-<p>By now you’ve created a <a href="https://github.com">GitHub</a> account, practiced opening a repository, making changes to a file, making a pull request, and merging branches with GitHub’s <a href="https://guides.github.com/activities/hello-world/">Hello World</a> tutorial. You’ve followed the <a href="https://programminghistorian.org/en/lessons/getting-started-with-markdown">Markdown lesson</a> on the Programming Historian, so you know how to style your text files with Markdown syntax. We’ve practiced authoring Markdown files in class, but now it’s time to do it on your own and create content for our course blog. You’ll be following these same steps to create and submit the rest of your Digital Tools assignments, so it’s very important for you to get the hang of these basic steps now.</p>
+<p>By now you’ve created a <a href="https://github.com">GitHub</a> account, practiced opening a repository, making changes to a file, making a pull request, and merging branches. You’ve followed the <a href="https://programminghistorian.org/en/lessons/getting-started-with-markdown">Markdown lesson</a> on the Programming Historian, so you know how to style your text files with Markdown syntax. We’ve practiced authoring Markdown files in class, but now it’s time to do it on your own and create content for our course blog. You’ll be following these same steps to create and submit the rest of your Digital Tools assignments, so it’s very important for you to get the hang of these basic steps now.</p>
 
-<h3 id="step-1-think-about-downloading-a-text-editor">Step 1: Think about downloading a text editor</h3>
+<p>This assignment is due to GitHub by 11:59 pm on Friday, February 6.</p>
 
-<p>All of your digital assignments this semester will be authored in Markdown, which means 
-you can’t use Google Docs or Microsoft word to create them. As you know, you can always 
-create Markdown files (.md) directly in GitHub, but if you’d like to be able to complete 
+<h2 id="step-1-think-about-downloading-a-text-editor">Step 1: Think about downloading a text editor</h2>
+
+<p>All of your digital assignments this semester will be authored in Markdown. As you know, you can always 
+create Markdown files (.md) directly in GitHub or Google docs, but if you’d like to be able to complete 
 your assignments offline, save your work on your own machine, and preview your work in a 
-local development environment on the developer, then you will want to use a text editing program to write and save your .md files. If you’ve done some programming/coding 
-before, you likely already have a favorite text editor, and you should keep using it. If not, I really like <a href="https://code.visualstudio.com/">Visual Studio Code</a> which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It’s become the standard text editor in the field as it incorporates GitHub’s AI help for coding.</p>
+local development environment, then you will want to use a text editing program to write and save your .md files. If you’ve done some programming/coding before, you likely already have a favorite text editor, and you should keep using it. If not, I really like <a href="https://code.visualstudio.com/">Visual Studio Code</a> which can run on MacOS, Windows, or Linux and integrates directly with GitHUb. It’s become the standard text editor in the field as it incorporates GitHub’s AI help for coding.</p>
 
-<h3 id="step-2-take-a-look-at-an-existing-post">Step 2: Take a look at an existing post</h3>
+<p><strong>Note:</strong> <em>If you’d like to check your work by serving your branch of our site locally, you’d need to install <a href="https://jekyllrb.com/docs/installation/">Jekyll</a> on your computer. The process can be tricky, depending on your operating system, and it requires knowledge of the command line. You’d also need to have Ruby and Ruby gems installed, which is where most of the headaches emerge. BUT! If you’re an experienced coder, I’m happy to help you install Jekyll. Send me an email or come talk in office hours.</em></p>
+
+<h2 id="step-2-take-a-look-at-an-existing-post">Step 2: Take a look at an existing post</h2>
 
 <ol>
-  <li>Open the <strong>spring-2026</strong> repository in our course GitHub organization.</li>
+  <li>Open (or Fork) the <strong>spring-2026</strong> repository in <strong>your</strong> GitHub account. [NB: You’ll know you’re in <strong>your</strong> personal repository if you see your user name at the top left and not technologies-of-history.]</li>
   <li>Find the <strong>_posts</strong> folder and open it.</li>
-  <li>You’ll see a single file in there titled <strong>2024-11-04-Welcome to our course.md</strong>. This is the Markdown file for the blog post that appears on the homepage of our course website.</li>
-  <li>Note the file naming conventions. All of the blog posts created for our site must be named in the same way: <strong>yyyy-mm-dd-your title.md</strong>.</li>
-  <li>Click on the <strong>2025-12-07-Welcome to Technologies of History.md</strong> file in your GitHub repository, and then click on the pencil icon in the upper right to edit the file. You should now see the post written in Markdown with a header at the top that looks like this:</li>
+  <li>You’ll see a single file in there titled <strong>2025-12-07-welcome-to-technologies-of-history.md</strong>. This is the Markdown file for the blog post that appears on the homepage of our course website.</li>
+  <li>Note the file naming conventions. All of the blog posts created for our site must be named in the same way: <strong>yyyy-mm-dd-your-title.md</strong>.</li>
+  <li>Click on the <strong>2025-12-07-welcome-to-technologies-of-history.md</strong> file in your GitHub repository, and then click on the pencil icon in the upper right to edit the file. You should now see the post written in Markdown with a header at the top that looks like this:</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ----
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
 layout: post
 author: Melissa Reynolds
-title: Welcome to Technologies of History
+title: Welcome to Our Course
 excerpt_separator: &lt;!--more--&gt;
 ---
 </code></pre></div></div>
@@ -107,75 +115,69 @@ excerpt_separator: &lt;!--more--&gt;
 <ol>
   <li>Note the formatting of this file. The heading at the top is very important, and every post you write to submit a Digital Tools Assignment must contain these items:
     <ul>
-      <li><code class="language-plaintext highlighter-rouge">layout: post</code> tells the Jekyll developer to use the layout to style the Markdown that follows. Other <strong>.md files</strong> that you see in the <strong>spring-2026</strong> repository, but not in the <strong>_posts</strong> folder, are set to <code class="language-plaintext highlighter-rouge">layout: page</code>, which tells the developer to use a different style for the Markdown that follows.</li>
+      <li><code class="language-plaintext highlighter-rouge">layout: post</code> tells the Jekyll developer to use the <strong>post.html</strong> template to style the Markdown that follows. Other <strong>.md files</strong> that you see in the <strong>spring-2026</strong> repository, but not in the <strong>_posts</strong> folder, are set to <code class="language-plaintext highlighter-rouge">layout: page</code>, which tells the Jekyll site builder to use the <strong>page.html</strong> template for styling the Markdown.</li>
       <li><code class="language-plaintext highlighter-rouge">author: Melissa Reynolds</code> tells the Jekyll site builder to publish this name as author in the subheader of the post. It also tells the Jekyll site builder that this post should be linked under the author Melissa Reynolds in the <strong>Contributors</strong> page.</li>
-      <li><code class="language-plaintext highlighter-rouge">title: Your title here</code> is pretty self explanatory. This is the heading that will appear at the top of your post. You should type whatever title you’d like for your post after the colon.</li>
-      <li><code class="language-plaintext highlighter-rouge">excerpt_separator: &lt;!--more--&gt;</code>: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a <strong>READ MORE</strong> link at that point on the blog’s homepage.</li>
+      <li><code class="language-plaintext highlighter-rouge">title: Welcome to Our Course</code> is pretty self explanatory. This is the title of your post that will appear at very top, styled as <code class="language-plaintext highlighter-rouge">&lt;h1&gt;</code>. You should type whatever title you’d like for your post after the colon.</li>
+      <li><code class="language-plaintext highlighter-rouge">excerpt_separator: &lt;!--more--&gt;</code>: This tells the Jekyll builder how much of the post to preview on the blog feed. When you draft your post, include this snippet of code <code class="language-plaintext highlighter-rouge">&lt;!--more--&gt;</code> just beneath the first or second paragraph of text in the post, and Jekyll will know to publish only the text above that code and to include a <strong>READ MORE</strong> link at that point on the blog’s homepage, which will link readers to your full post.</li>
     </ul>
   </li>
 </ol>
 
-<h3 id="step-3-create-a-new-markdown-file-in-which-to-compose-your-assignment">Step 3: Create a new Markdown file in which to compose your assignment</h3>
+<h2 id="step-3-creating-a-markdown-file">Step 3: Creating a Markdown file</h2>
 
-<p>(Note: the following instructions are for those of you brand new to GitHub, who don’t use a text editor. This is the <em>most basic</em> way to add a file to your repository, but if you already know how to create a branch, push changes and commit, and initiate a pull request via those other platforms, go right ahead.)</p>
+<p>(Note: the following instructions are for those of you brand new to GitHub, who don’t use a text editor. These are the <em>most basic</em> ways to add a file to your repository, but if you already know how to create a branch in your text editor, commit and push changes, and initiate a pull request via those other platforms, go right ahead.)</p>
 
 <p><strong>If you’re working directly in GitHub:</strong></p>
 <ol>
-  <li>Navigate into the <strong>spring-2026</strong> repository in our GitHub organization.</li>
-  <li>Create a new branch in the <strong>spring-2026</strong> repository by clicking the arrow to the right of <strong>master</strong> in the branch menu. In the text box that appears, type in the name of the new branch you’ll create using the following naming convention: <strong>lastname-dt1</strong>.</li>
-  <li>Below that text box, click the option that appears that says <strong>Create branch: lastname-dt1</strong>.</li>
-  <li>Within in this new branch, open the <strong>_posts</strong> folder.</li>
+  <li>Navigate into the <strong>spring-2026</strong> repository in your personal account, and then select the <strong>_posts</strong> folder.</li>
   <li>At the top right, click <strong>Add New File</strong> and select <strong>Create New File</strong> to open GitHub’s text editor.</li>
-  <li>Name this new file according to the following naming conventions: <strong>yyyy-mm-dd-your title.md</strong>. ALL posts you create for this course blog must follow these exact naming conventions.</li>
-  <li>Create your YAML header following these conventions:</li>
+  <li>Name this new file according to the following naming conventions: <strong>yyyy-mm-dd-your-title.md</strong>. ALL posts you create for this course blog must follow these exact naming conventions.</li>
+  <li>Create your YAML header as specified above and compose your post.</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ----
-layout: post
-author: Your Name Here
-title: Your Title Here
-excerpt_separator: &lt;!--more--&gt;
----
-</code></pre></div></div>
-
-<p><strong>If you’re writing your posts in a text editor rather than on GitHub:</strong></p>
+<p><strong>If you’re writing your posts in a text editor or on Google docs rather than on GitHub:</strong></p>
 <ol>
-  <li>Open your text editor of choice and create a new create a new Markdown file with the appropriate naming conventions: <strong>yyyy-mm-dd-your title.md</strong>.</li>
-  <li>Create your YAML header as specified above and continue to <strong>Step 4</strong> below.</li>
-  <li>When you’ve finished drafting your post, follow create a new branch in the <strong>spring-2026</strong> repository as described above, but instead of clicking <strong>Create New File</strong> within the <strong>_posts</strong> folder in your new branch, you’ll click <strong>Upload files</strong> to add your post to the repository.</li>
+  <li>Open your text editor or Google docs.</li>
+  <li>Create your YAML header as specified above and compose your post following the directions in <strong>Step 4</strong>, below.</li>
+  <li>When you’ve finished drafting your post, download the file as a .md with the following naming convention: <strong>yyyy-mm-dd-your-title.md</strong></li>
+  <li>In your <strong>spring-2026</strong> repository, locate the <strong>_posts</strong> folder. Click <strong>Add New File</strong> at top right, and then select <strong>Upload file</strong>. Drag and drop your <strong>.md</strong> file and continue to <strong>Step 5</strong> below.</li>
 </ol>
 
-<h3 id="step-4-write-your-post">Step 4: Write your post</h3>
+<h2 id="step-4-compose-your-assignment-using-appropriate-markdown-syntax">Step 4: Compose your assignment using appropriate Markdown syntax</h2>
 
-<p>Using appropriate Markdown syntax, Write a 2–3 paragraph post reflecting on the relationship between the
-nature or format of a communication technology and the kind of knowledge that technology can
-produce. Historians have suggested, for example, that alphabetic writing enabled 
-the development of philosophical thought in Greece that was markedly different from that of ancient
-Mesopotamia, with its cuneiform syllabary. In what ways do we see a similar relationship between
-the principles of static computing and the production of digital scholarship? Are historians
-arguments constrained or shaped by the digital tools available to them? How might the digital environment transform historians’ scholarship?</p>
+<p>Historians have suggested that alphabetic writing enabled the development of philosophical thought in Greece that was markedly different from that of ancient Mesopotamia, with its cuneiform syllabary. What does this argument suggest about the structure of a language and what that language makes possible? What are the implications of this argument for the way we think about computer languages?</p>
 
 <p>To receive full credit for this assignment, be sure to draw comparisons between the arguments expressed by Goody and Van De Mieroop in their respective articles and those you develop related to digital communications. Use parenthetical citations (lastname page#) to cite these works if necessary.</p>
 
-<h3 id="step-5-commit-your-post">Step 5: Commit your post</h3>
+<p>Your post should include the following elements of Markdown code:</p>
+<ul>
+  <li>At least one heading</li>
+  <li>At least one link</li>
+  <li>At least one image</li>
+</ul>
+
+<p><strong>Note:</strong> <em>I’ve added a little extra CSS to our course site so you can style the images you embed by adding Liquid code immediately after the ordinary syntax for embedding an image. This brief snippet of <a href="https://shopify.github.io/liquid/basics/introduction/">Liquid</a> enables you to size and position your image within your text block. Simply designate the width you’d like your image to be (in pixels), and then decide whether you want your image to appear wrapped in text on the right</em> <code class="language-plaintext highlighter-rouge">.right-image</code> <em>or left</em> <code class="language-plaintext highlighter-rouge">.left-image</code> <em>or all by itself in the center of your screen</em> <code class="language-plaintext highlighter-rouge">.center-image</code>. <em>An example of the correct code snippet for an image sized at 270 pixels and wrapped in text on the right, is as follows:</em><br />
+<code class="language-plaintext highlighter-rouge">![Image alt text](link to image url){:width="270px" .right-image}</code></p>
+
+<h2 id="step-5-commit-your-post">Step 5: Commit your post</h2>
 
 <ol>
-  <li>After you create (or upload) your Markdown file, you’ll need to <strong>Commit changes…</strong> to save the file to your branch (the green button on the upper right).</li>
-  <li>If you’re composing your post online in GitHub’s web interface, every time you make a change in the file, you’ll write up a brief description of what you changed (the <strong>Commit message</strong>) and click, <strong>Commit</strong> to save. Be sure to select the option to commit to <strong>your</strong> new branch, <strong>lastname-dt1</strong>.</li>
-  <li>If you’re composing your post on the GitHub web interace, you’ll <strong>Commit changes…</strong> every time you make a change to the file. You can work on it over several days as long as you <strong>commit</strong> every time before you close out of the interfact. If you draft your post in a text editor, you’ll only <strong>Commit Changes…</strong> once, after you upload the file.</li>
+  <li>After you create (or upload) your Markdown file, you’ll need to <strong>Commit changes…</strong> to save the file to your branch.</li>
+  <li>If you’re composing your post online in GitHub’s web interface, every time you make a change in the file, you’ll write up a brief description of what you changed (the <strong>Commit message</strong>) and click, <strong>Commit</strong> to save. You’ll be prompted to either <strong>Commit changes</strong> to a <strong>new branch</strong> or to the <strong>master branch</strong>, and to save yourself an extra step, just go ahead and choose the top option and commit to the <strong>master branch</strong> of your repository.</li>
+  <li>If you draft your post in a text editor or on Google docs, you’ll only <strong>Commit Changes…</strong> once, after you upload the file.</li>
   <li>Git stores each of the versions of your file at every <strong>Commit</strong>, making it possible to revert back to a previous version of the file at any time. You simply click the <strong>History</strong> tab at the top right, and GitHub will show you a page with your entire commit history for that branch.</li>
-  <li><strong>Committing changes…</strong> does NOT publish your post to our course site. You can continue working on your draft post as much as you like in your <strong>lastname-dt1</strong> branch, and nothing will get published until your submit a <strong>Pull request.</strong></li>
+  <li>Remember, <strong>Committing changes…</strong> does NOT publish your post to our course site. You can continue working on your draft post as much as you like, and nothing will get published until you submit a <strong>Pull request.</strong></li>
 </ol>
 
-<h3 id="step-6-submit-a-pull-request">Step 6: Submit a pull request</h3>
+<h2 id="step-6-submit-a-pull-request">Step 6: Submit a pull request</h2>
 
-<p>Once you’re happy with your post and have committed your changes, you’re ready to submit the assignment. It’s time to notify the developer (me) that you’d like the post to be merged into the <strong>master</strong> branch of the site so that it can be served to the website.</p>
+<p>Once you’re happy with your post and have committed your changes, you’re ready to submit the assignment. It’s time to notify the developer (me) that you’d like the post to be merged into the <strong>master</strong> branch of course repository so that it can be served to the website.</p>
 
 <ol>
-  <li>Be sure to check and make sure you’re in your <strong>lastname-dt1</strong> branch.</li>
-  <li>In the menu at the top of the page, click <strong>Pull requests</strong>.</li>
+  <li>Be sure to check and make sure you’re in your personal <strong>spring-2026</strong> repository (check the user name in the top left).</li>
+  <li>Then, in the menu at the top of the page, click <strong>Pull requests</strong>.</li>
   <li>Click the green button <strong>New pull request</strong>.</li>
-  <li>You’ll now see a gray box at the top that shows you the <strong>base</strong> repository you’ll be sending your changes to and a drop-down menu to select the branch you want to <strong>compare.</strong> Select your branch <strong>lastname-dt1</strong> as the branch to compare, and be sure the <strong>master</strong> branch is the <strong>base</strong>.</li>
+  <li>You’ll now see a gray box at the top that shows you the <strong>base</strong> repository you’ll be sending your changes to [<strong>technologies-of-history/spring-2026</strong>] and the <strong>head</strong> branch you want to <strong>compare</strong> [<strong>yourusername/spring-2026</strong>].</li>
   <li>Name your pull request <strong>Digital Tools 1 Submission</strong> and then click <strong>Create pull request</strong>.</li>
 </ol>
 
@@ -188,30 +190,28 @@ arguments constrained or shaped by the digital tools available to them? How migh
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
         <footer class="footer">
-          
-
-
-
-<a href="https://github.com/technologies-of-history"><i class="svg-icon github"></i></a>
-
-
-
-
-
-
-
-
-    <p> &copy; 2025. All rights reserved.</p>
+          <a href="https://addran.tcu.edu/history/"><img class="logo" src="/course/assets/images/TCULogo.jpg" width="200"></a>
+    <p>This site is a product of academic coursework, created for educational purposes. The opinions and views expressed on this site are solely those of the individuals involved and do not necessarily represent the official stance or views of Texas Christian University.</p>
+          <p>Built on <a href="https://github.com/technologies-of-history/">GitHub Pages</a>. &copy; Melissa Reynolds 2026. All rights reserved. 
+          </br>Contact: <a href="mailto:m.reynolds1@tcu.edu">m.reynolds1[at]tcu.edu</a></p>
         </footer>
-      </div>
     </div>
 
     
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9DDX8J22V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9DDX8J22V');
+</script>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='/course/script.js'></script>
+    <script src='/course/sidebar.js'></script>
   </body>
 </html>

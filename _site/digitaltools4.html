@@ -38,12 +38,18 @@
 
   <nav class="sidebar-nav">
     <h2>
-    <a class="sidebar-nav-item" href="/course/">Home</a>
-    <a class="sidebar-nav-item" href="/course/schedule">Schedule</a>
-    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
-    <a class="sidebar-nav-item" href="/course/policies">Policies</a>
+    <a class="sidebar-nav-item" href="/course/">Schedule</a>
+    <a class="sidebar-nav-item" href="/course/information">Information</a>
     <a class="sidebar-nav-item" href="https://technologies-of-history.github.io/spring-2026">Student Work</a>
+    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
     </h2>
+    <h3>
+    <a class="sidebar-sub-item" href="/course/digitaltools1">Digital Tools 1</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools2">Digital Tools 2</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools3">Digital Tools 3</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools4">Digital Tools 4</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools5">Digital Tools 5</a>
+    </h3>
   </nav>
 
 </div>
@@ -73,36 +79,85 @@
   <h1>Digital Tools 4</h1>
 
   <div class="entry">
-    <h2 id="mapping-history">Mapping History</h2>
+    <h1 id="mapping-history">Mapping History</h1>
 
-<p>You’ve already explored <a href="https://www.google.com/maps">Google MyMaps</a> in your second Digital Tools assignment.</p>
+<p>You’ve already embedded an interactive map in your second Digital Tools assignment. Now, for your fourth Digital Tools Assignment, you will use a more robust mapping tool to create a visual and spatial historical narrative. <a href="http://tcugis.maps.arcgis.com">ArcGIS Online</a> is an online interface for creating Geographical Information Systems (GIS). GIS is a means of connecting data to a map, integrating location data (where things are) with all types of descriptive information (what things are like there). It does so by presenting data as layers that can be visualized on a base map. For this assignment, you’ll create one of those layers by georeferencing an early printed map from <a href="https://www.oldmapsonline.org/en/">Old Maps Online</a> to present geospatial data on a singular voyage of discovery (gathered from the <a href="https://resources.amdigital.co.uk/aoe/map/">Age of Exploration</a> site) by creating and sharing your own ArcGIS Story Map.</p>
 
-<p>Now, for your fourth Digital Tools Assignment, you will use a different mapping tool to create 
-a visual and spatial historical narrative. You will use a sixteenth-century map that has
-been “warped” to match contemporary longitude and latitude to tell this story. This will involve using 
-“MapWarper,” a digital tool for enabling GIS manipulation of historical maps. You’ll also use a dataset pulled from the Age of Exploration database.</p>
+<p>We’ll work together on Steps 1 and 2 of this assignment in class on Thursday, March 26. This assignment is due on GitHub by 11:59 pm on Friday, April 3.</p>
 
-<h2 id="instructions">Instructions:</h2>
-
-<p><a href="https://storymap.knightlab.com/">StoryMaps</a> is a free tool to help you tell stories on the web that highlight the locations of a series of events. It’s free to use with a Google drive account. You simply upload images, or link to images from the web, that you then connect to points on a map. You can make changes to the map schema, fonts, and color and layout. Before beginning your StoryMap, you may want to take a look at the gallery of <a href="https://storymap.knightlab.com/#examples">examples</a> on the StoryMaps site. When you complete your StoryMap you’ll embed your StoryMap into a blog post using Markdown and GitHub, as usual.</p>
-
-<p>The StoryMap element of this assignment is just the beginning. For this project, you’ll use</p>
-
-<h2 id="instructions-for-submission">Instructions for Submission:</h2>
-
-<p>Once you’ve created your StoryMap, it’s time to embed it into a post. You’ve already practiced writing a blog post in Markdown in our first Digital Tools assignment. Now it’s time to use those same skills to write up the process of creating your StoryMap. Follow these steps:</p>
+<h2 id="step-1-choose-a-voyage-dataset">Step 1: Choose a Voyage Dataset</h2>
 
 <ol>
-  <li>Create your StoryMap.</li>
-  <li>Either directly in our GitHub repository in the branch draft-posts or in your text editor create a new Markdown file with the naming conventions we’ve practiced in your first Digital Tools Assignment (YYYY-MM-DD-Post Title.md).</li>
-  <li>Write a 4–5 paragraph post answering the questions listed above. Write well and clearly! Think of this as equivalent to a 1-2 page response paper.</li>
-  <li>Copy the HTML embed code that appears when you “share” your Story Map or TimeMapper.</li>
-  <li>Paste the HTML embed code into your Markdown file at a point in your writing that makes sense.</li>
-  <li>Create a <strong>New Branch</strong> in our course repository. Click the arrow to the right of <strong>master</strong> in the branch menu, and in the search box type in the name of the new branch you’ll create: <strong>yourname-storymaps</strong>. Click the option that appears that says <strong>Create branch: yourname-storymaps</strong>.</li>
-  <li>Upload your post into the <strong>posts</strong> folder of the new branch, <strong>Commit</strong> your changes, and create a <strong>Pull Request</strong> to merge it with the <strong>master</strong> branch of our repository. <strong>Pay attention</strong> and be sure you select the right <strong>head</strong> for your request.</li>
+  <li>Visit the <a href="https://resources.amdigital.co.uk/aoe/map/">Age of Exploration</a> site and explore the voyages of discovery that are mapped there. Decide which voyage you want to work with for this assignment.</li>
+  <li>To access the geo coordinate data for this assignment, you’ll click <strong>Dowload Data</strong> at the top right of the <a href="https://resources.amdigital.co.uk/aoe/map/">Age of Exploration</a> site. The webpage that appears contains <em>all</em> the data from this project.</li>
+  <li>Right click the webpage and click <strong>Save As…</strong>. Save the file somewhere on your computer, making sure you add <strong>.csv</strong> to the end of the filename.</li>
+  <li>Double check that you’ve created the file correctly by opening the <strong>.csv</strong> file you created (in Excel or Google sheets). Once the file is open, you can delete all the data you <strong>don’t</strong> need, keeping only the coordinates and dates for your chosen voyage.</li>
 </ol>
 
-<p>Ok, that’s it! You’ve done it!</p>
+<h2 id="step-2-choose-a-historical-map-to-georeference">Step 2: Choose a Historical Map to GeoReference</h2>
+<ol>
+  <li>Now that your dataset is selected, visit <a href="https://www.oldmapsonline.org/en/">Old Maps Online</a> to find a historical map that matches the region and era of your voyage. For example, if you’ve selected Captain Cook’s first voyage, you might want to find a map of Polynesia and Australia from the early 1800s.</li>
+  <li>You can find a map that fits the bill by using the bottom timeline slider to adjust the era of map you’re looking for, and then changing the map view to focus on the area of the globe you’d like to see maps for. Make sure the map you choose is from the <strong>David Rumsey Collection</strong> (you can tell because you’ll see the black box with the David Rumsey logo next to the map image.) Click the <strong>Document</strong> tab in the menu above your map to view its full title. This will be helpful in a minute.</li>
+  <li>After finding a map to work with in <a href="https://www.oldmapsonline.org/en/">Open Maps Online</a>, navigate to <a href="https://www.davidrumsey.com">David Rumsey Map Collection</a> and copy-and-paste the title of the map you’ve selected into the search box. You should see it appear in search results.</li>
+  <li>Once you’ve located your map on the <a href="https://www.davidrumsey.com">David Rumsey Map Collection</a>, click <strong>Share</strong> in the menu at the top of the page, and then select <strong>IIIF Manifests</strong>. You’ll see a URL there to the image manifest. Click the icon to the right to copy it to your clipboard.</li>
+</ol>
+
+<h2 id="step-3-georeference-and-warp-your-map-with-allmaps">Step 3: Georeference and Warp your Map with AllMaps</h2>
+<ol>
+  <li>Visit <a href="https://editor.allmaps.org">AllMaps</a>, a site that takes advantage of IIIF format and JavaScript to enable map warping that is easily done browser-side. Paste the URL to your map’s IIIF manifest in the input box.</li>
+  <li>You should see your map image appear with a blue background. You’ll see a menu at the top of the page that walks you through the steps to Geowarp your map: Image–&gt;Draw Mask–&gt;Georeference–&gt;Results. Click <strong>Draw Mask.</strong></li>
+  <li>Use your mouse to select the area of your image you want to treat as a map. For example, if your map was printed in a book with text and a wide border, you may want to draw your mask to exclude that stuff. Double click your last point when you’re satisfied with your mask.</li>
+  <li>Now click over to <strong>Georeference.</strong> You’ll see a split screen view with your map image on the left and a world map on the right. Your job is now to find a point in your image and match it to the same point on the world map. Just click one, then click the other. Do this over and over until you’ve worked your way around your map, identifying as many points as you can. To check your work, click the options icon (the little cog thingy at top right) and increase the opacity of the image. You’ll see your image overlayed on the world map.</li>
+  <li>Once you’re satisfied with the map warp, click <strong>Results.</strong> This will show you your map in its correct place. Click <strong>Export</strong> at the top right. You’ll see three URLs; you want the last one. Click the icon next to the <strong>XYZ Map Tiles</strong> URL to copy it to your clipboard.</li>
+</ol>
+
+<h2 id="step-4-import-your-map-into-arcgis">Step 4: Import your map into ArcGIS</h2>
+
+<ol>
+  <li>Log into <a href="http://tcugis.maps.arcgis.com">ArcGIS Online</a>. In the menu at the top of the page, click <strong>Map</strong>.</li>
+  <li>You’ll see a new screen with a world map and two menus, one to the right and one to the left. In the left-hand menu, click <strong>Layers.</strong></li>
+  <li>Click the drop-down arrow and select <strong>Add layer from URL</strong>.</li>
+  <li>In the input box that appears, paste the URL from AllMaps. ArcGIS should immediately recognize it as a Tile Layer.</li>
+  <li>Name your map with the title of the map from David Rumsey Maps, and be sure to attribute it to that site. Click <strong>Add to Map.</strong></li>
+  <li>You should see your georeferenced map wherever it should be on the world map! Congrats! You may want to play around with the base map, though I like the topographical map that appears standard.</li>
+  <li>Finally, in the left-hand menu, click <strong>Save and Open</strong>, then <strong>Save As</strong> and save this map to your account. You can name it Digital Tools 4.</li>
+</ol>
+
+<h2 id="step-5-create-your-story-map-with-arcgis">Step 5: Create your Story Map with ArcGIS</h2>
+
+<ol>
+  <li>Visit <a href="https://storymaps.arcgis.com">storymaps.arcgis.com</a> and log in using your username and password for ArcGIS.</li>
+  <li>To create a StoryMap, first click the <strong>Create</strong> button at the top right. Scroll down to select <strong>Story.</strong></li>
+  <li>A new screen will appear with space for a title. Name your Story whatever you’d like, and then click the green plus sign beneath. Scroll all the way to the bottom of the selection menu that appears, and select <strong>Map Tour.</strong> In the pop-up window that appears, select <strong>Start from Scratch</strong>, then select a <strong>Map Focused Guided Tour</strong>, the option on the top left.</li>
+  <li>Click the pencil icon in the map section of your StoryMap. When the new map menu opens, click the box under <strong>Select basemap</strong> on the far left, and select <strong>Browse more maps</strong>. This should bring you to a page with your saved content, where you can select your saved georeferenced historical map.</li>
+  <li>Now you can create a StoryMap with the coordinates of your selected voyage of exploration. Each coordinate should be one slide in the story. To add a slide, click the plus sign in the black menu bar at the far right. When the slide appears, click <strong>Add location</strong> and then copy-and-paste your geocoordinates into the search bar at the top left and hit enter. <strong>NB</strong>: <em>do not select one of the locations suggested by ArcGIS. Your coordinates will be more accurate.</em> Continue in this way adding all the points you want to plot to your StoryMap.</li>
+  <li>Next, upload a photo (use your imagination) and a brief decription of that stage of your chosen voyage to each of the StoryMap slides you’ve created. You can also edit the name of each location on your map, changing it from the coordinates you input to the actual placename as listed in your dataset.</li>
+</ol>
+
+<h2 id="step-6-publish-your-storymap--embed-in-your-post">Step 6: Publish your StoryMap &amp; Embed in Your Post</h2>
+<ol>
+  <li>Once you’re finished with your StoryMap, you’ll need to click <strong>Publish</strong> so that it can be embedded in your post. Be sure to select <strong>Public</strong> from the menu page that appears when you click <strong>Publish</strong>, but you can deselect “Allow duplication” and “Show in Web Search Results.”</li>
+  <li>Once your StoryMap is published, open it to view it in action. Check that you like your slides and that your points have mapped accurately. Finally, click the three dots in the topbar menu at the far right. Select <strong>Embed this story</strong> and then copy the code that appears.</li>
+  <li>In the Markdown file where you’ll compose your post, paste the embed code you’ve copied from StoryMaps. Make sure to wrap the code in <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> tags.</li>
+</ol>
+
+<h2 id="step-7-compose-your-post">Step 7: Compose your post</h2>
+
+<ol>
+  <li>Create a Markdown file according to our course protocols (create a new branch in the <strong>spring-2026</strong> repository named <strong>lastname-dt4</strong>, locate the <strong>_posts</strong> folder, and create or upload a file named <strong>YYYY-MM-DD-Your Title.md.</strong>) <em>Note: Do not name your file Digital Tools 4. We can’t have multiple files merged with the same filename. They’ll overwrite one another once I merge your post into the course repo. Think of something more creative!</em></li>
+  <li>Compose a 3-4 paragraph post responding to the following question:
+    <ul>
+      <li>What voyage of exploration did you choose and why?</li>
+      <li>How does your historical map reflect the scope of geographic knowledge, navigational skill, and cartographic expertise at the time of your chosen voyage?</li>
+      <li>In what way might the process of georeferencing a historical map and plotting a voyage using accurate geographical coordinates make these voyages more comprehensible to the public? In what ways might this digital presentation obscure the realities of these voyages?</li>
+      <li>In your opinion, have digital tools for map-making and geocoding, captured in Geographic Information Systems, transformed the way we visualize and understand human interaction with the physical world in the same ways as the ‘tracks on the ocean’ described by Sara Caputo?</li>
+    </ul>
+  </li>
+  <li>Decide where you’d like your StoryMap to appear in your post, and then paste the embed code you copied from ArcGIS online, making sure to wrap the code in <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> tags.</li>
+</ol>
+
+<h2 id="step-7-submit-your-post">Step 7: Submit your post</h2>
+<p>Commit your changes and submit a pull request to <strong>technologies-of-history/spring-2026</strong>, and you’re done!</p>
 
   </div>
 </article>
@@ -111,30 +166,28 @@ been “warped” to match contemporary longitude and latitude to tell this stor
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
         <footer class="footer">
-          
-
-
-
-<a href="https://github.com/technologies-of-history"><i class="svg-icon github"></i></a>
-
-
-
-
-
-
-
-
-    <p> &copy; 2025. All rights reserved.</p>
+          <a href="https://addran.tcu.edu/history/"><img class="logo" src="/course/assets/images/TCULogo.jpg" width="200"></a>
+    <p>This site is a product of academic coursework, created for educational purposes. The opinions and views expressed on this site are solely those of the individuals involved and do not necessarily represent the official stance or views of Texas Christian University.</p>
+          <p>Built on <a href="https://github.com/technologies-of-history/">GitHub Pages</a>. &copy; Melissa Reynolds 2026. All rights reserved. 
+          </br>Contact: <a href="mailto:m.reynolds1@tcu.edu">m.reynolds1[at]tcu.edu</a></p>
         </footer>
-      </div>
     </div>
 
     
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9DDX8J22V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9DDX8J22V');
+</script>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='/course/script.js'></script>
+    <script src='/course/sidebar.js'></script>
   </body>
 </html>

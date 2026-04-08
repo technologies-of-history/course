@@ -38,12 +38,18 @@
 
   <nav class="sidebar-nav">
     <h2>
-    <a class="sidebar-nav-item" href="/course/">Home</a>
-    <a class="sidebar-nav-item" href="/course/schedule">Schedule</a>
-    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
-    <a class="sidebar-nav-item" href="/course/policies">Policies</a>
+    <a class="sidebar-nav-item" href="/course/">Schedule</a>
+    <a class="sidebar-nav-item" href="/course/information">Information</a>
     <a class="sidebar-nav-item" href="https://technologies-of-history.github.io/spring-2026">Student Work</a>
+    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
     </h2>
+    <h3>
+    <a class="sidebar-sub-item" href="/course/digitaltools1">Digital Tools 1</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools2">Digital Tools 2</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools3">Digital Tools 3</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools4">Digital Tools 4</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools5">Digital Tools 5</a>
+    </h3>
   </nav>
 
 </div>
@@ -73,125 +79,186 @@
   <h1>Digital Tools Assignment 2</h1>
 
   <div class="entry">
-    <h2 id="showing-history">Showing History</h2>
+    <h1 id="showing-history">Showing History</h1>
 
-<p>Now that you’ve mastered the work flow of forking from our repository, creating a file, writing a post in Markdown format, committing your changes, and creating a pull request, you’re ready to begin to create digital historical scholarship incorporating other digital tools.</p>
+<p>Now that you’ve mastered the work flow of creating a new branch in our repository, creating a Markdown file, writing a post in Markdown syntax, committing your changes, and creating a pull request, you’re ready to begin to create digital historical scholarship incorporating other digital tools. In this assignment, you’ll practice dropping snippets of JavScript code bracketed by <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> tags into your post so that readers can interact with the product of your digital scholarship right on your site. You’ll continue to employ this basic tactic of embedding other digital tools into our static site in later digital tools assignments.</p>
 
-<h3 id="step-1-visit-the-heidelberg-epigraphic-database">Step 1: Visit the <a href="https://edh.ub.uni-heidelberg.de/foto/suche">Heidelberg Epigraphic Database</a></h3>
+<p>In this assignment, you’ll be asked to compose a 3-4 paragraph post reflecting on the ubiquity of epigraphic writing in ancient Rome, paying special attention to a single inscription that you’ll select from the <a href="https://edh.ub.uni-heidelberg.de/">Epigraphic Database Heidelberg</a>. In your post, you’ll include a map of surviving Roman inscriptions in a single Roman province created with <a href="https://leafletjs.com">Leaflet</a>, an open-source JavaScript library for creating interactive maps on the web. You’ll also include an image of your chosen inscription displayed in <a href="https://projectmirador.org">Mirador</a>, an open-access IIIF viewer, also written in JavaScript. The Mirador viewer is able to read a remote JSON (JavaScript Object Notation) file containing both image data and metadata for the inscription in question, rendering both in the viewer window in such a way that users can interact with the image.</p>
 
-<p>After browsing the examples of surviving Roman epigraphy compiled on the site, choose four to focus on for your second digital tools assignment (these may be the same four you worked with in class). Your post will compare these four examples, describing what each inscription says, where it is found, when it was created, and finally, how each reveals something about the status and function of public writing in Roman society.</p>
+<p>There are a lot of steps here, I know, but we’ll work together on Steps 1 and 2 in class on Thursday, February 5 and Steps 3 and 4 in class on Thursday, February 12. This assignment is due on GitHub by 11:59 pm on Friday, February 20.</p>
 
-<h3 id="step-2-create-your-google-mymaps">Step 2: Create your Google MyMaps</h3>
-
-<h3 id="step-3-create-a-new-blog-post">Step 3: Create a new blog post</h3>
+<h2 id="step-1-visit-the-heidelberg-epigraphic-database">Step 1: Visit the Heidelberg Epigraphic Database</h2>
 
 <ol>
-  <li>Draft a post following our course protocols (create a new branch in <strong>spring-2026</strong> called <strong>lastname-dt2</strong>, navigate to <strong>_posts</strong> and create a new .md file titled <strong>yyyy-mm-dd-your title.md</strong>.)</li>
-  <li>Be sure your .md includes the following header:</li>
+  <li>Browse the selection of ancient Roman epigraphy that appears when you choose a single Roman province from the drop-down menu in the <a href="https://edh.ub.uni-heidelberg.de/foto/suche">photographic database</a> search page. After perusing the selection from different provinces, choose one province to work with. For the purposes of this exercise, you should choose a province with no more than 350 or so results.</li>
+  <li>Run a search for inscriptions from your chosen province, and click the option at the bottom to <strong>sort by</strong> and select <strong>HD no.</strong></li>
+  <li>Once you’ve selected your province and generated the search results, you’ll see a link at the top of the page (above the list of results) with a link to download the results as a <strong>.csv file.</strong> Click the link to download the file, then save it on your computer.</li>
+  <li>Next, select one inscription from the results that appear for your chosen Roman province, making sure that the inscription you pick has good quality images and an <strong>HD number</strong> link. Click the <strong>HD number</strong> link and keep the page open on your browser. You’ll need it in a few steps.</li>
 </ol>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
- layout: post
- title: [Your title here]
- ---
+<h2 id="step-2-add-geo-coordinates-into-your-csv">Step 2: Add Geo Coordinates into your .CSV</h2>
+
+<ol>
+  <li>Open the <strong>.csv file</strong> that you downloaded from the Heidelberg Epigraphy Database and sort the data according to <strong>ancient find spot</strong> so that the same places are grouped together.</li>
+  <li>Create a new spreadsheet on your computer that just contains the location information for the inscriptions compiled in the <strong>.csv file</strong> you’ve downloaded from the EDH.</li>
+  <li>Next, visit <a href="https://pleiades.stoa.org/places/">Pleiades</a> and search for each of your ancient placenames. Since lots of inscriptions come from the same place, you won’t need to do this for each inscription, just each place name.</li>
+  <li>Copy-and-paste the latitude and longitude coordinates from Pleiades into your <strong>.csv file</strong> in a new column next to each ancient place name.</li>
+</ol>
+
+<h2 id="step-3-create-your-map-with-leafletjs">Step 3: Create your map with LeafletJS</h2>
+
+<ol>
+  <li>In the previous assignment, you forked our <strong>spring-2026</strong> repository into your <strong>personal</strong> GitHub account to write your assignment and then generate a pull request. For this assignment, you’re going to work directly within the <strong>technologies-of-history/spring-2026</strong> repository so that you can try out GitHub’s CodeSpaces to check your work.</li>
+  <li>In our <strong>technologies-of-history/spring-2026</strong> repository, create a new branch called <strong>lastname-dt2</strong>. In that branch, navigate to the <strong>_posts</strong> folder and create a new .md file titled <strong>yyyy-mm-dd-your title.md</strong> with the appropriate YAML header. <em>Note: Do not name your file Digital Tools 2. We can’t have multiple files merged with the same filename. They’ll overwrite one another once I merge your post into the course repo. Think of something more creative!</em></li>
+  <li>To embed a Leaflet map into your post, you’ll copy the snippet of code below into your Markdown file. Always be sure to wrap snippets of code in <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> tags.</li>
+</ol>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
+&lt;div style="margin: 2rem 0;"&gt;
+  &lt;link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/&gt;
+
+  &lt;div id="map" style="position: relative; height: 500px; width: 100%;"&gt;&lt;/div&gt;
+  &lt;script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""&gt;&lt;/script&gt;
+    &lt;script&gt;
+    const map = L.map('map').setView([46.60, 1.51], 6);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&amp;copy; &lt;a href="http://www.openstreetmap.org/copyright"&gt;OpenStreetMap&lt;/a&gt;'
+}).addTo(map);
+var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
+&lt;/script&gt;
+&lt;/div&gt;
+&lt;/html&gt;
 </code></pre></div></div>
+<p><em>The first few lines of this code tell the browser to import Leaflet’s CSS style sheet and JavaScript code from the web. These lines are all written in HTML. Below those first few lines of HTML, the <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code> tag tells your browser that what follows is JavaScript, which you’ll customize to render the Leaflet map.</em></p>
+
+<p><strong>Once you’ve got this code in your Markdown post, you’ll change the following bits:</strong></p>
+
+<p><code class="language-plaintext highlighter-rouge">var map = L.map('map').setView([46.60, 1.51], 6);</code><br />
+You’ll need to update the <code class="language-plaintext highlighter-rouge">set.View</code> to the latitude and longitude coordinates that you want to be the center of your map, and designate how zoomed in you want the map to be on loading. In the example here, those coordinates are <code class="language-plaintext highlighter-rouge">[46.60, 1.51]</code>, and the zoom is set to <code class="language-plaintext highlighter-rouge">6</code>. Update those coordinates with what you’d like to be the center of your map, and set the zoom (a higher number zooms in more and a lower number zooms out).</p>
+
+<p>Ignore the next few lines, as these lines import the base map layer from <a href="https://www.openstreetmap.org/#map=9/47.082/2.398">OpenStreetMap</a>, which provides open-access digital maps.</p>
+
+<p><code class="language-plaintext highlighter-rouge">var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();</code><br />
+This line of code indicates where to put a marker on your map and what to label it with a pop-up when the marker is clicked. Again, you need to update the lat/long coordinates, <code class="language-plaintext highlighter-rouge">[46.59, 1.52]</code> in this example, to the location of each of the inscription locations in your Roman province. You’ll also change <code class="language-plaintext highlighter-rouge">('Argentomagus')</code> to the ancient placename of that site.</p>
+
+<p>You’ll repeat this line of code (with updated lat/long and placename) for every marker you want to display on your map.</p>
+
+<p><strong>Commit your changes and move to the next step!</strong></p>
+
+<h2 id="step-4-add-an-image-of-your-inscription-with-a-iiif-viewer">Step 4: Add an image of your inscription with a IIIF viewer</h2>
 
 <ol>
-  <li>Draft a 3-4 paragraph post that introduces your four examples of epigraphic inscriptions, including their date, their location, a transcription, and their significance. Reflect on how these surviving examples of public writing shed light on the social fabric and culture of the vast Roman empire. You may wish to think about the distance or time separating some of the inscriptions; or you may wish to reflect on the permanence of this sort of writing; or you may wish to reflect on differences you see in style or content of your inscriptions.</li>
+  <li>You could obviously use Markdown to include an image in your post, as long as that image has a URL. But we know that IIIF viewers like <a href="https://projectmirador.org">Mirador</a> enable the display of high-res images, with interactive, zoom capabilities. Mirador also makes the image metadata easily viewable, and allows for the display of multiple images, side-by-side–though we’ll just display one here.</li>
+  <li>First, click the link to open the <strong>IIIF manifest</strong> for your chosen inscription. You’ll find a link to the IIIF manifest for each inscription in the page you opened by clicking the <strong>HD number</strong> for your inscription.</li>
+  <li>Next, you’ll add the following snippet of code into your Markdown post, again with the <code class="language-plaintext highlighter-rouge">&lt;html&gt;</code> tags wrapping the code.</li>
 </ol>
 
-<h3 id="step-5-embed-the-mirador-iiif-viewer-to-show-your-inscriptions">Step 5: Embed the Mirador IIIF viewer to show your inscriptions</h3>
-
-<p>Your blog post should include images of the four inscriptions you’ve chosen to analyze. To include those images in your post, we’re not going to host those images in our site repository, as that would lead to . We’re going to embed a IIIF viewer to load the JSON manifests of those images and enable manipulation of the images on our site. The easiest way to do this is to embed a Mirador Viewer in to your blog post by copying the following code into your blog post.</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt; html &gt;
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;html&gt;
 &lt;div style="margin: 2rem 0;"&gt;
   &lt;link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"&gt;
   &lt;link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css"&gt;
   
-  &lt;div id="my-mirador" style="position: relative; height: 600px; width: 100%;"&gt;&lt;/div&gt;
+  &lt;div id="my-mirador" style="position: relative; height: 500px; width: 100%;"&gt;&lt;/div&gt;
   
   &lt;script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"&gt;&lt;/script&gt;
-    &lt;script type="text/javascript"&gt;
-  (function() {
-    if (typeof Mirador !== 'undefined') {
-      var mirador = Mirador.viewer({
+    &lt;script&gt;
+      const mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+          "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }
         },
         windows: [
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+          { loadedManifest: "URLforyourmanifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
-      });
-    }
-  })();
+      })();
 &lt;/script&gt;
 &lt;/div&gt;
-&lt; /html &gt;
+&lt;/html&gt;
 </code></pre></div></div>
+<p><em>Again, the first few lines of this code tell the browser to load information from the web: a font family from Google fonts, as well as the CSS stylesheet for Mirador, followed by the JavaScript code for Mirador functionality. Below that, following</em> <code class="language-plaintext highlighter-rouge">&lt;script&gt;</code><em>, is the JavaScript code to create the Mirador viewer in your post.</em></p>
 
-<h3 id="step-6-change-out-the-iiif-manifests-to-your-images">Step 6: Change out the IIIF Manifests to <em>Your</em> Images</h3>
+<p><strong>Once you’ve got the code in your Markdown post, you’ll need to update the following bits:</strong></p>
 
-<ol>
-  <li>Each image in the Epigraphic Heidelberg Database includes a link (just below the image viewer) to a IIIF manifest. Click the link, and you’ll see a webpage that looks like nothing but Javascript code.</li>
-  <li>Copy the URL to that webpage with nothing but text. It will end with <strong>…manifest.json</strong></li>
-  <li>Paste that URL so that it replaces the first URL within quotations under both <code class="language-plaintext highlighter-rouge">manifests:</code> and <code class="language-plaintext highlighter-rouge">windows:</code>. Make sure your URL is bracketed by double quotations, just as you see in the example above.</li>
-  <li>Continue the process for the next three IIIF manifests, eventually replacing all of the URLS to IIIF manifests in the example above to your own images.</li>
-</ol>
+<p><code class="language-plaintext highlighter-rouge">manifests: { "URLforyourmanifest.json": { provider: "Epigraphic Database Heidelberg" }</code><br />
+Where you see “URLforyourmanifest.json” copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!</p>
 
-<p>If you’ve done it correctly, your post will include a viewer that looks like this, with all four of your images visiable.</p>
+<p><code class="language-plaintext highlighter-rouge">{ loadedManifest: "URLforyourmanifest.json",</code><br />
+Where you see “URLforyourmanifest.json” again, copy-and-paste the URL for the IIIF manifest of your chosen inscription. Be sure to keep the quotation marks!</p>
 
+<p><strong>Commit your changes and move to the next step!</strong></p>
+
+<h2 id="step-5-compose-your-post">Step 5: Compose your post</h2>
+
+<p>Before, after, or in between your map and image viewer, compose 3-4 paragraphs in Markdown responding to the following prompts:</p>
+<ul>
+  <li>Describe your chosen inscription, including what we know about its location and its date. Can you make out any of the letters?</li>
+  <li>What might your map of surviving inscriptions tell us about the way Roman people practiced the “epigraphic habit”? Do you find inscriptions in towns, villas, or on monuments? (You may want to look again at <a href="https://pleiades.stoa.org/places/">Pleiades</a> to see what sort of ancient sites you’re working with.)</li>
+  <li>Finally, referring to MacMullen’s article on the “epigraphic habit” in Rome, do you think digital tools like high-res imaging and digital mapping change how historians might interpret the rise and fall of the “epigraphic habit” in Roman society?</li>
+</ul>
+
+<p><strong>Commit your changes and move to the next step!</strong></p>
+
+<h2 id="step-6-check-that-your-post-looks-the-way-it-should">Step 6: Check that your post looks the way it should</h2>
+
+<p>The beauty of working directly in our GitHub organization repository is that you can use <a href="/course/codespaces">GitHub CodeSpaces</a> to check your JavaScript before you submit your pull request. This is particularly helpful when you’re importing bits of code that aren’t Markdown into your post, because the default GitHub preview won’t read those bits and render them the way a web browswer will. What you want are maps and Mirador viewers that look something like this:</p>
+
+<p><strong>LeafletJS Map of Roman Aquitania</strong></p>
+<html>
+<div style="margin: 2rem 0;">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="" />
+
+  <div id="map" style="position: relative; height: 500px; width: 100%;"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+    <script>
+  const map = L.map('map').setView([46.60, 1.51], 6);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    maxZoom: 19,
+    attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+        }).addTo(map);
+  var marker = L.marker([46.59, 1.52]).addTo(map).bindPopup('Argentomagus').openPopup();
+  var marker = L.marker([47.08, 2.40]).addTo(map).bindPopup('Avaricum').openPopup();
+  var marker = L.marker([44.84, -0.58]).addTo(map).bindPopup('Burdigalia').openPopup();
+  var marker = L.marker([46.59, 0.35]).addTo(map).bindPopup('Limonum Pictonum').openPopup();
+  var marker = L.marker([45.74, -0.63]).addTo(map).bindPopup('Mediolanum Sanctonum').openPopup();
+  var marker = L.marker([43.66, 0.52]).addTo(map).bindPopup('Ausci').openPopup();
+  var marker = L.marker([45.54, -0.88]).addTo(map).bindPopup('Tamnum').openPopup();
+  var marker = L.marker([43.03, 0.57]).addTo(map).bindPopup('Lugdunum Convenarum').openPopup();
+</script>
+</div>
+</html>
+
+<p><strong>Mirador IIIF viewer with manifest from EDH</strong></p>
 <html>
 <div style="margin: 2rem 0;">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" />
   <link rel="stylesheet" href="https://unpkg.com/mirador@latest/dist/mirador.min.css" />
   
-  <div id="my-mirador" style="position: relative; height: 600px; width: 100%;"></div>
+  <div id="my-mirador" style="position: relative; height: 500px; width: 100%;"></div>
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
-    <script type="text/javascript">
-  (function() {
-    if (typeof Mirador !== 'undefined') {
-      var mirador = Mirador.viewer({
+    <script>
+      const mirador = Mirador.viewer({
         id: "my-mirador",
         manifests: {
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json": { provider: "Epigraphic Database Heidelberg" },
-          "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json": { provider: "Epigraphic Database Heidelberg" }
+          "https://technologies-of-history.github.io/spring-2026-data/iiif/manifest3.json": { provider: "Epigraphic Database Heidelberg" }
         },
         windows: [
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002574.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002710.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002292.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' },
-          { loadedManifest: "https://edh.ub.uni-heidelberg.de/iiif/edh/F002909.manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
+          { loadedManifest: "https://technologies-of-history.github.io/spring-2026-data/iiif/manifest3.json", canvasIndex: 0, thumbnailNavigationPosition: 'none' }
         ]
-      });
-    }
-  })();
+      })();
 </script>
 </div>
 </html>
 
-<h3 id="step-6-embed-your-google-mymaps-to-demonstrate-their-location">Step 6: Embed your Google MyMaps to demonstrate their location</h3>
+<p>If your map doesn’t look the way you want it to, or your IIIF isn’t loading, you can make changes to your code and check the fixes in real time. To do this, you need to create a Codespace in the branch you’ve named <strong>lastname-dt2</strong> of our class repository. Click <a href="/course/codespaces">here</a> for instructions on how to serve your blog post virtually using GitHub CodeSpaces.</p>
 
-<h3 id="step-7-submit-your-post">Step 7: Submit your post</h3>
+<h2 id="step-7-initiate-a-pull-request-to-submit-your-post">Step 7: Initiate a pull request to submit your post</h2>
 
 <ol>
-  <li>After you create this Markdown file and fill it with your content, <strong>Commit changes…</strong> to save the file to your branch. Every time you do something in the file, you’ll write up a brief description of what you changed and click, <strong>Commit</strong> to save. Be sure to select the option to commit to <strong>your</strong> new branch, <strong>lastname-dt1</strong>.</li>
-  <li>Click <strong>spring-2026</strong> to return to the main repository.</li>
-  <li>Be sure to check and make sure you’re in your <strong>lastname-dt1</strong> branch.</li>
-  <li>In the menu at the top of the page, click <strong>Pull requests</strong>.</li>
-  <li>Click the green button <strong>New pull request</strong>.</li>
-  <li>You’ll now see a gray box at the top that shows you the <strong>base</strong> repository you’ll be sending your changes to and the <strong>head</strong> repository, which is yours. NOTE: Be sure that yours is the <strong>head</strong> and the main branch is the <strong>base</strong>.</li>
-  <li>Name your pull request <strong>LastName_dt2</strong> and then click <strong>Create pull request</strong>.</li>
+  <li>Once you’ve <strong>Committed changes…</strong> in your <strong>lastname-dt2</strong> branch, you’ll need to initiate a pull request to the <strong>master</strong> branch of the <strong>technologies-of-history/spring-2026</strong> repository. Don’t do so until you’re sure you’ve got your post exactly as you want it!</li>
+  <li>When you do initiate a pull request, be sure that your branch is the <strong>head</strong> and the <strong>master</strong> branch is <strong>base</strong>.</li>
+  <li>Name your pull request <strong>Digital Tools 2</strong> and then click <strong>Create pull request</strong>.</li>
 </ol>
 
 <p>Ok, that’s it! You’re done!</p>
@@ -203,30 +270,28 @@
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
         <footer class="footer">
-          
-
-
-
-<a href="https://github.com/technologies-of-history"><i class="svg-icon github"></i></a>
-
-
-
-
-
-
-
-
-    <p> &copy; 2025. All rights reserved.</p>
+          <a href="https://addran.tcu.edu/history/"><img class="logo" src="/course/assets/images/TCULogo.jpg" width="200"></a>
+    <p>This site is a product of academic coursework, created for educational purposes. The opinions and views expressed on this site are solely those of the individuals involved and do not necessarily represent the official stance or views of Texas Christian University.</p>
+          <p>Built on <a href="https://github.com/technologies-of-history/">GitHub Pages</a>. &copy; Melissa Reynolds 2026. All rights reserved. 
+          </br>Contact: <a href="mailto:m.reynolds1@tcu.edu">m.reynolds1[at]tcu.edu</a></p>
         </footer>
-      </div>
     </div>
 
     
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9DDX8J22V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9DDX8J22V');
+</script>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='/course/script.js'></script>
+    <script src='/course/sidebar.js'></script>
   </body>
 </html>

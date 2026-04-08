@@ -38,12 +38,18 @@
 
   <nav class="sidebar-nav">
     <h2>
-    <a class="sidebar-nav-item" href="/course/">Home</a>
-    <a class="sidebar-nav-item" href="/course/schedule">Schedule</a>
-    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
-    <a class="sidebar-nav-item" href="/course/policies">Policies</a>
+    <a class="sidebar-nav-item" href="/course/">Schedule</a>
+    <a class="sidebar-nav-item" href="/course/information">Information</a>
     <a class="sidebar-nav-item" href="https://technologies-of-history.github.io/spring-2026">Student Work</a>
+    <a class="sidebar-nav-item" href="/course/assignments">Assignments</a>
     </h2>
+    <h3>
+    <a class="sidebar-sub-item" href="/course/digitaltools1">Digital Tools 1</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools2">Digital Tools 2</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools3">Digital Tools 3</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools4">Digital Tools 4</a>
+    <a class="sidebar-sub-item" href="/course/digitaltools5">Digital Tools 5</a>
+    </h3>
   </nav>
 
 </div>
@@ -73,13 +79,17 @@
   <h1>Digital Tools Assignment 3</h1>
 
   <div class="entry">
-    <h2 id="making-text-into-data">Making Text into Data</h2>
+    <h1 id="making-text-into-data">Making Text into Data</h1>
 
-<p>As you know from class, XML is a metalanguage (a language used to describe or markup another language) used in order to process and store texts in digital format. Markup languages are valuable as means of helping digital archivists and instructional technologists do two things: first, markup creates a rich data set from the text in question which can then be converted into a number of formats; second, markup encodes how a particular text should be presented on a webpage, digital publication, data set, etc. Markup languages thus guide our interpretations of those texts. Considerations like spacing, bolding, and headings are all aspects of the markup process—which is often also referred to as “encoding.” Marking up a document in XML is a matter of directing a person as to how the manuscript’s content should be presented and interpreted.</p>
+<p>As you know from class, XML (eXtensible Markup Language) is a metalanguage (a language used to describe or markup another language) used in order to process and store data. Markup languages are valuable as means of helping digital archivists and instructional technologists do two things: first, markup creates a rich data set from the text in question which can then be converted into a number of formats; second, markup encodes how a particular text should be presented on a webpage, digital publication, data set, etc. Marking up a document in XML is a matter of directing a computer as to how the manuscript’s content should be presented and interpreted. Decades ago, the <a href="https://tei-c.org">Text Encoding Initiative</a> (TEI) was developed to standardize how digital humanists encoded texts.</p>
 
-<p>For this assignment, you will select a Middle English medical recipe from <a href="https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35">Trinity College Cambridge MS O.8.35</a> in order to create your own TEI markup.</p>
+<p>For this assignment, you’ll be adding limited XML to a page of Middle English medical recipes that you’ll transcribe from <a href="https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35">Trinity College Cambridge MS O.8.35</a>, a mid-fifteenth-century English compendium of medical knowledge. Your marked-up transcription will then get added to the digital critical edition of the manuscript, <a href="https://technologies-of-history.github.io/dyngley-edition">Old Books, New Science</a>, created using <a href="https://editioncrafter.org">EditionCrafter</a>, an open-access tool that marries XML encoded text to images served in IIIF.</p>
 
-<h3 id="trinity-college-cambridge-ms-o835-digitized-by-the-trinity-college-cambridge-library">Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library</h3>
+<p>I’ll assign your page of text in class on Tuesday, February 17, and you’ll work with your classmates on Thursday, February 19 to complete your transcription.</p>
+
+<p>We’ll work together on Steps 1 and 2 of this assignment on Thursday, February 19 and Thursday, February 26. Steps 1, 2, and 3 are due March 6 at 11:59 pm; Step 4 is due by March 13 at 11:59 pm.</p>
+
+<h2 id="trinity-college-cambridge-ms-o835-digitized-by-the-trinity-college-cambridge-library">Trinity College Cambridge MS O.8.35, digitized by the Trinity College Cambridge Library</h2>
 
 <html>
 <div style="margin: 2rem 0;">
@@ -90,9 +100,7 @@
   
   <script src="https://unpkg.com/mirador@latest/dist/mirador.min.js"></script>
   <script type="text/javascript">
-    (function() {
-      if (typeof Mirador !== 'undefined') {
-        var mirador = Mirador.viewer({
+        const mirador = Mirador.viewer({
           id: "my-mirador",
           manifests: {
 						"https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json": { provider: "Trinity College Cambridge" },
@@ -100,100 +108,153 @@
 					windows: [
 						{ loadedManifest: "https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json", canvasIndex: 0, thumbnailNavigationPosition: 'far-bottom' },
 					]
-				});
-			}
-		})();
+				})();
 	</script>
 </div>
 </html>
 
-<h3 id="step-1-transcribe-a-page-of-text">Step 1: Transcribe a page of text</h3>
+<h2 id="step-1-transcribe-a-page-of-a-fifteenth-century-manuscript">Step 1: Transcribe a page of a fifteenth-century manuscript</h2>
 
-<ol>
-  <li>Click through the images of TCC MS O.8.35 and select a single page of text to transcribe. Make note of the folio number for your page, indicated at the bottom of the Mirador viewer (i.e. f001r or f014v).</li>
-  <li>Once you’ve located the folio number, visit our GitHub organization and navigate to the repository <strong>dyngley_data</strong>. Open the file named <strong>dyngley.xml</strong>.</li>
-  <li>Scroll through the XML code under <code class="language-plaintext highlighter-rouge">&lt;facsimile sameAs="https://mss-cat.trin.cam.ac.uk/Manuscript/O.8.35/manifest.json"&gt;</code> until you find your folio number. 
-Each image of the manuscript has been given an xml id, which then corresponds to a folio number. For example, in this line of code
-<code class="language-plaintext highlighter-rouge">&lt;surface xml:id="f016" ulx="0" uly="0" lrx="2967" lry="4062" sameAs="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2" &gt;&lt;label&gt;f001r&lt;/label&gt;&lt;graphic mimeType="application/json" url="https://mss-cat.trin.cam.ac.uk:8183/iiif/2/O.8.35%2F017_O.8.35_f001r.jp2"/&gt;&lt;/surface&gt;</code>
-the xml id is “f016” while the actual folio number of the manuscript is “f001r.”
-That’s because this is the sixteenth image in the manuscript, though it corresponds with the first official numbered folio of the manuscript.</li>
-  <li>Create a <strong>.txt</strong> file using your text editor. Use the following naming convention: <strong>the_xml_id_for_your_page.txt.</strong> For example, the file featuring the transcriptions of f001r of the manuscript would be named <strong>f016.txt.</strong></li>
-  <li>Transcribe the entire recipe in your text file. Be sure that you are mirroring the spelling and punctuation of your page from the manuscript <strong>exactly.</strong> Where there are line breaks in the manuscript, return to the next line in your .txt file.</li>
-</ol>
+<p>Each of you is assigned one page of the manuscript to transcribe for your this digital tools assignment. Consult the table below to find your assigned page and the correspinding XML ID that matches that page. To begin transcribing your page of the manuscript, open a Google doc and name your doc the <strong>xmlid</strong> that appears in the table below. So, for example, referencing the table of assignments below, the first page in the table (f. 64r) would be transcribed in a Google doc named <strong>f142</strong>.</p>
 
-<p>Once I’ve looked over your transcription, I’ll merge your file into the larger XML file for the critical edition.</p>
+<p>In the Google doc you’ve created, you will transcribe the entire page you’ve been assigned. Be sure to hit enter to create a line break whenever there’s a line break in the manuscript. You’ll also be sure to mirror the spelling and punctuation that you see <em>exactly</em>. This will be difficult! The best way to get better is to keep trying. I encourage you to try your best to get a rough draft, then swap with a partner and have them read what you’ve done and offer suggestions.</p>
 
-<h3 id="step-2-mark-up-your-transcription-using-tei-in-markdown">Step 2: Mark-up your transcription using TEI in Markdown</h3>
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: left"><strong>Student</strong></th>
+      <th style="text-align: center"><strong>Page</strong></th>
+      <th style="text-align: right"><strong>XML ID</strong></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: left">Jane Allinger</td>
+      <td style="text-align: center">f. 64r</td>
+      <td style="text-align: right">f142</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Fiona Corrigan</td>
+      <td style="text-align: center">f. 64v</td>
+      <td style="text-align: right">f143</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Camila Erazo</td>
+      <td style="text-align: center">f. 65r</td>
+      <td style="text-align: right">f144</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hudson Hahn</td>
+      <td style="text-align: center">f. 65v</td>
+      <td style="text-align: right">f145</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Stella Lenzie</td>
+      <td style="text-align: center">f. 66r</td>
+      <td style="text-align: right">f146</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Kasia Love</td>
+      <td style="text-align: center">f. 66v</td>
+      <td style="text-align: right">f147</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Jonathan Martinez</td>
+      <td style="text-align: center">f. 67r</td>
+      <td style="text-align: right">f148</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Kylie Millar</td>
+      <td style="text-align: center">f. 67v</td>
+      <td style="text-align: right">f149</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Aiden Reed</td>
+      <td style="text-align: center">f. 68r</td>
+      <td style="text-align: right">f150</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Keilah Scott</td>
+      <td style="text-align: center">f. 68v</td>
+      <td style="text-align: right">f151</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">David Smith</td>
+      <td style="text-align: center">f. 69r</td>
+      <td style="text-align: right">f152</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Andrew Stillwell</td>
+      <td style="text-align: center">f. 69v, f. 70v</td>
+      <td style="text-align: right">f153, f155</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Hailey Stuart</td>
+      <td style="text-align: center">f. 71v</td>
+      <td style="text-align: right">f157</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Katie Tovar</td>
+      <td style="text-align: center">f. 72r</td>
+      <td style="text-align: right">f158</td>
+    </tr>
+    <tr>
+      <td style="text-align: left">Vivian Velasquez</td>
+      <td style="text-align: center">f. 71r</td>
+      <td style="text-align: right">f156</td>
+    </tr>
+  </tbody>
+</table>
 
-<ol>
-  <li>Encode the body of the text. Your TEI encoding should follow standard format. Though the EditionCrafter workflow will create a new <code class="language-plaintext highlighter-rouge">&lt;div&gt;</code> for every page of transcribed text automatically, you should still encode the text you transcribe with appropriate tags, <code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>, <code class="language-plaintext highlighter-rouge">&lt;PersonName&gt;</code>, and <code class="language-plaintext highlighter-rouge">&lt;measure&gt;</code> and other tags within the TEI glossary as necessary. You can refer to the glossary of official TEI elements <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html">here</a>, or you can review the basic TEI tags in the <a href="https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml">Basic Tagging tutorial</a> from the Women Writer’s Project.</li>
-  <li>Check the order and hierarchy of your code. Are all open elements closed again? Are elements nested properly? Copy and paste your TEI into <a href="https://codebeautify.org/xmlvalidator">Code Beautify</a> if you’d like to check for open tags and broken elements.</li>
-  <li>Finally, once you’re sure you’ve got the TEI right, link to the actual folio in the <a href="https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec">critical edition of TCC MS O.8.35</a> that features your transcription!</li>
-  <li>Upload your .txt file to the <strong>dyngley-data</strong> repository in our GitHub organization, in the folder <strong>transcriptions</strong>, following our GitHub submission protocols. Create a branch in the <strong>dyngley-data</strong> repository named <strong>yourlastname_transcription</strong>. Upload the file to the <strong>transcriptions</strong> folder within that branch. Finish by submitting a pull request to the <strong>master</strong> branch of our repository.</li>
-</ol>
+<h2 id="step-2-mark-up-your-transcription-with-xml-according-to-tei-heirarchies">Step 2: Mark-up your transcription with XML according to TEI heirarchies</h2>
 
-<h3 id="step-3-explain-yourself">Step 3: Explain yourself</h3>
+<p>The EditionCrafter workflow will automatically create a TEI header and a number of other XML tags to merge these separate txt files into one XML file, so you <strong>don’t need</strong> to open your transcription with a <code class="language-plaintext highlighter-rouge">&lt;p&gt;</code> or <code class="language-plaintext highlighter-rouge">&lt;ab&gt;</code> tag.</p>
 
-<ol>
-  <li>Draft a post following our course protocols (make a new branch in <strong>spring-2026</strong> called <strong>lastname-dt3</strong>, navigate to the <strong>_posts</strong> folder and create a new .md file titled <strong>yyyy-mm-dd-your title.md</strong>.)</li>
-  <li>Be sure your .md includes the following header:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ---
- layout: post
- author: Your Name Here
- title: Your title here
- excerpt_separator: &lt;!--more--&gt;
- ---
-</code></pre></div>    </div>
-  </li>
-  <li>Somewhere in that .md file, copy your transcription text from your .txt file. You’ll want to set off your mark-up to show up as code on our blog, which means you’ll need to use the appropriate Markdown syntax to set off your code from the rest of your blog post. (Hint: bracket your marked-up transcription with triple ticks at the start and at the end. You can always refer back to the <a href="https://programminghistorian.org/en/lessons/getting-started-with-markdown">Getting Started with Markdown</a> lesson you completed at the start of the semester.)</li>
-  <li>In the same .md file, write a 4-5 paragraph blog post responding to the following questions:</li>
-</ol>
-
+<p>However, you should still add internal tags to the text you transcribe when necessary. The following tags are included in the TEI header:</p>
 <ul>
-  <li>What sort of recipe did you choose, and why?</li>
-  <li>What was the process of learning to transcribe Middle English like?</li>
-  <li>What questions do you have about the act of recording this recipe in a manuscript?</li>
-  <li>What aspects of the document does TEI make more visible to a future researcher?</li>
-  <li>How does encoding the text transform its utility?</li>
-  <li>What questions about the relationship between technical writing and making emerged in this process?</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;head&gt;</code>: denotes a title that is <em>separate</em> from the block of text</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;title&gt;</code>: denotes a title that is in-line with the block of text</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;PersonName&gt;</code>: exactly what it sounds like</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;term&gt;</code>: these tags should be wrapped in <code class="language-plaintext highlighter-rouge">&lt;ref&gt;</code> tags, and they are uncommon. They indicate a word that should be included in an eventual glossary because they are unusual or unique.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;supplied&gt;</code>: should be used when <em>you</em> add something to the transcription that isn’t entirely indicated in the manuscript. These are uncommon tags, and you do not add then when you simply extend a common abbreviation.</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;measure&gt;</code>: indicates a unit of measurement in the recipe</li>
+  <li><code class="language-plaintext highlighter-rouge">&lt;time&gt;</code>: indicates when a length of time is referenced in the recipe</li>
 </ul>
 
-<h3 id="step-4-submission">Step 4: Submission</h3>
+<p>Please refer to the first sixteen folios of transcribed pages in <strong>dyngley-data/transciptions</strong> for a model of how to incorporate tags. You can also refer to the glossary of official TEI elements <a href="https://tei-c.org/release/doc/tei-p5-doc/en/html/REF-ELEMENTS.html">here</a>, or you can review the basic TEI tags in the <a href="https://www.wwp.northeastern.edu/outreach/seminars/_current/presentations/basic_encoding/basic_encoding_tutorial_00.xhtml">Basic Tagging tutorial</a> from the Women Writer’s Project.</p>
 
-<p>Finish by submitting a <strong>pull request</strong> to the <strong>master</strong> branch of our class repository.</p>
+<h2 id="step-3-submit-your-transcription-with-a-pull-request">Step 3: Submit your transcription with a pull request</h2>
 
-<h2 id="an-example-of-the-tei-markup-for-the-first-folio-of-the-critical-edition-of-tcc-ms-o835">An example of the TEI markup for the first folio of the <a href="https://cu-mkp.github.io/dyngleyfamily-editioncrafter-website/folios/#/ec">critical edition of TCC MS O.8.35</a>:</h2>
+<p>Once you’re sure you’ve got the TEI <em>and</em> transcription right, it’s time to add your transcription to the <a href="https://github.com/technologies-of-history/dyngley-data">dyngley-data</a> repository in our GitHub organization so that I can include your work in the <a href="https://technologies-of-history.github.io/dyngley-edition">critical edition of TCC MS O.8.35</a>.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;pb facs="#f016" /&gt;
-&lt;ab&gt;
-&lt;div&gt;
-	&lt;head&gt;
-	&lt;handShift/&gt;
-	&lt;title&gt;of all maner of Infyrmytes&lt;/title&gt;
- 	&lt;handShift/&gt;
- 	&lt;/head&gt;
- 	&lt;p&gt;Here begynneth a tretys of al manere of infirmitees of mannys body. 
- 	bothe withinne as touchyng to phisyke and withoute as touching to surgerie 
- 	from the croune of the heed to the sool of the foot. And the remedies therwith 
- 	if god wol. And furst we wol at heer of the hed how it shulde be norisshede &amp;amp; kepte &amp;amp;c.&lt;/p&gt;
-&lt;/div&gt;
-&lt;div&gt;
-	&lt;head&gt;
-	&lt;title&gt;For to make heer to growe.&lt;/title&gt;
-	&lt;/head&gt;
-	&lt;p&gt;Take withien leves and sethe hem in oyle and hony and anoynte the heede 
-	therwith. and it shal make the heer to growe and waxe. 
-	&lt;title&gt;Another.&lt;/title&gt; Take beer &amp;amp; drie hem in a furneys or in a panne
-	and make therof a pouder. and sethe it in hony and anoynt the pacient therwith and it schal 
-	make the heer to growe. &lt;title&gt;Another.&lt;/title&gt; forto make heer to growe after scalles. 
-	There is an oynement that is cleped &lt;term&gt;unguentum &lt;persName&gt;aristotilis&lt;/persName&gt;&lt;/term&gt;. 
-	thus it must be made. Take the sewet of a dere either fresshe shepys talu and 
-	pich that is fletyng. oyle olyf and gret salt. of iche of these &lt;measure&gt;iii. unces&lt;/measure&gt; 
-	or &lt;measure&gt;half a quartron&lt;/measure&gt; of white waxe &lt;measure&gt;half an unce&lt;/measure&gt;. 
-	than first take the sewt. or &lt;/p&gt;
-  &lt;/div&gt;
-  &lt;/ab&gt;
-</code></pre></div></div>
+<p>First, you’ll want to download your file from Google docs as a <strong>.txt</strong> file. Be sure it’s saved somewhere on your computer as <strong>xmlid.txt</strong>. So, for example, if you were assigned f. 66v in the manuscript, you’d see in the table above that the XML ID for that page is f147. You’d name your transcription file <strong>f147.txt</strong>.</p>
+
+<p>Next, just as we did with the <strong>spring-2026</strong> repository, you’ll create a new branch in the <strong>dyngley-data</strong> repository named <strong>lastname-dt3</strong>. Within that branch, locate the <strong>transcriptions</strong> folder. Click <strong>Add file</strong> and upload your <strong>.txt</strong> file with your transcription and XML.</p>
+
+<p>Finish by submitting a pull request to the <strong>main</strong> branch of the <strong>dyngley-data</strong> repository. Once I’ve looked over your transcription, I’ll merge your pull request and then run EditionCrafter to incorporate your transcription into our digital edition.</p>
+
+<p><strong>Note</strong>: <em>If you’d like more information on how EditionCrafter works to combine the XML of your marked-up transcription with the XML of the IIIF manifest, you can read about that <a href="https://editioncrafter.org/guide/#creating-a-tei-document-from-your-iiif-manifest">here</a>. I’m also happy to explain it in more detail in class, though I’m not the developer who wrote the program!</em></p>
+
+<h2 id="step-4-explain-yourself">Step 4: Explain yourself</h2>
+
+<p>In the <a href="https://github.com/technologies-of-history/spring-2026">spring-2026</a> repository, create a Markdown file following our course protocols (create a new branch named <strong>lastname-dt3</strong>, navigate to the <strong>_posts</strong> folder and create a new .md file titled <strong>yyyy-mm-dd-your title.md</strong>, or draft the post in Google docs and then download and upload the <strong>.md</strong> file) and include the appropriate YAML header.<br />
+<em>Note: Do not name your file Digital Tools 3. We can’t have multiple files merged with the same filename. They’ll overwrite one another once I merge your post into the course repo. Think of something more creative!</em></p>
+
+<p>Somewhere in your post, copy your transcription and TEI encoding from your .txt file. Next, link to the page in the<a href="https://technologies-of-history.github.io/dyngley-edition">digital critical edition</a> featuring your transcription. You’ll want to refer to these when answering the questions below.</p>
+
+<p>In the same .md file, write a 3-4 paragraph blog post responding to the following questions:</p>
+
+<ul>
+  <li>What recipes were in your transcription?</li>
+  <li>What was the process of learning to transcribe Middle English like?</li>
+  <li>What questions do you have about the act of recording this recipe in a manuscript?</li>
+  <li>How might encoding the text with XML mark-up transform its utility?</li>
+  <li>According to Pamela Smith, communicating embodied knowledge in writing required acts of translation: taking tacit knowledge and making it explicit. In what ways does the act of encoding text with XML tags mirror the process of ‘translation’ decribed by Smith?</li>
+</ul>
+
+<h2 id="step-5-submission">Step 5: Submission</h2>
+
+<p>Finish by submitting a <strong>pull request</strong> to the <strong>technologies-of-history/spring-2026</strong> repository. Name the pull request <strong>lastname-dt3</strong>. That’s it!</p>
 
   </div>
 </article>
@@ -202,30 +263,28 @@ That’s because this is the sixteenth image in the manuscript, though it corres
     </div>
 
     <div class="wrapper-footer">
-      <div class="container">
         <footer class="footer">
-          
-
-
-
-<a href="https://github.com/technologies-of-history"><i class="svg-icon github"></i></a>
-
-
-
-
-
-
-
-
-    <p> &copy; 2025. All rights reserved.</p>
+          <a href="https://addran.tcu.edu/history/"><img class="logo" src="/course/assets/images/TCULogo.jpg" width="200"></a>
+    <p>This site is a product of academic coursework, created for educational purposes. The opinions and views expressed on this site are solely those of the individuals involved and do not necessarily represent the official stance or views of Texas Christian University.</p>
+          <p>Built on <a href="https://github.com/technologies-of-history/">GitHub Pages</a>. &copy; Melissa Reynolds 2026. All rights reserved. 
+          </br>Contact: <a href="mailto:m.reynolds1@tcu.edu">m.reynolds1[at]tcu.edu</a></p>
         </footer>
-      </div>
     </div>
 
     
+	<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y9DDX8J22V"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y9DDX8J22V');
+</script>
+
 
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
-    <script src='/course/script.js'></script>
+    <script src='/course/sidebar.js'></script>
   </body>
 </html>
