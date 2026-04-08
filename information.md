@@ -85,9 +85,9 @@ If you have a concern about a grade on a particular assignment or would like cla
 If you are concerned about maintaining a certain GPA for scholarship or other reasons, please remember that your performance in college is your responsibility, not mine. No extra credit will be offered. Your final grade will be determined by the extent to which your work fulfills the criteria established in the assignment descriptions. If you have concerns about your progress, please meet with me to discuss the ways you can improve your skills while there is still time to make a difference. If you wait until the end of the semester, there is little either of us can do to improve your final grade.  
 
 ### Late Work
-All digital assignments are due by 11:59 pm on their due date and should be submitted via our course GitHub. The final paper is due by 11:59 pm on its due date and should be submitted via our course D2L site. Students will have a 12-hour grace period following these deadlines to submit their assignments with a 5-point penalty. Following that 12-hour grace period, assignments will lose a letter grade for every 24 hours late.  
+All digital assignments (including the final podcast) are due by 11:59 pm on their due date and should be submitted via our course GitHub. Students will have a 12-hour grace period following these deadlines to submit their assignments with a 5-point penalty. Following that 12-hour grace period, assignments will lose a letter grade for every 24 hours late.  
  
-I will not accept late submissions of the final paper. 
+I will not accept late submissions of the final podcast. 
 
 ### Participation, Engagement, & Attendance
 Your attendance and participation are critical components of this course. I will take attendance every day. You can receive full credit for participation by doing the reading before coming to class, coming to class on time, using your laptop or other technology for class-appropriate purposes, and engaging in our class discussions with your comments, questions, and ideas. The participation grades are broken down as follows:  
@@ -110,17 +110,12 @@ If you have concerns about your participation or are unsure how to effectively p
 Students may use laptops in class to take notes and to reference readings during class discussion. However, if either the instructor or the TA notices that laptops are being used for purposes other than classwork, they reserve the right to ask the student to leave the classroom.
 
 ### Artificial Intelligence
-This course is designed to teach historical content, critical thinking, and evidence-based writing. None of those skills can be learned if you outsource your course work to Artificial Intelligence (AI). Not to mention, AI tends to write like a corporate weirdo. If you are tempted to use AI to find sources, you should know that AI often hallucinates, inventing sources that cannot be verified or cited.  
+This course is designed to teach historical content, critical thinking, and evidence-based writing. None of those skills can be learned if you outsource the work of historical analysis to Artificial Intelligence (AI). Not to mention, AI tends to write like a corporate weirdo. If you are tempted to use AI to find sources, you should know that AI often hallucinates, inventing sources that cannot be verified or cited. 
 
-Therefore, Artificial intelligence (AI) and other unapproved assignment-help tools MAY NOT be used for course assignments except as explicitly authorized by the instructor. Specific examples of prohibited activities include, but are not limited to:  
+However, AI is quite useful when it comes to manipulating and creating code. Not surprisingly, a computer algorithm is excellent (and often better than a human) at noticing deficiencies in your code, generating new code, or analyzing existing code. That’s because computer languages, by definition, are hierarchical and intensely logical. There is no gray area in how to tell a computer to do something: there is code that works, and code that doesn’t.
 
-- Submitting all or any part of an assignment statement to an AI or unapproved assignment-help tool; 
-- Incorporating any part of an AI-generated response in an assignment; 
-- Using AI to brainstorm, formulate arguments, or template ideas for assignments; 
-- Using AI to summarize or contextualize source materials; 
-- Submitting your own work for this class to an AI or unapproved assignment-help tool for iteration or improvement.
+Because this class is not a computer science class, I don’t expect you all to become expert coders. You will be asked to do some basic coding in your digital tools assignments, and you are welcome to use AI in this capacity. It is built in to VSCode already, and it’s a great resource. Everyone I know working in more sophisticated humanities-related coding is using it, too.
 
-If you are in doubt as to what constitutes AI, or whether an assignment-help tool is suitable for use in this class, then it is your responsibility to discuss your situation with the instructor.
 
 ### Academic Misconduct
 In order to preserve the honor and integrity of the academic community, TCU expects students to maintain the highest standards of personal and scholarly conduct. You are responsible for understanding and complying with TCU’s Academic Conduct Policy ([section 3.4 in the TCU Code of Student Conduct](https://tcu.codes/code/index/3-prohibited-conduct/3-4-academic-misconduct/)). Academic misconduct includes (but is not limited to) the submission of work that is not original; the presentation of ideas from any sources you do not credit; the use of direct quotations without quotation marks or without credit to the source; paraphrasing information and ideas from sources without credit to the source; failure to provide adequate citations for material obtained through electronic research; and submitting material created or written by someone else as your own, including purchased papers.  

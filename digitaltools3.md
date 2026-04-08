@@ -106,6 +106,6 @@ In the same .md file, write a 3-4 paragraph blog post responding to the followin
 - How might encoding the text with XML mark-up transform its utility?
 - According to Pamela Smith, communicating embodied knowledge in writing required acts of translation: taking tacit knowledge and making it explicit. In what ways does the act of encoding text with XML tags mirror the process of 'translation' decribed by Smith? 
 
-## Step 4: Submission
+## Step 5: Submission
 
 Finish by submitting a **pull request** to the **technologies-of-history/spring-2026** repository. Name the pull request **lastname-dt3**. That's it!
