@@ -18,9 +18,9 @@ In lieu of a final exam, students will produce an 8- to 10-minute podcast about 
 - The emergence of the newspaper and its role in the Age of Revolutions
 - The role of mass media (radio) in the politics of the early twentieth century
 
-Your podcast will be embedded as an audio file in a blog post that includes show notes with **citations of sources (including links to digital repositories)** referenced in your podcast. To receive full credit, you must discuss **at least three** of the course’s “revolutions” and the readings related to them.
+To receive full credit, you must discuss **at least three** of the readings assigned this semester, and **at least one** of the digital archives, projects, or repositories we've worked with this semester. You should compose a clear, evidence-based, and historically-grounded argument as to why you believe your chosen technology was the most significant. A successful podcast will also be convincing! 
 
-Your final podcast is **due on GitHub by 11:59 pm on Monday, May 4**. We will listen to one another's podcast episodes and celebrate the end of the semester during our assigned exam time, on Tuesday, May 5, from 11:00 am to 1:30 pm. Lunch will be provided!
+Full instructions for how to create and submit the podcast are below. Your final podcast is **due on GitHub by 11:59 pm on Monday, May 4**. We will listen to one another's podcast episodes and celebrate the end of the semester during our assigned exam time, on Tuesday, May 5, from 11:00 am to 1:30 pm. Lunch will be provided!
 
 ## Step 1: Draft your podcast
 
@@ -43,7 +43,8 @@ Your final podcast is **due on GitHub by 11:59 pm on Monday, May 4**. We will li
 
 ## Step 4: Draft your post
 1. Create a new branch in our **spring-2026** repository called **lastname-final**. Within your branch, navigate to the **_posts** folder, and create a new Markdown file with the appropriate filename (YYYY-MM-DD-Your Title.md). Be sure to include the appropriate YAML header at the top of your Markdown file.
-2. Introduce your episode in a few lines, and then copy-and-paste the following code snippet into your post.
+2. Begin your post with a few lines introducing your podcast and include **at least one image** of the technology you've chosen for your podcast.
+3. Next, copy-and-paste the following lines of code into your post:
  
 ```
 <html>
@@ -59,8 +60,7 @@ Your final podcast is **due on GitHub by 11:59 pm on Monday, May 4**. We will li
 </html>
 ```
 
-3. Update the title of your episode from `Your Title Here` to whatever you want to call your episode. Beneath the title, where you see `A brief description...`, go ahead and add a sentence describing your episode.
-4. Finally, update the url within the `<source>` tag with your filename.
+4. Update the title of your episode from `Your Title Here` to whatever you want to call your episode. Beneath the title, where you see `A brief description...`, go ahead and add a sentence describing your episode. Finally, update the url within the `<source>` tag with your filename.
 5. Beneath this bit of code, add a section in your post called **Sources Cited** and include your bibliography here. Please include links (which you can copy from our course syllabus site) where applicable. You should link to any secondary sources *or* digital projects that you mention in the podcast. 
 
 ## Step 5: Submission
