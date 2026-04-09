@@ -60,8 +60,8 @@ Full instructions for how to create and submit the podcast are below. Your final
 </html>
 ```
 
-4. Update the title of your episode from `Your Title Here` to whatever you want to call your episode. Beneath the title, where you see `A brief description...`, go ahead and add a sentence describing your episode. Finally, update the url within the `<source>` tag with your filename.
-5. Beneath this bit of code, add a section in your post called **Sources Cited** and include your bibliography here. Please include links (which you can copy from our course syllabus site) where applicable. You should link to any secondary sources *or* digital projects that you mention in the podcast. 
+1. **Edit this code snippet to reflect your episode:** update the title of your episode from `Your Title Here` to whatever you want to call your episode. Beneath the title, where you see `A brief description...`, go ahead and add a sentence describing your episode. Finally, update the url within the `<source>` tag with your filename.
+2. Beneath this bit of code, add a section in your post called **Sources Cited** and include your bibliography here. Please include links (which you can copy from our course syllabus site) where applicable. You should link to any secondary sources *or* digital projects that you mention in the podcast. 
 
 ## Step 5: Submission
 
