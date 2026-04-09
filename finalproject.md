@@ -42,7 +42,7 @@ Full instructions for how to create and submit the podcast are below. Your final
 3. Drag and drop your completed podcast (saved as an .mp3 file) into the folder and **Commit** your changes.
 
 ## Step 4: Draft your post
-1. Create a new branch in our **spring-2026** repository called **lastname-final**. Within your branch, navigate to the **_posts** folder, and create a new Markdown file with the appropriate filename (YYYY-MM-DD-Your Title.md). Be sure to include the appropriate YAML header at the top of your Markdown file.
+1. Create a new branch in our [spring-2026](https://github.com/technologies-of-history/spring-2026) repository called **lastname-final**. Within your branch, navigate to the **_posts** folder, and create a new Markdown file with the appropriate filename (YYYY-MM-DD-Your Title.md). Be sure to include the appropriate YAML header at the top of your Markdown file.
 2. Begin your post with a few lines introducing your podcast and include **at least one image** of the technology you've chosen for your podcast.
 3. Next, copy-and-paste the following lines of code into your post:
  
