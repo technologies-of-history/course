@@ -8,7 +8,7 @@ permalink: /digitaltools5
 
 In your final digital tools assignment, you'll try your hand at network analysis, using an open-access software called Cytoscape to visualize correspondence networks within the seventeenth- and eighteenth-century Republic of Letters. For this assignment, we'll scrape data from JSON files generated in web searches of [Early Modern Letters Online](http://emlo.bodleian.ox.ac.uk/home) to generate the structured data for network analysis. Your network analysis, generated in the open-access software Cytoscape, will reveal the role that women played as nodes within far-reaching correspondence networks.
 
-This assignment has a *lot* of steps, I know, but we will work together on steps 1 through 3 in class on Thursday, April 2; step 4 and 5 in class on April 9; and steps 6, 7, and 8 in class on April 16. This assignment is due on GitHub by Friday, April 17 at 11:59 pm.
+This assignment has a *lot* of steps, I know, but we will work together on steps 1 through 3 in class on Thursday, April 2; step 4 and 5 in class on April 9; and steps 6, 7, and 8 in class on April 16. This assignment is due on GitHub by Friday, April 24 at 11:59 pm.
 
 
 ## Step 1: Collect your data

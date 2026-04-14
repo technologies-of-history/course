@@ -181,7 +181,6 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ### Digital Assignments due Thursday, April 16
 - Read the _Programming Historian_'s [Editing Audio with Audacity](https://programminghistorian.org/en/lessons/editing-audio-with-audacity)
 - In-class work with your women's correspondence datasets and Cytoscape
-- **Digital Tools 5 Assignment due on GitHub on Friday, April 17 at 11:59 pm**
 
 
 ## Week 14: Democracy in the Digital Age
@@ -195,10 +194,11 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 - Before class, read Axel Bruns, [“The Library of Congress Twitter Archive: A Failure of Historic Proportions,”](https://medium.com/dmrc-at-large/the-library-of-congress-twitter-archive-a-failure-of-historic-proportions-6dc1c3bc9e2c) Medium, January 1, 2018.
 - Before class, read ["Arab Spring Twitter data now available (sort of)"](https://dfreelon.org/2012/02/11/arab-spring-twitter-data-now-available-sort-of/)
 - In class, we'll visit the GitHub repository for [Hydrator](https://github.com/DocNow/hydrator), an application for working with Twitter data scraped from Twitter's API. Please read the README file.
+- **Digital Tools 5 Assignment due on GitHub on Friday, April 24 at 11:59 pm**
 
 ## Week 15: AI, the Final Revolution?
 ---
-### Peer Review of Final Podcasts due Tuesday, April 28
+### Discussion & Peer Review of Final Podcasts due Tuesday, April 28
 - Read [AI Slopaggedon and the OSS Maintainers](https://redmonk.com/kholterhoff/2026/02/03/ai-slopageddon-and-the-oss-maintainers/), _RedMonk_, Feb. 3, 2026
 - Read [AI is Coming for the Past, too](https://www.nytimes.com/2024/01/28/opinion/ai-history-deepfake-watermark.html?unlocked_article_code=1.LFA.hy9-.lZxNO0vwBoNd&smid=url-share), _New York Times Opinion_, Jan. 28, 2024
 - Come prepared with an outline of your final podcast script for peer review.
