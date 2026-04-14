@@ -176,8 +176,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings due Tuesday, April 14
 - Listen to the podcast, [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/), from American RadioWorks
-- Listen to Paul Robeson sing [“Ballad for Americans,”](https://music.youtube.com/watch?v=LHCQGQdeL68&feature=share) broadcast on the radio show Pursuit of Happiness in 1940D. 
-- Listen to FDR’s fireside chat on “The WPA and Social Security,” from April 28, 1935 on the [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/) site
+- Listen to FDR’s fireside chat on “The WPA and Social Security,” from [April 28, 1935](https://millercenter.org/the-presidency/presidential-speeches/april-28-1935-fireside-chat-7-works-relief-program-and-social/)
 
 ### Digital Assignments due Thursday, April 16
 - Read the _Programming Historian_'s [Editing Audio with Audacity](https://programminghistorian.org/en/lessons/editing-audio-with-audacity)
