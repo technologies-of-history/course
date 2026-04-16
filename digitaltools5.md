@@ -99,9 +99,10 @@ From this point on, you'll be on your own to structure the data appropriately. Y
 
 1. Save your **Session** somewhere on your computer.
 2. Click **File** then **Export** and select **Network to Web Page**.
-3. In the pop-up menu that appears, select **Network and Style JSON files only (No HTML)** from the dropdown menu. Make note of the filepath where your files will be saved on your computer, changing it if necessary. Then click **Ok.**
-4. Navigate to the **.zip** file downloaded from Cytoscape and double click to unzip it. The resulting folder will contain a **networks.js** file and a **styles.js** file. Rename each of those files **lastname_networks.js** and **last_namestyles.js**.
-5. Open the **spring-2026-data** repository and navigate to the **networks** folder. Upload your **lastname_networks.js** and **last_namestyles.js** files. Commit your changes. 
+3. In the pop-up menu that appears, select **Simple viewer for current network only** from the dropdown menu. Make note of the filepath where your files will be saved on your computer, changing it if necessary. Then click **Ok.**
+4. Navigate to the **.zip** file downloaded from Cytoscape and double click to unzip it. The resulting folder will contain a **networks.js** file and a **styles.js** file. *These are the only two files you'll need to worry about in this folder. The rest aren't necessary for this project.* 
+5. Rename each of those files **lastname_networks.js** and **last_namestyles.js**.
+6. Open the **spring-2026-data** repository and navigate to the **networks** folder. Upload your **lastname_networks.js** and **last_namestyles.js** files. Commit your changes. 
 
 ## Step 9: Embed your network visualization in your post
 
