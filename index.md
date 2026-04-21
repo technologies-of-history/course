@@ -13,7 +13,6 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 ---
 
 ### Readings due Tuesday, January 13
-- Read Ann Burdick, _A Short Guide to Digital Humanities_ (MIT Press, 2012) [Available on [D2L](https://tcu.brightspace.com)]
 - Watch this [video](https://youtu.be/Ko6J9v1C9zE?si=8xs3kISEhgabayC2) from BBC4 Radio explaining the Canadian communication theorist Marshall McLuhan's theory: "The medium is the message."
 - Next, watch this [video](https://youtu.be/VsZQMaN5pYc?si=pn23R9OPoRpLxp0o) from the MIT Media Lab explaining how a research team used big data scraped from Wikipedia to test McLuhan's theory.
 
@@ -176,6 +175,7 @@ __Digital Lab Work__: Thursdays, 11:00 am - 12:20 pm
 
 ### Readings due Tuesday, April 14
 - Listen to the podcast, [The First Family of Radio](http://www.americanradioworks.org/documentaries/roosevelts/), from American RadioWorks
+- Read Judith E. Smith, "Radio's 'Cultural Front,' 1938–1948" in *Radio Reader: Essays in the Cultural History of Radio* (Routledge, 2002), pp. 209–230. [Available on [D2L](https://tcu.brightspace.com)]
 - Listen to FDR’s fireside chat on “The WPA and Social Security,” from [April 28, 1935](https://millercenter.org/the-presidency/presidential-speeches/april-28-1935-fireside-chat-7-works-relief-program-and-social/)
 
 ### Digital Assignments due Thursday, April 16
